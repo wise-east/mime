@@ -27,7 +27,6 @@ Refer to our project page for more details: [https://justin-cho.com/mime](https:
 
 `mime-original` and `mime-real-original` are also available on [AWS S3](https://mime-understanding.s3.amazonaws.com/index.html).
 
-Refer to [MIME_pipeline_README.md](MIME_pipeline_README.md) for details on how to create the datasets. 
 
 ### Variants in MIME
 
@@ -69,12 +68,20 @@ You can use `run_eval.sh` for convenience for replicating results from the paper
 
 Refer to the implementations in `src/MimeEval/models/` to add support for custom models. 
 
+### Creating MIME 
 
-###  Misc.
+Refer to [MIME_pipeline_README.md](MIME_pipeline_README.md) for details on how to create the datasets. 
+It contains information on where all the digital assets (motion capture data, background images, Mixamo characters, etc.) needed for creating MIME are stored. 
 
-- Raw human evaluation results: `data/human_eval_results.jsonl`
+###  Miscellaneous Scripts 
+
+- Raw human evaluation results: `results/mime-cropped/human_eval.jsonl` and `results/mime-real-resized/human_eval.jsonl`
 - Compute human evaluation results: `python src/MimeEval/utils/compute_human_eval_results.py`
 - `aggregate.py`: aggregate results from different models and datasets to produce tables/figures in the paper. 
+
+### Contact 
+
+Reach out to [Justin Cho](https://justin-cho.com) for any questions or open an issue. 
 
 ### Citations
 
