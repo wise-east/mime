@@ -45,6 +45,13 @@ def main(args):
     # Load HuggingFace dataset
     logging.info(f"Loading dataset from {args.dataset_name}...")
     dataset = load_dataset(args.dataset_name, split="test")
+    
+    # automatically set variant to "none" for REAL dataset
+    if "real" in args.dataset_name:
+        args.variant = "none"
+    
+    if args.variant != "all":
+        dataset = dataset.filter(lambda x: x['config_name'] == args.variant)
     dataset = dataset.cast_column("video", Video(decode=False))
 
     if args.test:
@@ -100,6 +107,8 @@ if __name__ == '__main__':
                       help='Huggingface dataset name')
     parser.add_argument('--output-file', type=Path,
                       help='Path to save model outputs JSON file')
+    parser.add_argument("--variant", type=str, default="base+blank@0",
+                      help='Variant to run evaluation on (e.g., base+blank@0, adversarial+blank@0, woman+blank@0, base+aligned@0, base+misaligned@0, adversarial+aligned@0, adversarial+misaligned@0, base+blank@90, base+blank@180, base+blank@270) Use "all" to run on all variants. Automatically uses "none" for REAL.')
     parser.add_argument('--verbose', action='store_true',
                       help='Enable verbose logging')
     parser.add_argument('--api-key', type=str,

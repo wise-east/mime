@@ -4,10 +4,10 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-<!-- image with text wrapping -->
-<div style="float: left; margin: 0 10px 10px 0;">
 <img src="assets/intro.png" width="400">
-</div>
+
+- **📹 [Watch Sample Video](https://mime-understanding.s3.amazonaws.com/man_j_Basketball001_angle0_living_room.mp4)**
+- Watch more videos on [AWS S3](https://mime-understanding.s3.amazonaws.com/index.html)
 
 ### Overview
 

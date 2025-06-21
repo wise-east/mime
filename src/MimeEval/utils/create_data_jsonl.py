@@ -167,6 +167,7 @@ def create_real_data(action2label: Dict[str, List[str]], mime_data: List[Dict]) 
             "type": "REAL", 
             "split": "test",
             "file_name": video_name,
+            "config_name": "none",
         })
     
     return data

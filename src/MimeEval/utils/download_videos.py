@@ -15,7 +15,7 @@ for i, line in enumerate(f):
     urls.append(line['s3_url'])
 
 dataset_dir = os.path.dirname(args.dataset_path)
-videos_dir = os.path.join(args.videos_dir, "videos")
+videos_dir = os.path.join(args.videos_dir, "videos/test")
 os.makedirs(videos_dir, exist_ok=True)
 urls = list(set(urls))
 for url in tqdm(urls):

@@ -12,12 +12,14 @@ def add_common_args(parser):
                       help='Optional model name (e.g. HuggingFace model key)')
     parser.add_argument('--eval-type', type=str, choices=['zero-shot', 'few-shot', 'cot'],
                         help='Evaluation type (zero-shot, few-shot, cot)')
+    parser.add_argument('--variant', type=str, choices=['all', 'none', 'base+blank@0', 'adversarial+blank@0', 'woman+blank@0', 'base+aligned@0', 'base+misaligned@0', 'adversarial+aligned@0', 'adversarial+misaligned@0', 'base+blank@90', 'base+blank@180', 'base+blank@270'],
+                        help='Variant to use for evaluation (default: base+blank@0)')
     parser.add_argument('--dataset-name', type=str, required=True,
                       help='Huggingface dataset name (e.g., wise-east/mime)')
     parser.add_argument('--verbose', action='store_true',
                       help='Enable verbose logging')
 
-def get_default_output_path(command_type, dataset_name, eval_type, model, model_name=None):
+def get_default_output_path(command_type, dataset_name, variant, eval_type, model, model_name=None):
     """Generate default output path based on command type and model"""
     results_dir = Path(f"results")
     results_dir.mkdir(exist_ok=True)
@@ -28,12 +30,12 @@ def get_default_output_path(command_type, dataset_name, eval_type, model, model_
     
     if command_type == 'mcq':
         return {
-            'raw': results_dir / dataset_name / eval_type / f"raw_mcq_{model_suffix}.json",
-            'score': results_dir / dataset_name / eval_type / f"score_mcq_{model_suffix}.csv"
+            'raw': results_dir / dataset_name / eval_type / variant / f"raw_{command_type}_{model_suffix}.json",
+            'score': results_dir / dataset_name / eval_type / variant / f"score_{command_type}_{model_suffix}.csv"
         }
     else:  # freeform
         return {
-            'raw': results_dir / dataset_name / eval_type / f"raw_ff_{model_suffix}.json"
+            'raw': results_dir / dataset_name / eval_type / variant / f"raw_{command_type}_{model_suffix}.json"
         }
 
 
@@ -117,6 +119,7 @@ def main():
         default_paths = get_default_output_path(
             args.run_type, 
             args.dataset_name,
+            args.variant,
             args.eval_type,
             args.model, 
             args.model_name.replace('/', '_') if args.model_name else None,

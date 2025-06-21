@@ -1,7 +1,5 @@
 *.blend*
-#*.png
 *.mkv
-#*.json
 .DS_Store
 
 images/

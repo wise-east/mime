@@ -1,7 +1,5 @@
 # MIME Creation Pipeline 
 
-<img src="assets/pipeline.png" width="1000">
-
 ### Ingredients
 
 - Blender 4.3.0 (Install Blender 4.3.0 from [here](https://www.blender.org/download/releases/4-3/).
