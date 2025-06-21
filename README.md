@@ -46,11 +46,13 @@ pip install -e .
 
 ```bash
 mimeeval run <mcq,ff> --dataset-name <dataset_name> \
-    --model-name <model_name> --model <model_type> --api-key <api_key> --eval-type <eval_type> --variant <variant>
+    --model-name <model_name> --model <model_type> \
+    --api-key <api_key> --eval-type <eval_type>  --variant <variant>
 
 # Example 
 mimeeval run mcq --dataset-name wise-east/mime-cropped \
-    --model-name Qwen/Qwen2.5-VL-7B-Instruct --model qwen25vl --api-key none --eval-type zero-shot --variant all
+    --model-name Qwen/Qwen2.5-VL-7B-Instruct --model qwen25vl \
+    --api-key none --eval-type zero-shot --variant all
 ```
 
 You can use `run_eval.sh` for convenience for replicating results from the paper.
