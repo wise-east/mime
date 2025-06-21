@@ -1,0 +1,861 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,Phone Call Miming,['shooting arrow'],0.03907838463783264,False
+1,Miming a shooting gesture,['shooting arrow'],0.49230313301086426,False
+2,Martial Arts Pose,['shooting arrow'],0.25391900539398193,False
+3,Archery Mimicry,['shooting arrow'],0.5940497517585754,True
+4,Throwing a ball,['shooting arrow'],0.33651596307754517,False
+5,Archery Preparation,['shooting arrow'],0.5923522710800171,True
+6,Robot Mimicry,['shooting arrow'],0.17549654841423035,False
+7,Pointing forward,['shooting arrow'],0.42740440368652344,False
+8,Phone Call Miming,['shooting arrow'],0.03907838463783264,False
+9,Boxing Stance Mimic,['shooting arrow'],0.23970074951648712,False
+10,Phone Call Miming,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1007668599486351,False
+11,Waving or pointing,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.22322815656661987,False
+12,Skateboarding Trick,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.19646045565605164,False
+13,Weightlifting Mimicry,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.7299185395240784,True
+14,Cleaning desks,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.09830248355865479,False
+15,Lifting weights,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.8208645582199097,True
+16,Robot Mimicry,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.18386584520339966,False
+17,Phone Call Miming,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1007668599486351,False
+18,Miming a conversation,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.045586295425891876,False
+19,Phone Call Miming,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1007668599486351,False
+20,Golf Swing Miming,['baseball swing'],0.6816016435623169,True
+21,Dancing mimed,['baseball swing'],0.1942228376865387,False
+22,Golf Swing Miming,['baseball swing'],0.6816016435623169,True
+23,Pitching Action,['baseball swing'],0.5976158976554871,True
+24,Baseball swing mimic,['baseball swing'],0.8251919746398926,True
+25,Pitching motion,['baseball swing'],0.6034318804740906,True
+26,Dancing imitation,['baseball swing'],0.1490316092967987,False
+27,Golf Swing Miming,['baseball swing'],0.6816016435623169,True
+28,Golf Swing Miming,['baseball swing'],0.6816016435623169,True
+29,Golf Swing Miming,['baseball swing'],0.6816016435623169,True
+30,Karate Move Mimic,['baseball pitch'],0.1234762892127037,False
+31,Running Mimic,['baseball pitch'],0.07101303339004517,False
+32,Miming skateboarding,['baseball pitch'],0.18871445953845978,False
+33,Pitching,['baseball pitch'],0.6828949451446533,True
+34,Dancing step,['baseball pitch'],0.1547354757785797,False
+35,Pitching Motion Mimic,['baseball pitch'],0.5409846901893616,True
+36,Dance Mimicry,['baseball pitch'],0.07733579725027084,False
+37,Phone Call Miming,['baseball pitch'],0.12110508978366852,False
+38,Phone Call Miming,['baseball pitch'],0.12110508978366852,False
+39,Phone Call Miming,['baseball pitch'],0.12110508978366852,False
+40,Phone Call Miming,['basketball shot'],0.08620229363441467,False
+41,Combat Stance Mimic,['basketball shot'],0.1506795883178711,False
+42,Phone Call Miming,['basketball shot'],0.08620229363441467,False
+43,Miming Basketball Shot,['basketball shot'],0.8229411244392395,True
+44,Dancing mimed,['basketball shot'],0.16684171557426453,False
+45,Dribbling and shooting mimic,['basketball shot'],0.38876503705978394,False
+46,Dance routine mimic,['basketball shot'],0.10956427454948425,False
+47,Phone Call Miming,['basketball shot'],0.08620229363441467,False
+48,Dance Move Mimic,['basketball shot'],0.1772385686635971,False
+49,Phone Call Miming,['basketball shot'],0.08620229363441467,False
+50,Dancing mimed,['basketball layup'],0.18306873738765717,False
+51,Soldier Dance Mimic,['basketball layup'],0.134845569729805,False
+52,Dancing mimicry,['basketball layup'],0.16634421050548553,False
+53,Miming Basketball Shot,['basketball layup'],0.5011820793151855,True
+54,Hurry Walk,['basketball layup'],0.13968102633953094,False
+55,Dribbling and shooting mimicry,['basketball layup'],0.32141607999801636,False
+56,Dancing Mimicry,['basketball layup'],0.16634421050548553,False
+57,Dance Mimicry,['basketball layup'],0.17865996062755585,False
+58,Dance Mimicry,['basketball layup'],0.17865996062755585,False
+59,Miming a basketball shot,['basketball layup'],0.5040006637573242,True
+60,Skateboarding Mimicry,['bowling'],0.23495058715343475,False
+61,Zombie Mimicry,['bowling'],0.05847487598657608,False
+62,Skateboarding Mimicry,['bowling'],0.23495058715343475,False
+63,Bowling Mimicry,['bowling'],0.771143913269043,True
+64,Dancing Mimicry,['bowling'],0.23087307810783386,False
+65,Bowling Mimicry,['bowling'],0.771143913269043,True
+66,Dancing Mimicry,['bowling'],0.23087307810783386,False
+67,Miming a fight,['bowling'],0.2747347056865692,False
+68,Phone Call Miming,['bowling'],0.17859528958797455,False
+69,Skateboarding trick mimic,['bowling'],0.18454396724700928,False
+70,Boxing Stance Mimic,['boxing'],0.5879021286964417,True
+71,Shooting gesture mimic,['boxing'],0.12470115721225739,False
+72,Boxing Mimicry,['boxing'],0.7520134449005127,True
+73,Boxing Stance Mimic,['boxing'],0.5879021286964417,True
+74,Phone Call Miming,['boxing'],0.12940548360347748,False
+75,Martial Arts Stance Mimic,['boxing'],0.261689692735672,False
+76,Dancing Mimicry,['boxing'],0.2135176658630371,False
+77,Phone Call Miming,['boxing'],0.12940548360347748,False
+78,Phone Call Miming,['boxing'],0.12940548360347748,False
+79,Boxing Mimicry,['boxing'],0.7520134449005127,True
+80,Miming phone use,"['checking phone', 'sending text', 'using phone']",0.7317938804626465,True
+81,Miming Soldier Gesture,"['checking phone', 'sending text', 'using phone']",0.11836829781532288,False
+82,Miming phone use,"['checking phone', 'sending text', 'using phone']",0.7317938804626465,True
+83,Walking and stopping to look down,"['checking phone', 'sending text', 'using phone']",0.24484111368656158,False
+84,Phone Call Miming,"['checking phone', 'sending text', 'using phone']",0.5067207217216492,True
+85,Robot Mimicry,"['checking phone', 'sending text', 'using phone']",0.1811104416847229,False
+86,Phone Call Miming,"['checking phone', 'sending text', 'using phone']",0.5067207217216492,True
+87,Eating a snack,"['checking phone', 'sending text', 'using phone']",0.15070244669914246,False
+88,Miming a casual stance,"['checking phone', 'sending text', 'using phone']",0.13342562317848206,False
+89,Phone Call Miming,"['checking phone', 'sending text', 'using phone']",0.5067207217216492,True
+90,Phone Call Miming,['checking watch'],0.18763935565948486,False
+91,Miming soldier salute,['checking watch'],0.0804465264081955,False
+92,Checking Time,['checking watch'],0.5563918948173523,True
+93,Dancing mimed,['checking watch'],0.1406036615371704,False
+94,Tennis Serve Mimic,['checking watch'],0.11470257490873337,False
+95,Robot Mimicry,['checking watch'],0.16030676662921906,False
+96,Miming soldier stance,['checking watch'],0.1017284244298935,False
+97,Checking Time,['checking watch'],0.5563918948173523,True
+98,Phone Call Miming,['checking watch'],0.18763935565948486,False
+99,Pointing off-screen,['checking watch'],0.1817936897277832,False
+100,Phone Call Miming,['climbing'],0.13867834210395813,False
+101,Celebratory Gesture,['climbing'],0.11029179394245148,False
+102,Phone Call Miming,['climbing'],0.13867834210395813,False
+103,Climbing Mimicry,['climbing'],0.7610745429992676,True
+104,Miming a conversation,['climbing'],0.00993650034070015,False
+105,Climbing Mimicry,['climbing'],0.7610745429992676,True
+106,Talking on phone,['climbing'],0.16908521950244904,False
+107,Celebration,['climbing'],0.1935092657804489,False
+108,Celebration Mimic,['climbing'],0.11504267156124115,False
+109,Celebrating,['climbing'],0.23757965862751007,False
+110,Phone Call Miming,['throwing dart'],0.13954956829547882,False
+111,Shooting and pointing,['throwing dart'],0.46342897415161133,False
+112,Phone Call Miming,['throwing dart'],0.13954956829547882,False
+113,Dart Throwing Mimicry,['throwing dart'],0.7754079103469849,True
+114,Conductor's Gesture,['throwing dart'],0.14907926321029663,False
+115,Karate Move Mimic,['throwing dart'],0.14770333468914032,False
+116,Phone Call Miming,['throwing dart'],0.13954956829547882,False
+117,Throwing a ball,['throwing dart'],0.6166502237319946,True
+118,Driving gesture,['throwing dart'],0.2724152207374573,False
+119,Drinking Mimicry,['throwing dart'],0.18040786683559418,False
+120,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+121,Walking Struggle,['deadlift'],0.16838622093200684,False
+122,Fall Stumble Mimic,['deadlift'],0.22978255152702332,False
+123,Bending and standing up,['deadlift'],0.26898565888404846,False
+124,Cleaning up a spill,['deadlift'],0.07333040237426758,False
+125,Salute,['deadlift'],0.19735468924045563,False
+126,Dog-walking mimicry,['deadlift'],0.13801102340221405,False
+127,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+128,Picking up an object,['deadlift'],0.16367444396018982,False
+129,Picking up an object,['deadlift'],0.16367444396018982,False
+130,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+131,Frustration Mimicry,['drinking out of a cup'],0.07090426981449127,False
+132,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+133,Pouring into mouth,['drinking out of a cup'],0.5196837186813354,True
+134,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+135,Adjusting helmet and scanning room,['drinking out of a cup'],0.004013357684016228,False
+136,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+137,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+138,Putting on a hat,['drinking out of a cup'],0.16597189009189606,False
+139,Phone Call Miming,['drinking out of a cup'],0.10581275820732117,False
+140,Boxing Stance Mimic,['driving'],0.08173191547393799,False
+141,Shooting gesture mimic,['driving'],0.11261958628892899,False
+142,Phone Call Miming,['driving'],0.18244227766990662,False
+143,Driving gesture,['driving'],0.5878876447677612,True
+144,Dancing Mimicry,['driving'],0.2148197740316391,False
+145,Dancing Robot Mimicry,['driving'],0.11209939420223236,False
+146,Dance Mimicry,['driving'],0.1828080266714096,False
+147,Pouring mimicry,['driving'],0.147268146276474,False
+148,Phone Call Miming,['driving'],0.18244227766990662,False
+149,Phone Call Miming,['driving'],0.18244227766990662,False
+150,Boxing Stance Mimic,['driving'],0.08173191547393799,False
+151,Shooting Action,['driving'],0.31426194310188293,False
+152,Golf Swing Miming,['driving'],0.22242406010627747,False
+153,Driving Action,['driving'],0.7417773008346558,True
+154,Boxing Stance Mimic,['driving'],0.08173191547393799,False
+155,Robot Mimicry,['driving'],0.20673006772994995,False
+156,Adjusting Gas Mask,['driving'],0.023005787283182144,False
+157,Fighting Stance Mimic,['driving'],0.1115119606256485,False
+158,Putting something on head,['driving'],0.14413851499557495,False
+159,Golf Swing Miming,['driving'],0.22242406010627747,False
+160,Phone Call Miming,['driving'],0.18244227766990662,False
+161,Dance Mimicry,['driving'],0.1828080266714096,False
+162,Eating a snack,['driving'],0.20121872425079346,False
+163,Dancing Mimicry,['driving'],0.2148197740316391,False
+164,Miming playing an instrument,['driving'],0.19274285435676575,False
+165,Dance Mimicry,['driving'],0.1828080266714096,False
+166,Miming a conversation,['driving'],0.17397865653038025,False
+167,Rowing mimed,['driving'],0.1928521990776062,False
+168,Miming a conversation,['driving'],0.17397865653038025,False
+169,Phone Call Miming,['driving'],0.18244227766990662,False
+170,Skateboarding Mimic,['fencing'],0.2174796611070633,False
+171,Dance Mimicry,['fencing'],0.194024920463562,False
+172,Skateboarding trick demonstration,['fencing'],0.22175368666648865,False
+173,Dancing Mimicry,['fencing'],0.2149958610534668,False
+174,Dancing routine,['fencing'],0.16349554061889648,False
+175,Martial Arts Mimicry,['fencing'],0.3859430253505707,False
+176,Dancing,['fencing'],0.2779325246810913,False
+177,Dancing mimed,['fencing'],0.24042998254299164,False
+178,Skateboarding Mimic,['fencing'],0.2174796611070633,False
+179,Dancing mimed,['fencing'],0.24042998254299164,False
+180,Pitching Baseball,['fishing'],0.3387833535671234,False
+181,Soldier Marching,['fishing'],0.07667864859104156,False
+182,Skateboarding Mimic,['fishing'],0.206841379404068,False
+183,Dancing Mimicry,['fishing'],0.14814619719982147,False
+184,Baseball Swing,['fishing'],0.2986604571342468,False
+185,Dancing Mimicry,['fishing'],0.14814619719982147,False
+186,Robot Dance Mimic,['fishing'],0.06592234969139099,False
+187,Dancing Mimicry,['fishing'],0.14814619719982147,False
+188,Golf Swing Miming,['fishing'],0.17832626402378082,False
+189,Celebrating,['fishing'],0.18967843055725098,False
+190,Tying shoelaces,['golf put'],0.20974719524383545,False
+191,Phone Call Miming,['golf put'],0.08229570835828781,False
+192,Putting Golf Ball,['golf put'],0.8056374788284302,True
+193,Putting,['golf put'],0.6004945039749146,True
+194,Bending over to pick something up,['golf put'],0.18176159262657166,False
+195,Mimicry of an astronaut,['golf put'],0.05909928306937218,False
+196,Dance Mimicry,['golf put'],0.10204312950372696,False
+197,Bending over posture adjustment,['golf put'],0.05362071096897125,False
+198,Bending over to pick something up,['golf put'],0.18176159262657166,False
+199,Bow Gesture,['golf put'],0.17044439911842346,False
+200,Golf Swing Miming,['golf swing'],0.8909987211227417,True
+201,Boxing Stance Mimic,['golf swing'],0.2704731822013855,False
+202,Golf Swing Miming,['golf swing'],0.8909987211227417,True
+203,Golf swing preparation,['golf swing'],0.8526009321212769,True
+204,Miming a violin player,['golf swing'],0.12608695030212402,False
+205,Golf Swing Mimic,['golf swing'],0.8257311582565308,True
+206,Boxing Mimicry,['golf swing'],0.198515385389328,False
+207,Golf Swing Miming,['golf swing'],0.8909987211227417,True
+208,Golf Swing Miming,['golf swing'],0.8909987211227417,True
+209,Golf Swing Miming,['golf swing'],0.8909987211227417,True
+210,Skateboarding Tricks,['javelin throw'],0.2631950378417969,False
+211,Soldier Mimicry,['javelin throw'],0.10015160590410233,False
+212,Skateboarding trick,['javelin throw'],0.2969784736633301,False
+213,Javelin Throw Miming,['javelin throw'],0.9154143929481506,True
+214,Dancing routine mimic,['javelin throw'],0.22010543942451477,False
+215,Miming soldier movement,['javelin throw'],0.19935669004917145,False
+216,Dancing Mimicry,['javelin throw'],0.24307498335838318,False
+217,Celebration Walk,['javelin throw'],0.27239367365837097,False
+218,Dancing Performance,['javelin throw'],0.3201286792755127,False
+219,Dancing routine,['javelin throw'],0.299257755279541,False
+220,Phone Call Miming,['typing on keyboard'],0.14920853078365326,False
+221,Dance Mimicry,['typing on keyboard'],0.09654489904642105,False
+222,Phone Call Miming,['typing on keyboard'],0.14920853078365326,False
+223,Sitting and typing,['typing on keyboard'],0.7134521007537842,True
+224,Golf Swing Mimic,['typing on keyboard'],0.10285291075706482,False
+225,Sitting at a desk,['typing on keyboard'],0.3739963173866272,False
+226,Golf Swing Mimic,['typing on keyboard'],0.10285291075706482,False
+227,Dancing mimed,['typing on keyboard'],0.004505114629864693,False
+228,Phone Call Miming,['typing on keyboard'],0.14920853078365326,False
+229,Playing a flute,['typing on keyboard'],0.10458093881607056,False
+230,Phone Call Miming,['knocking on door'],0.30490434169769287,False
+231,Standing at attention,['knocking on door'],0.23765191435813904,False
+232,Phone Call Miming,['knocking on door'],0.30490434169769287,False
+233,Dancing Step Mimic,['knocking on door'],0.1911185383796692,False
+234,Golf Swing Mimic,['knocking on door'],0.1525074541568756,False
+235,Standing still observing,['knocking on door'],0.22633466124534607,False
+236,Golf Swing Mimic,['knocking on door'],0.1525074541568756,False
+237,Phone Call Miming,['knocking on door'],0.30490434169769287,False
+238,Phone Call Miming,['knocking on door'],0.30490434169769287,False
+239,Phone Call Miming,['knocking on door'],0.30490434169769287,False
+240,Dancing Mimicry,['opening door'],0.15719656646251678,False
+241,Soldier Mimicry,['opening door'],0.11398141086101532,False
+242,Skateboarding trick mimic,['opening door'],0.10050343722105026,False
+243,Picking up an object,['opening door'],0.18234959244728088,False
+244,Golf Swing Mimic,['opening door'],0.16841068863868713,False
+245,Robot Dance Mimic,['opening door'],0.13351435959339142,False
+246,Golf Swing Mimic,['opening door'],0.16841068863868713,False
+247,Walking rhythmically,['opening door'],0.13001495599746704,False
+248,Casual Interaction,['opening door'],0.18151023983955383,False
+249,Walking Rhythmically,['opening door'],0.13001495599746704,False
+250,Phone Call Miming,['opening door'],0.15820510685443878,False
+251,Dancing mime,['opening door'],0.1960401087999344,False
+252,Skateboarding trick mimic,['opening door'],0.10050343722105026,False
+253,Globe pick-up mimicry,['opening door'],0.12182049453258514,False
+254,Golf Swing Mimic,['opening door'],0.16841068863868713,False
+255,Robot Dance Mimic,['opening door'],0.13351435959339142,False
+256,Golf Swing Mimicry,['opening door'],0.19036585092544556,False
+257,Dancing routine,['opening door'],0.07487533986568451,False
+258,Skateboarding,['opening door'],0.14665135741233826,False
+259,Dancing Mimicry,['opening door'],0.15719656646251678,False
+260,Dancing mimed,['playing piano'],0.2807304859161377,False
+261,Zombie Mimicry,['playing piano'],0.1305062472820282,False
+262,Dancing mimed,['playing piano'],0.2807304859161377,False
+263,Dance Mimicry,['playing piano'],0.2973909080028534,False
+264,Dancing Mimicry,['playing piano'],0.30713289976119995,False
+265,Dancing Mimicry,['playing piano'],0.30713289976119995,False
+266,Dog Running Mimic,['playing piano'],0.1223650723695755,False
+267,Fighting Stance Mimic,['playing piano'],0.19849920272827148,False
+268,Miming a conversation,['playing piano'],0.05932719260454178,False
+269,Miming a conversation,['playing piano'],0.05932719260454178,False
+270,Phone Call Miming,['playing acoustic guitar'],0.12433954328298569,False
+271,Miming a conversation,['playing acoustic guitar'],0.13240420818328857,False
+272,Dancing mimed,['playing acoustic guitar'],0.1646280437707901,False
+273,Dancing Mimicry,['playing acoustic guitar'],0.16656777262687683,False
+274,Dance Mimicry,['playing acoustic guitar'],0.1416318118572235,False
+275,Miming a phone call,['playing acoustic guitar'],0.13694952428340912,False
+276,Dancing Mimicry,['playing acoustic guitar'],0.16656777262687683,False
+277,Eating a snack,['playing acoustic guitar'],0.01668195053935051,False
+278,Phone Call Miming,['playing acoustic guitar'],0.12433954328298569,False
+279,Miming eating or drinking,['playing acoustic guitar'],0.06221671402454376,False
+280,Dancing mimed,['playing electric guitar'],0.21616971492767334,False
+281,Dancing mimed,['playing electric guitar'],0.21616971492767334,False
+282,Dancing routine,['playing electric guitar'],0.2381168007850647,False
+283,Dancing Mimicry,['playing electric guitar'],0.21660903096199036,False
+284,Dancing Mimicry,['playing electric guitar'],0.21660903096199036,False
+285,Dancing Mimicry,['playing electric guitar'],0.21660903096199036,False
+286,Robot Dance Mimicry,['playing electric guitar'],0.1376936435699463,False
+287,Dancing routine,['playing electric guitar'],0.2381168007850647,False
+288,Dancing Phone Call,['playing electric guitar'],0.20471984148025513,False
+289,Phone Call Miming,['playing electric guitar'],0.08975914865732193,False
+290,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+291,Dancing mimed,['playing drums'],0.3174721896648407,False
+292,Dancing mimed,['playing drums'],0.3174721896648407,False
+293,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+294,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+295,Miming a conversation,['playing drums'],0.12493959069252014,False
+296,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+297,Dance Move Mimic,['playing drums'],0.31860798597335815,False
+298,Driving Action,['playing drums'],0.2886965274810791,False
+299,Playing a musical instrument,['playing drums'],0.6276551485061646,True
+300,Fighting Stance Mimic,['playing harp'],0.16841351985931396,False
+301,Fighting Stance Mimic,['playing harp'],0.16841351985931396,False
+302,Phone Call Miming,['playing harp'],0.11999458074569702,False
+303,Dancing Mimicry,['playing harp'],0.23887230455875397,False
+304,Karate Stance Mimic,['playing harp'],0.10085653513669968,False
+305,Dance Mimicry,['playing harp'],0.26655393838882446,False
+306,Dance Mimicry,['playing harp'],0.26655393838882446,False
+307,Shooting Action,['playing harp'],0.27954715490341187,False
+308,Phone Call Miming,['playing harp'],0.11999458074569702,False
+309,Fighting Stance Mimic,['playing harp'],0.16841351985931396,False
+310,Phone Call Miming,['playing harp'],0.11999458074569702,False
+311,Miming distress,['playing harp'],0.11880508065223694,False
+312,Phone Call Miming,['playing harp'],0.11999458074569702,False
+313,Phone Call Miming,['playing harp'],0.11999458074569702,False
+314,Phone Call Miming,['playing harp'],0.11999458074569702,False
+315,Miming distress,['playing harp'],0.11880508065223694,False
+316,Walking on the beach,['playing harp'],0.1178908571600914,False
+317,Fighting Stance Mimic,['playing harp'],0.16841351985931396,False
+318,Phone Call Miming,['playing harp'],0.11999458074569702,False
+319,Fighting stance mimic,['playing harp'],0.16841351985931396,False
+320,Walking dance mimic,"['pulling', 'dragging']",0.28747129440307617,False
+321,Walking Soldier Mimic,"['pulling', 'dragging']",0.2349437177181244,False
+322,Dance Mimicry,"['pulling', 'dragging']",0.21808111667633057,False
+323,Dancing Mimicry,"['pulling', 'dragging']",0.25162839889526367,False
+324,Climbing Preparation,"['pulling', 'dragging']",0.36955350637435913,False
+325,Robot Dance Mimicry,"['pulling', 'dragging']",0.23403610289096832,False
+326,Climbing Mimicry,"['pulling', 'dragging']",0.3390774726867676,False
+327,Driving Action Mimic,"['pulling', 'dragging']",0.2673532962799072,False
+328,Dancing mimed,"['pulling', 'dragging']",0.21343471109867096,False
+329,Dance Mimicry,"['pulling', 'dragging']",0.21808111667633057,False
+330,Skiing Mimicry,"['dragging', 'pulling']",0.19713816046714783,False
+331,Miming soldier stance,"['dragging', 'pulling']",0.22028565406799316,False
+332,Skateboarding Mimic,"['dragging', 'pulling']",0.2967701554298401,False
+333,Fall Mimic,"['dragging', 'pulling']",0.2515602707862854,False
+334,Rock Climbing Mimicry,"['dragging', 'pulling']",0.2902505397796631,False
+335,Dancing mimed,"['dragging', 'pulling']",0.21343471109867096,False
+336,Rock Climbing Mimicry,"['dragging', 'pulling']",0.2902505397796631,False
+337,Boxing Stance Mimic,"['dragging', 'pulling']",0.23873892426490784,False
+338,Pitching Baseball,"['dragging', 'pulling']",0.26202481985092163,False
+339,Fall Mimic,"['dragging', 'pulling']",0.2515602707862854,False
+340,Fall Mimic,['pushing'],0.2618446946144104,False
+341,Zombie Mimicry,['pushing'],0.15633270144462585,False
+342,Skateboarding Mimic,['pushing'],0.22649584710597992,False
+343,Dancing mimicry,['pushing'],0.23610526323318481,False
+344,Rock Climbing Mimicry,['pushing'],0.26388147473335266,False
+345,Dancing mimed,['pushing'],0.25767600536346436,False
+346,Climbing Mimicry,['pushing'],0.2840949296951294,False
+347,Running Mimic,['pushing'],0.2882162034511566,False
+348,Driving Action,['pushing'],0.3596237301826477,False
+349,Running Mimic,['pushing'],0.2882162034511566,False
+350,Skateboarding Mimic,['pushing'],0.22649584710597992,False
+351,Zombie Mimicry,['pushing'],0.15633270144462585,False
+352,Skateboarding Mimic,['pushing'],0.22649584710597992,False
+353,Fall Mimic,['pushing'],0.2618446946144104,False
+354,Climbing Mimicry,['pushing'],0.2840949296951294,False
+355,Dance Move Mimic,['pushing'],0.32419249415397644,False
+356,Dance Mimicry,['pushing'],0.22725114226341248,False
+357,Fall Simulation,['pushing'],0.09897750616073608,False
+358,Miming a struggle or fall,['pushing'],0.33551299571990967,False
+359,Fall Mimic,['pushing'],0.2618446946144104,False
+360,Dancing mimed,['putting on seatbelt'],0.09840595722198486,False
+361,Dance Mimicry,['putting on seatbelt'],0.07595852017402649,False
+362,Dancing mimed,['putting on seatbelt'],0.09840595722198486,False
+363,Dancing Mimicry,['putting on seatbelt'],0.1304265558719635,False
+364,Dancing Step,['putting on seatbelt'],0.06241175904870033,False
+365,Superhero Leap,['putting on seatbelt'],0.14407837390899658,False
+366,Dance Mimicry,['putting on seatbelt'],0.07595852017402649,False
+367,Phone Call Miming,['putting on seatbelt'],0.13020095229148865,False
+368,Phone Call Miming,['putting on seatbelt'],0.13020095229148865,False
+369,Phone Call Miming,['putting on seatbelt'],0.13020095229148865,False
+370,Miming a shooting gesture,['shooting handgun'],0.5077781677246094,True
+371,Miming soldier salute,['shooting handgun'],0.20012903213500977,False
+372,Miming a shooting gesture,['shooting handgun'],0.5077781677246094,True
+373,Miming Gun Action,['shooting handgun'],0.6297876834869385,True
+374,Climbing Mimicry,['shooting handgun'],0.07514055073261261,False
+375,Shooting stance mimic,['shooting handgun'],0.44833922386169434,False
+376,Climbing Wall Mimicry,['shooting handgun'],0.016147296875715256,False
+377,Taking a photo,['shooting handgun'],0.2839222550392151,False
+378,Taking a photo,['shooting handgun'],0.2839222550392151,False
+379,Phone Call Miming,['shooting handgun'],0.03831556439399719,False
+380,Phone Call Miming,['shooting rifle'],0.08495522290468216,False
+381,Fighting Stance Mimic,['shooting rifle'],0.2190348505973816,False
+382,Phone Call Miming,['shooting rifle'],0.08495522290468216,False
+383,Miming Gun Action,['shooting rifle'],0.6065235137939453,True
+384,Phone Call Miming,['shooting rifle'],0.08495522290468216,False
+385,Shooting stance mimic,['shooting rifle'],0.4740182161331177,False
+386,Climbing Mimicry,['shooting rifle'],0.0895296037197113,False
+387,Boxing Mimicry,['shooting rifle'],0.10090537369251251,False
+388,Phone Call Miming,['shooting rifle'],0.08495522290468216,False
+389,Boxing Stance Mimic,['shooting rifle'],0.15248195827007294,False
+390,Dancing routine mimic,['shot put'],0.16525796055793762,False
+391,Dancing Mimicry,['shot put'],0.168592631816864,False
+392,Skateboarding Mimic,['shot put'],0.1794484257698059,False
+393,Miming Discus Throw,['shot put'],0.29849743843078613,False
+394,Dance Mimicry,['shot put'],0.18955305218696594,False
+395,Throwing motion mimic,['shot put'],0.33154603838920593,False
+396,Dance Mimicry,['shot put'],0.18955305218696594,False
+397,Dancing routine mimic,['shot put'],0.16525796055793762,False
+398,Dancing routine,['shot put'],0.2303399294614792,False
+399,Dancing mimed,['shot put'],0.20802593231201172,False
+400,Fighting stance,['writing'],0.20872727036476135,False
+401,Miming Soldier,['writing'],0.19945111870765686,False
+402,Phone Call Miming,['writing'],0.18459948897361755,False
+403,Fighting Scene Mimic,['writing'],0.13146550953388214,False
+404,Climbing Preparation,['writing'],0.12344305217266083,False
+405,Martial Arts Mimicry,['writing'],0.18591338396072388,False
+406,Hug Mimic,['writing'],0.1694181114435196,False
+407,Eating gesture,['writing'],0.19996151328086853,False
+408,Phone Call Miming,['writing'],0.18459948897361755,False
+409,Miming phone use,['writing'],0.1731182187795639,False
+410,Miming skateboarding,['soccer shot'],0.13424015045166016,False
+411,Zombie Mimicry,['soccer shot'],0.11026141792535782,False
+412,Skateboarding trick demonstration,['soccer shot'],0.20455297827720642,False
+413,Diving to save a ball,['soccer shot'],0.4561821222305298,False
+414,Skateboarding,['soccer shot'],0.2464694082736969,False
+415,Soccer Goalkeeper Mimicry,['soccer shot'],0.48303163051605225,False
+416,Martial Arts Kick,['soccer shot'],0.44026559591293335,False
+417,Dance Mimicry,['soccer shot'],0.1621149331331253,False
+418,Kick Move,['soccer shot'],0.41075247526168823,False
+419,Miming a kickflip,['soccer shot'],0.33014199137687683,False
+420,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+421,Dance Mimicry,['front stroke swimming'],0.16951821744441986,False
+422,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+423,Flying Bird Mimic,['front stroke swimming'],0.22214940190315247,False
+424,Conductor's Gesture Mimic,['front stroke swimming'],0.09855837374925613,False
+425,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+426,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+427,Driving Action,['front stroke swimming'],0.27404141426086426,False
+428,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+429,Dancing Mimicry,['front stroke swimming'],0.21601253747940063,False
+430,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+431,Dancing mimed,['breast stroke swimming'],0.22663560509681702,False
+432,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+433,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+434,Dancing routine mimic,['breast stroke swimming'],0.2559828460216522,False
+435,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+436,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+437,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+438,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+439,Dancing Mimicry,['breast stroke swimming'],0.2387380450963974,False
+440,Phone Call Miming,['taking photo'],0.22118723392486572,False
+441,Miming Soldier Gesture,['taking photo'],0.16473020613193512,False
+442,Phone Call Miming,['taking photo'],0.22118723392486572,False
+443,Phone Call Miming,['taking photo'],0.22118723392486572,False
+444,Phone Call Miming,['taking photo'],0.22118723392486572,False
+445,Soldier Stance Mimicry,['taking photo'],0.0999787226319313,False
+446,Climbing Preparation,['taking photo'],0.09246590733528137,False
+447,Phone Call Miming,['taking photo'],0.22118723392486572,False
+448,Phone call mimicry,['taking photo'],0.14668074250221252,False
+449,Phone Call Miming,['taking photo'],0.22118723392486572,False
+450,Golf Swing Miming,['tennis serve'],0.43386372923851013,False
+451,Saluting Soldier,['tennis serve'],0.06752736121416092,False
+452,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+453,Mimic Tennis Serve,['tennis serve'],0.8444342613220215,True
+454,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+455,Dancing mimed,['tennis serve'],0.16880112886428833,False
+456,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+457,Pitching,['tennis serve'],0.26819032430648804,False
+458,Dance move mimic,['tennis serve'],0.1652371883392334,False
+459,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+460,Golf Swing Miming,['tennis swing'],0.6795256733894348,True
+461,Dance Mimicry,['tennis swing'],0.1357390582561493,False
+462,Golf Swing Miming,['tennis swing'],0.6795256733894348,True
+463,Miming Tennis Serve,['tennis swing'],0.6814273595809937,True
+464,Dancing Mimicry,['tennis swing'],0.1489098072052002,False
+465,Dance Mimicry,['tennis swing'],0.1357390582561493,False
+466,Dance Mimicry,['tennis swing'],0.1357390582561493,False
+467,Boxing Mimicry,['tennis swing'],0.1918291300535202,False
+468,Phone Call Miming,['tennis swing'],0.0910276472568512,False
+469,Golf Swing Miming,['tennis swing'],0.6795256733894348,True
+470,Phone Call Miming,['playing violin'],0.1495419442653656,False
+471,Miming a shot,['playing violin'],0.20313183963298798,False
+472,Phone Call Miming,['playing violin'],0.1495419442653656,False
+473,Dancing mimed,['playing violin'],0.3741513192653656,False
+474,Phone Call Miming,['playing violin'],0.1495419442653656,False
+475,Miming a musical performance,['playing violin'],0.3951529860496521,False
+476,Dance Mimicry,['playing violin'],0.34509578347206116,False
+477,Throwing Motion,['playing violin'],0.23117119073867798,False
+478,Celebrating,['playing violin'],0.1587466150522232,False
+479,Golf Swing Miming,['playing violin'],0.24075810611248016,False
+480,Golf Swing Miming,['receiving volleyball'],0.34830865263938904,False
+481,Miming soldier salute,['receiving volleyball'],0.07226453721523285,False
+482,Golf swing mimic,['receiving volleyball'],0.3315582275390625,False
+483,Tennis Serve Mimic,['receiving volleyball'],0.43583303689956665,False
+484,Martial Arts Stance Mimic,['receiving volleyball'],0.15389123558998108,False
+485,Dance Step Mimic,['receiving volleyball'],0.14561651647090912,False
+486,Dancing Mimicry,['receiving volleyball'],0.21003857254981995,False
+487,Throwing,['receiving volleyball'],0.35300642251968384,False
+488,Boxing Stance Mimic,['receiving volleyball'],0.2187507152557373,False
+489,Skateboarding Trick Mimic,['receiving volleyball'],0.11934003233909607,False
+490,Celebratory Dance Mimic,['volleyball serve'],0.14226680994033813,False
+491,Dance Mimicry,['volleyball serve'],0.19433042407035828,False
+492,Skateboarding Mimicry,['volleyball serve'],0.14089219272136688,False
+493,Tennis Serve Mimic,['volleyball serve'],0.6364904642105103,True
+494,Dancing Mimicry,['volleyball serve'],0.1873098611831665,False
+495,Tennis Serve Mimic,['volleyball serve'],0.6364904642105103,True
+496,Dancing Mimicry,['volleyball serve'],0.1873098611831665,False
+497,Dancing Mimicry,['volleyball serve'],0.1873098611831665,False
+498,Celebration Dance,['volleyball serve'],0.2381889969110489,False
+499,Phone Call Miming,['volleyball serve'],0.12774518132209778,False
+500,Celebratory Dance Miming,"['weighted back squat', 'weightlifting']",0.15370458364486694,False
+501,Miming soldier communication,"['weighted back squat', 'weightlifting']",0.04484117031097412,False
+502,Dancing Mimicry,"['weighted back squat', 'weightlifting']",0.2186373770236969,False
+503,Boxing Mimicry,"['weighted back squat', 'weightlifting']",0.34029436111450195,False
+504,Dancing in a classroom,"['weighted back squat', 'weightlifting']",0.16327473521232605,False
+505,Celebratory Dance Mimic,"['weighted back squat', 'weightlifting']",0.1676919311285019,False
+506,Dancing Robot Mimicry,"['weighted back squat', 'weightlifting']",0.1710662543773651,False
+507,Celebrating,"['weighted back squat', 'weightlifting']",0.168570414185524,False
+508,Boxing Stance Mimic,"['weighted back squat', 'weightlifting']",0.39019834995269775,False
+509,Boxing Mimicry,"['weighted back squat', 'weightlifting']",0.34029436111450195,False
+510,Celebration Dance,"['clean and jerk', 'weightlifting']",0.2695698142051697,False
+511,Miming Soldier Salute,"['clean and jerk', 'weightlifting']",0.17632628977298737,False
+512,Boxing Mimicry,"['clean and jerk', 'weightlifting']",0.34029436111450195,False
+513,Boxing Routine Mimic,"['clean and jerk', 'weightlifting']",0.3903237283229828,False
+514,Dancing routine mimic,"['clean and jerk', 'weightlifting']",0.27186572551727295,False
+515,Dance Routine Mimic,"['clean and jerk', 'weightlifting']",0.26076966524124146,False
+516,Dance Mimicry,"['clean and jerk', 'weightlifting']",0.23702825605869293,False
+517,Boxing Mimicry,"['clean and jerk', 'weightlifting']",0.34029436111450195,False
+518,Celebration Dance,"['clean and jerk', 'weightlifting']",0.2695698142051697,False
+519,Phone Call Miming,"['clean and jerk', 'weightlifting']",0.18741384148597717,False
+520,Martial Arts Stance,['shooting arrow'],0.3066239356994629,False
+521,Shooting gesture mimic,['shooting arrow'],0.44844967126846313,False
+522,Dancing Mimicry,['shooting arrow'],0.22296029329299927,False
+523,Aiming and shooting arrow,['shooting arrow'],0.8611272573471069,True
+524,Throwing a ball,['shooting arrow'],0.33651596307754517,False
+525,Archery Mimicry,['shooting arrow'],0.5940497517585754,True
+526,Dancing Mimicry,['shooting arrow'],0.22296029329299927,False
+527,Golf Swing Miming,['shooting arrow'],0.22413159906864166,False
+528,Phone Call Miming,['shooting arrow'],0.03907838463783264,False
+529,Shooting gesture,['shooting arrow'],0.5791884064674377,True
+530,Dancing Mimicry,"['double arm curls', 'arm curls', 'weightlifting']",0.2457318902015686,False
+531,Dancing mimed,"['double arm curls', 'arm curls', 'weightlifting']",0.235173761844635,False
+532,Dancing mimed,"['double arm curls', 'arm curls', 'weightlifting']",0.235173761844635,False
+533,Boxing Stance Mimic,"['double arm curls', 'arm curls', 'weightlifting']",0.3752024173736572,False
+534,Dancing routine,"['double arm curls', 'arm curls', 'weightlifting']",0.3448190689086914,False
+535,Dance Mimicry,"['double arm curls', 'arm curls', 'weightlifting']",0.25081104040145874,False
+536,Dance Routine Mimicry,"['double arm curls', 'arm curls', 'weightlifting']",0.3065352439880371,False
+537,Dancing Mimicry,"['double arm curls', 'arm curls', 'weightlifting']",0.2457318902015686,False
+538,Miming a conversation,"['double arm curls', 'arm curls', 'weightlifting']",0.045586295425891876,False
+539,Dancing Mimicry,"['double arm curls', 'arm curls', 'weightlifting']",0.2457318902015686,False
+540,Casual Interaction Miming,"['double arm curls', 'weightlifting']",0.01781700924038887,False
+541,Dancing Mimicry,"['double arm curls', 'weightlifting']",0.2186373770236969,False
+542,Miming Hoverboarding,"['double arm curls', 'weightlifting']",0.08634467422962189,False
+543,Dance Mimicry,"['double arm curls', 'weightlifting']",0.22717534005641937,False
+544,Dancing routine,"['double arm curls', 'weightlifting']",0.3354731500148773,False
+545,Dance Step Mimic,"['double arm curls', 'weightlifting']",0.21622136235237122,False
+546,Dance Step Mimic,"['double arm curls', 'weightlifting']",0.21622136235237122,False
+547,Walking Miming,"['double arm curls', 'weightlifting']",0.11116626858711243,False
+548,Miming casual conversation,"['double arm curls', 'weightlifting']",-0.017697680741548538,False
+549,Walking Dance Step,"['double arm curls', 'weightlifting']",0.14029619097709656,False
+550,Dancing mimed,['baseball pitch'],0.14544279873371124,False
+551,Dance Mimicry,['baseball pitch'],0.07733579725027084,False
+552,Miming skateboarding,['baseball pitch'],0.18871445953845978,False
+553,Pitching Mimicry,['baseball pitch'],0.5724968910217285,True
+554,Dancing Mimicry,['baseball pitch'],0.10530534386634827,False
+555,Pitching Motion,['baseball pitch'],0.693159818649292,True
+556,Dancing mimicry,['baseball pitch'],0.10530534386634827,False
+557,Karate Move Mimic,['baseball pitch'],0.1234762892127037,False
+558,Golf Swing Miming,['baseball pitch'],0.348850280046463,False
+559,Skateboarding Trick Mimic,['baseball pitch'],0.164160817861557,False
+560,Celebration Dance,"['basketball layup', 'basketball floater']",0.20511019229888916,False
+561,Dancing routine,"['basketball layup', 'basketball floater']",0.273878276348114,False
+562,Skateboarding Mimicry,"['basketball layup', 'basketball floater']",0.30106693506240845,False
+563,Miming Basketball Shot,"['basketball layup', 'basketball floater']",0.5446857213973999,True
+564,Hurry Walk,"['basketball layup', 'basketball floater']",0.13968102633953094,False
+565,Dribbling and shooting mimicry,"['basketball layup', 'basketball floater']",0.349189430475235,False
+566,Soldier's Crouch Walk,"['basketball layup', 'basketball floater']",0.28514814376831055,False
+567,Dancing Mimicry,"['basketball layup', 'basketball floater']",0.2323623150587082,False
+568,Running Mimic,"['basketball layup', 'basketball floater']",0.15981921553611755,False
+569,Dancing mimed,"['basketball layup', 'basketball floater']",0.24308189749717712,False
+570,Karate Move Mimic,['basketball shot'],0.20305895805358887,False
+571,Dancing Soldier,['basketball shot'],0.15900784730911255,False
+572,Dance Mimicry,['basketball shot'],0.1587839424610138,False
+573,Miming a basketball shot,['basketball shot'],0.7902233600616455,True
+574,Dancing mimed,['basketball shot'],0.16684171557426453,False
+575,Dance Move Mimic,['basketball shot'],0.1772385686635971,False
+576,Dancing routine mimic,['basketball shot'],0.11026407778263092,False
+577,Golf Swing Miming,['basketball shot'],0.30089354515075684,False
+578,Celebratory Dance Mimic,['basketball shot'],0.10599029064178467,False
+579,Fighting Scene,['basketball shot'],0.2552941143512726,False
+580,Karate Move Mimic,['bowling'],0.15684689581394196,False
+581,Dance or combat mimicry,['bowling'],0.23648038506507874,False
+582,Skateboarding Trick Mimic,['bowling'],0.18454396724700928,False
+583,Bowling action,['bowling'],0.8257222175598145,True
+584,Dance Mimicry,['bowling'],0.2229485809803009,False
+585,Bowling Mimicry,['bowling'],0.771143913269043,True
+586,Dance Mimicry,['bowling'],0.2229485809803009,False
+587,Fighting stance,['bowling'],0.23361451923847198,False
+588,Skateboarding Trick,['bowling'],0.34043967723846436,False
+589,Dance Mimicry,['bowling'],0.2229485809803009,False
+590,Fighting stance,['boxing uppercut'],0.39958059787750244,False
+591,Miming soldier movement,['boxing uppercut'],0.0935564786195755,False
+592,Phone Call Miming,['boxing uppercut'],0.07062149792909622,False
+593,Boxing Stance Mimic,['boxing uppercut'],0.598605215549469,True
+594,Boxing Mimicry,['boxing uppercut'],0.5704149007797241,True
+595,Dance Mimicry,['boxing uppercut'],0.19674545526504517,False
+596,Dancing Mimicry,['boxing uppercut'],0.1941264271736145,False
+597,Boxing Stance Mimic,['boxing uppercut'],0.598605215549469,True
+598,Phone Call Miming,['boxing uppercut'],0.07062149792909622,False
+599,Boxing Stance Mimic,['boxing uppercut'],0.598605215549469,True
+600,Phone Call Miming,['checking watch'],0.18763935565948486,False
+601,Salute Gesture,['checking watch'],0.11612284928560257,False
+602,Phone Call Miming,['checking watch'],0.18763935565948486,False
+603,Dancing mimed,['checking watch'],0.1406036615371704,False
+604,Phone Call Miming,['checking watch'],0.18763935565948486,False
+605,Robot Mimicry,['checking watch'],0.16030676662921906,False
+606,Walking Mimic,['checking watch'],0.1568017601966858,False
+607,Phone Call Miming,['checking watch'],0.18763935565948486,False
+608,Phone Call Miming,['checking watch'],0.18763935565948486,False
+609,Pointing gesture,['checking watch'],0.15794724225997925,False
+610,Celebratory Dance Mimic,['climbing'],0.16113407909870148,False
+611,Dance Mimicry,['climbing'],0.2264089584350586,False
+612,Celebratory Dance Mimic,['climbing'],0.16113407909870148,False
+613,Dancing Mimicry,['climbing'],0.2139318585395813,False
+614,Dance Mimicry,['climbing'],0.2264089584350586,False
+615,Climbing Mimicry,['climbing'],0.7610745429992676,True
+616,Martial Arts Mimicry,['climbing'],0.17577028274536133,False
+617,Celebratory Dance,['climbing'],0.25781309604644775,False
+618,Celebratory Dance Miming,['climbing'],0.18755567073822021,False
+619,Celebration Dance,['climbing'],0.19312037527561188,False
+620,Reading Position,"['gaming', 'using phone']",0.19527913630008698,False
+621,Crouching Position,"['gaming', 'using phone']",0.2056281417608261,False
+622,Phone Call Miming,"['gaming', 'using phone']",0.5067207217216492,True
+623,Sitting and reading,"['gaming', 'using phone']",0.2681594789028168,False
+624,Golf Swing Miming,"['gaming', 'using phone']",0.3038989007472992,False
+625,Dog sitting,"['gaming', 'using phone']",0.08338713645935059,False
+626,Golf Swing Mimic,"['gaming', 'using phone']",0.2739151418209076,False
+627,Seated Position Miming,"['gaming', 'using phone']",0.15983574092388153,False
+628,Seated Pose Mimic,"['gaming', 'using phone']",0.07457003742456436,False
+629,Tying Shoelaces,"['gaming', 'using phone']",0.13339263200759888,False
+630,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+631,Miming soldier salute,['deadlift'],0.1653468757867813,False
+632,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+633,Bending down and picking up,['deadlift'],0.3259769082069397,False
+634,Dancing shuffle,['deadlift'],0.13323372602462769,False
+635,Weightlifting Mimicry,['deadlift'],0.5643208622932434,True
+636,Dog Walk Mimic,['deadlift'],0.075967937707901,False
+637,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+638,Bending down to pick something up,['deadlift'],0.23965507745742798,False
+639,Dance Move Mimic,['deadlift'],0.27370738983154297,False
+640,Driving gesture,['driving'],0.5878876447677612,True
+641,Fighting Stance Mimic,['driving'],0.1115119606256485,False
+642,Dancing mimed,['driving'],0.14754682779312134,False
+643,Dancing pose,['driving'],0.19319745898246765,False
+644,Dance Move Mimic,['driving'],0.1442503035068512,False
+645,Dance Mimicry,['driving'],0.1828080266714096,False
+646,Martial Arts Mimicry,['driving'],0.13064655661582947,False
+647,Driving gesture,['driving'],0.5878876447677612,True
+648,Driving Action,['driving'],0.7417773008346558,True
+649,Fighting Stance Mimic,['driving'],0.1115119606256485,False
+650,Skateboarding Mimic,['fencing'],0.2174796611070633,False
+651,Dance Mimicry,['fencing'],0.194024920463562,False
+652,Skateboarding Mimic,['fencing'],0.2174796611070633,False
+653,Skateboarding trick mimic,['fencing'],0.16526955366134644,False
+654,Dancing pose mimic,['fencing'],0.10701275616884232,False
+655,Dance Mimicry,['fencing'],0.194024920463562,False
+656,Dancing Mimicry,['fencing'],0.2149958610534668,False
+657,Skateboarding Trick Mimic,['fencing'],0.16526955366134644,False
+658,Dancing or skateboarding mimic,['fencing'],0.20575609803199768,False
+659,Skateboarding Mimicry,['fencing'],0.24629759788513184,False
+660,Eating gesture,['typing on keyboard'],0.2180544137954712,False
+661,Shooting gesture,['typing on keyboard'],0.15858492255210876,False
+662,Phone Call Miming,['typing on keyboard'],0.14920853078365326,False
+663,Sitting and texting,['typing on keyboard'],0.486294150352478,False
+664,Golf Swing Mimic,['typing on keyboard'],0.10285291075706482,False
+665,Sitting and typing charade,['typing on keyboard'],0.6545199155807495,True
+666,Golf Swing Mimic,['typing on keyboard'],0.10285291075706482,False
+667,Eating gesture,['typing on keyboard'],0.2180544137954712,False
+668,Miming phone use,['typing on keyboard'],0.1877986043691635,False
+669,Typing Action,['typing on keyboard'],0.6395831108093262,True
+670,Dance Mimicry,['opening door'],0.1397179812192917,False
+671,Walking mimed,['opening door'],0.16404007375240326,False
+672,Dance Mimicry,['opening door'],0.1397179812192917,False
+673,Dancing mimed,['opening door'],0.153916597366333,False
+674,Golf Swing Mimic,['opening door'],0.16841068863868713,False
+675,Robot Dance Mimic,['opening door'],0.13351435959339142,False
+676,Golf Swing Mimic,['opening door'],0.16841068863868713,False
+677,Phone Call Miming,['opening door'],0.15820510685443878,False
+678,Dog Walk,['opening door'],0.2282159924507141,False
+679,Throwing a ball,['opening door'],0.16221031546592712,False
+680,Dancing mimed,['playing drums'],0.3174721896648407,False
+681,Fighting Stance Mimic,['playing drums'],0.24705784022808075,False
+682,Dancing mimed,['playing drums'],0.3174721896648407,False
+683,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+684,Karate Mimicry,['playing drums'],0.2320047914981842,False
+685,Boxing Mimicry,['playing drums'],0.2014939785003662,False
+686,Dancing Mimicry,['playing drums'],0.3397229015827179,False
+687,Dancing mimed,['playing drums'],0.3174721896648407,False
+688,Phone Call Mimic,['playing drums'],0.15014903247356415,False
+689,Dancing mimed,['playing drums'],0.3174721896648407,False
+690,Phone Call Miming,['playing guitar'],0.15627792477607727,False
+691,Dancing mimed,['playing guitar'],0.21757058799266815,False
+692,Phone Call Miming,['playing guitar'],0.15627792477607727,False
+693,Baseball Pitcher,['playing guitar'],0.2518230676651001,False
+694,Swinging Bat,['playing guitar'],0.37699511647224426,False
+695,Dance Mimicry,['playing guitar'],0.1866571009159088,False
+696,Dance Mimicry,['playing guitar'],0.1866571009159088,False
+697,Phone Call Miming,['playing guitar'],0.15627792477607727,False
+698,Driving Action,['playing guitar'],0.2733571529388428,False
+699,Golf Swing Miming,['playing guitar'],0.312255322933197,False
+700,Dancing mimed,['playing guitar'],0.21757058799266815,False
+701,Fighting Stance Mimic,['playing guitar'],0.1836681365966797,False
+702,Dancing pose,['playing guitar'],0.1761665940284729,False
+703,Miming playing a guitar,['playing guitar'],0.8139756321907043,True
+704,Dancing Mimicry,['playing guitar'],0.20841477811336517,False
+705,Dance Mimicry,['playing guitar'],0.1866571009159088,False
+706,Dance Mimicry,['playing guitar'],0.1866571009159088,False
+707,Phone Call Miming,['playing guitar'],0.15627792477607727,False
+708,Dancing mimed,['playing guitar'],0.21757058799266815,False
+709,Phone Call Miming,['playing guitar'],0.15627792477607727,False
+710,Dancing mimed,['playing harp'],0.21921716630458832,False
+711,Fighting Stance Mimic,['playing harp'],0.16841351985931396,False
+712,Karate Move Mimic,['playing harp'],0.1290964037179947,False
+713,Dancing Mimicry,['playing harp'],0.23887230455875397,False
+714,Martial Arts Stance Mimic,['playing harp'],0.1240931898355484,False
+715,Dance Mimicry,['playing harp'],0.26655393838882446,False
+716,Dance Mimicry,['playing harp'],0.26655393838882446,False
+717,Miming playing a flute,['playing harp'],0.5075671076774597,True
+718,Shooting gesture,['playing harp'],0.24486742913722992,False
+719,Fighting stance,['playing harp'],0.19308587908744812,False
+720,Golf Swing Mimic,['playing violin'],0.256834477186203,False
+721,Shooting Mimicry,['playing violin'],0.21253491938114166,False
+722,Karate Move Mimic,['playing violin'],0.21535634994506836,False
+723,Miming playing a flute,['playing violin'],0.5483232736587524,True
+724,Phone Call Walk,['playing violin'],0.09508166462182999,False
+725,Phone Call Miming,['playing violin'],0.1495419442653656,False
+726,Walking Mimic,['playing violin'],0.1391867995262146,False
+727,Throwing,['playing violin'],0.17434506118297577,False
+728,Golf Swing Miming,['playing violin'],0.24075810611248016,False
+729,Phone Call Miming,['playing violin'],0.1495419442653656,False
+730,Walking or jogging,"['dragging', 'pulling']",0.26255977153778076,False
+731,Walking Soldier,"['dragging', 'pulling']",0.2713319957256317,False
+732,Walking on a skateboard,"['dragging', 'pulling']",0.3234514594078064,False
+733,Walking forward,"['dragging', 'pulling']",0.4198637306690216,False
+734,Climbing gesture,"['dragging', 'pulling']",0.42097246646881104,False
+735,Walking forward,"['dragging', 'pulling']",0.4198637306690216,False
+736,Dancing Mimicry,"['dragging', 'pulling']",0.25162839889526367,False
+737,Walking forward,"['dragging', 'pulling']",0.4198637306690216,False
+738,Walking Lean,"['dragging', 'pulling']",0.3248336911201477,False
+739,Skateboarding,"['dragging', 'pulling']",0.2971860468387604,False
+740,Skateboarding trick mimic,"['tugging', 'dragging', 'pulling']",0.2795001268386841,False
+741,Running Mimic,"['tugging', 'dragging', 'pulling']",0.18493595719337463,False
+742,Skateboarding Mimic,"['tugging', 'dragging', 'pulling']",0.2967701554298401,False
+743,Skateboarding Mimic,"['tugging', 'dragging', 'pulling']",0.2967701554298401,False
+744,Climbing mimed,"['tugging', 'dragging', 'pulling']",0.356374591588974,False
+745,Dance Step Mimic,"['tugging', 'dragging', 'pulling']",0.23269763588905334,False
+746,Dancing or miming,"['tugging', 'dragging', 'pulling']",0.24891245365142822,False
+747,Fighting stance,"['tugging', 'dragging', 'pulling']",0.2580556869506836,False
+748,Skateboarding Mimic,"['tugging', 'dragging', 'pulling']",0.2967701554298401,False
+749,Boxing Mimicry,"['tugging', 'dragging', 'pulling']",0.2443632334470749,False
+750,Phone Call Miming,['pushing'],0.24968640506267548,False
+751,Wave Gesture,['pushing'],0.11456011980772018,False
+752,Skateboarding Mimic,['pushing'],0.22649584710597992,False
+753,Dancing Mimicry,['pushing'],0.23610526323318481,False
+754,Climbing Preparation,['pushing'],0.2783263027667999,False
+755,Shooting gesture,['pushing'],0.17291738092899323,False
+756,Climbing gesture,['pushing'],0.3509131669998169,False
+757,Phone Call Miming,['pushing'],0.24968640506267548,False
+758,Phone Call Miming,['pushing'],0.24968640506267548,False
+759,Phone Call Miming,['pushing'],0.24968640506267548,False
+760,Miming eating or drinking,['putting on seatbelt'],0.16064167022705078,False
+761,Seated Thinking Mimic,['putting on seatbelt'],0.23905178904533386,False
+762,Dancing mimed,['putting on seatbelt'],0.09840595722198486,False
+763,Sitting down in an airplane seat,['putting on seatbelt'],0.4837026000022888,False
+764,Dancing Mimicry,['putting on seatbelt'],0.1304265558719635,False
+765,Sitting down,['putting on seatbelt'],0.41651344299316406,False
+766,Miming a moment of distress,['putting on seatbelt'],0.12433271110057831,False
+767,Casual Sitting Mimic,['putting on seatbelt'],0.26560139656066895,False
+768,Standing up,['putting on seatbelt'],0.19308164715766907,False
+769,Putting something in pocket,['putting on seatbelt'],0.26942336559295654,False
+770,Dancing mimed,['shooting handgun'],0.08510534465312958,False
+771,Dance Move Mimic,['shooting handgun'],0.10562484711408615,False
+772,Skateboarding,['shooting handgun'],0.20079684257507324,False
+773,Throwing an object,['shooting handgun'],0.30591917037963867,False
+774,Climbing Preparation,['shooting handgun'],0.045946307480335236,False
+775,Shooting stance mimic,['shooting handgun'],0.44833922386169434,False
+776,Climbing Preparation,['shooting handgun'],0.045946307480335236,False
+777,Driving gesture,['shooting handgun'],0.20840862393379211,False
+778,Throwing a ball,['shooting handgun'],0.29522883892059326,False
+779,Driving signal mimic,['shooting handgun'],0.10087542235851288,False
+780,Dancing Performance,['shot put'],0.24651768803596497,False
+781,Dancing Routine,['shot put'],0.2303399294614792,False
+782,Skateboarding trick,['shot put'],0.18712884187698364,False
+783,Discus Throw,['shot put'],0.37375473976135254,False
+784,Dancing Mimicry,['shot put'],0.168592631816864,False
+785,Throwing Motion Mimic,['shot put'],0.33154603838920593,False
+786,Dance Mimicry,['shot put'],0.18955305218696594,False
+787,Dancing Mimicry,['shot put'],0.168592631816864,False
+788,Dancing routine,['shot put'],0.2303399294614792,False
+789,Dancing Routine,['shot put'],0.2303399294614792,False
+790,Running Mimicry,"['soccer shot', 'kicking']",0.2625369429588318,False
+791,Dancing mimed,"['soccer shot', 'kicking']",0.3590189814567566,False
+792,Running Mimicry,"['soccer shot', 'kicking']",0.2625369429588318,False
+793,Mimicry of a soccer goalkeeper,"['soccer shot', 'kicking']",0.47089821100234985,False
+794,Running Mimicry,"['soccer shot', 'kicking']",0.2625369429588318,False
+795,Goalkeeper Ready,"['soccer shot', 'kicking']",0.4211960434913635,False
+796,Walking across stage,"['soccer shot', 'kicking']",0.2851572036743164,False
+797,Skateboarding Mimic,"['soccer shot', 'kicking']",0.25742971897125244,False
+798,Skateboarding Mimic,"['soccer shot', 'kicking']",0.25742971897125244,False
+799,Skateboarding Mimic,"['soccer shot', 'kicking']",0.25742971897125244,False
+800,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+801,Zombie Mimicry,['butterfly stroke swimming'],0.21384930610656738,False
+802,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+803,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+804,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+805,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+806,Dramatic Gesture Mimicry,['butterfly stroke swimming'],0.06559520214796066,False
+807,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+808,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+809,Dancing Mimicry,['butterfly stroke swimming'],0.29186779260635376,False
+810,Miming a fall,['front stroke swimming'],0.13786369562149048,False
+811,Rolling on the ground,['front stroke swimming'],0.17961391806602478,False
+812,Falling down,['front stroke swimming'],0.18937180936336517,False
+813,Flying Beach Glide,['front stroke swimming'],0.4432845115661621,False
+814,Miming a fall,['front stroke swimming'],0.13786369562149048,False
+815,Fall Dive Mimic,['front stroke swimming'],0.37470632791519165,False
+816,Fall Mimicry,['front stroke swimming'],0.2019035667181015,False
+817,Falling Simulation,['front stroke swimming'],0.19041407108306885,False
+818,Slide Fall Miming,['front stroke swimming'],0.15862879157066345,False
+819,Falling Dive Miming,['front stroke swimming'],0.37310799956321716,False
+820,Fall Mimic,['back stroke swimming'],0.3056323528289795,False
+821,Falling Ground,['back stroke swimming'],0.19250616431236267,False
+822,Slide Mimic,['back stroke swimming'],0.2129841446876526,False
+823,Flying through the air,['back stroke swimming'],0.32022202014923096,False
+824,Pose,['back stroke swimming'],0.20842033624649048,False
+825,Fall Dive,['back stroke swimming'],0.3983571231365204,False
+826,Dance performance mimic,['back stroke swimming'],0.2691303491592407,False
+827,Falling Simulation,['back stroke swimming'],0.2203792780637741,False
+828,Slide Fall Mimic,['back stroke swimming'],0.2584630846977234,False
+829,Falling down,['back stroke swimming'],0.250357449054718,False
+830,Pitching,['tennis serve'],0.26819032430648804,False
+831,Celebratory Dance Mimic,['tennis serve'],0.13244569301605225,False
+832,Skateboarding Mimicry,['tennis serve'],0.11909656971693039,False
+833,Miming Tennis Serve,['tennis serve'],0.8765341639518738,True
+834,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+835,Tennis Serve Mimic,['tennis serve'],0.8252761960029602,True
+836,Dancing Mimicry,['tennis serve'],0.14606276154518127,False
+837,Dance Mimicry,['tennis serve'],0.1635398417711258,False
+838,Dancing routine,['tennis serve'],0.21586434543132782,False
+839,Phone Call Miming,['tennis serve'],0.12595756351947784,False
+840,Phone Call Miming,"['backhand tennis swing', 'cricket batting']",0.1252409666776657,False
+841,Combat Stance Mimic,"['backhand tennis swing', 'cricket batting']",0.23983237147331238,False
+842,Miming skateboarding,"['backhand tennis swing', 'cricket batting']",0.15776056051254272,False
+843,Tennis Serve Mimic,"['backhand tennis swing', 'cricket batting']",0.585828423500061,True
+844,Phone Call Miming,"['backhand tennis swing', 'cricket batting']",0.1252409666776657,False
+845,Dancing Routine,"['backhand tennis swing', 'cricket batting']",0.2746008634567261,False
+846,Dancing Mimicry,"['backhand tennis swing', 'cricket batting']",0.15974432229995728,False
+847,Dancing routine,"['backhand tennis swing', 'cricket batting']",0.2746008634567261,False
+848,Karate Move Mimic,"['backhand tennis swing', 'cricket batting']",0.1931379735469818,False
+849,Dancing Mimicry,"['backhand tennis swing', 'cricket batting']",0.15974432229995728,False
+850,Phone Call Miming,"['controlling remote', 'watching tv']",0.23775368928909302,False
+851,Fall Mimic,"['controlling remote', 'watching tv']",0.1107558161020279,False
+852,Phone Call Miming,"['controlling remote', 'watching tv']",0.23775368928909302,False
+853,Throwing a ball,"['controlling remote', 'watching tv']",0.2702189087867737,False
+854,Golf Swing Miming,"['controlling remote', 'watching tv']",0.1588069200515747,False
+855,Dog sitting,"['controlling remote', 'watching tv']",0.19188177585601807,False
+856,Golf Swing Mimic,"['controlling remote', 'watching tv']",0.06243892014026642,False
+857,Phone Call Miming,"['controlling remote', 'watching tv']",0.23775368928909302,False
+858,Seated Position Miming,"['controlling remote', 'watching tv']",0.26728224754333496,False
+859,Miming eating,"['controlling remote', 'watching tv']",0.33352261781692505,False

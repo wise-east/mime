@@ -1,0 +1,47 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,bowling a strike,['bowling'],0.7352016568183899,True
+1,playing the violin,['playing violin'],0.9834846258163452,True
+2,squatting with weights,"['weighted back squat', 'weightlifting']",0.8100982308387756,True
+3,typing on a laptop,['typing on keyboard'],0.8442676067352295,True
+4,rock climbing,['climbing'],0.8856726884841919,True
+5,Drinking a beverage,['drinking out of a cup'],0.7648603916168213,True
+6,checking the time,['checking watch'],0.5550270080566406,True
+7,boxing stance,['boxing'],0.6952793002128601,True
+8,playing volleyball,['receiving volleyball'],0.7833022475242615,True
+9,opening a door,['opening door'],0.9621354341506958,True
+10,putting on a seatbelt,['putting on seatbelt'],0.9923869967460632,True
+11,texting on a phone,"['checking phone', 'sending text', 'using phone']",0.6913309097290039,True
+12,fencing duel action,['fencing'],0.7843194007873535,True
+13,Aiming a rifle,['shooting rifle'],0.8385506868362427,True
+14,writing in a notebook,['writing'],0.6453312635421753,True
+15,drumming enthusiastically,['playing drums'],0.7115183472633362,True
+16,swimming underwater,['butterfly stroke swimming'],0.5851709246635437,True
+17,Serving a volleyball,['volleyball serve'],0.9407237768173218,True
+18,Ice fishing trip,"['pulling', 'dragging']",0.18248263001441956,False
+19,driving a car,['driving'],0.7923792600631714,True
+20,throwing a ball,['basketball shot'],0.5282814502716064,True
+21,pushing a cart of waste,['pushing'],0.4967241883277893,False
+22,playing tennis,['tennis swing'],0.7960195541381836,True
+23,playing video games,"['gaming', 'using phone']",0.7532981038093567,True
+24,lifting weights,['deadlift'],0.6366153359413147,True
+25,lifting weights,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.8208645582199097,True
+26,playing mini golf,['golf put'],0.6457957625389099,True
+27,knocking on a door,['knocking on door'],0.9820701479911804,True
+28,Shooting a basketball,['basketball layup'],0.5513007044792175,True
+29,Throwing a ball,['shot put'],0.37616467475891113,False
+30,swinging a golf club,['golf swing'],0.8645447492599487,True
+31,pitching a baseball,['baseball swing'],0.6471803188323975,True
+32,casting a fishing rod,['fishing'],0.6328282356262207,True
+33,playing the guitar,['playing acoustic guitar'],0.8324850797653198,True
+34,throwing a baseball,['baseball pitch'],0.7502316236495972,True
+35,Taking a photograph,['taking photo'],0.9374821782112122,True
+36,Jumping a hurdle,['javelin throw'],0.380256325006485,False
+37,playing piano,['playing piano'],1.0000001192092896,True
+38,Aiming a firearm,['shooting handgun'],0.730588436126709,True
+39,Throwing a dart,['throwing dart'],0.9785869717597961,True
+40,Lifting a barbell overhead,"['clean and jerk', 'weightlifting']",0.5561099052429199,True
+41,Serving a tennis ball,['tennis serve'],0.8942083120346069,True
+42,Playing a harp,['playing harp'],0.9885192513465881,True
+43,shooting a bow and arrow,['shooting arrow'],0.8844687938690186,True
+44,Watching television,"['controlling remote', 'watching tv']",0.9856876134872437,True
+45,kicking a soccer ball,['soccer shot'],0.6620590686798096,True

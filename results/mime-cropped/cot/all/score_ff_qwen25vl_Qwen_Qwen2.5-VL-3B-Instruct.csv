@@ -1,0 +1,861 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,The man is standing with his arms crossed over his chest.,['shooting arrow'],0.11191367357969284,False
+1,The person is pointing their finger.,['shooting arrow'],0.2346639782190323,False
+2,The person is dancing.,['shooting arrow'],0.1563761681318283,False
+3,The person is aiming an arrow at a target.,['shooting arrow'],0.7516992092132568,True
+4,The person is holding a ball and pretending to throw it.,['shooting arrow'],0.13945236802101135,False
+5,The person is aiming an arrow at a target.,['shooting arrow'],0.7516992092132568,True
+6,"The person is standing in a room, holding a pumpkin and pointing forward.",['shooting arrow'],0.16529303789138794,False
+7,The man is pointing his finger.,['shooting arrow'],0.2095031440258026,False
+8,The man is raising his arms and making a gesture with his hands.,['shooting arrow'],0.14611227810382843,False
+9,The man is standing with his arms outstretched.,['shooting arrow'],0.07494263350963593,False
+10,The person is standing still.,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.046978551894426346,False
+11,The person is waving their hand.,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.13237343728542328,False
+12,The person is standing still.,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.046978551894426346,False
+13,"The person is standing in a gym, holding a dumbbell in each hand, and appears to be miming lifting the dumbbells above their head.","['alternating single arm curls', 'arm curls', 'weightlifting']",0.5187364816665649,True
+14,"The person is standing in an empty classroom, holding onto the back of a desk with both hands.","['alternating single arm curls', 'arm curls', 'weightlifting']",0.13259771466255188,False
+15,Acting out: Lifting a barbell,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.6090996265411377,True
+16,"The person is standing in an empty classroom, facing away from the camera. They are wearing a futuristic suit with multiple joints and sensors. The person raises their right hand and points forward with their index finger.","['alternating single arm curls', 'arm curls', 'weightlifting']",0.10645277798175812,False
+17,The man is walking.,"['alternating single arm curls', 'arm curls', 'weightlifting']",-0.053561702370643616,False
+18,The person is standing with their hands behind their back.,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.15914976596832275,False
+19,The man is standing with his hands behind his back.,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1282355785369873,False
+20,The person is dancing.,['baseball swing'],0.1105431616306305,False
+21,The person is dancing.,['baseball swing'],0.1105431616306305,False
+22,The person is standing on a skateboard and raising their arms.,['baseball swing'],0.17127275466918945,False
+23,The person is pitching a baseball.,['baseball swing'],0.5373989939689636,True
+24,The person is miming boxing.,['baseball swing'],0.2616114616394043,False
+25,The person is jumping up and down.,['baseball swing'],0.23052871227264404,False
+26,The person is walking across the room.,['baseball swing'],0.01918691024184227,False
+27,The man is dancing.,['baseball swing'],0.05392555147409439,False
+28,The person is dancing.,['baseball swing'],0.1105431616306305,False
+29,The man is dancing.,['baseball swing'],0.05392555147409439,False
+30,The person is standing on a skateboard.,['baseball pitch'],0.1619682013988495,False
+31,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+32,The person is standing on a skateboard.,['baseball pitch'],0.1619682013988495,False
+33,The person is pitching a baseball.,['baseball pitch'],0.6917549967765808,True
+34,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+35,The person is standing on a baseball mound.,['baseball pitch'],0.5812285542488098,True
+36,The person is walking forward on a rug.,['baseball pitch'],0.05748431012034416,False
+37,The man is running.,['baseball pitch'],0.09659837931394577,False
+38,The man is dancing.,['baseball pitch'],0.03549965098500252,False
+39,The man is running.,['baseball pitch'],0.09659837931394577,False
+40,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+41,The person is standing still.,['basketball shot'],0.0788489505648613,False
+42,The person is standing on a skateboard and raising their right hand.,['basketball shot'],0.13371270895004272,False
+43,The person is holding a basketball above their head and then raising it up.,['basketball shot'],0.520533561706543,True
+44,The person is walking on a rug.,['basketball shot'],0.07700490951538086,False
+45,The person is standing still.,['basketball shot'],0.0788489505648613,False
+46,"The person is standing on a rug, holding a ball.",['basketball shot'],0.30725643038749695,False
+47,The person is standing on one leg and raising their other leg up.,['basketball shot'],0.12521813809871674,False
+48,The person is raising their right arm above their head and then lowering it back down.,['basketball shot'],0.20001012086868286,False
+49,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+50,The man is dancing.,['basketball layup'],0.08249964565038681,False
+51,The person is running and jumping.,['basketball layup'],0.19616609811782837,False
+52,The person is running and jumping.,['basketball layup'],0.19616609811782837,False
+53,The person is dancing.,['basketball layup'],0.13632437586784363,False
+54,The person is running across the room.,['basketball layup'],0.06272101402282715,False
+55,The person is dribbling a basketball.,['basketball layup'],0.47106194496154785,False
+56,The person is dancing.,['basketball layup'],0.13632437586784363,False
+57,The person is running on a skateboard.,['basketball layup'],0.12247893214225769,False
+58,The man is walking and then raises his right arm up.,['basketball layup'],0.2572571635246277,False
+59,The man is dancing.,['basketball layup'],0.08249964565038681,False
+60,The person is standing on a skateboard and moving their arms and legs.,['bowling'],0.11097004264593124,False
+61,The person is dancing.,['bowling'],0.19580823183059692,False
+62,The person is riding a skateboard.,['bowling'],0.1201196014881134,False
+63,The man is bowling.,['bowling'],0.6608210206031799,True
+64,The man is walking across the stage.,['bowling'],0.02512199804186821,False
+65,The person is bowling.,['bowling'],0.6896471977233887,True
+66,The person is walking down the stairs.,['bowling'],-0.002135668881237507,False
+67,The man is dancing.,['bowling'],0.1547027826309204,False
+68,The man is dancing.,['bowling'],0.1547027826309204,False
+69,The man is running.,['bowling'],0.07046276330947876,False
+70,The person is standing on one leg and holding their other hand up to their face.,['boxing'],0.09045463800430298,False
+71,The person is standing still.,['boxing'],0.05853176862001419,False
+72,The person is dancing.,['boxing'],0.070231132209301,False
+73,The person is raising their right arm above their head and then bringing it down to their side while also moving their left arm in a similar manner.,['boxing'],0.16800644993782043,False
+74,The person is holding a microphone and moving their hands around.,['boxing'],0.13661831617355347,False
+75,"The person is standing in a gym, facing forward, and raising their right hand to their face while keeping their left arm extended outward.",['boxing'],0.2230624407529831,False
+76,The person is standing on a stage with their arms crossed over their chest.,['boxing'],0.040235474705696106,False
+77,The person is covering their ears with their hands.,['boxing'],0.06740555912256241,False
+78,The man is standing on a skateboard and moving his arms and legs in a rhythmic manner.,['boxing'],0.054093386977910995,False
+79,The person is dancing.,['boxing'],0.070231132209301,False
+80,The man is standing with his arms crossed.,"['checking phone', 'sending text', 'using phone']",0.09923890233039856,False
+81,The person is standing still with their arms crossed over their chest.,"['checking phone', 'sending text', 'using phone']",0.10124140232801437,False
+82,The person is holding a phone in their hands.,"['checking phone', 'sending text', 'using phone']",0.5778748989105225,True
+83,"The person is standing in a room, looking at their phone.","['checking phone', 'sending text', 'using phone']",0.5155079960823059,True
+84,The man is standing on a volleyball court and clapping his hands together.,"['checking phone', 'sending text', 'using phone']",0.04830258712172508,False
+85,Walking forward while holding hands.,"['checking phone', 'sending text', 'using phone']",0.25222551822662354,False
+86,The person is standing still with their arms crossed over their chest.,"['checking phone', 'sending text', 'using phone']",0.10124140232801437,False
+87,The man is standing and looking at his phone.,"['checking phone', 'sending text', 'using phone']",0.5499529838562012,True
+88,The man is standing still.,"['checking phone', 'sending text', 'using phone']",0.02288108877837658,False
+89,The man is standing with his hands on his hips.,"['checking phone', 'sending text', 'using phone']",0.08160557597875595,False
+90,The man is standing with his hands on his hips.,['checking watch'],0.0015608295798301697,False
+91,The person is standing still.,['checking watch'],0.05891510099172592,False
+92,The person is standing on a skateboard.,['checking watch'],0.016775142401456833,False
+93,"The person is standing in a room, holding their arms out to the sides and then bringing them down to their sides. They then raise their right arm above their head and bring it back down. Finally, they raise their left arm above their head and bring it back down.",['checking watch'],0.11035668849945068,False
+94,The person is pointing at the volleyball net.,['checking watch'],0.07243593037128448,False
+95,Acting out a robot's movements.,['checking watch'],0.20929737389087677,False
+96,"The person is standing on a volleyball court, holding their hands up to their face as if they are wearing a mask.",['checking watch'],0.03228432312607765,False
+97,The person is standing on a skateboard and pointing forward.,['checking watch'],0.04288775846362114,False
+98,The man is standing with his hands behind his back.,['checking watch'],-0.07003012299537659,False
+99,The man is pointing his finger.,['checking watch'],0.029085993766784668,False
+100,The person is raising their right hand above their head and then bringing it down to their side.,['climbing'],0.2513095438480377,False
+101,The person is raising their right hand.,['climbing'],0.17975234985351562,False
+102,The person is raising their right hand above their head and then bringing it down to their side.,['climbing'],0.2513095438480377,False
+103,"The person is standing on a blue mat in front of a climbing wall. They raise their right hand to their head, possibly adjusting their hair or scratching their head.",['climbing'],0.4502922594547272,False
+104,The person is raising their right hand and then lowering it back down.,['climbing'],0.2543821930885315,False
+105,"The person is climbing a rock wall. They are using their hands and feet to grip and climb the colorful holds on the wall. Their body is positioned sideways, with one arm extended upward and the other arm holding onto the hold. The person's legs are bent at the knees, and they are stepping on different holds to ascend the wall.",['climbing'],0.5886902809143066,True
+106,"The person is standing on a stage, holding a microphone in their right hand and raising their left hand in a waving gesture.",['climbing'],-0.022205470129847527,False
+107,The person is raising their arms above their head.,['climbing'],0.22913959622383118,False
+108,The person is raising their right hand above their head and then lowering it back down.,['climbing'],0.25707682967185974,False
+109,The man is dancing.,['climbing'],0.013798464089632034,False
+110,The man is pointing his finger at something.,['throwing dart'],0.24250411987304688,False
+111,The person is pointing their right hand forward.,['throwing dart'],0.26818326115608215,False
+112,The person is standing on a skateboard and waving their hand.,['throwing dart'],0.10685009509325027,False
+113,The person is holding their right hand up to their face and then lowering it back down.,['throwing dart'],0.15127697587013245,False
+114,The person is standing on a stage and raising their right hand while moving their left hand in a circular motion.,['throwing dart'],0.1506204605102539,False
+115,"The person is standing on a mat, raising their right arm and pointing forward. They then lower their arm and turn slightly to the left. Finally, they raise their right arm again and point forward.",['throwing dart'],0.24249029159545898,False
+116,The person is raising their right hand and then lowering it.,['throwing dart'],0.22234763205051422,False
+117,The man is pointing his finger up.,['throwing dart'],0.2100578248500824,False
+118,The man is pointing his finger.,['throwing dart'],0.23674646019935608,False
+119,The man is holding his hand up to his ear as if he's listening to something.,['throwing dart'],0.05544676631689072,False
+120,The man is bending over and touching his shoes.,['deadlift'],0.16920270025730133,False
+121,The person is bending down.,['deadlift'],0.23594635725021362,False
+122,The person is standing on a skateboard.,['deadlift'],0.0759282335639,False
+123,The person is bending down and then standing up.,['deadlift'],0.21514245867729187,False
+124,The person is sweeping the floor with a broom.,['deadlift'],0.06829611212015152,False
+125,The person is walking forward in a gym.,['deadlift'],0.23557384312152863,False
+126,The person is bending down and then standing up.,['deadlift'],0.21514245867729187,False
+127,The man is bending over and touching his shoes.,['deadlift'],0.16920270025730133,False
+128,The man is bending over and touching his shoes.,['deadlift'],0.16920270025730133,False
+129,The man bends down and touches his shoe.,['deadlift'],0.1438261866569519,False
+130,The person is holding a phone and looking at it.,['drinking out of a cup'],0.0068638138473033905,False
+131,The person is standing still with their arms crossed over their chest.,['drinking out of a cup'],0.097541943192482,False
+132,The person is holding their hand up to their face.,['drinking out of a cup'],0.12487852573394775,False
+133,The person is holding a ball and pretending to throw it.,['drinking out of a cup'],0.07758817076683044,False
+134,The man is pointing at the volleyball net.,['drinking out of a cup'],-0.08158889412879944,False
+135,The person is walking forward.,['drinking out of a cup'],0.06737825274467468,False
+136,The person is saluting.,['drinking out of a cup'],0.08626365661621094,False
+137,The man is scratching his head.,['drinking out of a cup'],-0.05717393383383751,False
+138,The man is scratching his head.,['drinking out of a cup'],-0.05717393383383751,False
+139,The man is holding his head with both hands.,['drinking out of a cup'],0.015607733279466629,False
+140,The person is standing on a skateboard.,['driving'],0.06485021114349365,False
+141,The person is standing still with their arms crossed over their chest.,['driving'],0.031771641224622726,False
+142,The person is standing on a skateboard.,['driving'],0.06485021114349365,False
+143,Acting out: Balancing on a hoverboard.,['driving'],0.1531425416469574,False
+144,"The person is standing on a skateboard, holding their arms out to the sides.",['driving'],0.05476151406764984,False
+145,Acting out: Confident pose with arms crossed,['driving'],0.15806028246879578,False
+146,"The person is standing on a skateboard, holding their hands together in front of their chest. They then raise one hand above their head and lower it back down. Finally, they raise both hands above their head and lower them back down.",['driving'],0.17722202837467194,False
+147,The man is holding a gun and pointing it at his head.,['driving'],0.012062753550708294,False
+148,The man is holding his hands behind his head.,['driving'],0.026463352143764496,False
+149,The man is holding a gun and pointing it at his head.,['driving'],0.012062753550708294,False
+150,The person is standing on a skateboard and moving their arms and legs.,['driving'],0.13376161456108093,False
+151,The person is holding their hands up to their face.,['driving'],0.10676410049200058,False
+152,The person is standing on a skateboard and moving their arms up and down.,['driving'],0.11916770040988922,False
+153,boxing stance,['driving'],0.14512942731380463,False
+154,"The person is standing on a skateboard, holding their arms out to the sides and moving slightly from side to side.",['driving'],0.10121138393878937,False
+155,The person is standing confidently with arms crossed and hands on hips.,['driving'],0.08066031336784363,False
+156,"The person is standing on a skateboard, holding their arms up in front of their face as if they are covering their eyes.",['driving'],0.09730002284049988,False
+157,The person is holding a remote control in their right hand and moving it back and forth.,['driving'],0.1680428683757782,False
+158,The man is scratching his head.,['driving'],0.04672069102525711,False
+159,The man is holding a gun and pretending to shoot it.,['driving'],0.04679609835147858,False
+160,The man is sitting on a chair and holding a remote control.,['driving'],0.040460504591464996,False
+161,The person is sitting down and playing a guitar.,['driving'],0.09538610279560089,False
+162,The person is sitting on a skateboard and moving their arms.,['driving'],0.17218780517578125,False
+163,"Acting out: Sitting on a car seat, holding a smartphone, looking at the screen.",['driving'],0.35419976711273193,False
+164,The person is sitting on the stairs and holding a cup in their hands.,['driving'],0.12139508128166199,False
+165,"Acting out: Sitting on a chair, leaning back, arms on armrests.",['driving'],0.2860812842845917,False
+166,The person is sitting on the stairs with their legs crossed and hands resting on their knees. They appear to be looking down at something in their lap.,['driving'],0.1537298709154129,False
+167,The man is sitting on a chair and moving his arms up and down.,['driving'],0.05420391261577606,False
+168,The man is sitting on a chair and raising his arms up and down.,['driving'],-0.0004334915429353714,False
+169,The man is sitting on a chair and clapping his hands together.,['driving'],-0.007020297460258007,False
+170,The person is riding a skateboard.,['fencing'],0.027011001482605934,False
+171,The person is skateboarding.,['fencing'],0.07879707962274551,False
+172,The person is skateboarding. Skateboarding.,['fencing'],0.08973906934261322,False
+173,The person is riding a skateboard.,['fencing'],0.027011001482605934,False
+174,The person is skateboarding across the room.,['fencing'],0.029750699177384377,False
+175,The person is skateboarding.,['fencing'],0.07879707962274551,False
+176,The person is dancing with their arms raised and legs apart.,['fencing'],0.05615871399641037,False
+177,The person is riding a skateboard.,['fencing'],0.027011001482605934,False
+178,The person is skateboarding. Skateboarding,['fencing'],0.087555430829525,False
+179,The person is skateboarding. Skateboarding,['fencing'],0.087555430829525,False
+180,The man is dancing.,['fishing'],0.034125957638025284,False
+181,The person is running while holding a gun.,['fishing'],0.1351017951965332,False
+182,The person is standing on a skateboard and moving their arms and legs in a rhythmic manner.,['fishing'],0.11542472243309021,False
+183,The person is walking on the pier.,['fishing'],0.2817460596561432,False
+184,The person is miming a dance move.,['fishing'],0.055992964655160904,False
+185,The person is running on a wooden pier.,['fishing'],0.26377415657043457,False
+186,"The person is standing in a room, holding a toy gun and pretending to shoot at something.",['fishing'],0.010280282236635685,False
+187,The man is dancing.,['fishing'],0.034125957638025284,False
+188,The man is dancing.,['fishing'],0.034125957638025284,False
+189,The man is standing on a skateboard and raising his arms up.,['fishing'],0.0875297412276268,False
+190,The person is bending over and touching their shoes.,['golf put'],0.08017618954181671,False
+191,The person is standing still.,['golf put'],0.005682948976755142,False
+192,The person is bending over and touching the ground with both hands.,['golf put'],0.13867487013339996,False
+193,The person is bending over and putting a golf ball into a hole.,['golf put'],0.5749638080596924,True
+194,The person is bending down and touching their shoes.,['golf put'],0.09477695822715759,False
+195,The person is standing still on the golf course.,['golf put'],0.39280784130096436,False
+196,"The person is standing on a set of stairs, holding their hands together in front of their chest. They appear to be miming a gesture or pose, possibly indicating a moment of contemplation or reflection.",['golf put'],0.0924018919467926,False
+197,The man is bending over and touching his left knee with his right hand.,['golf put'],0.07902167737483978,False
+198,The man is bending over and picking up a phone from the ground.,['golf put'],0.017172440886497498,False
+199,The man is bending over.,['golf put'],0.07573077827692032,False
+200,The person is bending over and then raising their arms above their head.,['golf swing'],0.12159956991672516,False
+201,The person is dancing.,['golf swing'],0.03897560015320778,False
+202,The woman is bending over and putting on her shoes.,['golf swing'],0.0935215950012207,False
+203,The person is bending over and then standing up while swinging their arms.,['golf swing'],0.35483551025390625,False
+204,The person is bending down and touching their head with both hands.,['golf swing'],0.11074575781822205,False
+205,The person is standing still with their arms crossed over their chest.,['golf swing'],0.02904164232313633,False
+206,The person is holding a gun up to their head and pulling the trigger.,['golf swing'],0.09544478356838226,False
+207,The man is dancing.,['golf swing'],-0.018043581396341324,False
+208,The man is bending over and then raising his hands to his head.,['golf swing'],0.048937831073999405,False
+209,The man is bending over and then raising his arms above his head.,['golf swing'],0.066189244389534,False
+210,The man is skateboarding.,['javelin throw'],0.09239146113395691,False
+211,The person is pointing their finger.,['javelin throw'],0.23552066087722778,False
+212,The person is riding a skateboard.,['javelin throw'],0.09951388835906982,False
+213,"The person is standing on a track, holding a javelin in their right hand. They raise their left arm and then lower it back down.",['javelin throw'],0.6378557682037354,True
+214,The person is skateboarding down a set of stairs.,['javelin throw'],0.09708243608474731,False
+215,The person is running on a track.,['javelin throw'],0.2830390930175781,False
+216,The person is walking up the stairs.,['javelin throw'],-0.024120042100548744,False
+217,The person is dancing.,['javelin throw'],0.20074856281280518,False
+218,The person is dancing.,['javelin throw'],0.20074856281280518,False
+219,The person is dancing.,['javelin throw'],0.20074856281280518,False
+220,The man is sitting on a chair and clapping his hands.,['typing on keyboard'],0.10341401398181915,False
+221,The person is sitting on the ground with their legs crossed and hands resting on their knees. They appear to be in a relaxed or contemplative pose.,['typing on keyboard'],0.09456782042980194,False
+222,The person is typing on a keyboard.,['typing on keyboard'],0.8232513666152954,True
+223,Acting out: Typing on a keyboard while seated in an office chair.,['typing on keyboard'],0.6372760534286499,True
+224,"The person is standing on a golf course, holding a golf club, and appears to be mimicking a golf swing.",['typing on keyboard'],0.11018089950084686,False
+225,"Acting out: Sitting in an office chair, leaning back, legs crossed, hands on knees.",['typing on keyboard'],0.14719441533088684,False
+226,The person is bending over and holding a golf club.,['typing on keyboard'],0.1216098889708519,False
+227,The man is sitting on a chair and moving his hands.,['typing on keyboard'],0.21569639444351196,False
+228,The man is sitting on a chair and moving his arms up and down.,['typing on keyboard'],0.15030008554458618,False
+229,The man is sitting on a chair and holding a remote control.,['typing on keyboard'],0.21501627564430237,False
+230,The person is pointing their finger.,['knocking on door'],0.07118242979049683,False
+231,The person is standing still.,['knocking on door'],0.09826686978340149,False
+232,The person is pointing at something.,['knocking on door'],0.06450997292995453,False
+233,The person is standing on a skateboard.,['knocking on door'],0.021922316402196884,False
+234,"The person is standing on a golf course, holding a golf club, and pretending to swing it.",['knocking on door'],0.11592821031808853,False
+235,The person is standing upright with their arms at their sides.,['knocking on door'],0.05661923438310623,False
+236,"The person is standing on a golf course, holding a golf club, and appears to be preparing to take a swing.",['knocking on door'],0.1410485804080963,False
+237,The man is standing with his hands on his hips.,['knocking on door'],0.03426104411482811,False
+238,The man is saluting.,['knocking on door'],0.028219670057296753,False
+239,The man is raising his right hand and then lowering it.,['knocking on door'],0.12451430410146713,False
+240,The man is pointing his finger at something.,['opening door'],0.024554360657930374,False
+241,The person is pointing their finger.,['opening door'],0.09174048155546188,False
+242,The person is standing on a skateboard.,['opening door'],-0.03383709862828255,False
+243,The man is standing on a skateboard.,['opening door'],-0.08435988426208496,False
+244,The person is walking on a golf course.,['opening door'],0.035035740584135056,False
+245,"The person is standing on a rug, holding a mop, and pretending to clean the floor.",['opening door'],0.052209965884685516,False
+246,The person is walking on the golf course.,['opening door'],0.02224596031010151,False
+247,The man is walking.,['opening door'],0.06689238548278809,False
+248,The man is standing on a skateboard and moving his arms and legs.,['opening door'],-0.03178582713007927,False
+249,The man is standing on a skateboard.,['opening door'],-0.08435988426208496,False
+250,The man is standing on a skateboard.,['opening door'],-0.08435988426208496,False
+251,The person is pointing their finger.,['opening door'],0.09174048155546188,False
+252,The person is standing on a skateboard.,['opening door'],-0.03383709862828255,False
+253,"The person is standing in a room, pointing at something off-screen.",['opening door'],0.03723559528589249,False
+254,"The person is standing on a golf course, holding a golf club, and pretending to swing it.",['opening door'],0.043631456792354584,False
+255,"The person is standing on a rug, holding a broom, and pretending to sweep the floor.",['opening door'],0.04945284128189087,False
+256,The person is walking on a golf course.,['opening door'],0.035035740584135056,False
+257,The man is standing on a skateboard.,['opening door'],-0.08435988426208496,False
+258,The man is standing on a skateboard.,['opening door'],-0.08435988426208496,False
+259,The man is walking.,['opening door'],0.06689238548278809,False
+260,The man is dancing.,['playing piano'],0.10866981744766235,False
+261,The person is sitting down and moving their arms.,['playing piano'],0.2083812952041626,False
+262,The person is dancing.,['playing piano'],0.19303381443023682,False
+263,"The person is standing on a stage, holding a microphone in their right hand and gesturing with their left hand. They appear to be speaking or singing into the microphone.",['playing piano'],0.273725301027298,False
+264,"Action: The person is mimicking a dance or a specific movement, possibly imitating a bird or an animal.",['playing piano'],0.2522789239883423,False
+265,The person is sitting on the stairs and waving their arms.,['playing piano'],0.08660521358251572,False
+266,Acting out a scene on the beach.,['playing piano'],0.2071608603000641,False
+267,The man is sitting on a chair and moving his arms and hands.,['playing piano'],0.18359719216823578,False
+268,The man is sitting on a chair and moving his arms up and down.,['playing piano'],0.14873865246772766,False
+269,The man is sitting on a chair and moving his arms up and down.,['playing piano'],0.14873865246772766,False
+270,The man is standing with his hands on his hips.,['playing acoustic guitar'],-0.04962737858295441,False
+271,The person is standing still.,['playing acoustic guitar'],0.004893329925835133,False
+272,The person is standing with their arms outstretched.,['playing acoustic guitar'],0.04687823727726936,False
+273,"The person is standing on a stage, holding a microphone in their right hand and gesturing with their left hand. They appear to be speaking or singing into the microphone.",['playing acoustic guitar'],0.20884044468402863,False
+274,Acting out: Dancing on the beach.,['playing acoustic guitar'],0.2023843228816986,False
+275,The person is holding a gun and pointing it forward.,['playing acoustic guitar'],0.07610718160867691,False
+276,Acting out: Holding a gun and pointing it forward.,['playing acoustic guitar'],0.12727563083171844,False
+277,The man is holding a phone in his hands.,['playing acoustic guitar'],0.08117692917585373,False
+278,The man is standing with his hands on his hips and moving them slightly.,['playing acoustic guitar'],-0.026408616453409195,False
+279,The man is standing with his hands on his hips.,['playing acoustic guitar'],-0.04962737858295441,False
+280,The person is dancing.,['playing electric guitar'],0.19738520681858063,False
+281,The person is dancing.,['playing electric guitar'],0.19738520681858063,False
+282,The person is skateboarding. Skateboarding.,['playing electric guitar'],0.14964532852172852,False
+283,The person is walking on the stage.,['playing electric guitar'],0.13228245079517365,False
+284,The person is walking on the beach while swinging their arms.,['playing electric guitar'],0.14609968662261963,False
+285,The person is miming a dance move.,['playing electric guitar'],0.17611975967884064,False
+286,The person is dancing on the beach.,['playing electric guitar'],0.09702259302139282,False
+287,The man is dancing.,['playing electric guitar'],0.09601693600416183,False
+288,The man is dancing.,['playing electric guitar'],0.09601693600416183,False
+289,The man is dancing.,['playing electric guitar'],0.09601693600416183,False
+290,The man is dancing.,['playing drums'],0.11040657758712769,False
+291,The person is sitting on a chair and covering their face with their hands.,['playing drums'],0.011475268751382828,False
+292,The person is sitting on a chair and moving their arms and legs.,['playing drums'],0.15019823610782623,False
+293,"The person is standing on a stage, holding a microphone, and appears to be miming singing.",['playing drums'],0.1597132384777069,False
+294,The person is dancing on the beach.,['playing drums'],0.13679802417755127,False
+295,"The person is sitting on the stairs and raising their hand to their face, mimicking a gesture of speaking or shouting.",['playing drums'],0.089240163564682,False
+296,Acting out: Dancing or playful movement.,['playing drums'],0.322079062461853,False
+297,The man is dancing.,['playing drums'],0.11040657758712769,False
+298,The man is sitting on a chair and raising his right hand.,['playing drums'],0.027904583141207695,False
+299,The man is sitting on a chair and clapping his hands together.,['playing drums'],0.13845989108085632,False
+300,The man is dancing.,['playing harp'],0.03120260499417782,False
+301,The person is standing still.,['playing harp'],0.05780576169490814,False
+302,The person is holding a book and moving their arms in a rhythmic manner.,['playing harp'],0.18255914747714996,False
+303,Miming a dance move on stage.,['playing harp'],0.22520363330841064,False
+304,Dancing with raised hand and circular arm movement.,['playing harp'],0.19463250041007996,False
+305,"The person is standing on a set of stairs, holding their hands up in front of them. They appear to be miming a dance move or a gesture.",['playing harp'],0.14346943795681,False
+306,The person is dancing on the beach.,['playing harp'],0.045701030641794205,False
+307,The man is holding a ball and throwing it up and down.,['playing harp'],0.08145657181739807,False
+308,The man is sitting on a chair and raising his right arm above his head. He then brings his hand down and places it behind his neck.,['playing harp'],0.16655732691287994,False
+309,The man is holding a remote control and moving his hands around.,['playing harp'],-0.03803180530667305,False
+310,The person is dancing.,['playing harp'],0.10968752950429916,False
+311,The person is holding their head with both hands.,['playing harp'],0.1676369160413742,False
+312,The man is covering his face with his hands.,['playing harp'],-0.04307298734784126,False
+313,Dancing with arm movements.,['playing harp'],0.252605140209198,False
+314,boxing stance charade,['playing harp'],0.18358214199543,False
+315,"The person is lying down on the stairs, holding their head with both hands.",['playing harp'],0.07490821182727814,False
+316,"The person is walking along the beach, holding a bag over their shoulder. They appear to be moving at a steady pace, with their arms swinging slightly as they walk.",['playing harp'],0.022510580718517303,False
+317,The man is holding his hands up to his face and moving them around.,['playing harp'],0.0022270530462265015,False
+318,The man is standing on a skateboard and moving his arms and head.,['playing harp'],-0.020737234503030777,False
+319,The man is holding his hands up to his face and moving them around.,['playing harp'],0.0022270530462265015,False
+320,The person is standing on a skateboard.,"['pulling', 'dragging']",0.033003099262714386,False
+321,The person is walking.,"['pulling', 'dragging']",0.2668798565864563,False
+322,The person is standing on a skateboard.,"['pulling', 'dragging']",0.033003099262714386,False
+323,The person is walking back and forth while holding a rope.,"['pulling', 'dragging']",0.32305318117141724,False
+324,The person is standing on a blue mat in front of a climbing wall. They are holding a rope in their hands and appear to be preparing to climb.,"['pulling', 'dragging']",0.25619301199913025,False
+325,The person is dancing.,"['pulling', 'dragging']",0.1046544536948204,False
+326,The person is climbing a rock wall.,"['pulling', 'dragging']",0.19203242659568787,False
+327,The man is standing on a skateboard and moving his arms and legs.,"['pulling', 'dragging']",0.15525299310684204,False
+328,The man is standing on a skateboard and moving his arms and legs.,"['pulling', 'dragging']",0.15525299310684204,False
+329,The man is dancing.,"['pulling', 'dragging']",0.04927309602499008,False
+330,The man is skiing.,"['dragging', 'pulling']",0.024098429828882217,False
+331,The person is skiing.,"['dragging', 'pulling']",0.07757851481437683,False
+332,The person is skiing.,"['dragging', 'pulling']",0.07757851481437683,False
+333,The person is bending over and reaching towards a stack of boxes.,"['dragging', 'pulling']",0.1741306185722351,False
+334,The person is climbing a rock wall.,"['dragging', 'pulling']",0.19203242659568787,False
+335,The person is dancing.,"['dragging', 'pulling']",0.1046544536948204,False
+336,Acting out: Climbing a rock wall.,"['dragging', 'pulling']",0.39435768127441406,False
+337,The man is standing on his hands and moving his arms.,"['dragging', 'pulling']",0.20363633334636688,False
+338,The man is throwing a ball.,"['dragging', 'pulling']",0.04744459316134453,False
+339,The person is bending over and holding their hands together.,"['dragging', 'pulling']",0.24719786643981934,False
+340,The person is bending over and holding their hands out in front of them.,['pushing'],0.1456478238105774,False
+341,The person is dancing.,['pushing'],0.0816449224948883,False
+342,The person is riding a skateboard.,['pushing'],0.008149921894073486,False
+343,The person is holding a rope and pulling it towards them.,['pushing'],0.28383779525756836,False
+344,The person is climbing a rock wall.,['pushing'],0.1556001901626587,False
+345,The person is dancing.,['pushing'],0.0816449224948883,False
+346,The person is climbing a rock wall.,['pushing'],0.1556001901626587,False
+347,The man is running.,['pushing'],0.1184232085943222,False
+348,The man is standing on his hands and moving his arms.,['pushing'],0.12991000711917877,False
+349,The person is bending over and moving their arms.,['pushing'],0.15040284395217896,False
+350,The person is bending over and pointing their finger.,['pushing'],0.12490402162075043,False
+351,The person is bending over and waving their hand.,['pushing'],0.11443287134170532,False
+352,The person is bending over and pointing their finger.,['pushing'],0.12490402162075043,False
+353,The person is bending over and touching their head with their right hand.,['pushing'],0.12146488577127457,False
+354,The person is climbing up a rock wall.,['pushing'],0.1599644273519516,False
+355,The person is mimicking a dance move.,['pushing'],0.1683579385280609,False
+356,The person is climbing a rock wall.,['pushing'],0.1556001901626587,False
+357,The person is bending over and raising their arms.,['pushing'],0.16408662497997284,False
+358,The person is dancing.,['pushing'],0.0816449224948883,False
+359,The person is bending over and moving their arms.,['pushing'],0.15040284395217896,False
+360,The man is dancing.,['putting on seatbelt'],-0.007922612130641937,False
+361,The person is sitting on a chair and waving their arms.,['putting on seatbelt'],0.1268051415681839,False
+362,The person is standing on a skateboard.,['putting on seatbelt'],0.044900376349687576,False
+363,Acting out: Running or jumping,['putting on seatbelt'],0.20228148996829987,False
+364,Acting out: Dancing on the beach.,['putting on seatbelt'],0.1820954978466034,False
+365,The person is miming a superhero pose.,['putting on seatbelt'],0.11942866444587708,False
+366,Acting out: Running,['putting on seatbelt'],0.16599127650260925,False
+367,The man is sitting on a chair and moving his hands around.,['putting on seatbelt'],0.19647550582885742,False
+368,The man is sitting on a chair and moving his arms and legs.,['putting on seatbelt'],0.1596607267856598,False
+369,The man is sitting on a chair and moving his arms and legs.,['putting on seatbelt'],0.1596607267856598,False
+370,The man is standing with his hands behind his head.,['shooting handgun'],-0.019586553797125816,False
+371,The person is standing with their arms crossed over their chest.,['shooting handgun'],0.09837019443511963,False
+372,The person is standing on a skateboard and raising their arms up.,['shooting handgun'],0.01837078481912613,False
+373,The person is holding a gun and aiming at a target.,['shooting handgun'],0.5775076150894165,True
+374,"The person is standing on a skateboard, holding their hands behind their head, and then lowering them to their sides. They also raise their right hand slightly.",['shooting handgun'],0.04788518697023392,False
+375,"The person is standing in a field, holding a bow and arrow, and appears to be aiming at targets.",['shooting handgun'],0.2819172739982605,False
+376,The person is standing still with their arms crossed over their chest.,['shooting handgun'],0.10060861706733704,False
+377,The man is holding his hands together in front of his face.,['shooting handgun'],0.005890354514122009,False
+378,The man is standing with his hands behind his head.,['shooting handgun'],-0.019586553797125816,False
+379,The man is holding a phone in his hands.,['shooting handgun'],0.023123521357774734,False
+380,The man is standing on a skateboard and making hand gestures.,['shooting rifle'],-0.07376055419445038,False
+381,The person is waving their hand.,['shooting rifle'],0.09813649952411652,False
+382,The person is standing on a skateboard and making hand gestures.,['shooting rifle'],-0.03680088371038437,False
+383,The person is holding a gun and aiming at a target.,['shooting rifle'],0.6295334696769714,True
+384,"The person is standing on a skateboard, holding their hands up in front of them.",['shooting rifle'],-0.06202926114201546,False
+385,The person is standing still with their arms raised above their head.,['shooting rifle'],0.08387979865074158,False
+386,The person is standing still with their arms raised above their head.,['shooting rifle'],0.08387979865074158,False
+387,The person is holding a phone in front of their face.,['shooting rifle'],0.02216365374624729,False
+388,The man is raising his right hand up.,['shooting rifle'],0.07872210443019867,False
+389,The person is holding a cup in their right hand and moving it up and down.,['shooting rifle'],0.07439575344324112,False
+390,The man is dancing.,['shot put'],0.02690843492746353,False
+391,The person is dancing.,['shot put'],0.055424563586711884,False
+392,The person is skateboarding.,['shot put'],0.033314697444438934,False
+393,spinning around,['shot put'],0.21242550015449524,False
+394,The person is standing on one leg and holding a ball.,['shot put'],0.13836124539375305,False
+395,The person is spinning around and throwing an object.,['shot put'],0.16224128007888794,False
+396,"The person is standing on their hands and legs, holding a ball.",['shot put'],0.12937045097351074,False
+397,The man is skateboarding.,['shot put'],-0.009065990336239338,False
+398,The man is skating on a skateboard.,['shot put'],0.00013627111911773682,False
+399,The man is dancing.,['shot put'],0.02690843492746353,False
+400,The person is dancing.,['writing'],0.011288663372397423,False
+401,The person is standing with their arms crossed over their chest.,['writing'],-0.00584004819393158,False
+402,The person is dancing.,['writing'],0.011288663372397423,False
+403,The person is dancing in an empty classroom.,['writing'],0.07408124208450317,False
+404,Acting out: Skateboarding stance with arms crossed.,['writing'],0.11676020175218582,False
+405,The person is sitting on the floor with their legs crossed and hands resting on their knees.,['writing'],0.00967964343726635,False
+406,The person is standing with their arms crossed over their chest.,['writing'],-0.00584004819393158,False
+407,The person is sitting on the ground with their hands clasped together in front of them.,['writing'],0.054855987429618835,False
+408,The man is sitting on a skateboard.,['writing'],-0.050736844539642334,False
+409,The man is sitting on the floor with his knees bent and his hands clasped together in front of him.,['writing'],0.014667298644781113,False
+410,The person is skateboarding.,['soccer shot'],0.11750777810811996,False
+411,The person is running.,['soccer shot'],0.1441001296043396,False
+412,The person is standing on a skateboard.,['soccer shot'],0.06090962514281273,False
+413,"The person is standing in front of a soccer goal, raising their arms and then bending down.",['soccer shot'],0.4588935971260071,False
+414,The person is skateboarding down a set of stairs.,['soccer shot'],0.09494422376155853,False
+415,The person is standing in front of a soccer goal.,['soccer shot'],0.4986821413040161,False
+416,The person is running up the stairs.,['soccer shot'],0.07437959313392639,False
+417,The person is bending down and then standing up.,['soccer shot'],0.07020100206136703,False
+418,The man is walking.,['soccer shot'],-0.02610975131392479,False
+419,The person is riding a skateboard.,['soccer shot'],0.07933132350444794,False
+420,The man is dancing.,['front stroke swimming'],0.03272603452205658,False
+421,The person is dancing.,['front stroke swimming'],0.0897551029920578,False
+422,The person is dancing.,['front stroke swimming'],0.0897551029920578,False
+423,"The person is standing on the beach, raising their arms above their head and then lowering them back down. They are also moving their legs slightly.",['front stroke swimming'],0.2632824182510376,False
+424,"The person is standing on a stage, raising their arms above their head and then lowering them back down. They also move their hands from side to side.",['front stroke swimming'],0.1165800392627716,False
+425,The person is miming taking a picture and pointing at the ocean.,['front stroke swimming'],0.16353341937065125,False
+426,"The person is standing on a set of stairs, holding their hands up to their face as if they are pretending to be a robot.",['front stroke swimming'],0.05575726926326752,False
+427,The man is dancing.,['front stroke swimming'],0.03272603452205658,False
+428,The man is dancing.,['front stroke swimming'],0.03272603452205658,False
+429,The man is dancing.,['front stroke swimming'],0.03272603452205658,False
+430,The man is standing on a skateboard.,['breast stroke swimming'],-0.022522540763020515,False
+431,The person is dancing.,['breast stroke swimming'],0.13619177043437958,False
+432,The person is standing on a skateboard and moving their arms and legs in a rhythmic manner.,['breast stroke swimming'],0.10392818599939346,False
+433,"The person is standing on the beach, moving their arms and legs in a rhythmic manner.",['breast stroke swimming'],0.22160468995571136,False
+434,The person is standing on a skateboard and moving their arms around.,['breast stroke swimming'],0.11016495525836945,False
+435,The person is walking on the beach while holding their arms out to the sides.,['breast stroke swimming'],0.22937175631523132,False
+436,The person is standing on a stage and pointing at something off-screen.,['breast stroke swimming'],-0.07302835583686829,False
+437,The man is dancing.,['breast stroke swimming'],0.05674368515610695,False
+438,The man is dancing.,['breast stroke swimming'],0.05674368515610695,False
+439,The man is dancing.,['breast stroke swimming'],0.05674368515610695,False
+440,The man is covering his ears with both hands.,['taking photo'],0.06829927116632462,False
+441,The person is standing still.,['taking photo'],0.1144317165017128,False
+442,The person is covering their face with their hands.,['taking photo'],0.264596164226532,False
+443,The person is covering their ears with both hands.,['taking photo'],0.16205286979675293,False
+444,Acting out: Talking on a phone.,['taking photo'],0.2745606303215027,False
+445,"The person is standing in front of a camera, holding their hands up to their face as if they are covering their eyes.",['taking photo'],0.4162440598011017,False
+446,Short phrase: Climbing a wall,['taking photo'],0.08435910940170288,False
+447,The man is covering his ears with both hands.,['taking photo'],0.06829927116632462,False
+448,The man is holding his hands up to his ears.,['taking photo'],0.023541871458292007,False
+449,The man is holding his head with both hands.,['taking photo'],0.08854123950004578,False
+450,The man is bending down and then standing up.,['tennis serve'],0.07488234341144562,False
+451,The person is dancing.,['tennis serve'],0.16356085240840912,False
+452,The person is standing on a skateboard.,['tennis serve'],0.08550812304019928,False
+453,The person is jumping up and down on a skateboard.,['tennis serve'],0.1455649733543396,False
+454,"The person is standing on a stage, raising their right arm above their head and then lowering it back down.",['tennis serve'],0.17898380756378174,False
+455,"The person is standing on a tennis court, raising their arms above their head and then bringing them down in front of their chest.",['tennis serve'],0.5294910669326782,True
+456,The person is walking down the stairs.,['tennis serve'],0.01929386518895626,False
+457,The man is bending down and then standing up.,['tennis serve'],0.07488234341144562,False
+458,The man is standing with his hands behind his back. He raises his right arm above his head and then brings it down to his side. He then bends forward slightly and brings his left arm up to his shoulder.,['tennis serve'],0.1453220546245575,False
+459,The man is bending over and then standing up.,['tennis serve'],0.05632767453789711,False
+460,The person is standing on a skateboard and moving their arms and legs in a rhythmic manner.,['tennis swing'],0.22942125797271729,False
+461,The person is dancing.,['tennis swing'],0.19449326395988464,False
+462,The person is standing on a skateboard and moving their arms and legs in a rhythmic manner.,['tennis swing'],0.22942125797271729,False
+463,The person is standing on a skateboard and raising their arms.,['tennis swing'],0.19019737839698792,False
+464,The person is standing on a skateboard and raising their arms.,['tennis swing'],0.19019737839698792,False
+465,The person is standing on a skateboard and raising their arms up.,['tennis swing'],0.18977883458137512,False
+466,"The person is standing on a stage, holding their arms up in front of them.",['tennis swing'],0.1885073184967041,False
+467,The person is running.,['tennis swing'],0.2077731490135193,False
+468,The man is standing on a skateboard and moving his arms and legs.,['tennis swing'],0.15010994672775269,False
+469,The man is standing on a skateboard.,['tennis swing'],0.06990765780210495,False
+470,The man is dancing.,['playing violin'],0.20166420936584473,False
+471,The person is pointing their finger.,['playing violin'],0.1474173665046692,False
+472,The person is standing on a skateboard and raising their right hand.,['playing violin'],0.07310380041599274,False
+473,"The person is standing on a skateboard, raising their right arm and placing their left hand on their hip.",['playing violin'],0.13859374821186066,False
+474,The person is standing on the beach with their arms outstretched to the sides. They appear to be miming a dance move or a gesture.,['playing violin'],0.19256606698036194,False
+475,"The person is standing on a stage, raising their right arm and pointing forward with their index finger. They then lower their arm and raise it again, this time pointing downward with their index finger. Finally, they lower their arm once more.",['playing violin'],0.2475140541791916,False
+476,The person is waving their hand.,['playing violin'],0.1384616196155548,False
+477,The person is holding a gun up to their head.,['playing violin'],0.053129393607378006,False
+478,The man is raising his arms up and down.,['playing violin'],0.054422855377197266,False
+479,The man is holding a cup in his right hand and moving it up and down.,['playing violin'],0.05756094306707382,False
+480,The man is standing with his hands on his hips.,['receiving volleyball'],0.08380334079265594,False
+481,The person is standing still.,['receiving volleyball'],0.052747055888175964,False
+482,The person is standing on a skateboard.,['receiving volleyball'],0.10125714540481567,False
+483,The person is standing still with their arms at their sides.,['receiving volleyball'],0.17229317128658295,False
+484,The man is standing on a stage.,['receiving volleyball'],0.03900390863418579,False
+485,The person is standing still.,['receiving volleyball'],0.052747055888175964,False
+486,The person is standing on a stage with their arms crossed over their chest.,['receiving volleyball'],0.1365237832069397,False
+487,The man is jumping up and down.,['receiving volleyball'],0.16500559449195862,False
+488,The man is standing with his hands on his hips.,['receiving volleyball'],0.08380334079265594,False
+489,The person is standing on a unicycle.,['receiving volleyball'],0.09200803935527802,False
+490,The person is dancing.,['volleyball serve'],0.15460337698459625,False
+491,The person is jumping up and down.,['volleyball serve'],0.1459876149892807,False
+492,The person is skateboarding.,['volleyball serve'],0.1028248518705368,False
+493,The person is jumping up and down.,['volleyball serve'],0.1459876149892807,False
+494,The person is running up the stairs.,['volleyball serve'],0.15678754448890686,False
+495,The person is standing on a volleyball court and raising their arms up.,['volleyball serve'],0.5413522124290466,True
+496,The person is running up the stairs.,['volleyball serve'],0.15678754448890686,False
+497,The man is dancing.,['volleyball serve'],0.08080870658159256,False
+498,The man is dancing.,['volleyball serve'],0.08080870658159256,False
+499,The man is dancing.,['volleyball serve'],0.08080870658159256,False
+500,The man is dancing.,"['weighted back squat', 'weightlifting']",0.0759386420249939,False
+501,The person is standing and raising their arms above their head.,"['weighted back squat', 'weightlifting']",0.16450458765029907,False
+502,The person is dancing.,"['weighted back squat', 'weightlifting']",0.09122452884912491,False
+503,The person is lifting a barbell off the floor.,"['weighted back squat', 'weightlifting']",0.537320077419281,True
+504,"The man is standing in an empty classroom, raising his arms above his head and then bringing them down to his sides. He then turns around and walks away from the desks.","['weighted back squat', 'weightlifting']",0.009923876263201237,False
+505,The person is raising their arms above their head and then lowering them back down.,"['weighted back squat', 'weightlifting']",0.2914380729198456,False
+506,The person is standing on a desk and raising their arms up.,"['weighted back squat', 'weightlifting']",0.18194302916526794,False
+507,The man is dancing.,"['weighted back squat', 'weightlifting']",0.0759386420249939,False
+508,The man is dancing.,"['weighted back squat', 'weightlifting']",0.0759386420249939,False
+509,The man is dancing.,"['weighted back squat', 'weightlifting']",0.0759386420249939,False
+510,The man is dancing.,"['clean and jerk', 'weightlifting']",0.10319153964519501,False
+511,The person is standing and raising their arms up.,"['clean and jerk', 'weightlifting']",0.19639891386032104,False
+512,The person is dancing.,"['clean and jerk', 'weightlifting']",0.112388476729393,False
+513,The person is lifting a barbell from the floor to their shoulders.,"['clean and jerk', 'weightlifting']",0.5838602185249329,True
+514,The person is dancing in an empty classroom.,"['clean and jerk', 'weightlifting']",0.0602186843752861,False
+515,The person is lifting a barbell from the floor to their shoulders.,"['clean and jerk', 'weightlifting']",0.5838602185249329,True
+516,The person is dancing in the classroom.,"['clean and jerk', 'weightlifting']",0.05503244698047638,False
+517,The man is standing up straight.,"['clean and jerk', 'weightlifting']",0.06181449443101883,False
+518,The man is dancing.,"['clean and jerk', 'weightlifting']",0.10319153964519501,False
+519,The man is dancing.,"['clean and jerk', 'weightlifting']",0.10319153964519501,False
+520,The man is standing on a skateboard and pointing his finger.,['shooting arrow'],0.12953411042690277,False
+521,The person is pointing their finger.,['shooting arrow'],0.2346639782190323,False
+522,The person is standing on a skateboard and raising their arms.,['shooting arrow'],0.06791649758815765,False
+523,The person is aiming an arrow at a target.,['shooting arrow'],0.7516992092132568,True
+524,The person is holding a ball and pretending to throw it.,['shooting arrow'],0.13945236802101135,False
+525,The person is aiming an arrow at a target.,['shooting arrow'],0.7516992092132568,True
+526,Acting out: Robot dance move.,['shooting arrow'],0.295905739068985,False
+527,The man is pointing his finger at something.,['shooting arrow'],0.23329350352287292,False
+528,The person is standing on a skateboard and raising their arms.,['shooting arrow'],0.06791649758815765,False
+529,The person is standing with their arms outstretched.,['shooting arrow'],0.10777601599693298,False
+530,The man is dancing.,"['double arm curls', 'arm curls', 'weightlifting']",0.096402108669281,False
+531,The person is standing still.,"['double arm curls', 'arm curls', 'weightlifting']",0.046978551894426346,False
+532,The person is standing on a skateboard.,"['double arm curls', 'arm curls', 'weightlifting']",0.014331679791212082,False
+533,Action: The person is mimicking the motion of lifting weights.,"['double arm curls', 'arm curls', 'weightlifting']",0.6463271379470825,True
+534,The person is walking back and forth across the classroom.,"['double arm curls', 'arm curls', 'weightlifting']",0.016465000808238983,False
+535,Acting out: Weightlifting motion.,"['double arm curls', 'arm curls', 'weightlifting']",0.657413899898529,True
+536,"The person is standing in an empty classroom, holding their hands up in front of them.","['double arm curls', 'arm curls', 'weightlifting']",0.09588319808244705,False
+537,The man is dancing.,"['double arm curls', 'arm curls', 'weightlifting']",0.096402108669281,False
+538,The man is dancing.,"['double arm curls', 'arm curls', 'weightlifting']",0.096402108669281,False
+539,The man is dancing.,"['double arm curls', 'arm curls', 'weightlifting']",0.096402108669281,False
+540,The man is dancing.,"['double arm curls', 'weightlifting']",0.0761956050992012,False
+541,The person is standing still.,"['double arm curls', 'weightlifting']",0.04452147334814072,False
+542,The person is standing on a skateboard.,"['double arm curls', 'weightlifting']",0.014331679791212082,False
+543,"The person is standing in a gym, looking around and moving their arms slightly.","['double arm curls', 'weightlifting']",0.3780580461025238,False
+544,"The person is standing in an empty classroom, holding a piece of paper in their right hand and moving their left hand up and down.","['double arm curls', 'weightlifting']",0.0766003280878067,False
+545,Acting out: Weightlifting motion.,"['double arm curls', 'weightlifting']",0.657413899898529,True
+546,The person is dancing in an empty classroom.,"['double arm curls', 'weightlifting']",0.03427794575691223,False
+547,The man is dancing.,"['double arm curls', 'weightlifting']",0.0761956050992012,False
+548,The man is dancing.,"['double arm curls', 'weightlifting']",0.0761956050992012,False
+549,The man is walking on his hands.,"['double arm curls', 'weightlifting']",0.010057888925075531,False
+550,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+551,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+552,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+553,The person is throwing a baseball.,['baseball pitch'],0.6358760595321655,True
+554,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+555,The person is standing on a baseball mound.,['baseball pitch'],0.5812285542488098,True
+556,The person is standing on one leg and holding their other leg up.,['baseball pitch'],0.11130993068218231,False
+557,The person is running.,['baseball pitch'],0.16224849224090576,False
+558,The person is dancing.,['baseball pitch'],0.08491436392068863,False
+559,The man is skating on a skateboard.,['baseball pitch'],0.12488940358161926,False
+560,The man is skating on a skateboard.,"['basketball layup', 'basketball floater']",0.2115614116191864,False
+561,The person is running and raising their arms.,"['basketball layup', 'basketball floater']",0.2271101027727127,False
+562,The person is riding a skateboard.,"['basketball layup', 'basketball floater']",0.24893370270729065,False
+563,The person is dancing.,"['basketball layup', 'basketball floater']",0.21084684133529663,False
+564,The person is running across the room.,"['basketball layup', 'basketball floater']",0.08207573741674423,False
+565,The person is standing in a basketball court.,"['basketball layup', 'basketball floater']",0.4645988941192627,False
+566,The person is walking across the room.,"['basketball layup', 'basketball floater']",0.07467491179704666,False
+567,The man is running and jumping up in the air.,"['basketball layup', 'basketball floater']",0.246817484498024,False
+568,The person is running and jumping.,"['basketball layup', 'basketball floater']",0.2216181755065918,False
+569,The man is dancing.,"['basketball layup', 'basketball floater']",0.14860178530216217,False
+570,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+571,The person is dancing.,['basketball shot'],0.05997675657272339,False
+572,The person is dancing.,['basketball shot'],0.05997675657272339,False
+573,The person is holding a tennis racket and appears to be mimicking a tennis serve.,['basketball shot'],0.276745080947876,False
+574,"The person is standing on a rug, holding their hands above their head and then bringing them down to their sides.",['basketball shot'],0.1363876461982727,False
+575,The person is standing on one leg and pointing their finger.,['basketball shot'],0.1461837738752365,False
+576,The person is standing on one leg and waving their arms.,['basketball shot'],0.06400290131568909,False
+577,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+578,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+579,The man is dancing.,['basketball shot'],-0.003826189786195755,False
+580,The man is skating on a skateboard.,['bowling'],0.1348252147436142,False
+581,The person is dancing.,['bowling'],0.19580823183059692,False
+582,The person is skateboarding.,['bowling'],0.16607403755187988,False
+583,The man is bowling.,['bowling'],0.6608210206031799,True
+584,The man is running down the stairs.,['bowling'],0.028208933770656586,False
+585,The person is bowling.,['bowling'],0.6896471977233887,True
+586,The person is walking up the stairs.,['bowling'],0.0016280636191368103,False
+587,The man is running.,['bowling'],0.07046276330947876,False
+588,The man is dancing.,['bowling'],0.1547027826309204,False
+589,The man is dancing.,['bowling'],0.1547027826309204,False
+590,The person is dancing.,['boxing uppercut'],0.06806020438671112,False
+591,The person is dancing.,['boxing uppercut'],0.06806020438671112,False
+592,The person is dancing.,['boxing uppercut'],0.06806020438671112,False
+593,"The person is performing a series of martial arts moves, including punches and kicks. They are standing in a fighting stance, moving their arms and legs rhythmically as if they are practicing a sequence of techniques. The background shows a gym setting with various training equipment and other people in the distance.",['boxing uppercut'],0.39724403619766235,False
+594,The person is running on a skateboard.,['boxing uppercut'],0.010031676851212978,False
+595,"The person is performing a kickboxing move, specifically a roundhouse kick. They are in a fighting stance, with their legs bent and their arms raised, preparing to execute the kick. The background shows a boxing ring and training equipment, indicating a gym setting.",['boxing uppercut'],0.5034142136573792,True
+596,The person is walking up the stairs.,['boxing uppercut'],0.03989628702402115,False
+597,The person is running while holding their hands up in front of their face.,['boxing uppercut'],0.20578649640083313,False
+598,The man is dancing.,['boxing uppercut'],0.041586536914110184,False
+599,The person is running and then stops.,['boxing uppercut'],0.11011826992034912,False
+600,The man is pointing his finger at the camera.,['checking watch'],0.013403268530964851,False
+601,The person is pointing their finger.,['checking watch'],0.06411343812942505,False
+602,The person is pointing at themselves with their right hand.,['checking watch'],0.05468009039759636,False
+603,"The person is standing in a room, holding their hands up to their face and moving them back and forth.",['checking watch'],0.05220736935734749,False
+604,The man is standing on a volleyball court and raising his hand to his head.,['checking watch'],-0.004600163549184799,False
+605,"The person is standing still in the room, looking around.",['checking watch'],0.2604624032974243,False
+606,The person is standing still.,['checking watch'],0.05891510099172592,False
+607,The man is raising his right arm and bending it at the elbow.,['checking watch'],0.007521171122789383,False
+608,The man is pointing his finger at something.,['checking watch'],0.0781000554561615,False
+609,The man is pointing his finger.,['checking watch'],0.029085993766784668,False
+610,The man is dancing.,['climbing'],0.013798464089632034,False
+611,The person is dancing.,['climbing'],0.11260168254375458,False
+612,The person is dancing.,['climbing'],0.11260168254375458,False
+613,The person is climbing a rock wall.,['climbing'],0.515939474105835,True
+614,The person is dancing.,['climbing'],0.11260168254375458,False
+615,The person is climbing a rock wall.,['climbing'],0.515939474105835,True
+616,The person is walking up the stairs while holding their hands above their head.,['climbing'],0.2690272331237793,False
+617,The man is dancing.,['climbing'],0.013798464089632034,False
+618,The man is raising his arms up and down.,['climbing'],0.16228902339935303,False
+619,The man is dancing.,['climbing'],0.013798464089632034,False
+620,The man is sitting on a chair and holding a laptop.,"['gaming', 'using phone']",0.15121454000473022,False
+621,The person is bending over and holding their head with both hands.,"['gaming', 'using phone']",0.14714355766773224,False
+622,The person is sitting on the ground with their legs crossed and holding a guitar strap over their lap.,"['gaming', 'using phone']",0.2062043994665146,False
+623,The person is sitting on a chair and miming using their hands to gesture as if they are typing on a keyboard.,"['gaming', 'using phone']",0.27049487829208374,False
+624,The person is holding a golf club and appears to be in a stance as if preparing to hit a golf ball.,"['gaming', 'using phone']",0.15401475131511688,False
+625,Acting out: Sitting on a chair with crossed legs and hands on knees.,"['gaming', 'using phone']",0.1833968609571457,False
+626,Action: Miming a golf swing while sitting on a golf club.,"['gaming', 'using phone']",0.2944597005844116,False
+627,The man is sitting on a chair and playing a saxophone.,"['gaming', 'using phone']",0.11597219109535217,False
+628,The man is leaning back and holding his stomach.,"['gaming', 'using phone']",0.05992717668414116,False
+629,The man is standing on a balance board.,"['gaming', 'using phone']",0.0491541363298893,False
+630,The man bends down and picks up a black object from the ground.,['deadlift'],0.18866467475891113,False
+631,The person is standing still.,['deadlift'],0.1237826719880104,False
+632,The person is bending over and touching their skateboard.,['deadlift'],0.19318242371082306,False
+633,The person is bending over and placing their hands on the floor.,['deadlift'],0.18359431624412537,False
+634,The person is bending down and picking something up from the floor.,['deadlift'],0.23049508035182953,False
+635,The person is lifting a barbell from the floor to their shoulders.,['deadlift'],0.509014368057251,True
+636,"The person is standing in an empty classroom, looking around and moving their arms.",['deadlift'],0.101616270840168,False
+637,The man bends down and picks up a black object from the ground.,['deadlift'],0.18866467475891113,False
+638,The man is bending down and picking something up from the ground.,['deadlift'],0.22693069279193878,False
+639,The man bends down and picks up a skateboard.,['deadlift'],0.14517147839069366,False
+640,The person is standing on a surfboard and moving their arms and legs.,['driving'],0.11253021657466888,False
+641,The person is standing with their arms outstretched and legs apart.,['driving'],-0.016190262511372566,False
+642,The person is sitting on a skateboard.,['driving'],0.12238252907991409,False
+643,"Acting out: Sitting on a scooter, holding handlebars, relaxed pose.",['driving'],0.36794960498809814,False
+644,Short phrase: Skateboard stance,['driving'],0.16926363110542297,False
+645,Acting out: Running pose.,['driving'],0.27478206157684326,False
+646,Acting out a dance move or dramatic pose.,['driving'],0.2664071321487427,False
+647,The man is standing on a skateboard and moving his arms and legs.,['driving'],0.0661497712135315,False
+648,The man is sitting on a chair and moving his arms up and down.,['driving'],0.05420391261577606,False
+649,The man is standing with his arms outstretched.,['driving'],-0.10045366734266281,False
+650,The person is skateboarding.,['fencing'],0.07879707962274551,False
+651,The person is skating on a skateboard.,['fencing'],0.06470505893230438,False
+652,The person is skateboarding.,['fencing'],0.07879707962274551,False
+653,The person is riding a skateboard.,['fencing'],0.027011001482605934,False
+654,The person is skating on a skateboard.,['fencing'],0.06470505893230438,False
+655,The person is skateboarding.,['fencing'],0.07879707962274551,False
+656,The person is dancing on a rug.,['fencing'],-0.057026077061891556,False
+657,The person is skateboarding.,['fencing'],0.07879707962274551,False
+658,The person is skateboarding.,['fencing'],0.07879707962274551,False
+659,The person is riding a skateboard.,['fencing'],0.027011001482605934,False
+660,The person is holding a phone in their right hand and pointing at it with their left hand.,['typing on keyboard'],0.2526709735393524,False
+661,The person is sitting down with their legs crossed and hands resting on their knees.,['typing on keyboard'],0.148203045129776,False
+662,The person is sitting on a skateboard and moving their arms and legs.,['typing on keyboard'],0.20310750603675842,False
+663,"Acting out: Sitting at a desk, typing on a keyboard, looking at a laptop screen.",['typing on keyboard'],0.4183536767959595,False
+664,The person is walking on a golf course.,['typing on keyboard'],0.04881410300731659,False
+665,"Acting out: Sitting in a chair, holding an object, examining it closely.",['typing on keyboard'],0.13406559824943542,False
+666,The person is walking on the golf course.,['typing on keyboard'],0.03480735421180725,False
+667,The person is sitting on a skateboard and moving their hands.,['typing on keyboard'],0.2735934853553772,False
+668,The man is sitting on a chair and using his hands to gesture while talking.,['typing on keyboard'],0.2528117001056671,False
+669,The man is holding a gun and pointing it at his head.,['typing on keyboard'],0.11324112117290497,False
+670,The man is standing still.,['opening door'],-0.09081487357616425,False
+671,The person is standing still.,['opening door'],-0.014183806255459785,False
+672,The person is standing on a skateboard.,['opening door'],-0.03383709862828255,False
+673,The person is walking on a hoverboard.,['opening door'],0.018152398988604546,False
+674,"The person is standing on a golf course, looking around and gesturing with their hands.",['opening door'],0.038702163845300674,False
+675,Acting out: A person miming a dance or playful movement.,['opening door'],0.16945302486419678,False
+676,"Action: The person is raising their arms and moving them dramatically, possibly mimicking a gesture or performing a dance.",['opening door'],0.10797826945781708,False
+677,The man is bending down and then standing up again.,['opening door'],0.034911151975393295,False
+678,The man is standing and gesturing with his hands.,['opening door'],-0.025039149448275566,False
+679,The man is standing with his hands behind his back.,['opening door'],-0.029201794415712357,False
+680,The man is dancing.,['playing drums'],0.11040657758712769,False
+681,The person is standing in a fighting stance.,['playing drums'],0.11193801462650299,False
+682,The person is dancing.,['playing drums'],0.1860855221748352,False
+683,The person is dancing on the stairs.,['playing drums'],0.10670886188745499,False
+684,"The person is mimicking a dance move, stepping forward with one foot and raising their arms above their head.",['playing drums'],0.18525397777557373,False
+685,The person is miming a dance move.,['playing drums'],0.20577743649482727,False
+686,The person is miming a dance or a martial arts move.,['playing drums'],0.21603769063949585,False
+687,The man is doing a dance move.,['playing drums'],0.163142591714859,False
+688,The man is sitting on a chair and moving his arms and hands.,['playing drums'],0.10643184930086136,False
+689,The man is dancing.,['playing drums'],0.11040657758712769,False
+690,The person is dancing.,['playing guitar'],0.17332156002521515,False
+691,The person is standing still.,['playing guitar'],0.05368610844016075,False
+692,The person is standing with their legs apart and hands on hips.,['playing guitar'],0.1325169950723648,False
+693,The person is standing on a stage and raising their right hand while holding a microphone in their left hand.,['playing guitar'],0.22705915570259094,False
+694,"The person is holding a phone in their right hand and appears to be looking at it. They are standing on a sandy beach with palm trees and the ocean in the background. The person's left arm is raised slightly, and they seem to be in a relaxed posture.",['playing guitar'],0.20885759592056274,False
+695,"The person is standing on a stage, raising their right hand and pointing forward.",['playing guitar'],0.17273429036140442,False
+696,"The person is standing on the beach, holding a gun in their right hand and raising their left hand in a waving gesture.",['playing guitar'],0.11250670254230499,False
+697,The man is dancing.,['playing guitar'],0.057256750762462616,False
+698,The man is dancing.,['playing guitar'],0.057256750762462616,False
+699,The man is bending over and touching his head with his right hand.,['playing guitar'],0.07219575345516205,False
+700,The man is dancing.,['playing guitar'],0.057256750762462616,False
+701,The person is standing with their hands on their hips and then raising one hand up.,['playing guitar'],0.12974029779434204,False
+702,The person is dancing.,['playing guitar'],0.17332156002521515,False
+703,"The person is standing on a stage, holding a microphone in their right hand and gesturing with their left hand. They appear to be speaking or singing into the microphone.",['playing guitar'],0.221940815448761,False
+704,running on beach,['playing guitar'],0.25721845030784607,False
+705,The person is bending over and touching their head with both hands.,['playing guitar'],0.14833438396453857,False
+706,Miming a dance on the beach.,['playing guitar'],0.21778765320777893,False
+707,The man is sitting on the floor with his knees bent and his hands clasped together in front of him. He is moving his arms up and down in a rhythmic motion.,['playing guitar'],0.08678585290908813,False
+708,The man is standing on a skateboard and moving his arms and legs.,['playing guitar'],0.05241578072309494,False
+709,The man is holding his head with both hands.,['playing guitar'],0.018972858786582947,False
+710,The person is dancing.,['playing harp'],0.10968752950429916,False
+711,The person is standing with their arms crossed over their chest.,['playing harp'],-0.007029610686004162,False
+712,The person is dancing.,['playing harp'],0.10968752950429916,False
+713,"The person is standing on a stage, holding a glass of water in their right hand and gesturing with their left hand. They appear to be miming a speech or presentation.",['playing harp'],0.20401538908481598,False
+714,Miming dancing on the beach.,['playing harp'],0.18772973120212555,False
+715,"The person is standing on a set of stairs, raising their right arm and then lowering it back down. They appear to be miming a gesture or action.",['playing harp'],0.16701608896255493,False
+716,Acting out a dance routine.,['playing harp'],0.27674391865730286,False
+717,The man is holding a cup in his right hand and moving it around.,['playing harp'],0.02504465915262699,False
+718,The man is holding his hands up in front of him.,['playing harp'],0.020861906930804253,False
+719,The man is standing with his legs apart and his arms outstretched.,['playing harp'],0.03275248408317566,False
+720,The man is dancing.,['playing violin'],0.20166420936584473,False
+721,The person is saluting.,['playing violin'],0.04617426544427872,False
+722,The person is standing on a skateboard and moving their arms and legs in a rhythmic manner.,['playing violin'],0.16755035519599915,False
+723,"The person is standing on a stage, raising their right arm above their head and then lowering it back down. They then raise their left arm above their head and lower it back down. Finally, they raise both arms above their head and lower them back down.",['playing violin'],0.18007367849349976,False
+724,Acting out: A martial arts stance or dance pose.,['playing violin'],0.25001803040504456,False
+725,"The person is standing on a stage, raising their right arm and then lowering it while moving their head slightly from side to side.",['playing violin'],0.18047627806663513,False
+726,The person is mimicking the action of holding binoculars up to their eyes and looking around.,['playing violin'],0.12162337452173233,False
+727,The man is holding a glass of water and drinking from it.,['playing violin'],0.03295795992016792,False
+728,The man is standing with his hands behind his head.,['playing violin'],0.0007912982255220413,False
+729,The man is holding a ball and moving his hands around.,['playing violin'],0.13008885085582733,False
+730,The man is walking on a skateboard.,"['dragging', 'pulling']",0.1471874862909317,False
+731,The person is walking.,"['dragging', 'pulling']",0.2668798565864563,False
+732,The person is riding a skateboard.,"['dragging', 'pulling']",0.09533169120550156,False
+733,The person is walking forward.,"['dragging', 'pulling']",0.24282845854759216,False
+734,The person is walking on a blue mat.,"['dragging', 'pulling']",0.14422725141048431,False
+735,The person is walking forward.,"['dragging', 'pulling']",0.24282845854759216,False
+736,The person is standing on a blue mat in front of a climbing wall. They are wearing a furry costume and holding a rope. The person is looking around and moving their arms slightly.,"['dragging', 'pulling']",0.26199769973754883,False
+737,The man is standing on a skateboard.,"['dragging', 'pulling']",-0.023875566199421883,False
+738,The man is walking on his hands.,"['dragging', 'pulling']",0.30374032258987427,False
+739,The man is walking on a skateboard.,"['dragging', 'pulling']",0.1471874862909317,False
+740,The man is riding a hoverboard.,"['tugging', 'dragging', 'pulling']",0.13666307926177979,False
+741,The person is dancing.,"['tugging', 'dragging', 'pulling']",0.1046544536948204,False
+742,The person is riding a hoverboard.,"['tugging', 'dragging', 'pulling']",0.19431762397289276,False
+743,The person is riding a skateboard.,"['tugging', 'dragging', 'pulling']",0.09533169120550156,False
+744,The person is standing on a blue mat.,"['tugging', 'dragging', 'pulling']",0.012153776362538338,False
+745,The person is standing on one leg and moving their arms.,"['tugging', 'dragging', 'pulling']",0.1985006034374237,False
+746,"The person is standing on a blue mat in front of a climbing wall. They are wearing a black and white outfit with a helmet. The person is moving their arms and legs in a rhythmic manner, possibly mimicking climbing movements.","['tugging', 'dragging', 'pulling']",0.26216715574264526,False
+747,The man is standing on a skateboard.,"['tugging', 'dragging', 'pulling']",-0.023875566199421883,False
+748,The man is standing on a skateboard.,"['tugging', 'dragging', 'pulling']",-0.023875566199421883,False
+749,The man is standing on a skateboard.,"['tugging', 'dragging', 'pulling']",-0.023875566199421883,False
+750,The man is dancing.,['pushing'],0.09283694624900818,False
+751,The person is standing upright and raising their right hand.,['pushing'],0.128004252910614,False
+752,The person is standing on a skateboard and raising their arms.,['pushing'],0.07409285008907318,False
+753,The person is holding a bottle and then throws it.,['pushing'],0.10431985557079315,False
+754,The person is standing still with their arms raised and hands open.,['pushing'],0.0850885808467865,False
+755,The person is walking forward.,['pushing'],0.11817635595798492,False
+756,The person is climbing a rock wall using their hands and feet to grip and step on various colored holds.,['pushing'],0.24276751279830933,False
+757,The man is pointing his finger at something off screen.,['pushing'],0.046728674322366714,False
+758,The man is waving his hand.,['pushing'],0.11090053617954254,False
+759,The man is walking forward.,['pushing'],0.1226937472820282,False
+760,The man is sitting on a chair and moving his hands.,['putting on seatbelt'],0.19855760037899017,False
+761,The person is sitting down.,['putting on seatbelt'],0.25375962257385254,False
+762,The person is sitting on a skateboard.,['putting on seatbelt'],0.18465887010097504,False
+763,"A man sits in an airplane seat, leaning back slightly, and looking down at his lap.",['putting on seatbelt'],0.2509896457195282,False
+764,Acting out: Dancing on the beach.,['putting on seatbelt'],0.1820954978466034,False
+765,"Acting out: Sitting on an airplane seat, leaning back, and resting head on armrest.",['putting on seatbelt'],0.4394665062427521,False
+766,Acting out: Sitting on the beach with crossed legs and hands on knees.,['putting on seatbelt'],0.2983231246471405,False
+767,The man is sitting on a chair and moving his arms and legs.,['putting on seatbelt'],0.1596607267856598,False
+768,The man is sitting on a chair and moving his legs up and down.,['putting on seatbelt'],0.15973901748657227,False
+769,The man is dancing.,['putting on seatbelt'],-0.007922612130641937,False
+770,The man is standing on a skateboard.,['shooting handgun'],-0.04081219807267189,False
+771,The person is standing still.,['shooting handgun'],0.009514302015304565,False
+772,The person is balancing on a skateboard.,['shooting handgun'],0.030243124812841415,False
+773,The person is throwing a discus.,['shooting handgun'],0.12412615120410919,False
+774,Acting out: Climbing demonstration or explanation.,['shooting handgun'],0.08381600677967072,False
+775,The person is aiming a gun.,['shooting handgun'],0.6343961358070374,True
+776,Acting out: Standing with arms raised and hands open.,['shooting handgun'],0.18432311713695526,False
+777,The person is pointing their right hand towards the left side of the screen.,['shooting handgun'],0.07066934555768967,False
+778,The person is pointing with their right hand.,['shooting handgun'],0.13633406162261963,False
+779,The man is pointing his finger.,['shooting handgun'],0.09017906337976456,False
+780,The man is dancing.,['shot put'],0.02690843492746353,False
+781,The person is running.,['shot put'],0.06428830325603485,False
+782,The person is skateboarding. Skateboarding.,['shot put'],0.03434843569993973,False
+783,spinning around,['shot put'],0.21242550015449524,False
+784,The person is climbing a rock wall.,['shot put'],-0.021102041006088257,False
+785,The person is spinning around in a circular motion.,['shot put'],0.005528794601559639,False
+786,The person is climbing a rock wall.,['shot put'],-0.021102041006088257,False
+787,The man is dancing.,['shot put'],0.02690843492746353,False
+788,The man is dancing.,['shot put'],0.02690843492746353,False
+789,The man is dancing.,['shot put'],0.02690843492746353,False
+790,The person is running.,"['soccer shot', 'kicking']",0.1469707489013672,False
+791,The person is dancing.,"['soccer shot', 'kicking']",0.21753624081611633,False
+792,The person is skateboarding.,"['soccer shot', 'kicking']",0.1327260583639145,False
+793,The person is kicking a soccer ball towards the goal.,"['soccer shot', 'kicking']",0.5302802324295044,True
+794,The man is running up the stairs.,"['soccer shot', 'kicking']",0.05605408549308777,False
+795,The person is standing on a skateboard.,"['soccer shot', 'kicking']",0.06090962514281273,False
+796,The person is skateboarding down a set of stairs.,"['soccer shot', 'kicking']",0.12467513978481293,False
+797,The person is running.,"['soccer shot', 'kicking']",0.1469707489013672,False
+798,The person is running on a skateboard.,"['soccer shot', 'kicking']",0.08490543067455292,False
+799,The person is skateboarding.,"['soccer shot', 'kicking']",0.1327260583639145,False
+800,The man is dancing.,['butterfly stroke swimming'],0.1345641314983368,False
+801,The person is dancing.,['butterfly stroke swimming'],0.1944824457168579,False
+802,The person is dancing.,['butterfly stroke swimming'],0.1944824457168579,False
+803,"The person is standing on a beach, raising their arms above their head and then bending down slightly.",['butterfly stroke swimming'],0.19120168685913086,False
+804,The person is raising their arms above their head and then lowering them back down.,['butterfly stroke swimming'],0.10156171768903732,False
+805,"The person is walking on the beach, raising their arms and moving their body in a rhythmic manner.",['butterfly stroke swimming'],0.24119573831558228,False
+806,The person is standing on a stage and waving their arms up and down.,['butterfly stroke swimming'],0.011573911644518375,False
+807,The man is dancing.,['butterfly stroke swimming'],0.1345641314983368,False
+808,The man is dancing.,['butterfly stroke swimming'],0.1345641314983368,False
+809,The man is dancing.,['butterfly stroke swimming'],0.1345641314983368,False
+810,The person is falling down.,['front stroke swimming'],0.10640299320220947,False
+811,The person is lying on their back with their arms and legs spread out.,['front stroke swimming'],0.16092604398727417,False
+812,The person is falling down.,['front stroke swimming'],0.10640299320220947,False
+813,The person is falling backward on the beach.,['front stroke swimming'],0.25771868228912354,False
+814,The person is falling down the stairs.,['front stroke swimming'],-0.01202381867915392,False
+815,Acting out: Dancing on the beach.,['front stroke swimming'],0.284759521484375,False
+816,The person is lying on their back on a set of stairs.,['front stroke swimming'],0.08794871717691422,False
+817,The person is falling down.,['front stroke swimming'],0.10640299320220947,False
+818,The person is lying on their back on skis.,['front stroke swimming'],0.23203912377357483,False
+819,The person is falling down.,['front stroke swimming'],0.10640299320220947,False
+820,The person is lying on their back with their arms outstretched.,['back stroke swimming'],0.2126920223236084,False
+821,"The person is lying on their back on a skateboard, moving their arms and legs slightly.",['back stroke swimming'],0.30313825607299805,False
+822,"The person is lying on their stomach on a skateboard, moving their arms and legs in a rhythmic manner.",['back stroke swimming'],0.22196459770202637,False
+823,The person is lying on their stomach on the beach and raising their arms and legs in the air.,['back stroke swimming'],0.22019848227500916,False
+824,The person is lying on their stomach on a wooden stage.,['back stroke swimming'],0.03004331886768341,False
+825,"The person is lying on their back on the beach, moving their arms and legs in a relaxed manner.",['back stroke swimming'],0.35735592246055603,False
+826,"The person is lying on their back on a stage, moving their arms and legs in a relaxed manner.",['back stroke swimming'],0.21980899572372437,False
+827,The person is lying on their back with their arms outstretched.,['back stroke swimming'],0.2126920223236084,False
+828,The man is lying on his back on a skateboard.,['back stroke swimming'],0.2215760350227356,False
+829,The person is falling down.,['back stroke swimming'],0.17234593629837036,False
+830,The man is dancing.,['tennis serve'],0.0786469429731369,False
+831,The person is dancing.,['tennis serve'],0.16356085240840912,False
+832,The person is standing on a skateboard and raising their arms up.,['tennis serve'],0.16726748645305634,False
+833,Playing tennis,['tennis serve'],0.801273763179779,True
+834,The person is walking up the stairs.,['tennis serve'],0.008927326649427414,False
+835,"The person is standing on a tennis court, raising their arms above their head and then bringing them down in front of their chest.",['tennis serve'],0.5294910669326782,True
+836,"The person is standing on a stage, raising their arms and moving them in a rhythmic manner. They appear to be miming a dance or a performance.",['tennis serve'],0.2186298370361328,False
+837,The man is dancing.,['tennis serve'],0.0786469429731369,False
+838,The man is dancing.,['tennis serve'],0.0786469429731369,False
+839,The man is dancing.,['tennis serve'],0.0786469429731369,False
+840,The man is dancing.,"['backhand tennis swing', 'cricket batting']",0.10260763764381409,False
+841,The person is dancing.,"['backhand tennis swing', 'cricket batting']",0.18449634313583374,False
+842,The person is walking and gesturing with their hands.,"['backhand tennis swing', 'cricket batting']",0.2120005190372467,False
+843,The person is playing tennis.,"['backhand tennis swing', 'cricket batting']",0.5955861210823059,True
+844,The person is walking across the stage.,"['backhand tennis swing', 'cricket batting']",0.14516235888004303,False
+845,The person is standing on a tennis court.,"['backhand tennis swing', 'cricket batting']",0.5258107781410217,True
+846,The person is walking down the stairs.,"['backhand tennis swing', 'cricket batting']",0.04616092890501022,False
+847,The man is running and waving his arms.,"['backhand tennis swing', 'cricket batting']",0.1643919050693512,False
+848,The man is walking and talking.,"['backhand tennis swing', 'cricket batting']",0.031146731227636337,False
+849,The man is running on a skateboard.,"['backhand tennis swing', 'cricket batting']",0.09880345314741135,False
+850,The man is holding his hands together in front of his chest.,"['controlling remote', 'watching tv']",0.12992608547210693,False
+851,The person is crouching down.,"['controlling remote', 'watching tv']",0.18304574489593506,False
+852,The person is holding a gun.,"['controlling remote', 'watching tv']",0.09546049684286118,False
+853,The person is sitting on the floor with their legs crossed and their hands resting on their knees. They are looking down at their hands.,"['controlling remote', 'watching tv']",0.18722645938396454,False
+854,The person is bending over with their arms extended forward.,"['controlling remote', 'watching tv']",0.08329293131828308,False
+855,The person is sitting on the floor with their legs crossed and their arms resting on their knees. They are looking down at something in their lap.,"['controlling remote', 'watching tv']",0.24428191781044006,False
+856,The person is bending over and holding their hands behind their back.,"['controlling remote', 'watching tv']",0.1399548202753067,False
+857,The person is sitting on a skateboard and raising their right arm.,"['controlling remote', 'watching tv']",0.10798436403274536,False
+858,The man is doing sit ups.,"['controlling remote', 'watching tv']",-0.011549226939678192,False
+859,The man is sitting on a chair and moving his arms and legs.,"['controlling remote', 'watching tv']",0.13251803815364838,False

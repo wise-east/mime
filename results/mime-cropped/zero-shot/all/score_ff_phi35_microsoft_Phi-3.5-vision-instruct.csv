@@ -1,0 +1,861 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,Throwing something,['shooting arrow'],0.3888438642024994,False
+1,Punching,['shooting arrow'],0.4100572466850281,False
+2,Throwing something,['shooting arrow'],0.3888438642024994,False
+3,Throwing,['shooting arrow'],0.3849317133426666,False
+4,Throwing frisbee,['shooting arrow'],0.31877267360687256,False
+5,Shooting,['shooting arrow'],0.6371328830718994,True
+6,Standing on rug,['shooting arrow'],0.2796720564365387,False
+7,Throwing something,['shooting arrow'],0.3888438642024994,False
+8,Throwing something,['shooting arrow'],0.3888438642024994,False
+9,Playing guitar,['shooting arrow'],0.1790601909160614,False
+10,Talking,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.23399600386619568,False
+11,Standing,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.20016595721244812,False
+12,Talking on phone,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1498110145330429,False
+13,Pick up barbell,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.5067681074142456,True
+14,Jumping,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.3379610776901245,False
+15,Lift weights,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.8030344843864441,True
+16,Standing,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.20016595721244812,False
+17,Talking on phone,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1498110145330429,False
+18,Standing,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.20016595721244812,False
+19,Talking,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.23399600386619568,False
+20,Throwing something,['baseball swing'],0.3299323618412018,False
+21,Punching,['baseball swing'],0.37994059920310974,False
+22,Throwing something,['baseball swing'],0.3299323618412018,False
+23,Pitching,['baseball swing'],0.5733768939971924,True
+24,Jumping rope,['baseball swing'],0.3784518837928772,False
+25,Throwing baseball,['baseball swing'],0.6802375316619873,True
+26,Standing,['baseball swing'],0.2638929784297943,False
+27,Dancing,['baseball swing'],0.29023995995521545,False
+28,Swinging bat,['baseball swing'],0.7827951908111572,True
+29,Throwing something,['baseball swing'],0.3299323618412018,False
+30,Throwing something,['baseball pitch'],0.3676965832710266,False
+31,Pointing,['baseball pitch'],0.2885560691356659,False
+32,Throwing something,['baseball pitch'],0.3676965832710266,False
+33,Throwing baseball,['baseball pitch'],0.7474503517150879,True
+34,Playing video game,['baseball pitch'],0.1749415248632431,False
+35,Pitching,['baseball pitch'],0.6828949451446533,True
+36,Dancing,['baseball pitch'],0.2330193966627121,False
+37,Talking on phone,['baseball pitch'],0.18071433901786804,False
+38,Playing wii,['baseball pitch'],0.23922254145145416,False
+39,Talking on phone,['baseball pitch'],0.18071433901786804,False
+40,Talking on phone,['basketball shot'],0.15477228164672852,False
+41,Taking a picture,['basketball shot'],0.37351036071777344,False
+42,Talking on phone,['basketball shot'],0.15477228164672852,False
+43,Skateboarding,['basketball shot'],0.2651568651199341,False
+44,Riding scooter,['basketball shot'],0.14355772733688354,False
+45,Shooting basketball,['basketball shot'],0.8839855194091797,True
+46,Talking,['basketball shot'],0.2259819209575653,False
+47,Talking on phone,['basketball shot'],0.15477228164672852,False
+48,Talking on phone,['basketball shot'],0.15477228164672852,False
+49,Talking on phone,['basketball shot'],0.15477228164672852,False
+50,Running,['basketball layup'],0.27447548508644104,False
+51,Running,['basketball layup'],0.27447548508644104,False
+52,Running,['basketball layup'],0.27447548508644104,False
+53,Dribbling basketball,['basketball layup'],0.5980641841888428,True
+54,Jumping,['basketball layup'],0.34839317202568054,False
+55,Dribbling basketball,['basketball layup'],0.5980641841888428,True
+56,Walking,['basketball layup'],0.17161303758621216,False
+57,Throwing frisbee,['basketball layup'],0.2933107912540436,False
+58,Running,['basketball layup'],0.27447548508644104,False
+59,Throwing something,['basketball layup'],0.2980839014053345,False
+60,Throwing something,['bowling'],0.38125377893447876,False
+61,Pointing,['bowling'],0.2786928415298462,False
+62,Jumping,['bowling'],0.36839228868484497,False
+63,bowling,['bowling'],1.0000001192092896,True
+64,Playing tennis,['bowling'],0.44878530502319336,False
+65,bowling,['bowling'],1.0000001192092896,True
+66,Pointing,['bowling'],0.2786928415298462,False
+67,Running,['bowling'],0.3437408208847046,False
+68,Waving,['bowling'],0.3183186948299408,False
+69,Running,['bowling'],0.3437408208847046,False
+70,Talking on phone,['boxing'],0.25284942984580994,False
+71,Talking on phone,['boxing'],0.25284942984580994,False
+72,Talking on phone,['boxing'],0.25284942984580994,False
+73,Standing,['boxing'],0.2959842383861542,False
+74,Talking on phone,['boxing'],0.25284942984580994,False
+75,Standing,['boxing'],0.2959842383861542,False
+76,Taking a picture,['boxing'],0.24186398088932037,False
+77,Talking on phone,['boxing'],0.25284942984580994,False
+78,Taking a picture,['boxing'],0.24186398088932037,False
+79,Talking on phone,['boxing'],0.25284942984580994,False
+80,Talking on phone,"['checking phone', 'sending text', 'using phone']",0.7435564398765564,True
+81,Standing,"['checking phone', 'sending text', 'using phone']",0.20546852052211761,False
+82,Reading,"['checking phone', 'sending text', 'using phone']",0.27527928352355957,False
+83,Standing on rug,"['checking phone', 'sending text', 'using phone']",0.12254930287599564,False
+84,Standing,"['checking phone', 'sending text', 'using phone']",0.20546852052211761,False
+85,Standing,"['checking phone', 'sending text', 'using phone']",0.20546852052211761,False
+86,Standing,"['checking phone', 'sending text', 'using phone']",0.20546852052211761,False
+87,Talking on phone,"['checking phone', 'sending text', 'using phone']",0.7435564398765564,True
+88,Standing,"['checking phone', 'sending text', 'using phone']",0.20546852052211761,False
+89,Talking on phone,"['checking phone', 'sending text', 'using phone']",0.7435564398765564,True
+90,Pointing,['checking watch'],0.1890210658311844,False
+91,Throwing something,['checking watch'],0.10315573215484619,False
+92,Skateboarding,['checking watch'],0.15084373950958252,False
+93,Standing on rug,['checking watch'],0.1276911348104477,False
+94,Standing,['checking watch'],0.20645591616630554,False
+95,Standing,['checking watch'],0.20645591616630554,False
+96,Standing,['checking watch'],0.20645591616630554,False
+97,Talking on phone,['checking watch'],0.20061013102531433,False
+98,Talking on phone,['checking watch'],0.20061013102531433,False
+99,Pointing,['checking watch'],0.1890210658311844,False
+100,Throwing something,['climbing'],0.16182106733322144,False
+101,Pointing up,['climbing'],0.2513630986213684,False
+102,Throwing something,['climbing'],0.16182106733322144,False
+103,Climbing,['climbing'],1.0,True
+104,Pointing,['climbing'],0.26813334226608276,False
+105,Climbing,['climbing'],1.0,True
+106,Salute,['climbing'],0.19663865864276886,False
+107,Talking on phone,['climbing'],0.16908521950244904,False
+108,Pointing up,['climbing'],0.2513630986213684,False
+109,Throwing something,['climbing'],0.16182106733322144,False
+110,Talking on phone,['throwing dart'],0.0999414250254631,False
+111,Talking on phone,['throwing dart'],0.0999414250254631,False
+112,Talking on phone,['throwing dart'],0.0999414250254631,False
+113,Throwing dart,['throwing dart'],1.0,True
+114,Talking on phone,['throwing dart'],0.0999414250254631,False
+115,Standing,['throwing dart'],0.19166892766952515,False
+116,Standing,['throwing dart'],0.19166892766952515,False
+117,Talking on phone,['throwing dart'],0.0999414250254631,False
+118,Talking on phone,['throwing dart'],0.0999414250254631,False
+119,Talking on phone,['throwing dart'],0.0999414250254631,False
+120,Bending over,['deadlift'],0.2506204843521118,False
+121,Pushing,['deadlift'],0.20213507115840912,False
+122,Jumping,['deadlift'],0.4176510274410248,False
+123,Lift weights,['deadlift'],0.6094479560852051,True
+124,Bending over,['deadlift'],0.2506204843521118,False
+125,Lift weights,['deadlift'],0.6094479560852051,True
+126,Jumping,['deadlift'],0.4176510274410248,False
+127,Bending over,['deadlift'],0.2506204843521118,False
+128,Bending over,['deadlift'],0.2506204843521118,False
+129,Bending over,['deadlift'],0.2506204843521118,False
+130,Talking on phone,['drinking out of a cup'],0.17062197625637054,False
+131,Salute,['drinking out of a cup'],0.141140878200531,False
+132,Talking on phone,['drinking out of a cup'],0.17062197625637054,False
+133,Talking on phone,['drinking out of a cup'],0.17062197625637054,False
+134,Talking on phone,['drinking out of a cup'],0.17062197625637054,False
+135,Standing,['drinking out of a cup'],0.16995495557785034,False
+136,Standing,['drinking out of a cup'],0.16995495557785034,False
+137,Looking through binoculars,['drinking out of a cup'],0.11332788318395615,False
+138,Looking through binoculars,['drinking out of a cup'],0.11332788318395615,False
+139,Talking on phone,['drinking out of a cup'],0.17062197625637054,False
+140,Playing video game,['driving'],0.30052122473716736,False
+141,Skateboarding,['driving'],0.3630513846874237,False
+142,Skateboarding,['driving'],0.3630513846874237,False
+143,Riding scooter,['driving'],0.43634718656539917,False
+144,Skateboarding,['driving'],0.3630513846874237,False
+145,Standing,['driving'],0.2680383026599884,False
+146,Standing,['driving'],0.2680383026599884,False
+147,Talking on phone,['driving'],0.32339170575141907,False
+148,Talking on phone,['driving'],0.32339170575141907,False
+149,Throwing something,['driving'],0.1899210512638092,False
+150,Skateboarding,['driving'],0.3630513846874237,False
+151,Pushing,['driving'],0.3290882110595703,False
+152,Reading,['driving'],0.39946112036705017,False
+153,Standing on hoverboard,['driving'],0.12835977971553802,False
+154,Standing,['driving'],0.2680383026599884,False
+155,Standing,['driving'],0.2680383026599884,False
+156,Standing,['driving'],0.2680383026599884,False
+157,Jumping rope,['driving'],0.23641052842140198,False
+158,Talking on phone,['driving'],0.32339170575141907,False
+159,Throwing frisbee,['driving'],0.23534822463989258,False
+160,Playing wii,['driving'],0.2855810523033142,False
+161,Sitting,['driving'],0.3425544202327728,False
+162,Texting,['driving'],0.3087889850139618,False
+163,Jumping,['driving'],0.36681511998176575,False
+164,Jumping,['driving'],0.36681511998176575,False
+165,Jumping,['driving'],0.36681511998176575,False
+166,Sitting,['driving'],0.3425544202327728,False
+167,Playing guitar,['driving'],0.31976306438446045,False
+168,Playing game,['driving'],0.39707714319229126,False
+169,Texting,['driving'],0.3087889850139618,False
+170,Throwing something,['fencing'],0.30564582347869873,False
+171,Waving,['fencing'],0.17139984667301178,False
+172,Jumping,['fencing'],0.33852335810661316,False
+173,Skating,['fencing'],0.35342663526535034,False
+174,Jumping,['fencing'],0.33852335810661316,False
+175,bowling,['fencing'],0.32092753052711487,False
+176,Waving,['fencing'],0.17139984667301178,False
+177,Dancing,['fencing'],0.2779325246810913,False
+178,Throwing something,['fencing'],0.30564582347869873,False
+179,Talking on phone,['fencing'],0.1444672793149948,False
+180,Throwing something,['fishing'],0.272701621055603,False
+181,Walking,['fishing'],0.23444926738739014,False
+182,Jumping,['fishing'],0.30652445554733276,False
+183,Throwing frisbee,['fishing'],0.3273014426231384,False
+184,Vacuuming,['fishing'],0.10140673816204071,False
+185,Walking,['fishing'],0.23444926738739014,False
+186,Sitting,['fishing'],0.1863497495651245,False
+187,Playing video game,['fishing'],0.2277756631374359,False
+188,Running,['fishing'],0.2721724212169647,False
+189,Throwing something,['fishing'],0.272701621055603,False
+190,Bending over,['golf put'],0.22351175546646118,False
+191,Pickpocketing,['golf put'],0.22799474000930786,False
+192,Bending over,['golf put'],0.22351175546646118,False
+193,Jumping,['golf put'],0.312540203332901,False
+194,Bending over,['golf put'],0.22351175546646118,False
+195,Standing,['golf put'],0.18348966538906097,False
+196,Standing,['golf put'],0.18348966538906097,False
+197,Talking on phone,['golf put'],0.08953100442886353,False
+198,Bending over,['golf put'],0.22351175546646118,False
+199,Bending over,['golf put'],0.22351175546646118,False
+200,Bending over,['golf swing'],0.2647560238838196,False
+201,Praying,['golf swing'],0.1319497674703598,False
+202,Bending over,['golf swing'],0.2647560238838196,False
+203,Jumping,['golf swing'],0.3109312057495117,False
+204,Bending over,['golf swing'],0.2647560238838196,False
+205,Standing,['golf swing'],0.23355072736740112,False
+206,Standing,['golf swing'],0.23355072736740112,False
+207,Talking on phone,['golf swing'],0.10501157492399216,False
+208,Bending over,['golf swing'],0.2647560238838196,False
+209,Pulling face,['golf swing'],0.13666832447052002,False
+210,Pointing,['javelin throw'],0.3734579384326935,False
+211,Pointing,['javelin throw'],0.3734579384326935,False
+212,Rock and roll,['javelin throw'],0.15443304181098938,False
+213,Throwing frisbee,['javelin throw'],0.5757124423980713,True
+214,Jumping rope,['javelin throw'],0.3564181923866272,False
+215,Jumping,['javelin throw'],0.38995909690856934,False
+216,Jumping,['javelin throw'],0.38995909690856934,False
+217,Skateboarding,['javelin throw'],0.2534942030906677,False
+218,Throwing something,['javelin throw'],0.6510086059570312,True
+219,Jumping,['javelin throw'],0.38995909690856934,False
+220,Playing guitar,['typing on keyboard'],0.21034730970859528,False
+221,Crouching,['typing on keyboard'],0.2249692678451538,False
+222,Playing video game,['typing on keyboard'],0.20318681001663208,False
+223,Sitting,['typing on keyboard'],0.2799288332462311,False
+224,Throwing frisbee,['typing on keyboard'],0.052530791610479355,False
+225,Sitting,['typing on keyboard'],0.2799288332462311,False
+226,Playing golf,['typing on keyboard'],0.1798984408378601,False
+227,Running,['typing on keyboard'],0.09252659231424332,False
+228,Sitting,['typing on keyboard'],0.2799288332462311,False
+229,Sitting,['typing on keyboard'],0.2799288332462311,False
+230,Talking on phone,['knocking on door'],0.25786542892456055,False
+231,Talking on phone,['knocking on door'],0.25786542892456055,False
+232,Talking on phone,['knocking on door'],0.25786542892456055,False
+233,Standing on rug,['knocking on door'],0.20638227462768555,False
+234,Talking on phone,['knocking on door'],0.25786542892456055,False
+235,Standing,['knocking on door'],0.24855288863182068,False
+236,Bending over,['knocking on door'],0.18433097004890442,False
+237,Talking on phone,['knocking on door'],0.25786542892456055,False
+238,Talking on phone,['knocking on door'],0.25786542892456055,False
+239,Talking on phone,['knocking on door'],0.25786542892456055,False
+240,Throwing something,['opening door'],0.1629481166601181,False
+241,Talking on phone,['opening door'],0.09446623176336288,False
+242,Skateboarding,['opening door'],0.14665135741233826,False
+243,Sweeping,['opening door'],0.19392147660255432,False
+244,Throwing frisbee,['opening door'],0.16281498968601227,False
+245,Standing,['opening door'],0.16241975128650665,False
+246,Standing,['opening door'],0.16241975128650665,False
+247,Talking,['opening door'],0.205308735370636,False
+248,Talking,['opening door'],0.205308735370636,False
+249,Texting,['opening door'],0.2010745406150818,False
+250,Throwing something,['opening door'],0.1629481166601181,False
+251,Throwing something,['opening door'],0.1629481166601181,False
+252,Jumping rope,['opening door'],0.21198932826519012,False
+253,Walking,['opening door'],0.2450190931558609,False
+254,Throwing frisbee,['opening door'],0.16281498968601227,False
+255,Dancing,['opening door'],0.23899829387664795,False
+256,Throwing frisbee,['opening door'],0.16281498968601227,False
+257,Dancing,['opening door'],0.23899829387664795,False
+258,Pointing,['opening door'],0.1821489930152893,False
+259,Running,['opening door'],0.2674887776374817,False
+260,Talking on phone,['playing piano'],0.2391023337841034,False
+261,Praying,['playing piano'],0.22806569933891296,False
+262,Playing guitar,['playing piano'],0.6096454858779907,True
+263,Jumping,['playing piano'],0.3513810932636261,False
+264,Playing guitar,['playing piano'],0.6096454858779907,True
+265,Reading,['playing piano'],0.2687046527862549,False
+266,Throwing something,['playing piano'],0.22093646228313446,False
+267,Talking on phone,['playing piano'],0.2391023337841034,False
+268,Playing guitar,['playing piano'],0.6096454858779907,True
+269,Sitting,['playing piano'],0.2937304675579071,False
+270,Talking,['playing acoustic guitar'],0.22574254870414734,False
+271,Talking,['playing acoustic guitar'],0.22574254870414734,False
+272,Talking,['playing acoustic guitar'],0.22574254870414734,False
+273,Standing,['playing acoustic guitar'],0.10039205104112625,False
+274,Throwing frisbee,['playing acoustic guitar'],0.2440183013677597,False
+275,Standing,['playing acoustic guitar'],0.10039205104112625,False
+276,Standing,['playing acoustic guitar'],0.10039205104112625,False
+277,Talking on phone,['playing acoustic guitar'],0.2138053923845291,False
+278,Talking,['playing acoustic guitar'],0.22574254870414734,False
+279,Praying,['playing acoustic guitar'],0.12267109751701355,False
+280,Throwing something,['playing electric guitar'],0.18718481063842773,False
+281,Throwing something,['playing electric guitar'],0.18718481063842773,False
+282,Throwing something,['playing electric guitar'],0.18718481063842773,False
+283,Jumping,['playing electric guitar'],0.29219314455986023,False
+284,Throwing frisbee,['playing electric guitar'],0.2636098861694336,False
+285,Jumping,['playing electric guitar'],0.29219314455986023,False
+286,Jumping,['playing electric guitar'],0.29219314455986023,False
+287,Throwing ball,['playing electric guitar'],0.2828739583492279,False
+288,Throwing something,['playing electric guitar'],0.18718481063842773,False
+289,Throwing something,['playing electric guitar'],0.18718481063842773,False
+290,Dancing,['playing drums'],0.42073071002960205,False
+291,Pointing,['playing drums'],0.2206810563802719,False
+292,Dancing,['playing drums'],0.42073071002960205,False
+293,Dancing,['playing drums'],0.42073071002960205,False
+294,Surfing,['playing drums'],0.2775748670101166,False
+295,Sitting,['playing drums'],0.18248310685157776,False
+296,Running,['playing drums'],0.376067578792572,False
+297,Dancing,['playing drums'],0.42073071002960205,False
+298,Playing video game,['playing drums'],0.2860832214355469,False
+299,Reading,['playing drums'],0.20833848416805267,False
+300,Waving,['playing harp'],0.23752740025520325,False
+301,Talking on phone,['playing harp'],0.1475192904472351,False
+302,Talking on phone,['playing harp'],0.1475192904472351,False
+303,Jumping,['playing harp'],0.244798481464386,False
+304,Jumping,['playing harp'],0.244798481464386,False
+305,Sitting,['playing harp'],0.17394477128982544,False
+306,Standing,['playing harp'],0.1880088448524475,False
+307,Jumping,['playing harp'],0.244798481464386,False
+308,Talking on phone,['playing harp'],0.1475192904472351,False
+309,Skiing,['playing harp'],0.22198179364204407,False
+310,Jumping,['playing harp'],0.244798481464386,False
+311,Taking a picture,['playing harp'],0.17151665687561035,False
+312,Jumping,['playing harp'],0.244798481464386,False
+313,Standing,['playing harp'],0.1880088448524475,False
+314,Jumping,['playing harp'],0.244798481464386,False
+315,Taking a picture,['playing harp'],0.17151665687561035,False
+316,Standing,['playing harp'],0.1880088448524475,False
+317,Talking on phone,['playing harp'],0.1475192904472351,False
+318,Talking on phone,['playing harp'],0.1475192904472351,False
+319,Talking on phone,['playing harp'],0.1475192904472351,False
+320,Bending over,"['pulling', 'dragging']",0.31653451919555664,False
+321,Pretending to throw something,"['pulling', 'dragging']",0.36922162771224976,False
+322,Talking on phone,"['pulling', 'dragging']",0.1567484438419342,False
+323,Playing guitar,"['pulling', 'dragging']",0.2082659900188446,False
+324,Climbing,"['pulling', 'dragging']",0.5331339240074158,True
+325,Pick up box,"['pulling', 'dragging']",0.30339208245277405,False
+326,Climbing,"['pulling', 'dragging']",0.5331339240074158,True
+327,Throwing something,"['pulling', 'dragging']",0.37897926568984985,False
+328,Throwing something,"['pulling', 'dragging']",0.37897926568984985,False
+329,Playing guitar,"['pulling', 'dragging']",0.2082659900188446,False
+330,Throwing something,"['dragging', 'pulling']",0.37897926568984985,False
+331,Bending over,"['dragging', 'pulling']",0.31653451919555664,False
+332,Jumping,"['dragging', 'pulling']",0.4570625424385071,False
+333,Jumping,"['dragging', 'pulling']",0.4570625424385071,False
+334,Climbing,"['dragging', 'pulling']",0.5331339240074158,True
+335,Jumping,"['dragging', 'pulling']",0.4570625424385071,False
+336,Climbing,"['dragging', 'pulling']",0.5331339240074158,True
+337,Pushing,"['dragging', 'pulling']",0.6115125417709351,True
+338,Throwing something,"['dragging', 'pulling']",0.37897926568984985,False
+339,Throwing something,"['dragging', 'pulling']",0.37897926568984985,False
+340,Throwing something,['pushing'],0.29118865728378296,False
+341,Jumping,['pushing'],0.31054824590682983,False
+342,Throwing something,['pushing'],0.29118865728378296,False
+343,Walking,['pushing'],0.33666232228279114,False
+344,Climbing,['pushing'],0.4236924350261688,False
+345,Pick up box,['pushing'],0.1996515393257141,False
+346,Climbing,['pushing'],0.4236924350261688,False
+347,Throwing something,['pushing'],0.29118865728378296,False
+348,Throwing something,['pushing'],0.29118865728378296,False
+349,Throwing frisbee,['pushing'],0.20132659375667572,False
+350,Punching,['pushing'],0.42952024936676025,False
+351,Punching,['pushing'],0.42952024936676025,False
+352,Skating,['pushing'],0.26771509647369385,False
+353,Pushing,['pushing'],1.0000001192092896,True
+354,Climbing,['pushing'],0.4236924350261688,False
+355,Jumping,['pushing'],0.31054824590682983,False
+356,Climbing,['pushing'],0.4236924350261688,False
+357,Bending over,['pushing'],0.3073137402534485,False
+358,Skating,['pushing'],0.26771509647369385,False
+359,Bending over,['pushing'],0.3073137402534485,False
+360,Playing guitar,['putting on seatbelt'],0.2065982073545456,False
+361,Talking on phone,['putting on seatbelt'],0.1847485601902008,False
+362,Reading,['putting on seatbelt'],0.11170057952404022,False
+363,Sitting on hoverboard,['putting on seatbelt'],0.3860718011856079,False
+364,Playing phone,['putting on seatbelt'],0.18238875269889832,False
+365,point,['putting on seatbelt'],0.04461604356765747,False
+366,Standing,['putting on seatbelt'],0.1776275783777237,False
+367,Dancing,['putting on seatbelt'],0.15633073449134827,False
+368,Sitting,['putting on seatbelt'],0.4083654582500458,False
+369,Playing guitar,['putting on seatbelt'],0.2065982073545456,False
+370,Throwing something,['shooting handgun'],0.30168846249580383,False
+371,Thinking,['shooting handgun'],0.20751087367534637,False
+372,Taking a photo,['shooting handgun'],0.2839222550392151,False
+373,Shooting,['shooting handgun'],0.7966558933258057,True
+374,Climbing,['shooting handgun'],0.14151224493980408,False
+375,Shooting,['shooting handgun'],0.7966558933258057,True
+376,Climbing,['shooting handgun'],0.14151224493980408,False
+377,Taking a photo,['shooting handgun'],0.2839222550392151,False
+378,Throwing something,['shooting handgun'],0.30168846249580383,False
+379,Taking picture,['shooting handgun'],0.32264113426208496,False
+380,Skating,['shooting rifle'],0.1575552076101303,False
+381,Pretending to throw something,['shooting rifle'],0.2972313463687897,False
+382,Reading,['shooting rifle'],0.2667738199234009,False
+383,Jumping,['shooting rifle'],0.27186155319213867,False
+384,Climbing,['shooting rifle'],0.20288805663585663,False
+385,Shooting,['shooting rifle'],0.8043267726898193,True
+386,Climbing,['shooting rifle'],0.20288805663585663,False
+387,Talking on phone,['shooting rifle'],0.16252297163009644,False
+388,Throwing something,['shooting rifle'],0.38492336869239807,False
+389,Taking picture,['shooting rifle'],0.33957189321517944,False
+390,Throwing something,['shot put'],0.34927472472190857,False
+391,Throwing something,['shot put'],0.34927472472190857,False
+392,Running,['shot put'],0.2964407503604889,False
+393,Throwing frisbee,['shot put'],0.30513525009155273,False
+394,Playing baseball,['shot put'],0.3417738676071167,False
+395,Throwing frisbee,['shot put'],0.30513525009155273,False
+396,Skating,['shot put'],0.3028399348258972,False
+397,Throwing something,['shot put'],0.34927472472190857,False
+398,Jumping,['shot put'],0.32948487997055054,False
+399,Throwing frisbee,['shot put'],0.30513525009155273,False
+400,Jumping,['writing'],0.24724870920181274,False
+401,Punching,['writing'],0.38346344232559204,False
+402,Jumping,['writing'],0.24724870920181274,False
+403,Jumping,['writing'],0.24724870920181274,False
+404,Climbing,['writing'],0.22687524557113647,False
+405,Jumping,['writing'],0.24724870920181274,False
+406,Climbing,['writing'],0.22687524557113647,False
+407,Reading,['writing'],0.6372483372688293,True
+408,Running,['writing'],0.3470272719860077,False
+409,Texting,['writing'],0.5696303844451904,True
+410,Throwing something,['soccer shot'],0.3535175323486328,False
+411,Jumping,['soccer shot'],0.33991873264312744,False
+412,Skateboarding,['soccer shot'],0.2464694082736969,False
+413,Kicking ball,['soccer shot'],0.6364732980728149,True
+414,Falling,['soccer shot'],0.22361360490322113,False
+415,Kicking ball,['soccer shot'],0.6364732980728149,True
+416,Painting,['soccer shot'],0.2053583860397339,False
+417,Jumping,['soccer shot'],0.33991873264312744,False
+418,Jumping,['soccer shot'],0.33991873264312744,False
+419,Jumping,['soccer shot'],0.33991873264312744,False
+420,Throwing something,['front stroke swimming'],0.17256511747837067,False
+421,Pointing,['front stroke swimming'],0.1988028883934021,False
+422,Throwing something,['front stroke swimming'],0.17256511747837067,False
+423,Throwing something,['front stroke swimming'],0.17256511747837067,False
+424,Standing,['front stroke swimming'],0.11957868933677673,False
+425,Standing,['front stroke swimming'],0.11957868933677673,False
+426,Standing,['front stroke swimming'],0.11957868933677673,False
+427,Pointing,['front stroke swimming'],0.1988028883934021,False
+428,Pointing,['front stroke swimming'],0.1988028883934021,False
+429,Pointing,['front stroke swimming'],0.1988028883934021,False
+430,Shadow puppetry,['breast stroke swimming'],0.03867959603667259,False
+431,Pushing,['breast stroke swimming'],0.07611221075057983,False
+432,Talking on phone,['breast stroke swimming'],0.09365017712116241,False
+433,Throwing something,['breast stroke swimming'],0.15360325574874878,False
+434,Bending over,['breast stroke swimming'],0.18007150292396545,False
+435,Walking,['breast stroke swimming'],0.2518097460269928,False
+436,Standing,['breast stroke swimming'],0.06508582830429077,False
+437,Jumping,['breast stroke swimming'],0.2774704098701477,False
+438,Jumping,['breast stroke swimming'],0.2774704098701477,False
+439,Talking,['breast stroke swimming'],0.09538806974887848,False
+440,Talking on phone,['taking photo'],0.3136294484138489,False
+441,Talking on phone,['taking photo'],0.3136294484138489,False
+442,Talking on phone,['taking photo'],0.3136294484138489,False
+443,Talking on phone,['taking photo'],0.3136294484138489,False
+444,Climbing,['taking photo'],0.15431421995162964,False
+445,Talking on phone,['taking photo'],0.3136294484138489,False
+446,Climbing,['taking photo'],0.15431421995162964,False
+447,Talking on phone,['taking photo'],0.3136294484138489,False
+448,Talking on phone,['taking photo'],0.3136294484138489,False
+449,Talking on phone,['taking photo'],0.3136294484138489,False
+450,Talking on phone,['tennis serve'],0.09915518760681152,False
+451,Standing,['tennis serve'],0.15250390768051147,False
+452,Talking on phone,['tennis serve'],0.09915518760681152,False
+453,Bending over,['tennis serve'],0.12183894217014313,False
+454,Standing,['tennis serve'],0.15250390768051147,False
+455,Standing,['tennis serve'],0.15250390768051147,False
+456,Standing,['tennis serve'],0.15250390768051147,False
+457,Bending over,['tennis serve'],0.12183894217014313,False
+458,Standing,['tennis serve'],0.15250390768051147,False
+459,Throwing something,['tennis serve'],0.19616816937923431,False
+460,Talking on phone,['tennis swing'],0.1506580263376236,False
+461,Throwing something,['tennis swing'],0.29474586248397827,False
+462,Throwing something,['tennis swing'],0.29474586248397827,False
+463,Playing tennis,['tennis swing'],0.7960195541381836,True
+464,Taking a photo,['tennis swing'],0.1754322499036789,False
+465,Jumping,['tennis swing'],0.31371915340423584,False
+466,Jumping down stairs,['tennis swing'],0.23135080933570862,False
+467,Throwing something,['tennis swing'],0.29474586248397827,False
+468,Talking on phone,['tennis swing'],0.1506580263376236,False
+469,Talking on phone,['tennis swing'],0.1506580263376236,False
+470,Talking on phone,['playing violin'],0.20466755330562592,False
+471,Pointing,['playing violin'],0.19591374695301056,False
+472,Talking on phone,['playing violin'],0.20466755330562592,False
+473,Talking on phone,['playing violin'],0.20466755330562592,False
+474,Talking on phone,['playing violin'],0.20466755330562592,False
+475,Standing,['playing violin'],0.1375472992658615,False
+476,Standing,['playing violin'],0.1375472992658615,False
+477,Throwing something,['playing violin'],0.15826833248138428,False
+478,Throwing something,['playing violin'],0.15826833248138428,False
+479,Throwing something,['playing violin'],0.15826833248138428,False
+480,Pulling something,['receiving volleyball'],0.2617052495479584,False
+481,Standing,['receiving volleyball'],0.18839997053146362,False
+482,Sitting,['receiving volleyball'],0.1752866804599762,False
+483,Jumping,['receiving volleyball'],0.30725163221359253,False
+484,Sitting,['receiving volleyball'],0.1752866804599762,False
+485,Standing,['receiving volleyball'],0.18839997053146362,False
+486,Standing,['receiving volleyball'],0.18839997053146362,False
+487,Jumping,['receiving volleyball'],0.30725163221359253,False
+488,Sitting,['receiving volleyball'],0.1752866804599762,False
+489,Riding scooter,['receiving volleyball'],0.11996109783649445,False
+490,Throwing something,['volleyball serve'],0.1737271249294281,False
+491,Pointing up,['volleyball serve'],0.21217133104801178,False
+492,Jumping,['volleyball serve'],0.19549915194511414,False
+493,Jumping,['volleyball serve'],0.19549915194511414,False
+494,Jumping,['volleyball serve'],0.19549915194511414,False
+495,Jumping,['volleyball serve'],0.19549915194511414,False
+496,Jumping,['volleyball serve'],0.19549915194511414,False
+497,Jumping,['volleyball serve'],0.19549915194511414,False
+498,Throwing something,['volleyball serve'],0.1737271249294281,False
+499,Dancing,['volleyball serve'],0.25900372862815857,False
+500,Punching,"['weighted back squat', 'weightlifting']",0.4220138490200043,False
+501,Pointing up,"['weighted back squat', 'weightlifting']",0.1707269698381424,False
+502,Punching,"['weighted back squat', 'weightlifting']",0.4220138490200043,False
+503,Celebrating,"['weighted back squat', 'weightlifting']",0.168570414185524,False
+504,Jumping on desk,"['weighted back squat', 'weightlifting']",0.23474657535552979,False
+505,Lift weights,"['weighted back squat', 'weightlifting']",0.8030344843864441,True
+506,Standing on chair,"['weighted back squat', 'weightlifting']",0.23280295729637146,False
+507,Talking on phone,"['weighted back squat', 'weightlifting']",0.1498110145330429,False
+508,Shaking head no,"['weighted back squat', 'weightlifting']",0.12455005943775177,False
+509,Punching,"['weighted back squat', 'weightlifting']",0.4220138490200043,False
+510,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+511,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+512,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+513,Lift weights,"['clean and jerk', 'weightlifting']",0.8030344843864441,True
+514,Jumping,"['clean and jerk', 'weightlifting']",0.3379610776901245,False
+515,Lift weights,"['clean and jerk', 'weightlifting']",0.8030344843864441,True
+516,Standing,"['clean and jerk', 'weightlifting']",0.20016595721244812,False
+517,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+518,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+519,Talking on phone,"['clean and jerk', 'weightlifting']",0.16963288187980652,False
+520,Punching,['shooting arrow'],0.4100572466850281,False
+521,Pointing,['shooting arrow'],0.4495733380317688,False
+522,Throwing something,['shooting arrow'],0.3888438642024994,False
+523,Shooting target,['shooting arrow'],0.6680830717086792,True
+524,Throwing something,['shooting arrow'],0.3888438642024994,False
+525,Shooting target,['shooting arrow'],0.6680830717086792,True
+526,Standing,['shooting arrow'],0.1943364292383194,False
+527,Jumping,['shooting arrow'],0.2898274064064026,False
+528,Throwing something,['shooting arrow'],0.3888438642024994,False
+529,Throwing something,['shooting arrow'],0.3888438642024994,False
+530,Standing,"['double arm curls', 'arm curls', 'weightlifting']",0.20016595721244812,False
+531,Standing,"['double arm curls', 'arm curls', 'weightlifting']",0.20016595721244812,False
+532,Skateboarding,"['double arm curls', 'arm curls', 'weightlifting']",0.2927548587322235,False
+533,Lift weights,"['double arm curls', 'arm curls', 'weightlifting']",0.8030344843864441,True
+534,Jumping,"['double arm curls', 'arm curls', 'weightlifting']",0.3379610776901245,False
+535,Lift weights,"['double arm curls', 'arm curls', 'weightlifting']",0.8030344843864441,True
+536,Dancing,"['double arm curls', 'arm curls', 'weightlifting']",0.31538110971450806,False
+537,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+538,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+539,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+540,Talking,"['double arm curls', 'weightlifting']",0.23399600386619568,False
+541,Talking on phone,"['double arm curls', 'weightlifting']",0.1498110145330429,False
+542,Talking on phone,"['double arm curls', 'weightlifting']",0.1498110145330429,False
+543,Jumping rope,"['double arm curls', 'weightlifting']",0.38343173265457153,False
+544,Jumping,"['double arm curls', 'weightlifting']",0.3379610776901245,False
+545,Lift weights,"['double arm curls', 'weightlifting']",0.8030344843864441,True
+546,Standing,"['double arm curls', 'weightlifting']",0.20016595721244812,False
+547,Walking,"['double arm curls', 'weightlifting']",0.19079378247261047,False
+548,Talking on phone,"['double arm curls', 'weightlifting']",0.1498110145330429,False
+549,Talking on phone,"['double arm curls', 'weightlifting']",0.1498110145330429,False
+550,Talking on phone,['baseball pitch'],0.18071433901786804,False
+551,Pulling something out of pocket,['baseball pitch'],0.09900327771902084,False
+552,Taking a picture,['baseball pitch'],0.20464840531349182,False
+553,Pitch,['baseball pitch'],0.8406096696853638,True
+554,Jumping rope,['baseball pitch'],0.23976197838783264,False
+555,Pitching,['baseball pitch'],0.6828949451446533,True
+556,Dancing,['baseball pitch'],0.2330193966627121,False
+557,Throwing something,['baseball pitch'],0.3676965832710266,False
+558,Talking on phone,['baseball pitch'],0.18071433901786804,False
+559,Skateboarding,['baseball pitch'],0.266861230134964,False
+560,Throwing something,"['basketball layup', 'basketball floater']",0.2990436851978302,False
+561,Praying,"['basketball layup', 'basketball floater']",0.15015068650245667,False
+562,Talking on phone,"['basketball layup', 'basketball floater']",0.16121697425842285,False
+563,Playing basketball,"['basketball layup', 'basketball floater']",0.6087170839309692,True
+564,Taking a picture,"['basketball layup', 'basketball floater']",0.1842576563358307,False
+565,Jumping,"['basketball layup', 'basketball floater']",0.34839317202568054,False
+566,Standing,"['basketball layup', 'basketball floater']",0.313201904296875,False
+567,Talking on phone,"['basketball layup', 'basketball floater']",0.16121697425842285,False
+568,Talking on phone,"['basketball layup', 'basketball floater']",0.16121697425842285,False
+569,Talking on phone,"['basketball layup', 'basketball floater']",0.16121697425842285,False
+570,Shaking head,['basketball shot'],0.2758452296257019,False
+571,Praying,['basketball shot'],0.22226664423942566,False
+572,Talking on phone,['basketball shot'],0.15477228164672852,False
+573,Jumping,['basketball shot'],0.3333904445171356,False
+574,Standing on rug,['basketball shot'],0.20073753595352173,False
+575,Dribbling basketball,['basketball shot'],0.6188932061195374,True
+576,Dancing,['basketball shot'],0.26202720403671265,False
+577,Taking picture,['basketball shot'],0.39715200662612915,False
+578,Talking on phone,['basketball shot'],0.15477228164672852,False
+579,Talking on phone,['basketball shot'],0.15477228164672852,False
+580,Skateboarding,['bowling'],0.4258822798728943,False
+581,Pushing,['bowling'],0.24881567060947418,False
+582,Skateboarding,['bowling'],0.4258822798728943,False
+583,Throwing ball,['bowling'],0.5211790204048157,True
+584,Jumping,['bowling'],0.36839228868484497,False
+585,Throwing ball,['bowling'],0.5211790204048157,True
+586,Jumping,['bowling'],0.36839228868484497,False
+587,Jumping,['bowling'],0.36839228868484497,False
+588,Playing guitar,['bowling'],0.34826090931892395,False
+589,Throwing something,['bowling'],0.38125377893447876,False
+590,Throwing frisbee,['boxing uppercut'],0.2145974040031433,False
+591,Waving,['boxing uppercut'],0.117015540599823,False
+592,Throwing something,['boxing uppercut'],0.256552517414093,False
+593,Boxing,['boxing uppercut'],0.651892900466919,True
+594,Punching,['boxing uppercut'],0.5348703861236572,True
+595,Boxing,['boxing uppercut'],0.651892900466919,True
+596,Dancing,['boxing uppercut'],0.2297593653202057,False
+597,Running,['boxing uppercut'],0.21975773572921753,False
+598,Throwing something,['boxing uppercut'],0.256552517414093,False
+599,Running,['boxing uppercut'],0.21975773572921753,False
+600,Skateboarding,['checking watch'],0.15084373950958252,False
+601,Standing,['checking watch'],0.20645591616630554,False
+602,Skateboarding,['checking watch'],0.15084373950958252,False
+603,Playing video game,['checking watch'],0.16968625783920288,False
+604,Jumping,['checking watch'],0.20073112845420837,False
+605,Standing,['checking watch'],0.20645591616630554,False
+606,Standing,['checking watch'],0.20645591616630554,False
+607,Throwing something,['checking watch'],0.10315573215484619,False
+608,Talking on phone,['checking watch'],0.20061013102531433,False
+609,Pointing,['checking watch'],0.1890210658311844,False
+610,Jumping for joy,['climbing'],0.40610551834106445,False
+611,Talking on phone,['climbing'],0.16908521950244904,False
+612,Jumping,['climbing'],0.556901216506958,True
+613,Climbing,['climbing'],1.0,True
+614,Dancing,['climbing'],0.3509981632232666,False
+615,Climbing,['climbing'],1.0,True
+616,Standing,['climbing'],0.346384733915329,False
+617,Jumping,['climbing'],0.556901216506958,True
+618,Celebrating,['climbing'],0.23757965862751007,False
+619,Jumping,['climbing'],0.556901216506958,True
+620,Skiing,"['gaming', 'using phone']",0.36667120456695557,False
+621,Pushing,"['gaming', 'using phone']",0.28620749711990356,False
+622,Throwing something,"['gaming', 'using phone']",0.2599392235279083,False
+623,Playing guitar,"['gaming', 'using phone']",0.38144469261169434,False
+624,Jumping,"['gaming', 'using phone']",0.3499740660190582,False
+625,Walking,"['gaming', 'using phone']",0.2737692594528198,False
+626,Throwing frisbee,"['gaming', 'using phone']",0.3932960033416748,False
+627,Sitting,"['gaming', 'using phone']",0.2892593741416931,False
+628,Sitting,"['gaming', 'using phone']",0.2892593741416931,False
+629,Jumping,"['gaming', 'using phone']",0.3499740660190582,False
+630,Bending over,['deadlift'],0.2506204843521118,False
+631,Standing,['deadlift'],0.22687862813472748,False
+632,Bending over,['deadlift'],0.2506204843521118,False
+633,Lift weights,['deadlift'],0.6094479560852051,True
+634,Bending over,['deadlift'],0.2506204843521118,False
+635,Lift weights,['deadlift'],0.6094479560852051,True
+636,Jumping,['deadlift'],0.4176510274410248,False
+637,Bending over,['deadlift'],0.2506204843521118,False
+638,Bending over,['deadlift'],0.2506204843521118,False
+639,Bending over,['deadlift'],0.2506204843521118,False
+640,Jumping,['driving'],0.36681511998176575,False
+641,Pushing,['driving'],0.3290882110595703,False
+642,Jumping,['driving'],0.36681511998176575,False
+643,Dancing,['driving'],0.3963824510574341,False
+644,Jumping down stairs,['driving'],0.25350669026374817,False
+645,Standing,['driving'],0.2680383026599884,False
+646,Sitting,['driving'],0.3425544202327728,False
+647,Throwing something,['driving'],0.1899210512638092,False
+648,Texting,['driving'],0.3087889850139618,False
+649,Punching,['driving'],0.31563588976860046,False
+650,Throwing something,['fencing'],0.30564582347869873,False
+651,Throwing something,['fencing'],0.30564582347869873,False
+652,Running,['fencing'],0.31108546257019043,False
+653,bowling,['fencing'],0.32092753052711487,False
+654,Jumping rope,['fencing'],0.43307724595069885,False
+655,Skating,['fencing'],0.35342663526535034,False
+656,Dancing,['fencing'],0.2779325246810913,False
+657,Dancing,['fencing'],0.2779325246810913,False
+658,Throwing something,['fencing'],0.30564582347869873,False
+659,Dancing,['fencing'],0.2779325246810913,False
+660,Dancing,['typing on keyboard'],0.12320476770401001,False
+661,Sitting,['typing on keyboard'],0.2799288332462311,False
+662,Reading,['typing on keyboard'],0.3066695034503937,False
+663,Sitting,['typing on keyboard'],0.2799288332462311,False
+664,Throwing frisbee,['typing on keyboard'],0.052530791610479355,False
+665,Sitting,['typing on keyboard'],0.2799288332462311,False
+666,Throwing frisbee,['typing on keyboard'],0.052530791610479355,False
+667,Texting,['typing on keyboard'],0.5095122456550598,True
+668,Talking,['typing on keyboard'],0.20539318025112152,False
+669,Dancing,['typing on keyboard'],0.12320476770401001,False
+670,Talking on phone,['opening door'],0.09446623176336288,False
+671,Standing,['opening door'],0.16241975128650665,False
+672,Walking,['opening door'],0.2450190931558609,False
+673,Jumping on rug,['opening door'],0.21093331277370453,False
+674,Jumping,['opening door'],0.2290898561477661,False
+675,Standing,['opening door'],0.16241975128650665,False
+676,Talking,['opening door'],0.205308735370636,False
+677,Eating,['opening door'],0.25736576318740845,False
+678,Talking,['opening door'],0.205308735370636,False
+679,Standing,['opening door'],0.16241975128650665,False
+680,Dancing,['playing drums'],0.42073071002960205,False
+681,Punching,['playing drums'],0.3173876702785492,False
+682,Skateboarding,['playing drums'],0.24894727766513824,False
+683,Skateboarding,['playing drums'],0.24894727766513824,False
+684,Skateboarding,['playing drums'],0.24894727766513824,False
+685,Sitting,['playing drums'],0.18248310685157776,False
+686,Walking,['playing drums'],0.23660466074943542,False
+687,Talking on phone,['playing drums'],0.2119777798652649,False
+688,Throwing something,['playing drums'],0.2096487432718277,False
+689,Jumping,['playing drums'],0.34298670291900635,False
+690,Pointing up,['playing guitar'],0.16949480772018433,False
+691,Pointing,['playing guitar'],0.1896463930606842,False
+692,Throwing something,['playing guitar'],0.22929605841636658,False
+693,Throwing something,['playing guitar'],0.22929605841636658,False
+694,Waving,['playing guitar'],0.2201235443353653,False
+695,Standing,['playing guitar'],0.19019563496112823,False
+696,Standing,['playing guitar'],0.19019563496112823,False
+697,Standing,['playing guitar'],0.19019563496112823,False
+698,Throwing something,['playing guitar'],0.22929605841636658,False
+699,Talking on phone,['playing guitar'],0.2322463095188141,False
+700,Dancing,['playing guitar'],0.31976574659347534,False
+701,crouching,['playing guitar'],0.2090250551700592,False
+702,Dancing,['playing guitar'],0.31976574659347534,False
+703,Dancing,['playing guitar'],0.31976574659347534,False
+704,Running,['playing guitar'],0.31930598616600037,False
+705,Sitting,['playing guitar'],0.2173672616481781,False
+706,Sitting,['playing guitar'],0.2173672616481781,False
+707,Drinking,['playing guitar'],0.23616480827331543,False
+708,Dancing,['playing guitar'],0.31976574659347534,False
+709,Talking on phone,['playing guitar'],0.2322463095188141,False
+710,Skateboarding,['playing harp'],0.10053379833698273,False
+711,Punching,['playing harp'],0.2276318371295929,False
+712,Jumping,['playing harp'],0.244798481464386,False
+713,Skateboarding,['playing harp'],0.10053379833698273,False
+714,Playing guitar,['playing harp'],0.6215656399726868,True
+715,Standing,['playing harp'],0.1880088448524475,False
+716,Walking,['playing harp'],0.04531407356262207,False
+717,Talking on phone,['playing harp'],0.1475192904472351,False
+718,Talking on phone,['playing harp'],0.1475192904472351,False
+719,Talking on phone,['playing harp'],0.1475192904472351,False
+720,Throwing something,['playing violin'],0.15826833248138428,False
+721,Pulling something out of pocket,['playing violin'],0.048286013305187225,False
+722,Throwing something,['playing violin'],0.15826833248138428,False
+723,Staring,['playing violin'],0.1746705174446106,False
+724,Throwing frisbee,['playing violin'],0.26850879192352295,False
+725,Standing,['playing violin'],0.1375472992658615,False
+726,Standing,['playing violin'],0.1375472992658615,False
+727,Dancing,['playing violin'],0.42459750175476074,False
+728,Throwing something,['playing violin'],0.15826833248138428,False
+729,Throwing something,['playing violin'],0.15826833248138428,False
+730,Standing,"['dragging', 'pulling']",0.23293422162532806,False
+731,Praying,"['dragging', 'pulling']",0.2760382890701294,False
+732,Walking,"['dragging', 'pulling']",0.4515351951122284,False
+733,Walking,"['dragging', 'pulling']",0.4515351951122284,False
+734,Climbing,"['dragging', 'pulling']",0.5331339240074158,True
+735,Standing,"['dragging', 'pulling']",0.23293422162532806,False
+736,Climbing,"['dragging', 'pulling']",0.5331339240074158,True
+737,Skateboarding,"['dragging', 'pulling']",0.2971860468387604,False
+738,Bending over,"['dragging', 'pulling']",0.31653451919555664,False
+739,Walking,"['dragging', 'pulling']",0.4515351951122284,False
+740,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+741,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+742,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+743,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+744,Climbing,"['tugging', 'dragging', 'pulling']",0.5331339240074158,True
+745,Walking,"['tugging', 'dragging', 'pulling']",0.4515351951122284,False
+746,Climbing,"['tugging', 'dragging', 'pulling']",0.5331339240074158,True
+747,Playing guitar,"['tugging', 'dragging', 'pulling']",0.29872575402259827,False
+748,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+749,Jumping,"['tugging', 'dragging', 'pulling']",0.4570625424385071,False
+750,Throwing something,['pushing'],0.29118865728378296,False
+751,Talking,['pushing'],0.2915510833263397,False
+752,Skateboarding,['pushing'],0.2394905686378479,False
+753,Jumping,['pushing'],0.31054824590682983,False
+754,Climbing,['pushing'],0.4236924350261688,False
+755,Standing,['pushing'],0.2514323592185974,False
+756,Climbing,['pushing'],0.4236924350261688,False
+757,Pointing,['pushing'],0.2770819664001465,False
+758,Waving,['pushing'],0.298162043094635,False
+759,Talking,['pushing'],0.2915510833263397,False
+760,Dancing,['putting on seatbelt'],0.15633073449134827,False
+761,Sitting,['putting on seatbelt'],0.4083654582500458,False
+762,Talking on phone,['putting on seatbelt'],0.1847485601902008,False
+763,Walking,['putting on seatbelt'],0.15868277847766876,False
+764,Dancing,['putting on seatbelt'],0.15633073449134827,False
+765,Walking,['putting on seatbelt'],0.15868277847766876,False
+766,Sitting,['putting on seatbelt'],0.4083654582500458,False
+767,Sitting,['putting on seatbelt'],0.4083654582500458,False
+768,Sitting,['putting on seatbelt'],0.4083654582500458,False
+769,Sitting,['putting on seatbelt'],0.4083654582500458,False
+770,Dancing,['shooting handgun'],0.19925466179847717,False
+771,Punching,['shooting handgun'],0.3315510153770447,False
+772,Skateboarding,['shooting handgun'],0.20079684257507324,False
+773,Standing,['shooting handgun'],0.15198446810245514,False
+774,Climbing,['shooting handgun'],0.14151224493980408,False
+775,Standing,['shooting handgun'],0.15198446810245514,False
+776,Climbing,['shooting handgun'],0.14151224493980408,False
+777,Throwing something,['shooting handgun'],0.30168846249580383,False
+778,Pointing,['shooting handgun'],0.28349363803863525,False
+779,Pointing,['shooting handgun'],0.28349363803863525,False
+780,Talking on phone,['shot put'],0.1306675672531128,False
+781,Talking on phone,['shot put'],0.1306675672531128,False
+782,Talking on phone,['shot put'],0.1306675672531128,False
+783,Throwing frisbee,['shot put'],0.30513525009155273,False
+784,Climbing,['shot put'],0.23218126595020294,False
+785,Running,['shot put'],0.2964407503604889,False
+786,Climbing,['shot put'],0.23218126595020294,False
+787,Skiing,['shot put'],0.2746772766113281,False
+788,Jumping,['shot put'],0.32948487997055054,False
+789,Skiing,['shot put'],0.2746772766113281,False
+790,Dancing,"['soccer shot', 'kicking']",0.5224473476409912,True
+791,Praying,"['soccer shot', 'kicking']",0.2953559160232544,False
+792,Running,"['soccer shot', 'kicking']",0.48069238662719727,False
+793,Running,"['soccer shot', 'kicking']",0.48069238662719727,False
+794,Running,"['soccer shot', 'kicking']",0.48069238662719727,False
+795,Kicking ball,"['soccer shot', 'kicking']",0.8094474673271179,True
+796,Jumping,"['soccer shot', 'kicking']",0.5059415102005005,True
+797,Skateboarding,"['soccer shot', 'kicking']",0.36231470108032227,False
+798,Skateboarding,"['soccer shot', 'kicking']",0.36231470108032227,False
+799,Skateboarding,"['soccer shot', 'kicking']",0.36231470108032227,False
+800,Dancing,['butterfly stroke swimming'],0.3134925961494446,False
+801,Jumping,['butterfly stroke swimming'],0.30696502327919006,False
+802,Dancing,['butterfly stroke swimming'],0.3134925961494446,False
+803,Throwing something,['butterfly stroke swimming'],0.13152123987674713,False
+804,Jumping rope,['butterfly stroke swimming'],0.29290783405303955,False
+805,Waving,['butterfly stroke swimming'],0.20862475037574768,False
+806,Jumping,['butterfly stroke swimming'],0.30696502327919006,False
+807,Jumping for joy,['butterfly stroke swimming'],0.21494340896606445,False
+808,Jumping,['butterfly stroke swimming'],0.30696502327919006,False
+809,Dancing,['butterfly stroke swimming'],0.3134925961494446,False
+810,Falling,['front stroke swimming'],0.27810508012771606,False
+811,Falling,['front stroke swimming'],0.27810508012771606,False
+812,Falling,['front stroke swimming'],0.27810508012771606,False
+813,Lying on beach,['front stroke swimming'],0.26826369762420654,False
+814,Lying down,['front stroke swimming'],0.15112143754959106,False
+815,Lying down,['front stroke swimming'],0.15112143754959106,False
+816,Lying down,['front stroke swimming'],0.15112143754959106,False
+817,Falling,['front stroke swimming'],0.27810508012771606,False
+818,Skiing,['front stroke swimming'],0.3434854745864868,False
+819,Lying down,['front stroke swimming'],0.15112143754959106,False
+820,Lying,['back stroke swimming'],0.12838466465473175,False
+821,Lying down,['back stroke swimming'],0.23311254382133484,False
+822,Lying down,['back stroke swimming'],0.23311254382133484,False
+823,Lying on beach,['back stroke swimming'],0.2936241328716278,False
+824,Lying,['back stroke swimming'],0.12838466465473175,False
+825,Lying on beach,['back stroke swimming'],0.2936241328716278,False
+826,Lying,['back stroke swimming'],0.12838466465473175,False
+827,Falling,['back stroke swimming'],0.32616156339645386,False
+828,Lying,['back stroke swimming'],0.12838466465473175,False
+829,Lying down,['back stroke swimming'],0.23311254382133484,False
+830,Dancing,['tennis serve'],0.22426077723503113,False
+831,Pointing up,['tennis serve'],0.22928890585899353,False
+832,Dancing,['tennis serve'],0.22426077723503113,False
+833,Playing tennis,['tennis serve'],0.801273763179779,True
+834,Dancing,['tennis serve'],0.22426077723503113,False
+835,Jumping,['tennis serve'],0.17891764640808105,False
+836,Standing,['tennis serve'],0.15250390768051147,False
+837,Throwing something,['tennis serve'],0.19616816937923431,False
+838,Skiing,['tennis serve'],0.24216975271701813,False
+839,Talking on phone,['tennis serve'],0.09915518760681152,False
+840,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+841,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+842,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+843,Play tennis,"['backhand tennis swing', 'cricket batting']",0.6556010246276855,True
+844,Skating,"['backhand tennis swing', 'cricket batting']",0.2834154963493347,False
+845,Jumping,"['backhand tennis swing', 'cricket batting']",0.26779109239578247,False
+846,Jumping rope,"['backhand tennis swing', 'cricket batting']",0.3284575045108795,False
+847,Playing wii,"['backhand tennis swing', 'cricket batting']",0.17596808075904846,False
+848,Jumping,"['backhand tennis swing', 'cricket batting']",0.26779109239578247,False
+849,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+850,Jumping,"['controlling remote', 'watching tv']",0.2983870506286621,False
+851,Sitting,"['controlling remote', 'watching tv']",0.4228535592556,False
+852,Skateboarding,"['controlling remote', 'watching tv']",0.2200230062007904,False
+853,Jumping rope,"['controlling remote', 'watching tv']",0.2549535632133484,False
+854,Throwing frisbee,"['controlling remote', 'watching tv']",0.28230053186416626,False
+855,Sitting,"['controlling remote', 'watching tv']",0.4228535592556,False
+856,Playing golf,"['controlling remote', 'watching tv']",0.3104415833950043,False
+857,Talking on phone,"['controlling remote', 'watching tv']",0.40150517225265503,False
+858,Sitting,"['controlling remote', 'watching tv']",0.4228535592556,False
+859,Talking on phone,"['controlling remote', 'watching tv']",0.40150517225265503,False

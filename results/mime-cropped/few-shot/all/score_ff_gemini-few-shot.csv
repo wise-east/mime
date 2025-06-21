@@ -1,0 +1,1150 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,Answer: archery,['shooting arrow'],0.6569681763648987,True
+1,shooting arrow,['shooting arrow'],1.000000238418579,True
+2,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+3,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+4,miming pouring liquid,['shooting arrow'],0.08152437210083008,False
+5,"Here's a description of the action in a single short phrase:
+
+**Archery practice**",['shooting arrow'],0.5869666337966919,True
+6,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: standing still",['shooting arrow'],0.25586748123168945,False
+7,"Here's a description of the action in a single short phrase:
+
+**Throwing a ball**",['shooting arrow'],0.29760777950286865,False
+8,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+9,Answer: shadow boxing,['shooting arrow'],0.2538180947303772,False
+10,Answer: alternating single arm curls,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.9573653936386108,True
+11,Answer: waving,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.22242560982704163,False
+12,Answer: alternating single arm curls,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.9573653936386108,True
+13,Answer: preparing to lift weights,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.7335928678512573,True
+14,Answer: standing still,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.19824817776679993,False
+15,Answer: standing still,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.19824817776679993,False
+16,"Here's a description of the action in the video:
+
+The person is standing still in a classroom.","['alternating single arm curls', 'arm curls', 'weightlifting']",0.19388535618782043,False
+17,Answer: alternating single arm curls,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.9573653936386108,True
+18,Answer: alternating single arm curls,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.9573653936386108,True
+19,Answer: alternating single arm curls,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.9573653936386108,True
+20,golf swing,['baseball swing'],0.769561231136322,True
+21,Answer: shooting arrow,['baseball swing'],0.22611004114151,False
+22,Answer: golf swing,['baseball swing'],0.7116634249687195,True
+23,pitching a baseball,['baseball swing'],0.6471801996231079,True
+24,Answer: playing golf,['baseball swing'],0.4993591904640198,False
+25,pitching a baseball,['baseball swing'],0.6471801996231079,True
+26,shooting arrow,['baseball swing'],0.22386044263839722,False
+27,Answer: golf swing,['baseball swing'],0.7116634249687195,True
+28,Answer: doing golf swing,['baseball swing'],0.6342976093292236,True
+29,golf swing,['baseball swing'],0.769561231136322,True
+30,Shadow boxing,['baseball pitch'],0.19668279588222504,False
+31,The person in this video is doing a **marching in place**.,['baseball pitch'],0.11770865321159363,False
+32,"Here's a description of the action in a single short phrase:
+
+**Performing a karate-style punch**",['baseball pitch'],0.19950732588768005,False
+33,Answer: pitching a baseball,['baseball pitch'],0.7512067556381226,True
+34,"Here's a description of the action in a single short phrase:
+
+**Playing with a toy skateboard**",['baseball pitch'],0.27359217405319214,False
+35,The person in this video is pitching a baseball.,['baseball pitch'],0.6728553771972656,True
+36,"Here's a description of the action in a single short phrase:
+
+**Dancing in power armor**",['baseball pitch'],0.04122670739889145,False
+37,Answer: shadow boxing,['baseball pitch'],0.2334534078836441,False
+38,Answer: throwing a ball,['baseball pitch'],0.5587344169616699,True
+39,Answer: shadow boxing,['baseball pitch'],0.2334534078836441,False
+40,Answer: overhead press,['basketball shot'],0.3369009792804718,False
+41,Answer: shooting arrow,['basketball shot'],0.48606985807418823,False
+42,Answer: throwing ball over head,['basketball shot'],0.4657207429409027,False
+43,shooting arrow,['basketball shot'],0.5189499855041504,True
+44,playing basketball,['basketball shot'],0.7109200954437256,True
+45,shooting arrow,['basketball shot'],0.5189499855041504,True
+46,"Here's a description of the action in a single short phrase:
+
+**Standing still**",['basketball shot'],0.15309232473373413,False
+47,Answer: picking up something from the floor,['basketball shot'],0.22710265219211578,False
+48,"Here's an answer:
+
+**Playing golf**",['basketball shot'],0.34506821632385254,False
+49,Answer: throwing frisbee,['basketball shot'],0.3548319637775421,False
+50,Answer: running and jumping,['basketball layup'],0.3047550320625305,False
+51,"Here's a description of the action in a single short phrase:
+
+**Running and jumping**",['basketball layup'],0.22697345912456512,False
+52,jogging and jumping,['basketball layup'],0.2814607620239258,False
+53,Answer: shooting basketball,['basketball layup'],0.5216735601425171,True
+54,jumping,['basketball layup'],0.34839314222335815,False
+55,shooting a basketball,['basketball layup'],0.5513005256652832,True
+56,running,['basketball layup'],0.27447548508644104,False
+57,Answer: jumping,['basketball layup'],0.3087804913520813,False
+58,Answer: skateboarding,['basketball layup'],0.23136359453201294,False
+59,jogging and jumping,['basketball layup'],0.2814607620239258,False
+60,Answer: bowling,['bowling'],0.8930017352104187,True
+61,Answer: reloading a weapon,['bowling'],0.12686721980571747,False
+62,Throwing a frisbee.,['bowling'],0.4840635061264038,False
+63,bowling,['bowling'],1.0,True
+64,Conducting an orchestra.,['bowling'],0.17572233080863953,False
+65,Bowling.,['bowling'],0.9509069323539734,True
+66,Answer: conducting orchestra,['bowling'],0.1921352744102478,False
+67,Answer: bowling,['bowling'],0.8930017352104187,True
+68,Answer: throwing a ball,['bowling'],0.4514198899269104,False
+69,bowling a ball,['bowling'],0.8392456769943237,True
+70,Answer: shadow boxing,['boxing'],0.6588931083679199,True
+71,Answer: aiming a bow and arrow,['boxing'],0.22038060426712036,False
+72,Answer: shadow boxing,['boxing'],0.6588931083679199,True
+73,Shadow boxing.,['boxing'],0.7230733036994934,True
+74,shadow boxing,['boxing'],0.6916698217391968,True
+75,Answer: shadow boxing,['boxing'],0.6588931083679199,True
+76,"Here's a short phrase describing the action in the video:
+
+Shooting arrow",['boxing'],0.17462334036827087,False
+77,shadow boxing,['boxing'],0.6916698217391968,True
+78,Answer: shadow boxing,['boxing'],0.6588931083679199,True
+79,shadow boxing,['boxing'],0.6916698217391968,True
+80,Answer:  hammer curls,"['checking phone', 'sending text', 'using phone']",0.09566488862037659,False
+81,Answer: reloading a weapon,"['checking phone', 'sending text', 'using phone']",0.15632404386997223,False
+82,Answer: using a tablet,"['checking phone', 'sending text', 'using phone']",0.5629636645317078,True
+83,Answer: looking at phone,"['checking phone', 'sending text', 'using phone']",0.6648473143577576,True
+84,The person in this video is **checking a phone**.,"['checking phone', 'sending text', 'using phone']",0.6648927927017212,True
+85,The person in this video is **standing still**.,"['checking phone', 'sending text', 'using phone']",0.0810978040099144,False
+86,Answer: standing still,"['checking phone', 'sending text', 'using phone']",0.15877749025821686,False
+87,Answer: looking at phone,"['checking phone', 'sending text', 'using phone']",0.6648473143577576,True
+88,Answer: practicing archery,"['checking phone', 'sending text', 'using phone']",0.1329306960105896,False
+89,Answer: bicep curls,"['checking phone', 'sending text', 'using phone']",0.06027241051197052,False
+90,Answer: checking watch,['checking watch'],0.8656378388404846,True
+91,Answer: scratching head,['checking watch'],0.15681970119476318,False
+92,checking watch,['checking watch'],1.0,True
+93,Answer: holding globe,['checking watch'],0.11068815737962723,False
+94,Answer: checking watch,['checking watch'],0.8656378388404846,True
+95,standing still,['checking watch'],0.22025275230407715,False
+96,Answer: adjusting helmet,['checking watch'],0.13906925916671753,False
+97,Answer: checking the watch,['checking watch'],0.8026480674743652,True
+98,Answer: putting on shirt,['checking watch'],0.15727201104164124,False
+99,Answer: pointing,['checking watch'],0.15528884530067444,False
+100,Answer: arm raises,['climbing'],0.345114529132843,False
+101,Answer: raising arms.,['climbing'],0.3298879861831665,False
+102,Answer: throwing a ball,['climbing'],0.21370315551757812,False
+103,"Here's a description of the action in a single short phrase:
+
+planning climbing route",['climbing'],0.6477810144424438,True
+104,conducting an orchestra,['climbing'],0.14569206535816193,False
+105,Answer: climbing wall,['climbing'],0.76487135887146,True
+106,conducting orchestra,['climbing'],0.1574421226978302,False
+107,Answer: raising arms alternately,['climbing'],0.32976412773132324,False
+108,Answer: overhead press,['climbing'],0.2625792622566223,False
+109,Answer: celebrating a victory,['climbing'],0.21102558076381683,False
+110,Answer: alternating bicep curls,['throwing dart'],0.13477888703346252,False
+111,Answer: waving,['throwing dart'],0.3455865979194641,False
+112,Answer: throwing a ball,['throwing dart'],0.5685673356056213,True
+113,Throwing darts,['throwing dart'],0.8791065216064453,True
+114,conducting an orchestra,['throwing dart'],0.01131509244441986,False
+115,Throwing darts,['throwing dart'],0.8791065216064453,True
+116,"Here's a description of the action in a single short phrase:
+
+Conducting an orchestra.",['throwing dart'],0.08477538824081421,False
+117,Answer: single arm overhead tricep extension,['throwing dart'],0.1296301931142807,False
+118,Answer: waving,['throwing dart'],0.3455865979194641,False
+119,Answer: arm stretch,['throwing dart'],0.23638096451759338,False
+120,Answer: picking something up,['deadlift'],0.2073979675769806,False
+121,picking up an arrow,['deadlift'],0.13867419958114624,False
+122,The person in the video is doing a **bodyweight squat**.,['deadlift'],0.5220159292221069,True
+123,picking up weights,['deadlift'],0.49187877774238586,False
+124,Cleaning up a spill.,['deadlift'],0.18214020133018494,False
+125,lifting weights,['deadlift'],0.6366152763366699,True
+126,Answer:  cleaning up a spill,['deadlift'],0.1191297397017479,False
+127,Answer: picking something up,['deadlift'],0.2073979675769806,False
+128,picking something up from the ground,['deadlift'],0.2864866256713867,False
+129,picking something up,['deadlift'],0.2436320036649704,False
+130,Answer: pretending to answer phone,['drinking out of a cup'],0.08999387919902802,False
+131,Answer: saluting,['drinking out of a cup'],0.09699390828609467,False
+132,drinking water,['drinking out of a cup'],0.591611921787262,True
+133,Answer: saluting,['drinking out of a cup'],0.09699390828609467,False
+134,Answer: drinking water,['drinking out of a cup'],0.5396810173988342,True
+135,"Here's a description of the action in the video:
+
+The person in the video is standing still and saluting.",['drinking out of a cup'],0.07733996212482452,False
+136,"Here's a description of the action:
+
+Saluting",['drinking out of a cup'],0.057795312255620956,False
+137,Answer: drinking from a bottle,['drinking out of a cup'],0.610575795173645,True
+138,scratching head,['drinking out of a cup'],0.10623030364513397,False
+139,Answer: praying,['drinking out of a cup'],0.10362991690635681,False
+140,Answer: shadow boxing,['driving'],0.19653071463108063,False
+141,Answer: loading crossbow,['driving'],0.15233922004699707,False
+142,playing virtual reality game,['driving'],0.225025475025177,False
+143,Answer: looking at a watch,['driving'],0.25679177045822144,False
+144,Answer: alternating single arm curls,['driving'],0.002900445833802223,False
+145,"Here's a description of the action in the video:
+
+A large robot stands still in a car showroom.",['driving'],0.20444200932979584,False
+146,"Here's a description of the action in a single short phrase:
+
+**Conducting an orchestra**",['driving'],0.11546961963176727,False
+147,Answer: rowing a boat,['driving'],0.35391974449157715,False
+148,Answer: throwing a ball,['driving'],0.2986486256122589,False
+149,Answer: clapping hands,['driving'],0.22354795038700104,False
+150,Answer: shadow boxing,['driving'],0.19653071463108063,False
+151,Answer: shooting arrow,['driving'],0.24824874103069305,False
+152,Answer: shooting arrow,['driving'],0.24824874103069305,False
+153,Answer: shadow boxing,['driving'],0.19653071463108063,False
+154,Answer: conducting an orchestra,['driving'],0.22207561135292053,False
+155,The person in this video is standing still.,['driving'],0.09290765225887299,False
+156,"Here's a description of the action in a single short phrase:
+
+**Conducting an orchestra**",['driving'],0.11546961963176727,False
+157,Answer: steering wheel exercise,['driving'],0.4689175486564636,False
+158,Answer: doing neck stretches,['driving'],0.17275679111480713,False
+159,Answer: driving a car,['driving'],0.7693808674812317,True
+160,Answer: seated bicep curls,['driving'],0.04976895451545715,False
+161,Answer: sitting down,['driving'],0.35052984952926636,False
+162,Answer: seated arm circles,['driving'],0.15607276558876038,False
+163,"Here's a description of the action in a single short phrase:
+
+**Hoverboarding in a car showroom**",['driving'],0.24148374795913696,False
+164,Answer: conducting an orchestra,['driving'],0.22207561135292053,False
+165,"Here's a description of the action in a single short phrase:
+
+Sitting and gesturing.",['driving'],0.1797093003988266,False
+166,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: sitting on stage",['driving'],0.24839124083518982,False
+167,Answer: seated rowing,['driving'],0.3119894862174988,False
+168,Answer: seated punches,['driving'],0.15854904055595398,False
+169,Answer: seated arm circles,['driving'],0.15607276558876038,False
+170,Answer: doing bicep curls,['fencing'],0.042564090341329575,False
+171,Answer: doing bicep curls,['fencing'],0.042564090341329575,False
+172,Answer: doing a dance,['fencing'],0.2364131063222885,False
+173,Answer: Fencing,['fencing'],0.9137997627258301,True
+174,playing cricket,['fencing'],0.31444650888442993,False
+175,Answer: doing jumping jacks,['fencing'],0.21295344829559326,False
+176,The person in this video is doing a celebratory dance.,['fencing'],0.027692290022969246,False
+177,Answer: shadow boxing,['fencing'],0.36225658655166626,False
+178,Answer: arm circles,['fencing'],0.2210727334022522,False
+179,Answer: throwing a ball,['fencing'],0.29859405755996704,False
+180,Answer: shadow boxing,['fishing'],0.1616986095905304,False
+181,Answer: shooting arrow,['fishing'],0.24941058456897736,False
+182,"Here's a description of the action:
+
+**Bowling**",['fishing'],0.21734748780727386,False
+183,Answer: shadow boxing,['fishing'],0.1616986095905304,False
+184,"Here's a description of the action in the video:
+
+**Practicing a martial arts kick**",['fishing'],0.09679196774959564,False
+185,"Here's a description of the action in a single short phrase:
+
+**Stretching arms overhead**",['fishing'],0.15475396811962128,False
+186,walking around,['fishing'],0.22116932272911072,False
+187,Answer: throwing a ball,['fishing'],0.264259397983551,False
+188,"Here's a short phrase describing the action in the video:
+
+**Golf swing**",['fishing'],0.1638084053993225,False
+189,Answer: throwing a ball,['fishing'],0.264259397983551,False
+190,Answer: touching toes,['golf put'],0.1886104941368103,False
+191,Answer: picking up something from the ground,['golf put'],0.2483578324317932,False
+192,Answer: putting golf ball,['golf put'],0.7732831239700317,True
+193,Putting a golf ball.,['golf put'],0.7893733978271484,True
+194,Answer: picking up something,['golf put'],0.18442314863204956,False
+195,Answer: putting golf ball,['golf put'],0.7732831239700317,True
+196,The person in the video is embracing another person.,['golf put'],0.04730461910367012,False
+197,Answer: stretching hamstring,['golf put'],0.30612653493881226,False
+198,Answer: touching toes,['golf put'],0.1886104941368103,False
+199,Answer: torso twists,['golf put'],0.17459294199943542,False
+200,Answer: golfing swing,['golf swing'],0.8864770531654358,True
+201,Answer: picking up something,['golf swing'],0.15632611513137817,False
+202,Answer: golf swing,['golf swing'],0.9055265784263611,True
+203,hitting a golf ball,['golf swing'],0.7902684211730957,True
+204,"Here's a description of the action in a single short phrase:
+
+**Golf swing**",['golf swing'],0.7815667390823364,True
+205,playing golf,['golf swing'],0.8222696781158447,True
+206,That's a person in a costume performing a dance or some sort of movement routine on an empty stage.  A short phrase to describe the action could be: **performing a stage routine**.,['golf swing'],0.022013982757925987,False
+207,Answer: hitting golf ball,['golf swing'],0.7320988178253174,True
+208,Answer: golf swing,['golf swing'],0.9055265784263611,True
+209,Answer: golf swing,['golf swing'],0.9055265784263611,True
+210,"Here's a description of the action in a single short phrase:
+
+Throwing a javelin",['javelin throw'],0.7641247510910034,True
+211,The person in this video is doing a dab.,['javelin throw'],0.22012941539287567,False
+212,Answer: throwing a javelin,['javelin throw'],0.8924909830093384,True
+213,Answer: throwing javelin,['javelin throw'],0.9049825668334961,True
+214,Answer: conducting an orchestra,['javelin throw'],0.14121702313423157,False
+215,throwing javelin,['javelin throw'],0.9658077359199524,True
+216,shooting arrow,['javelin throw'],0.36338934302330017,False
+217,"Here's a description of the action in a single short phrase:
+
+Throwing a small object.",['javelin throw'],0.49496540427207947,False
+218,Answer: throwing a ball,['javelin throw'],0.5803052186965942,True
+219,Answer: throwing a frisbee,['javelin throw'],0.5714643001556396,True
+220,Answer: doing squats,['typing on keyboard'],0.1317843496799469,False
+221,Answer: cocking crossbow,['typing on keyboard'],0.06666506081819534,False
+222,"Here's a description of the action in a single short phrase:
+
+**Doing squats**",['typing on keyboard'],0.10720723122358322,False
+223,sitting still,['typing on keyboard'],0.28869569301605225,False
+224,Answer: putting golf ball,['typing on keyboard'],0.16258063912391663,False
+225,Answer: empty office,['typing on keyboard'],0.1097056120634079,False
+226,shooting arrow,['typing on keyboard'],0.11749368906021118,False
+227,Answer: crouching,['typing on keyboard'],0.23696891963481903,False
+228,Answer:  chair squats,['typing on keyboard'],0.1400454044342041,False
+229,Answer: seated bicep curls,['typing on keyboard'],0.07876630127429962,False
+230,Answer:  bicep curls,['knocking on door'],0.00010455399751663208,False
+231,Answer: aiming a rifle,['knocking on door'],0.20209333300590515,False
+232,Answer: bicep curl,['knocking on door'],0.008168965578079224,False
+233,"Here's a description of the action in a single short phrase:
+
+Standing still.",['knocking on door'],0.2019755244255066,False
+234,Answer: putting golf ball,['knocking on door'],0.19688208401203156,False
+235,standing still,['knocking on door'],0.2562185525894165,False
+236,Answer: shooting arrow,['knocking on door'],0.25483477115631104,False
+237,Answer: single arm bicep curl,['knocking on door'],-0.04488039389252663,False
+238,Answer: scratching head,['knocking on door'],0.20296595990657806,False
+239,Answer: single arm bicep curl,['knocking on door'],-0.04488039389252663,False
+240,"Here's a short phrase describing the person's actions:
+
+**Pointing and stepping to the side.**",['opening door'],0.20941731333732605,False
+241,"Here's a description of the action in a single short phrase:
+
+pointing and walking",['opening door'],0.18844002485275269,False
+242,Answer: throwing a ball,['opening door'],0.2120048701763153,False
+243,"Here's a description of the action in a single short phrase:
+
+Spinning a globe.",['opening door'],0.13632714748382568,False
+244,putting golf ball,['opening door'],0.16818296909332275,False
+245,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: holding a globe",['opening door'],0.22806179523468018,False
+246,The person in the video is doing a golf swing.,['opening door'],0.13685207068920135,False
+247,Answer: looking at watch,['opening door'],0.24624067544937134,False
+248,"Here's a short phrase describing the action in the video:
+
+**Throwing a frisbee**",['opening door'],0.1539309173822403,False
+249,Answer: walking and checking watch,['opening door'],0.2141072303056717,False
+250,doing arm circles,['opening door'],0.04913082718849182,False
+251,Answer: marching in place,['opening door'],0.19725698232650757,False
+252,Answer: walking with arm extended,['opening door'],0.1764962375164032,False
+253,"Here's a description of the action in a single short phrase:
+
+**Playing with a globe**",['opening door'],0.14533451199531555,False
+254,"Here's a description of the action in a single short phrase:
+
+Putting a golf ball.",['opening door'],0.20204976201057434,False
+255,shooting arrow,['opening door'],0.21297989785671234,False
+256,Answer: walking,['opening door'],0.27255481481552124,False
+257,Answer: pointing,['opening door'],0.20351621508598328,False
+258,Answer: throwing object,['opening door'],0.2205597162246704,False
+259,Answer: walking forward,['opening door'],0.27150100469589233,False
+260,Answer: doing squats,['playing piano'],0.2637760639190674,False
+261,Answer: doing a seated dance,['playing piano'],0.37726008892059326,False
+262,doing squats,['playing piano'],0.22720421850681305,False
+263,Answer:  performing martial arts,['playing piano'],0.39733296632766724,False
+264,"Here's a short phrase describing the action:
+
+**Simulating skateboarding**",['playing piano'],0.17846174538135529,False
+265,The person in this video is doing a **seated shoulder press**.,['playing piano'],0.20254404842853546,False
+266,"Here's a description of the action in a single short phrase:
+
+**Doing a beachside dance**",['playing piano'],0.22408251464366913,False
+267,Answer: seated bicep curls,['playing piano'],0.19078481197357178,False
+268,Answer: seated bicep curls,['playing piano'],0.19078481197357178,False
+269,Answer: rowing,['playing piano'],0.2750057578086853,False
+270,Answer: bicep curls,['playing acoustic guitar'],0.12656131386756897,False
+271,Answer: reloading a weapon,['playing acoustic guitar'],0.19114252924919128,False
+272,playing air guitar,['playing acoustic guitar'],0.7142455577850342,True
+273,Answer: conducting an orchestra,['playing acoustic guitar'],0.30551472306251526,False
+274,Alternating single arm curls.,['playing acoustic guitar'],0.06750011444091797,False
+275,The person in this video is conducting.,['playing acoustic guitar'],0.21653294563293457,False
+276,The person in this video is **shooting an arrow**.,['playing acoustic guitar'],0.06926574558019638,False
+277,checking watch,['playing acoustic guitar'],0.05457617715001106,False
+278,Answer: arm circles,['playing acoustic guitar'],0.09044474363327026,False
+279,Answer: adjusting wristwatch,['playing acoustic guitar'],0.133987158536911,False
+280,"Here's a description of the action in a single short phrase:
+
+**Performing a karate chop**",['playing electric guitar'],0.21466514468193054,False
+281,Answer: playing air guitar,['playing electric guitar'],0.6509026288986206,True
+282,"Here's a description of the action in a single short phrase:
+
+**Performing a rock and roll pose**",['playing electric guitar'],0.27767646312713623,False
+283,Here's a short phrase describing the action:  Performing a dance routine.,['playing electric guitar'],0.23728971183300018,False
+284,"Here's a description of the action in a single short phrase:
+
+Doing a karate-style move.",['playing electric guitar'],0.19035154581069946,False
+285,"Here's a description of the action in a single short phrase:
+
+Performing a dance routine.",['playing electric guitar'],0.21466636657714844,False
+286,"Here's a description of the action in the video in a single short phrase:
+
+**Doing a beachside shadowboxing routine**",['playing electric guitar'],0.11365775763988495,False
+287,Answer: shadow boxing,['playing electric guitar'],0.1312648355960846,False
+288,"Here's a short phrase describing the action in the video:
+
+**Throwing a ball**",['playing electric guitar'],0.1969435214996338,False
+289,Answer: throwing a ball,['playing electric guitar'],0.28026047348976135,False
+290,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+291,Answer: seated bicep curls,['playing drums'],0.20575596392154694,False
+292,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+293,That's a person doing a **shadow boxing** routine.,['playing drums'],0.22631311416625977,False
+294,Answer: skateboarding,['playing drums'],0.28336119651794434,False
+295,Answer: playing air guitar,['playing drums'],0.49568185210227966,False
+296,Answer: clapping hands,['playing drums'],0.3714357614517212,False
+297,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+298,Answer: seated alternating bicep curls,['playing drums'],0.181161031126976,False
+299,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+300,boxing,['playing harp'],0.2198258936405182,False
+301,Answer: aiming rifle,['playing harp'],0.30057406425476074,False
+302,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+303,Here's a description of the action in the video: shadow boxing.,['playing harp'],0.16183766722679138,False
+304,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+305,The person in this video is doing **alternating single arm curls**.,['playing harp'],0.20380550622940063,False
+306,"Here's a description of the action in a single short phrase:
+
+Reloading a weapon.",['playing harp'],0.22332294285297394,False
+307,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+308,Answer: doing bicep curls,['playing harp'],0.17405110597610474,False
+309,Answer: practicing martial arts,['playing harp'],0.2829281687736511,False
+310,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+311,The person in this video is doing a **shoulder press**.,['playing harp'],0.14832787215709686,False
+312,boxing,['playing harp'],0.2198258936405182,False
+313,alternating single arm curls,['playing harp'],0.11447068303823471,False
+314,"Here's a description of the action in a single short phrase:
+
+**mimicking archery**",['playing harp'],0.3574637174606323,False
+315,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: conducting an orchestra",['playing harp'],0.35999298095703125,False
+316,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: jogging on beach",['playing harp'],0.2114233523607254,False
+317,Answer: doing squats,['playing harp'],0.17838899791240692,False
+318,Answer: doing squats,['playing harp'],0.17838899791240692,False
+319,"Here's a description of the action in a single short phrase:
+
+**Doing seated bicep curls**",['playing harp'],0.19598981738090515,False
+320,Answer: walking and picking up something,"['pulling', 'dragging']",0.5154404640197754,True
+321,Answer: doing the robot dance,"['pulling', 'dragging']",0.3205840587615967,False
+322,walking and juggling,"['pulling', 'dragging']",0.4845923185348511,False
+323,"Here's a description of the person's action in the video:
+
+**Shadow boxing**","['pulling', 'dragging']",0.23229792714118958,False
+324,planning climbing route,"['pulling', 'dragging']",0.29185301065444946,False
+325,"Here's a description of the action in a single short phrase:
+
+**Stumbling/falling**","['pulling', 'dragging']",0.2859165370464325,False
+326,Answer: rock climbing,"['pulling', 'dragging']",0.43102532625198364,False
+327,Answer: rowing,"['pulling', 'dragging']",0.3330765962600708,False
+328,Answer: golf swing,"['pulling', 'dragging']",0.25846046209335327,False
+329,The person in this video is doing a **golf swing**.,"['pulling', 'dragging']",0.19158834218978882,False
+330,Answer: doing jumping jacks,"['dragging', 'pulling']",0.43551984429359436,False
+331,Answer: picking up something from the ground,"['dragging', 'pulling']",0.43672868609428406,False
+332,Answer: doing a cartwheel,"['dragging', 'pulling']",0.4124396741390228,False
+333,"Here's a description of the person's action in a single short phrase:
+
+Picking up a spilled item","['dragging', 'pulling']",0.27661246061325073,False
+334,Here's a short phrase describing the action: bouldering warm-up.,"['dragging', 'pulling']",0.28830966353416443,False
+335,"Here's a description of the action in a single short phrase:
+
+Picking up spilled liquid","['dragging', 'pulling']",0.342754602432251,False
+336,The person in the video is rock climbing.,"['dragging', 'pulling']",0.2370888590812683,False
+337,Answer: rowing a boat,"['dragging', 'pulling']",0.3146752715110779,False
+338,Answer: throwing a ball,"['dragging', 'pulling']",0.2979537844657898,False
+339,Answer: bowling a cricket ball,"['dragging', 'pulling']",0.2029658555984497,False
+340,Here's a short phrase describing the action:  picking up something from the ground,['pushing'],0.25586891174316406,False
+341,picking up something from the ground,['pushing'],0.24510040879249573,False
+342,Answer: doing a bowling motion,['pushing'],0.2634102404117584,False
+343,Answer: sweeping the floor,['pushing'],0.23795685172080994,False
+344,Preparing to climb a wall.,['pushing'],0.32058292627334595,False
+345,Here's a short phrase describing the action in the video:  picking up spilled liquid.,['pushing'],0.18574339151382446,False
+346,shooting arrow,['pushing'],0.2362162321805954,False
+347,Here's a short phrase describing the action:  Throwing a javelin.,['pushing'],0.1362590789794922,False
+348,throwing a ball,['pushing'],0.22670087218284607,False
+349,Answer: picking something up,['pushing'],0.2701455056667328,False
+350,Answer: bowling,['pushing'],0.2599671483039856,False
+351,"Here's a description of the action in a single short phrase:
+
+**Low crawl**",['pushing'],0.17072217166423798,False
+352,"Here's a short phrase describing the action in the video:
+
+Bowling a ball",['pushing'],0.18446657061576843,False
+353,Here's a short phrase describing the action:  pretending to trip and fall.,['pushing'],0.1683412790298462,False
+354,"Here's a description of the person's action in the video:
+
+**Bouldering**",['pushing'],0.2633160948753357,False
+355,"Here's a short phrase describing the action in the video:
+
+**Falling down**",['pushing'],0.17223671078681946,False
+356,Answer: climbing wall,['pushing'],0.3545238971710205,False
+357,doing a reverse lunge,['pushing'],0.11868933588266373,False
+358,throwing a javelin,['pushing'],0.08924238383769989,False
+359,"Here's a short phrase describing the action:
+
+Picking up something from the ground",['pushing'],0.25586891174316406,False
+360,Answer: seated bicep curls,['putting on seatbelt'],0.12023165076971054,False
+361,Answer: seated arm curls,['putting on seatbelt'],0.14508894085884094,False
+362,Answer: jump squats,['putting on seatbelt'],0.18179160356521606,False
+363,"Here's a description of the action in a single short phrase:
+
+Jumping jacks in a car showroom",['putting on seatbelt'],0.2537575364112854,False
+364,"Here's a description of the action in a single short phrase:
+
+**Doing jumping jacks**",['putting on seatbelt'],0.2133502960205078,False
+365,"Here's a description of the action in a single short phrase:
+
+**Bicep curls**",['putting on seatbelt'],0.03652127832174301,False
+366,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer:  mimicking shooting a bow",['putting on seatbelt'],0.21935784816741943,False
+367,Answer: seated leg raises,['putting on seatbelt'],0.1996644139289856,False
+368,Answer: seated bicep curls,['putting on seatbelt'],0.12023165076971054,False
+369,Answer: doing squats,['putting on seatbelt'],0.18797767162322998,False
+370,Answer: golf swing practice,['shooting handgun'],0.2837998867034912,False
+371,Answer: cocking a bow,['shooting handgun'],0.35427170991897583,False
+372,Answer: doing arm stretches,['shooting handgun'],0.10308137536048889,False
+373,Answer: shooting arrow,['shooting handgun'],0.5254029035568237,True
+374,Answer: inspecting climbing holds,['shooting handgun'],0.09999717026948929,False
+375,Answer: shooting at targets,['shooting handgun'],0.6406047344207764,True
+376,Answer: rock climbing,['shooting handgun'],0.19627413153648376,False
+377,Answer: taking a selfie,['shooting handgun'],0.20133090019226074,False
+378,Here's a description of the action:  **Shooting a bow and arrow.**,['shooting handgun'],0.3979431986808777,False
+379,Answer: throwing a ball,['shooting handgun'],0.28618884086608887,False
+380,Answer: shadow boxing,['shooting rifle'],0.17636266350746155,False
+381,Answer: mimicking archery,['shooting rifle'],0.4628373086452484,False
+382,Here's a short phrase describing the action: shadow boxing on a skateboard.,['shooting rifle'],0.07746344059705734,False
+383,Answer: shooting at targets,['shooting rifle'],0.6978658437728882,True
+384,"Here's a description of the action in a single short phrase:
+
+Planning a climbing route.",['shooting rifle'],0.15320853888988495,False
+385,Answer: shooting arrow,['shooting rifle'],0.6198721528053284,True
+386,Answer: standing still,['shooting rifle'],0.18444517254829407,False
+387,boxing,['shooting rifle'],0.2086128294467926,False
+388,Answer: shooting arrow,['shooting rifle'],0.6198721528053284,True
+389,Answer: boxing,['shooting rifle'],0.22384533286094666,False
+390,Answer: throwing javelin,['shot put'],0.33310848474502563,False
+391,"Here's a short phrase describing the action in the video:
+
+**Throwing a grenade**",['shot put'],0.19629228115081787,False
+392,The person in the video is performing a **jump**.,['shot put'],0.17946001887321472,False
+393,shot putting,['shot put'],0.9288052320480347,True
+394,"Here's a description of the action in a single short phrase:
+
+**Throwing a ball**",['shot put'],0.2774277627468109,False
+395,"Here's the answer:
+
+**Shot putting**",['shot put'],0.7691178321838379,True
+396,The person in the video is doing a **jump squat**.,['shot put'],0.24537155032157898,False
+397,Throwing a javelin,['shot put'],0.2971307635307312,False
+398,Answer: throwing javelin,['shot put'],0.33310848474502563,False
+399,Answer: throwing javelin,['shot put'],0.33310848474502563,False
+400,Answer: putting on wristbands,['writing'],0.179771289229393,False
+401,Answer: loading crossbow,['writing'],0.1359241008758545,False
+402,Answer: tightening skateboard trucks,['writing'],0.0697384625673294,False
+403,Answer: doing jumping jacks,['writing'],0.1894073188304901,False
+404,Here's a short phrase to describe the action:  Preparing to climb.,['writing'],0.16770753264427185,False
+405,sitting dejectedly,['writing'],0.25400930643081665,False
+406,Answer: praying,['writing'],0.18068048357963562,False
+407,Answer: seated hamstring stretches,['writing'],0.07114320248365402,False
+408,Answer:  Doing squats,['writing'],0.18385455012321472,False
+409,Answer: seated bicep curls,['writing'],0.05437321960926056,False
+410,The person in this video is doing a **high kick**.,['soccer shot'],0.36280637979507446,False
+411,"Here's a description of the action in a single short phrase:
+
+**Performing a martial arts kick**",['soccer shot'],0.3526099920272827,False
+412,The person is skateboarding.,['soccer shot'],0.11750784516334534,False
+413,kicking soccer ball,['soccer shot'],0.6900778412818909,True
+414,Answer: dancing,['soccer shot'],0.2834159731864929,False
+415,kicking soccer ball,['soccer shot'],0.6900778412818909,True
+416,"Here's a short phrase describing the action in the video:
+
+**Performing a martial arts kick.**",['soccer shot'],0.3806685209274292,False
+417,Answer: breakdancing,['soccer shot'],0.14660798013210297,False
+418,Answer: doing a cartwheel,['soccer shot'],0.11816076189279556,False
+419,Answer: doing a cartwheel,['soccer shot'],0.11816076189279556,False
+420,Answer: doing arm circles,['front stroke swimming'],0.28706908226013184,False
+421,Answer: shoulder press,['front stroke swimming'],0.28943169116973877,False
+422,playing virtual reality game,['front stroke swimming'],0.1468924582004547,False
+423,The person in this video is doing the macarena.,['front stroke swimming'],0.19805997610092163,False
+424,conducting an orchestra,['front stroke swimming'],0.10398335754871368,False
+425,"Here's a description of the action in a single short phrase:
+
+**Relaxing on the beach**",['front stroke swimming'],0.2408582717180252,False
+426,conducting an orchestra,['front stroke swimming'],0.10398335754871368,False
+427,Answer: practicing archery,['front stroke swimming'],0.23507925868034363,False
+428,Answer: arm circles,['front stroke swimming'],0.21111594140529633,False
+429,Answer: arm circles,['front stroke swimming'],0.21111594140529633,False
+430,The person in this video is performing a series of arm stretches.,['breast stroke swimming'],0.20384249091148376,False
+431,Answer: reloading a weapon,['breast stroke swimming'],0.05438987910747528,False
+432,Answer: doing jumping jacks,['breast stroke swimming'],0.19618679583072662,False
+433,Answer: shooting arrow,['breast stroke swimming'],0.15974795818328857,False
+434,conducting an orchestra,['breast stroke swimming'],0.06538665294647217,False
+435,Answer: shooting arrow,['breast stroke swimming'],0.15974795818328857,False
+436,The person in the video is conducting an orchestra.,['breast stroke swimming'],-0.008316641673445702,False
+437,Answer: arm circles,['breast stroke swimming'],0.20035617053508759,False
+438,Answer: throwing a frisbee,['breast stroke swimming'],0.16566796600818634,False
+439,Answer: shadow boxing,['breast stroke swimming'],0.12903033196926117,False
+440,shadow boxing,['taking photo'],0.2599911689758301,False
+441,Answer: aiming a rifle,['taking photo'],0.2946779727935791,False
+442,Answer: shadow boxing,['taking photo'],0.273709774017334,False
+443,Answer: miming shooting a bow and arrow,['taking photo'],0.22734364867210388,False
+444,Answer: taking photos,['taking photo'],0.8394603729248047,True
+445,"Here's a description of the action in a single short phrase:
+
+**Photo shoot pose**",['taking photo'],0.5529882311820984,True
+446,"Here's a description of the action in a single short phrase:
+
+**Watching a climber**",['taking photo'],0.13701777160167694,False
+447,taking a selfie,['taking photo'],0.7128998041152954,True
+448,Answer: taking a photograph,['taking photo'],0.8680498003959656,True
+449,Answer: taking a picture,['taking photo'],0.8210753202438354,True
+450,The person in the video is doing a golf swing.,['tennis serve'],0.4086640179157257,False
+451,Answer: reloading weapon,['tennis serve'],0.14636313915252686,False
+452,"Here's a description of the action in a single short phrase:
+
+**Jumping jacks**",['tennis serve'],0.06965933740139008,False
+453,Answer: jump squats,['tennis serve'],0.2805224359035492,False
+454,The person in this video is **conducting**.,['tennis serve'],0.17822125554084778,False
+455,Here's a short phrase describing the action in the video:  Serving a tennis ball.,['tennis serve'],0.7026063203811646,True
+456,"That's a robot or person in a robot suit doing a slow, stylized dance on an empty stage.  A short phrase to describe the action would be: **performing a robotic dance**.",['tennis serve'],0.1253501921892166,False
+457,Answer: throwing a ball,['tennis serve'],0.33576107025146484,False
+458,throwing a javelin,['tennis serve'],0.23851537704467773,False
+459,Throwing a frisbee,['tennis serve'],0.21688556671142578,False
+460,Answer: throwing a ball,['tennis swing'],0.42178332805633545,False
+461,Answer: shooting a bow and arrow,['tennis swing'],0.2821587920188904,False
+462,Answer: playing baseball,['tennis swing'],0.45292195677757263,False
+463,Answer:  playing tennis,['tennis swing'],0.7128086090087891,True
+464,conducting an orchestra,['tennis swing'],0.14426124095916748,False
+465,Answer: shooting arrow,['tennis swing'],0.2131403684616089,False
+466,Shooting arrow,['tennis swing'],0.21639902889728546,False
+467,Here's a short phrase describing the action in the video:  Shadow boxing while walking.,['tennis swing'],0.2049214243888855,False
+468,Answer: throwing a ball,['tennis swing'],0.42178332805633545,False
+469,golf swing,['tennis swing'],0.7736659049987793,True
+470,Answer: singing into a microphone,['playing violin'],0.3062446415424347,False
+471,Answer: pointing,['playing violin'],0.20500078797340393,False
+472,Answer: shadow boxing,['playing violin'],0.1216418519616127,False
+473,conducting an orchestra,['playing violin'],0.4669282138347626,False
+474,Answer: alternating single arm curls,['playing violin'],0.16430845856666565,False
+475,conducting orchestra,['playing violin'],0.42151400446891785,False
+476,shooting arrow,['playing violin'],0.24683213233947754,False
+477,Answer: shadow boxing,['playing violin'],0.1216418519616127,False
+478,Answer: alternating single arm curls,['playing violin'],0.16430845856666565,False
+479,Answer: shadow boxing,['playing violin'],0.1216418519616127,False
+480,Here's a description of the action in the video:  **Kettlebell swings**.,['receiving volleyball'],0.2288210690021515,False
+481,Answer: drawing a bow,['receiving volleyball'],0.14966632425785065,False
+482,Answer: playing golf,['receiving volleyball'],0.4042664170265198,False
+483,Answer: serving a volleyball,['receiving volleyball'],0.7298446893692017,True
+484,alternating single arm curls,['receiving volleyball'],0.24468116462230682,False
+485,Answer: standing still,['receiving volleyball'],0.14566777646541595,False
+486,The person in this video is doing a power pose.,['receiving volleyball'],0.08500435948371887,False
+487,"Here's a short phrase to describe the action:
+
+**Performing squat thrusts**",['receiving volleyball'],0.191813126206398,False
+488,Answer: throwing a ball,['receiving volleyball'],0.4344833791255951,False
+489,Answer: jump squats,['receiving volleyball'],0.29460787773132324,False
+490,"Here's a short phrase describing the action:
+
+Throwing a frisbee.",['volleyball serve'],0.197312131524086,False
+491,Answer: jumping jack,['volleyball serve'],0.13270533084869385,False
+492,"Here's a description of the action in a single short phrase:
+
+**Jumping jacks**",['volleyball serve'],0.08996087312698364,False
+493,"Here's a short phrase describing the action:
+
+Serving a volleyball.",['volleyball serve'],0.7876015305519104,True
+494,The person in the video is doing a jump-kick.,['volleyball serve'],0.12547464668750763,False
+495,Answer: spiking a volleyball,['volleyball serve'],0.5890735387802124,True
+496,"Here's a short phrase describing the action in the video:
+
+**Breakdancing**",['volleyball serve'],0.12688997387886047,False
+497,"Here's a description of the action:
+
+Throwing a ball overhand.",['volleyball serve'],0.36216410994529724,False
+498,performing a jump shot,['volleyball serve'],0.2393759936094284,False
+499,Answer: jumping for joy,['volleyball serve'],0.12839271128177643,False
+500,Answer: shadow boxing,"['weighted back squat', 'weightlifting']",0.2795594334602356,False
+501,Answer: doing squats,"['weighted back squat', 'weightlifting']",0.6953030824661255,True
+502,Answer: shadow boxing,"['weighted back squat', 'weightlifting']",0.2795594334602356,False
+503,Answer: celebrating a successful lift,"['weighted back squat', 'weightlifting']",0.44137507677078247,False
+504,Answer: shadow boxing,"['weighted back squat', 'weightlifting']",0.2795594334602356,False
+505,"Here's a short phrase describing the action:
+
+**Deadlifting**","['weighted back squat', 'weightlifting']",0.5006101727485657,True
+506,shooting arrow,"['weighted back squat', 'weightlifting']",0.17076098918914795,False
+507,Answer: shadow boxing,"['weighted back squat', 'weightlifting']",0.2795594334602356,False
+508,Answer: shadow boxing,"['weighted back squat', 'weightlifting']",0.2795594334602356,False
+509,boxing,"['weighted back squat', 'weightlifting']",0.4550129175186157,False
+510,boxing,"['clean and jerk', 'weightlifting']",0.4550129175186157,False
+511,"Here's a description of the action in a single short phrase:
+
+Celebrating victory","['clean and jerk', 'weightlifting']",0.14349669218063354,False
+512,"Here's a description of the action in a single short phrase:
+
+Doing box jumps","['clean and jerk', 'weightlifting']",0.22285251319408417,False
+513,Answer: performing power cleans,"['clean and jerk', 'weightlifting']",0.3727460503578186,False
+514,Answer: celebrating victory,"['clean and jerk', 'weightlifting']",0.2129148244857788,False
+515,"Here's a description of the action in a single short phrase:
+
+**Doing a high kick**","['clean and jerk', 'weightlifting']",0.3010665476322174,False
+516,Answer: doing jumping jacks,"['clean and jerk', 'weightlifting']",0.367936909198761,False
+517,Doing squats.,"['clean and jerk', 'weightlifting']",0.580090343952179,True
+518,"Here's a description of the action in a single short phrase:
+
+**Doing jumping jacks**","['clean and jerk', 'weightlifting']",0.33227258920669556,False
+519,The person in this video is performing a **jump squat**.,"['clean and jerk', 'weightlifting']",0.42105019092559814,False
+520,Answer: bicep curls,['shooting arrow'],0.1449042707681656,False
+521,Answer: aiming a weapon,['shooting arrow'],0.5639117956161499,True
+522,Answer: archery draw,['shooting arrow'],0.6106233596801758,True
+523,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+524,Answer: Holding a globe and posing,['shooting arrow'],0.20441961288452148,False
+525,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+526,Answer: standing with arms outstretched,['shooting arrow'],0.2763550877571106,False
+527,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+528,Answer: shooting arrow,['shooting arrow'],0.9165012836456299,True
+529,"Here's a description of the action in a single short phrase:
+
+**Arm circles**",['shooting arrow'],0.2696259319782257,False
+530,Shadow boxing,"['double arm curls', 'arm curls', 'weightlifting']",0.27560320496559143,False
+531,Answer: reloading a weapon,"['double arm curls', 'arm curls', 'weightlifting']",0.20379765331745148,False
+532,shadow boxing,"['double arm curls', 'arm curls', 'weightlifting']",0.27560320496559143,False
+533,Answer: bicep curls,"['double arm curls', 'arm curls', 'weightlifting']",0.7837227582931519,True
+534,Answer: dancing,"['double arm curls', 'arm curls', 'weightlifting']",0.30859172344207764,False
+535,Answer: lifting weights,"['double arm curls', 'arm curls', 'weightlifting']",0.7629798054695129,True
+536,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: reloading a weapon","['double arm curls', 'arm curls', 'weightlifting']",0.2677384614944458,False
+537,Answer: shadow boxing,"['double arm curls', 'arm curls', 'weightlifting']",0.2795594334602356,False
+538,shadow boxing,"['double arm curls', 'arm curls', 'weightlifting']",0.27560320496559143,False
+539,shadow boxing,"['double arm curls', 'arm curls', 'weightlifting']",0.27560320496559143,False
+540,"Here's a description of the action in a single short phrase:
+
+**Jumping jacks**","['double arm curls', 'weightlifting']",0.2380421757698059,False
+541,marching in place,"['double arm curls', 'weightlifting']",0.16336777806282043,False
+542,Answer: shadow boxing,"['double arm curls', 'weightlifting']",0.2795594334602356,False
+543,Answer: alternating bicep curls,"['double arm curls', 'weightlifting']",0.728022575378418,True
+544,Answer: doing jumping jacks,"['double arm curls', 'weightlifting']",0.3214569091796875,False
+545,lifting weights,"['double arm curls', 'weightlifting']",0.8208645582199097,True
+546,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: standing still","['double arm curls', 'weightlifting']",0.22420106828212738,False
+547,Answer: skateboarding,"['double arm curls', 'weightlifting']",0.31615787744522095,False
+548,The person in the video is skateboarding.,"['double arm curls', 'weightlifting']",0.13473471999168396,False
+549,shadow boxing,"['double arm curls', 'weightlifting']",0.27560320496559143,False
+550,Answer: bowling,['baseball pitch'],0.4425292909145355,False
+551,Answer: doing a high knee exercise,['baseball pitch'],0.2416653335094452,False
+552,Answer: performing a side-leg raise,['baseball pitch'],0.16159173846244812,False
+553,pitching a baseball,['baseball pitch'],0.7934727072715759,True
+554,juggling a globe,['baseball pitch'],0.23368579149246216,False
+555,pitching a baseball,['baseball pitch'],0.7934727072715759,True
+556,Here's a short phrase describing the action in the video:  **Preparing to shoot an arrow**,['baseball pitch'],0.10665372014045715,False
+557,Answer: bowling,['baseball pitch'],0.4425292909145355,False
+558,Answer: bowling,['baseball pitch'],0.4425292909145355,False
+559,Answer: throwing javelin,['baseball pitch'],0.39756909012794495,False
+560,Answer: throwing a frisbee,"['basketball layup', 'basketball floater']",0.3367931842803955,False
+561,The person in this video is jogging.,"['basketball layup', 'basketball floater']",0.1901129186153412,False
+562,jumping jacks,"['basketball layup', 'basketball floater']",0.3273669481277466,False
+563,"Here's a short phrase describing the person's action in the video:
+
+**Throwing a ball**","['basketball layup', 'basketball floater']",0.38855960965156555,False
+564,"Here's a short phrase describing the person's action in the video:
+
+Throwing a ball","['basketball layup', 'basketball floater']",0.3769800066947937,False
+565,"Here's a short phrase describing the action:
+
+**Shooting a basketball**","['basketball layup', 'basketball floater']",0.5179010033607483,True
+566,walking,"['basketball layup', 'basketball floater']",0.17347127199172974,False
+567,Answer: throwing javelin,"['basketball layup', 'basketball floater']",0.35995855927467346,False
+568,Throwing a javelin.,"['basketball layup', 'basketball floater']",0.35942313075065613,False
+569,Answer: shadow boxing,"['basketball layup', 'basketball floater']",0.23781482875347137,False
+570,Answer: throwing a ball,['basketball shot'],0.4946228563785553,False
+571,Answer: shooting arrow,['basketball shot'],0.48606985807418823,False
+572,Answer: throwing ball,['basketball shot'],0.5138955116271973,True
+573,"Here's a description of the action in a single short phrase:
+
+**Practicing a golf swing**",['basketball shot'],0.294180303812027,False
+574,"Here's a description of the person's action in the video:
+
+**Playing shadow puppets**",['basketball shot'],0.150895357131958,False
+575,Here's a short phrase to describe the action in the video:  **Doing archery stance/draw**,['basketball shot'],0.2947993576526642,False
+576,"Here's a description of the action in a single short phrase:
+
+**Shooting an arrow (in a living room)**",['basketball shot'],0.3357579708099365,False
+577,Answer: throwing a ball,['basketball shot'],0.4946228563785553,False
+578,Answer: throwing a ball,['basketball shot'],0.4946228563785553,False
+579,"Here's a description of the action in a single short phrase:
+
+**Throwing a ball behind the back**",['basketball shot'],0.39616093039512634,False
+580,Answer: bowling,['bowling'],0.8930017352104187,True
+581,"Here's a description of the action in a single short phrase:
+
+**Picking up an object**",['bowling'],0.15057161450386047,False
+582,throwing a small ball,['bowling'],0.403192937374115,False
+583,Answer: bowling,['bowling'],0.8930017352104187,True
+584,Performing a floor exercise.,['bowling'],0.34076187014579773,False
+585,bowling,['bowling'],1.0,True
+586,"Here's a description of the action in a single short phrase:
+
+**Performing a fall**",['bowling'],0.18663063645362854,False
+587,Answer: throwing a javelin,['bowling'],0.30448484420776367,False
+588,"Here's a short phrase to describe the action:
+
+Picking up something from the ground.",['bowling'],0.14804697036743164,False
+589,"Here's a description of the action in a single short phrase for each video:
+
+* **Video 1:**  Picking up a skateboard.
+* **Video 2:**  Preparing to shoot an arrow.
+* **Video 3:**  Alternating single-arm curls.
+* **Video 4:**  Picking up something from the ground.",['bowling'],0.23118184506893158,False
+590,Answer: jogging in place,['boxing uppercut'],0.2230338752269745,False
+591,running,['boxing uppercut'],0.21975769102573395,False
+592,jogging in place,['boxing uppercut'],0.18673907220363617,False
+593,shadow boxing,['boxing uppercut'],0.49021369218826294,False
+594,boxing,['boxing uppercut'],0.651892900466919,True
+595,shadow boxing,['boxing uppercut'],0.49021369218826294,False
+596,Answer: dancing,['boxing uppercut'],0.2555570900440216,False
+597,boxing,['boxing uppercut'],0.651892900466919,True
+598,shadow boxing,['boxing uppercut'],0.49021369218826294,False
+599,shadow boxing,['boxing uppercut'],0.49021369218826294,False
+600,Answer: checking watch,['checking watch'],0.8656378388404846,True
+601,Answer: adjusting gas mask,['checking watch'],0.026839379221200943,False
+602,Answer: looking at watch,['checking watch'],0.7268653512001038,True
+603,"Here's a description of the action in a single short phrase:
+
+Spinning a globe",['checking watch'],0.10738518834114075,False
+604,Answer: pretending to serve a volleyball,['checking watch'],0.07838091254234314,False
+605,Answer: standing still,['checking watch'],0.20116223394870758,False
+606,standing still,['checking watch'],0.22025275230407715,False
+607,Answer: alternating single arm curls,['checking watch'],0.01965394988656044,False
+608,Answer: looking at watch,['checking watch'],0.7268653512001038,True
+609,Answer: checking watch,['checking watch'],0.8656378388404846,True
+610,jumping jacks,['climbing'],0.4879002571105957,False
+611,Answer: jumping jacks,['climbing'],0.49877896904945374,False
+612,"Here's a description of the action in a single short phrase:
+
+**Jumping jacks**",['climbing'],0.35714635252952576,False
+613,"Here's a short phrase describing the action in the video:
+
+**Bouldering**",['climbing'],0.5159647464752197,True
+614,"Here's a description of the action in a single short phrase:
+
+**Jumping jacks**",['climbing'],0.35714635252952576,False
+615,Answer: climbing,['climbing'],0.8938117623329163,True
+616,The person in this video is performing a dance.,['climbing'],0.15618117153644562,False
+617,Answer: bowling,['climbing'],0.2571891248226166,False
+618,Answer: jumping jacks,['climbing'],0.49877896904945374,False
+619,Answer: celebrating a victory,['climbing'],0.21102558076381683,False
+620,picking up backpack,"['gaming', 'using phone']",0.10675445199012756,False
+621,sitting,"['gaming', 'using phone']",0.2892594039440155,False
+622,Answer: resistance band leg exercises,"['gaming', 'using phone']",0.12796419858932495,False
+623,playing air guitar,"['gaming', 'using phone']",0.3150210976600647,False
+624,playing golf,"['gaming', 'using phone']",0.47802287340164185,False
+625,"Here's a description of the action in the video:
+
+The person in the video is **relaxing**.","['gaming', 'using phone']",0.08934123069047928,False
+626,Answer: relaxing on golf course,"['gaming', 'using phone']",0.2973492443561554,False
+627,Answer: seated arm curls,"['gaming', 'using phone']",0.12482954561710358,False
+628,The person in this video is doing a **side bend**.,"['gaming', 'using phone']",0.0745224729180336,False
+629,playing guitar,"['gaming', 'using phone']",0.38144463300704956,False
+630,picking up object,['deadlift'],0.15860924124717712,False
+631,Answer: reloading a weapon,['deadlift'],0.223251610994339,False
+632,Answer: picking up something from the floor,['deadlift'],0.28323403000831604,False
+633,Picking up weights.,['deadlift'],0.5434573888778687,True
+634,"Here's a short phrase describing the action in the video:
+
+Picking up a puddle.",['deadlift'],0.21247625350952148,False
+635,lifting weights,['deadlift'],0.6366152763366699,True
+636,"Here's a description of the action in a single short phrase:
+
+**Picking up something from the floor.**",['deadlift'],0.27328330278396606,False
+637,picking up object,['deadlift'],0.15860924124717712,False
+638,picking up object,['deadlift'],0.15860924124717712,False
+639,picking up an object from the ground,['deadlift'],0.22485008835792542,False
+640,"Here's a description of the action in a single short phrase:
+
+**Pulling a rope**",['driving'],0.07957668602466583,False
+641,Answer: falling down,['driving'],0.23965048789978027,False
+642,Answer: doing leg lifts,['driving'],0.2978518605232239,False
+643,"Here's a description of the action in a single short phrase:
+
+**Hoverboarding in a car showroom**",['driving'],0.24148374795913696,False
+644,Answer: performing a dance move,['driving'],0.36867743730545044,False
+645,The person in this video is sitting.,['driving'],0.14300419390201569,False
+646,The person in this video is sitting.,['driving'],0.14300419390201569,False
+647,Answer: rowing a boat,['driving'],0.35391974449157715,False
+648,Doing a rowing machine exercise.,['driving'],0.26770666241645813,False
+649,Answer: rowing,['driving'],0.3737297058105469,False
+650,Throwing a javelin,['fencing'],0.3949766755104065,False
+651,Here's a short phrase describing the action in the video:  Doing a celebratory dance.,['fencing'],0.11700399965047836,False
+652,"Here's a short phrase describing the action:
+
+**Jump rope**",['fencing'],0.3616001009941101,False
+653,fencing,['fencing'],1.0,True
+654,throwing ball,['fencing'],0.3173966407775879,False
+655,Answer: fencing,['fencing'],0.9137997627258301,True
+656,Answer: shooting arrow,['fencing'],0.2581128478050232,False
+657,Here's a short phrase describing the action:  throwing a javelin.,['fencing'],0.40099015831947327,False
+658,Answer: throwing javelin,['fencing'],0.42666736245155334,False
+659,playing air guitar,['fencing'],0.11830263584852219,False
+660,Answer: seated bicep curls,['typing on keyboard'],0.07876630127429962,False
+661,Answer: seated bicep curls,['typing on keyboard'],0.07876630127429962,False
+662,Doing squats.,['typing on keyboard'],0.1443643867969513,False
+663,Answer: sitting and looking at a phone,['typing on keyboard'],0.27345722913742065,False
+664,Answer: shadow boxing,['typing on keyboard'],0.03130310773849487,False
+665,shooting arrow,['typing on keyboard'],0.11749368906021118,False
+666,Answer: sitting on the golf course,['typing on keyboard'],0.20800894498825073,False
+667,Answer: doing squats,['typing on keyboard'],0.1317843496799469,False
+668,Answer: calf raises,['typing on keyboard'],-0.0031565362587571144,False
+669,Answer: seated bicep curl,['typing on keyboard'],0.06257785111665726,False
+670,Answer: doing bicep curls,['opening door'],0.004768465645611286,False
+671,Answer: nocking arrow,['opening door'],0.28443658351898193,False
+672,"Here's a description of the action in a single short phrase:
+
+**Playing air guitar**",['opening door'],0.18078923225402832,False
+673,That's a person doing **shadow boxing**.,['opening door'],0.10672568529844284,False
+674,putting golf ball,['opening door'],0.16818296909332275,False
+675,The person in the video is doing a **headless dance**.,['opening door'],0.061832062900066376,False
+676,shooting arrow,['opening door'],0.21297989785671234,False
+677,Answer: picking up something from the ground,['opening door'],0.21112462878227234,False
+678,Here's a short phrase describing the action:  Single arm bicep curl.,['opening door'],0.058173492550849915,False
+679,Answer: picking something up,['opening door'],0.2283889353275299,False
+680,Answer: seated bicep curls,['playing drums'],0.20575596392154694,False
+681,Answer: seated bicep curls,['playing drums'],0.20575596392154694,False
+682,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+683,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+684,Answer: shadow boxing,['playing drums'],0.1770494431257248,False
+685,Answer: seated bicep curls,['playing drums'],0.20575596392154694,False
+686,The person in this video is doing a seated arm curl.,['playing drums'],0.18445225059986115,False
+687,seated bicep curls,['playing drums'],0.14287815988063812,False
+688,Answer: seated bicep curls,['playing drums'],0.20575596392154694,False
+689,Answer: doing jumping jacks,['playing drums'],0.40058302879333496,False
+690,Answer: air guitar,['playing guitar'],0.6991518139839172,True
+691,Answer: shooting bow and arrow,['playing guitar'],0.23977792263031006,False
+692,Answer: playing air guitar,['playing guitar'],0.7386417388916016,True
+693,The person in the video is doing a **rock and roll air guitar**.,['playing guitar'],0.5709213018417358,True
+694,Answer: air guitar,['playing guitar'],0.6991518139839172,True
+695,Answer: conducting an orchestra,['playing guitar'],0.3698310852050781,False
+696,Answer: shooting arrow,['playing guitar'],0.18905854225158691,False
+697,Answer: doing bicep curls,['playing guitar'],0.17647188901901245,False
+698,That's a person doing jumping jacks.,['playing guitar'],0.3667503595352173,False
+699,Answer: shadow boxing,['playing guitar'],0.1859084814786911,False
+700,"Here's a description of the action in a single short phrase:
+
+Doing a low squat dance move",['playing guitar'],0.14917148649692535,False
+701,The person in this video is doing **chair squats**.,['playing guitar'],0.1661309450864792,False
+702,jogging in place,['playing guitar'],0.3073926568031311,False
+703,"Here's a description of the action in a single short phrase:
+
+**Performing a dance routine**",['playing guitar'],0.20040328800678253,False
+704,"Here's a description of the action:
+
+**Breakdancing**",['playing guitar'],0.23289823532104492,False
+705,"Here's a description of the action in a single short phrase:
+
+**Conducting an orchestra** (or a similar action mimicking conducting)",['playing guitar'],0.2752044200897217,False
+706,The person in the video is doing the following action: **breakdancing**.,['playing guitar'],0.25028884410858154,False
+707,Answer: seated bicep curls,['playing guitar'],0.13742856681346893,False
+708,"Here's a short phrase describing the action:
+
+Doing a squat.",['playing guitar'],0.16910220682621002,False
+709,Answer: playing air guitar,['playing guitar'],0.7386417388916016,True
+710,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+711,Answer: seated bicep curls,['playing harp'],0.1580227017402649,False
+712,Doing bicep curls.,['playing harp'],0.16591332852840424,False
+713,Answer: conducting an orchestra,['playing harp'],0.40238434076309204,False
+714,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+715,"Here's a description of the action in a single short phrase:
+
+**Performing bicep curls**",['playing harp'],0.22481462359428406,False
+716,"Here's a description of the action in a single short phrase:
+
+**Relaxing on the beach**",['playing harp'],0.1747192144393921,False
+717,Answer: Tai Chi Chuan,['playing harp'],0.2308267205953598,False
+718,Answer: shadow boxing,['playing harp'],0.22259275615215302,False
+719,Answer: practicing martial arts,['playing harp'],0.2829281687736511,False
+720,Answer: shadow boxing,['playing violin'],0.1216418519616127,False
+721,The person in this video is shooting an arrow.,['playing violin'],0.18729645013809204,False
+722,Answer: arm stretches,['playing violin'],0.27631816267967224,False
+723,conducting an orchestra,['playing violin'],0.4669282138347626,False
+724,Here's a short phrase describing the action in the video:  Mimicking throwing a frisbee.,['playing violin'],0.2432209998369217,False
+725,Conducting an orchestra.,['playing violin'],0.4826662540435791,False
+726,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: doing jumping jacks",['playing violin'],0.21571505069732666,False
+727,Answer: throwing a ball,['playing violin'],0.2738463282585144,False
+728,Answer: arm stretches,['playing violin'],0.27631816267967224,False
+729,Answer: shadow boxing,['playing violin'],0.1216418519616127,False
+730,walking forward,"['dragging', 'pulling']",0.4198637008666992,False
+731,walking,"['dragging', 'pulling']",0.45153525471687317,False
+732,walking in place,"['dragging', 'pulling']",0.4695989191532135,False
+733,walking with a limp,"['dragging', 'pulling']",0.3303668797016144,False
+734,observing a climbing wall,"['dragging', 'pulling']",0.2685357928276062,False
+735,walking,"['dragging', 'pulling']",0.45153525471687317,False
+736,Answer: rock climbing,"['dragging', 'pulling']",0.43102532625198364,False
+737,walking casually,"['dragging', 'pulling']",0.4135637879371643,False
+738,walking forward,"['dragging', 'pulling']",0.4198637008666992,False
+739,walking in place,"['dragging', 'pulling']",0.4695989191532135,False
+740,Answer: doing a rowing motion,"['tugging', 'dragging', 'pulling']",0.35631489753723145,False
+741,Answer: doing punches,"['tugging', 'dragging', 'pulling']",0.3340057134628296,False
+742,Answer: doing a kettlebell swing,"['tugging', 'dragging', 'pulling']",0.26787233352661133,False
+743,"Here's a description of the action in a single short phrase:
+
+**Pretending to skateboard**","['tugging', 'dragging', 'pulling']",0.2672266364097595,False
+744,"Here's a description of the action in a single short phrase:
+
+Preparing to bouldering.","['tugging', 'dragging', 'pulling']",0.307108998298645,False
+745,Answer: walking,"['tugging', 'dragging', 'pulling']",0.44135212898254395,False
+746,Answer: bouldering,"['tugging', 'dragging', 'pulling']",0.3240121006965637,False
+747,Answer: picking up something from the ground,"['tugging', 'dragging', 'pulling']",0.43672868609428406,False
+748,Answer: picking up something from the ground,"['tugging', 'dragging', 'pulling']",0.43672868609428406,False
+749,Answer: throwing a ball,"['tugging', 'dragging', 'pulling']",0.2979537844657898,False
+750,Answer: throwing a frisbee,['pushing'],0.2071879506111145,False
+751,"Here's a short phrase describing the action in the video:
+
+**Shooting an arrow**",['pushing'],0.2038019299507141,False
+752,Answer: drinking from can,['pushing'],0.08580642938613892,False
+753,"Here's a description of the action in a single short phrase:
+
+**Pantomiming archery**",['pushing'],0.14240489900112152,False
+754,Answer: practicing climbing,['pushing'],0.3448297381401062,False
+755,The person in the video is shooting an arrow.,['pushing'],0.06760095804929733,False
+756,Answer: bouldering,['pushing'],0.33212536573410034,False
+757,Answer: walking and waving,['pushing'],0.2754852771759033,False
+758,Answer: waving hand,['pushing'],0.26154661178588867,False
+759,walking and texting,['pushing'],0.14642301201820374,False
+760,Answer: performing squats,['putting on seatbelt'],0.1832195222377777,False
+761,Answer: sitting down,['putting on seatbelt'],0.405426025390625,False
+762,Answer: doing squats,['putting on seatbelt'],0.18797767162322998,False
+763,"Here's a description of the action in a single short phrase:
+
+**Skateboarding in an airplane**",['putting on seatbelt'],0.2483530342578888,False
+764,Answer: doing squats,['putting on seatbelt'],0.18797767162322998,False
+765,"Here's a description of the action in a single short phrase:
+
+**Sitting still**",['putting on seatbelt'],0.32520633935928345,False
+766,"Here's a description of the action in the video:
+
+**A figure sits on a tropical beach.**",['putting on seatbelt'],0.19629380106925964,False
+767,Answer: seated spinal twist,['putting on seatbelt'],0.3164394795894623,False
+768,Answer: doing squats,['putting on seatbelt'],0.18797767162322998,False
+769,Answer: seated side bends,['putting on seatbelt'],0.22805459797382355,False
+770,Answer: shadow boxing,['shooting handgun'],0.15181243419647217,False
+771,Answer: waving,['shooting handgun'],0.12371913343667984,False
+772,Answer: playing VR game,['shooting handgun'],0.17895075678825378,False
+773,Answer: shooting at targets,['shooting handgun'],0.6406047344207764,True
+774,"Here's a description of the action in a single short phrase:
+
+Preparing to climb a bouldering wall",['shooting handgun'],0.05659423768520355,False
+775,shooting a gun,['shooting handgun'],0.8922452926635742,True
+776,Answer: rock climbing,['shooting handgun'],0.19627413153648376,False
+777,Answer: arm circles,['shooting handgun'],0.11873772740364075,False
+778,Answer: throwing a frisbee,['shooting handgun'],0.1954745650291443,False
+779,Answer: practicing archery,['shooting handgun'],0.359817773103714,False
+780,Answer: shadow boxing,['shot put'],0.25941285490989685,False
+781,Answer: jogging in place,['shot put'],0.20582684874534607,False
+782,Answer: shadow boxing,['shot put'],0.25941285490989685,False
+783,shot putting,['shot put'],0.9288052320480347,True
+784,Answer: bouldering,['shot put'],0.12669216096401215,False
+785,shot putting,['shot put'],0.9288052320480347,True
+786,The person in this video is **bouldering**.,['shot put'],0.07599157840013504,False
+787,Answer: throwing a javelin,['shot put'],0.31608548760414124,False
+788,Answer: throwing a javelin,['shot put'],0.31608548760414124,False
+789,"Here's a description of the action in a single short phrase:
+
+**Throwing a javelin**",['shot put'],0.23996633291244507,False
+790,Answer: jogging in place,"['soccer shot', 'kicking']",0.3875611126422882,False
+791,The person in this video is jogging in place.,"['soccer shot', 'kicking']",0.2633708417415619,False
+792,jogging in place,"['soccer shot', 'kicking']",0.374561071395874,False
+793,Answer: taking penalty kick,"['soccer shot', 'kicking']",0.6340724229812622,True
+794,jogging,"['soccer shot', 'kicking']",0.48149794340133667,False
+795,Answer: kicking soccer ball,"['soccer shot', 'kicking']",0.6783936619758606,True
+796,walking across stage,"['soccer shot', 'kicking']",0.285157173871994,False
+797,Answer: doing arm circles,"['soccer shot', 'kicking']",0.16165632009506226,False
+798,Answer: shadow boxing,"['soccer shot', 'kicking']",0.3498189449310303,False
+799,Answer: shadow boxing,"['soccer shot', 'kicking']",0.3498189449310303,False
+800,Answer: arm stretches,['butterfly stroke swimming'],0.12735828757286072,False
+801,Answer: doing a dance,['butterfly stroke swimming'],0.2683098018169403,False
+802,arm stretches,['butterfly stroke swimming'],0.12329688668251038,False
+803,mimicking shooting an arrow,['butterfly stroke swimming'],0.1675456166267395,False
+804,conducting an orchestra,['butterfly stroke swimming'],0.1424851417541504,False
+805,"What action is the person doing in this video? Describe the action in a single short phrase.
+
+Answer: doing a beach dance",['butterfly stroke swimming'],0.2549709677696228,False
+806,conducting an orchestra,['butterfly stroke swimming'],0.1424851417541504,False
+807,Answer: arm circles,['butterfly stroke swimming'],0.1850396990776062,False
+808,Answer: arm circles,['butterfly stroke swimming'],0.1850396990776062,False
+809,Answer: arm circles,['butterfly stroke swimming'],0.1850396990776062,False
+810,Answer: doing push-ups,['front stroke swimming'],0.22716382145881653,False
+811,"Here's a short phrase describing the action in the video:
+
+**Parachuting (or skydiving)**",['front stroke swimming'],0.2644951045513153,False
+812,Answer: doing a prone swim stroke,['front stroke swimming'],0.7322660684585571,True
+813,"Here's a description of the action in the video:
+
+**Beach Dive/Belly Flop**",['front stroke swimming'],0.3528580665588379,False
+814,"Here's a short phrase describing the action:
+
+**Breakdancing**",['front stroke swimming'],0.15473195910453796,False
+815,"Here's a description of the action in a single short phrase:
+
+**Washing ashore**",['front stroke swimming'],0.17027772963047028,False
+816,The person in the video is lying on the floor.,['front stroke swimming'],0.02040683478116989,False
+817,Answer: doing a ground slide,['front stroke swimming'],0.23620356619358063,False
+818,Answer:  flutter kicks,['front stroke swimming'],0.16300663352012634,False
+819,Answer: doing a floor slide,['front stroke swimming'],0.13791128993034363,False
+820,"Here's a description of the action in a single short phrase:
+
+**Rolling on the ground**",['back stroke swimming'],0.11815282702445984,False
+821,The person in this video is doing a **deadman's roll**.,['back stroke swimming'],0.0832347720861435,False
+822,Answer: doing a body roll,['back stroke swimming'],0.24645549058914185,False
+823,"Here's a short phrase describing the action:
+
+**Beach body roll**",['back stroke swimming'],0.21497538685798645,False
+824,"Here's a description of the action in a single short phrase:
+
+Sliding on the stage",['back stroke swimming'],0.13462582230567932,False
+825,The person in the video is doing a **beach roll**.,['back stroke swimming'],0.196104496717453,False
+826,"Here's a short phrase describing the action:
+
+Falling backward onto stage",['back stroke swimming'],0.26837435364723206,False
+827,"Here's a description of the action in a single short phrase:
+
+Falling from a skateboard.",['back stroke swimming'],0.2572981119155884,False
+828,Answer: falling back,['back stroke swimming'],0.37200987339019775,False
+829,doing a body roll,['back stroke swimming'],0.24979427456855774,False
+830,Here's a short phrase describing the action in the video:  throwing a javelin.,['tennis serve'],0.20542529225349426,False
+831,The person in this video is doing a celebratory dance.,['tennis serve'],0.17268124222755432,False
+832,Answer: throwing frisbee,['tennis serve'],0.2420945167541504,False
+833,Answer: serving a tennis ball,['tennis serve'],0.8364422917366028,True
+834,conducting an orchestra,['tennis serve'],0.26649710536003113,False
+835,Answer: Serving a tennis ball,['tennis serve'],0.8364422917366028,True
+836,conducting an orchestra,['tennis serve'],0.26649710536003113,False
+837,Answer: throwing a frisbee,['tennis serve'],0.23942118883132935,False
+838,Answer: throwing a javelin,['tennis serve'],0.26950109004974365,False
+839,boxing,['tennis serve'],0.1474021077156067,False
+840,Answer: throwing a baseball,"['backhand tennis swing', 'cricket batting']",0.45553192496299744,False
+841,Answer: shooting a gun,"['backhand tennis swing', 'cricket batting']",0.22757041454315186,False
+842,Answer: bowling,"['backhand tennis swing', 'cricket batting']",0.5512523651123047,True
+843,"Here's an answer to your question:
+
+The person in the video is doing a tennis serve.","['backhand tennis swing', 'cricket batting']",0.5698667764663696,True
+844,Answer: shadow boxing,"['backhand tennis swing', 'cricket batting']",0.26110994815826416,False
+845,Answer: shooting arrow,"['backhand tennis swing', 'cricket batting']",0.16835139691829681,False
+846,"Here's a description of the action in a single short phrase:
+
+**Reloading a weapon**","['backhand tennis swing', 'cricket batting']",0.16421779990196228,False
+847,jogging in place,"['backhand tennis swing', 'cricket batting']",0.33651959896087646,False
+848,Answer: throwing a ball,"['backhand tennis swing', 'cricket batting']",0.4194655418395996,False
+849,Here's a short phrase describing the action in the video: jogging in place.,"['backhand tennis swing', 'cricket batting']",0.2740579843521118,False
+850,Answer: falling down,"['controlling remote', 'watching tv']",0.24868877232074738,False
+851,Answer: leaning back,"['controlling remote', 'watching tv']",0.27964144945144653,False
+852,"Here's a short phrase describing the action:
+
+Side bend with arm reach","['controlling remote', 'watching tv']",0.08165071904659271,False
+853,"Here's a short phrase describing the action in the video:
+
+Falling backward.","['controlling remote', 'watching tv']",0.12087002396583557,False
+854,Answer: falling down,"['controlling remote', 'watching tv']",0.24868877232074738,False
+855,Answer: relaxing,"['controlling remote', 'watching tv']",0.39530664682388306,False
+856,"Here's a description of the action in a single short phrase:
+
+Relaxing on a golf course.","['controlling remote', 'watching tv']",0.18726488947868347,False
+857,Answer: doing a side bend,"['controlling remote', 'watching tv']",0.2006634771823883,False
+858,"Here's a description of the action in a single short phrase:
+
+**Side bend**","['controlling remote', 'watching tv']",0.08450127393007278,False
+859,Answer: boxing jab,"['controlling remote', 'watching tv']",0.23745673894882202,False

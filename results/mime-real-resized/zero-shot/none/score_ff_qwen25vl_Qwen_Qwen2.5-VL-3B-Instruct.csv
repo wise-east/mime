@@ -1,0 +1,47 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,Bowling ball rolls down lane.,['bowling'],0.7326929569244385,True
+1,Playing violin,['playing violin'],1.0,True
+2,man doing exercise,"['weighted back squat', 'weightlifting']",0.45454835891723633,False
+3,type on laptop,['typing on keyboard'],0.7009690403938293,True
+4,climbing on wall,['climbing'],0.7754172086715698,True
+5,Drinking from cup,['drinking out of a cup'],0.9031475186347961,True
+6,man in suit dancing,['checking watch'],0.042220525443553925,False
+7,man boxing training,['boxing'],0.7018216848373413,True
+8,man serves ball,['receiving volleyball'],0.5360199213027954,True
+9,man standing on bus,['opening door'],-0.01238806638866663,False
+10,Tightens seat belt,['putting on seatbelt'],0.7272179126739502,True
+11,man looking at phone,"['checking phone', 'sending text', 'using phone']",0.6975607872009277,True
+12,baseball player throwing ball,['fencing'],0.144463449716568,False
+13,man aiming gun,['shooting rifle'],0.6839626431465149,True
+14,Writing on notebook,['writing'],0.5956657528877258,True
+15,Drumming on drums,['playing drums'],0.8602718114852905,True
+16,Swimming in pool,['butterfly stroke swimming'],0.6021177768707275,True
+17,Jumping to hit ball,['volleyball serve'],0.3670555353164673,False
+18,Two men ice fishing.,"['pulling', 'dragging']",0.10916395485401154,False
+19,man driving car,['driving'],0.47497814893722534,False
+20,man running on track,['basketball shot'],0.09743446111679077,False
+21,man pushing cart,['pushing'],0.5218833684921265,True
+22,Tennis player swings racket,['tennis swing'],0.8092889189720154,True
+23,man playing game on phone,"['gaming', 'using phone']",0.5184324383735657,True
+24,man lifting barbell,['deadlift'],0.5446455478668213,True
+25,man throwing darts,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1454322785139084,False
+26,Woman playing golf,['golf put'],0.5487674474716187,True
+27,Open the door.,['knocking on door'],0.6334328055381775,True
+28,man playing basketball,['basketball layup'],0.5107548832893372,True
+29,Throwing a ball,['shot put'],0.37616461515426636,False
+30,Swing golf club,['golf swing'],0.8697929382324219,True
+31,pitching baseball,['baseball swing'],0.691510796546936,True
+32,man fishing on lake,['fishing'],0.6572871208190918,True
+33,Playing guitar,['playing acoustic guitar'],0.8761110305786133,True
+34,pitching baseball,['baseball pitch'],0.8109980821609497,True
+35,man holding camera,['taking photo'],0.5081556439399719,True
+36,Throwing javelin,['javelin throw'],0.9658077359199524,True
+37,Play keyboard,['playing piano'],0.6563370823860168,True
+38,man holding gun,['shooting handgun'],0.6289141178131104,True
+39,man dancing in room,['throwing dart'],0.1581316441297531,False
+40,weightlifting,"['clean and jerk', 'weightlifting']",1.0,True
+41,Playing tennis hitting ball,['tennis serve'],0.7445867657661438,True
+42,Playing harp outdoors,['playing harp'],0.884907603263855,True
+43,man holding bow and arrow,['shooting arrow'],0.5575265288352966,True
+44,Sitting on floor.,"['controlling remote', 'watching tv']",0.42791691422462463,False
+45,Kick soccer ball into goal,['soccer shot'],0.6646780371665955,True

@@ -1,0 +1,861 @@
+instance_id,output_text,ground_truth,similarity_score,correct
+0,Throwing something,['shooting arrow'],0.3888438642024994,False
+1,Making a phone call,['shooting arrow'],0.053925901651382446,False
+2,Throwing something,['shooting arrow'],0.3888438642024994,False
+3,Throwing an object,['shooting arrow'],0.39716970920562744,False
+4,Throwing object,['shooting arrow'],0.3938889503479004,False
+5,Throwing an object,['shooting arrow'],0.39716970920562744,False
+6,Standing on a rug,['shooting arrow'],0.25879231095314026,False
+7,Spinning dance move,['shooting arrow'],0.30082350969314575,False
+8,Spinning dance move,['shooting arrow'],0.30082350969314575,False
+9,Dance spin,['shooting arrow'],0.24588531255722046,False
+10,Throwing something,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.24105437099933624,False
+11,Presenting an object,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.1069977879524231,False
+12,Walking,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+13,Deadlift action,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.6524169445037842,True
+14,Balancing on chair,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.3045796751976013,False
+15,Deadlift demonstration,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.629720151424408,True
+16,"""Standing with authority.""","['alternating single arm curls', 'arm curls', 'weightlifting']",0.03943382203578949,False
+17,Texting,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.21303275227546692,False
+18,Throwing something,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.24105437099933624,False
+19,Texting,"['alternating single arm curls', 'arm curls', 'weightlifting']",0.21303275227546692,False
+20,Throwing ball,['baseball swing'],0.5444133281707764,True
+21,Dancing or martial arts move,['baseball swing'],0.23717913031578064,False
+22,Throwing something,['baseball swing'],0.3299323618412018,False
+23,Pitching motion,['baseball swing'],0.6034318804740906,True
+24,Throwing something,['baseball swing'],0.3299323618412018,False
+25,Pitching,['baseball swing'],0.5733768939971924,True
+26,Standing still,['baseball swing'],0.21824412047863007,False
+27,Dance spin,['baseball swing'],0.2606639266014099,False
+28,Playing guitar,['baseball swing'],0.3326168358325958,False
+29,Throwing something,['baseball swing'],0.3299323618412018,False
+30,Throwing something,['baseball pitch'],0.3676965832710266,False
+31,Throwing something,['baseball pitch'],0.3676965832710266,False
+32,Throwing object,['baseball pitch'],0.34828776121139526,False
+33,Throwing a pitch.,['baseball pitch'],0.764674186706543,True
+34,Virtual boxing,['baseball pitch'],0.1948886662721634,False
+35,Pitching action,['baseball pitch'],0.6645265817642212,True
+36,Walking,['baseball pitch'],0.2105616331100464,False
+37,Dance spin,['baseball pitch'],0.19013747572898865,False
+38,Throwing something,['baseball pitch'],0.3676965832710266,False
+39,Dance spin,['baseball pitch'],0.19013747572898865,False
+40,Playing guitar,['basketball shot'],0.16018298268318176,False
+41,Taking a photo,['basketball shot'],0.3744041323661804,False
+42,Dancing,['basketball shot'],0.26202720403671265,False
+43,Unicycle trick,['basketball shot'],0.1879560947418213,False
+44,Riding scooter,['basketball shot'],0.14355772733688354,False
+45,Shooting basketball,['basketball shot'],0.8839855194091797,True
+46,Taking a photo,['basketball shot'],0.3744041323661804,False
+47,Talking on phone,['basketball shot'],0.15477228164672852,False
+48,Throwing,['basketball shot'],0.42485928535461426,False
+49,Throwing something,['basketball shot'],0.3733906149864197,False
+50,Running,['basketball layup'],0.27447548508644104,False
+51,Walking,['basketball layup'],0.17161303758621216,False
+52,Running,['basketball layup'],0.27447548508644104,False
+53,Dancing spin,['basketball layup'],0.2802683711051941,False
+54,Walking,['basketball layup'],0.17161303758621216,False
+55,Shooting basketball,['basketball layup'],0.5557825565338135,True
+56,Walking,['basketball layup'],0.17161303758621216,False
+57,Throwing something,['basketball layup'],0.2980839014053345,False
+58,Running,['basketball layup'],0.27447548508644104,False
+59,Dance spin,['basketball layup'],0.2781548798084259,False
+60,Throwing object,['bowling'],0.2981278598308563,False
+61,Throwing action,['bowling'],0.3546983003616333,False
+62,Walking,['bowling'],0.308957576751709,False
+63,Bowling throw,['bowling'],0.8500683903694153,True
+64,Running,['bowling'],0.3437408208847046,False
+65,Bowling action,['bowling'],0.8257222175598145,True
+66,Stepping forward,['bowling'],0.1927674412727356,False
+67,Running,['bowling'],0.3437408208847046,False
+68,Walking,['bowling'],0.308957576751709,False
+69,Running sideways,['bowling'],0.23503310978412628,False
+70,Throwing object,['boxing'],0.3138578534126282,False
+71,Observing something distant,['boxing'],0.05614170804619789,False
+72,Taking a photo,['boxing'],0.1908339262008667,False
+73,Boxing stance,['boxing'],0.6952793002128601,True
+74,Speaking or performing.,['boxing'],0.2717140316963196,False
+75,Ready to fight,['boxing'],0.47928518056869507,False
+76,Photographing,['boxing'],0.26243865489959717,False
+77,Deep thought,['boxing'],0.2023775577545166,False
+78,Taking a photo,['boxing'],0.1908339262008667,False
+79,Phone call,['boxing'],0.2096337378025055,False
+80,Talking on phone,"['checking phone', 'sending text', 'using phone']",0.7435564398765564,True
+81,Looking through binoculars,"['checking phone', 'sending text', 'using phone']",0.21351641416549683,False
+82,Phone call,"['checking phone', 'sending text', 'using phone']",0.5766043663024902,True
+83,Vacuuming,"['checking phone', 'sending text', 'using phone']",0.18675386905670166,False
+84,Serve volleyball,"['checking phone', 'sending text', 'using phone']",0.12233199179172516,False
+85,Stepping Forward,"['checking phone', 'sending text', 'using phone']",0.12897321581840515,False
+86,Waiting,"['checking phone', 'sending text', 'using phone']",0.22098630666732788,False
+87,Eating,"['checking phone', 'sending text', 'using phone']",0.21338848769664764,False
+88,Walking,"['checking phone', 'sending text', 'using phone']",0.225972518324852,False
+89,Texting,"['checking phone', 'sending text', 'using phone']",0.725225567817688,True
+90,Playing video game,['checking watch'],0.16968625783920288,False
+91,Gun mime,['checking watch'],0.18360108137130737,False
+92,Throwing something,['checking watch'],0.10315573215484619,False
+93,Stepping onto an object,['checking watch'],0.10936495661735535,False
+94,Playing video game,['checking watch'],0.16968625783920288,False
+95,Holding hands,['checking watch'],0.1736421138048172,False
+96,Robot mime,['checking watch'],0.1981472373008728,False
+97,Playing guitar,['checking watch'],0.10421912372112274,False
+98,Throwing something,['checking watch'],0.10315573215484619,False
+99,Throwing something,['checking watch'],0.10315573215484619,False
+100,Dance spin,['climbing'],0.3227739632129669,False
+101,Throwing something,['climbing'],0.16182106733322144,False
+102,Throwing something,['climbing'],0.16182106733322144,False
+103,Climbing artificial wall,['climbing'],0.6606999039649963,True
+104,Dance move or sign language gesture.,['climbing'],0.17509865760803223,False
+105,Climbing on a wall,['climbing'],0.7627629041671753,True
+106,Presenting or pointing,['climbing'],0.10238538682460785,False
+107,Throwing something,['climbing'],0.16182106733322144,False
+108,Throwing object,['climbing'],0.17472410202026367,False
+109,Phone call,['climbing'],0.2271725833415985,False
+110,Drinking,['throwing dart'],0.28812867403030396,False
+111,Scanning the horizon,['throwing dart'],0.06539992243051529,False
+112,Phone call,['throwing dart'],0.15471243858337402,False
+113,Throwing gesture,['throwing dart'],0.6037975549697876,True
+114,Step forward,['throwing dart'],0.19999660551548004,False
+115,Throwing dart,['throwing dart'],1.0,True
+116,Interacting with a robot.,['throwing dart'],0.1407051682472229,False
+117,Throwing object,['throwing dart'],0.6566431522369385,True
+118,Searching,['throwing dart'],0.09233070909976959,False
+119,Inhaling,['throwing dart'],0.33124953508377075,False
+120,Scratching head,['deadlift'],0.1838153898715973,False
+121,Walking,['deadlift'],0.23079735040664673,False
+122,Dance spin,['deadlift'],0.23882177472114563,False
+123,Deadlift,['deadlift'],1.0,True
+124,Picking up something,['deadlift'],0.23262816667556763,False
+125,Deadlift,['deadlift'],1.0,True
+126,Stepping Forward,['deadlift'],0.12905839085578918,False
+127,Deep thought,['deadlift'],0.18034730851650238,False
+128,Searching,['deadlift'],0.17766158282756805,False
+129,Picking up something,['deadlift'],0.23262816667556763,False
+130,Scanning horizon,['drinking out of a cup'],0.07852437347173691,False
+131,Making a phone call,['drinking out of a cup'],0.09676825255155563,False
+132,Phone call,['drinking out of a cup'],0.14166535437107086,False
+133,Throwing something upwards.,['drinking out of a cup'],0.25354790687561035,False
+134,Contemplating,['drinking out of a cup'],0.17323657870292664,False
+135,Standing still,['drinking out of a cup'],0.1887560486793518,False
+136,Acting out surprise,['drinking out of a cup'],0.2040317952632904,False
+137,Observing through binoculars,['drinking out of a cup'],0.08367890864610672,False
+138,Looking through binoculars,['drinking out of a cup'],0.11332788318395615,False
+139,Throwing away,['drinking out of a cup'],0.2617174983024597,False
+140,Walking,['driving'],0.4536696970462799,False
+141,Ready for combat,['driving'],0.23821771144866943,False
+142,Walking,['driving'],0.4536696970462799,False
+143,Skateboarding trick,['driving'],0.2945537269115448,False
+144,Dance step,['driving'],0.22356855869293213,False
+145,Inspection,['driving'],0.26899081468582153,False
+146,Starting a race,['driving'],0.29378819465637207,False
+147,Texting,['driving'],0.3087889850139618,False
+148,Dance spin,['driving'],0.23354369401931763,False
+149,Playing video game,['driving'],0.30052122473716736,False
+150,Drinking,['driving'],0.5238726139068604,True
+151,Virtual reality experience,['driving'],0.2519868016242981,False
+152,Reading,['driving'],0.39946112036705017,False
+153,Balancing on hoverboard,['driving'],-0.000326547771692276,False
+154,Dance move,['driving'],0.30311644077301025,False
+155,Inspection of cars,['driving'],0.32618361711502075,False
+156,"""Holding something""",['driving'],0.16201786696910858,False
+157,Throwing,['driving'],0.2791447639465332,False
+158,Throwing something,['driving'],0.1899210512638092,False
+159,Throwing something,['driving'],0.1899210512638092,False
+160,Racing game,['driving'],0.4315638840198517,False
+161,Pointing gesture,['driving'],0.13636276125907898,False
+162,Texting,['driving'],0.3087889850139618,False
+163,Balancing on hoverboard,['driving'],-0.000326547771692276,False
+164,Dance step,['driving'],0.22356855869293213,False
+165,Reaching for high shelf,['driving'],0.05041428282856941,False
+166,Sitting in thought,['driving'],0.324314683675766,False
+167,Playing guitar,['driving'],0.31976306438446045,False
+168,Phone call,['driving'],0.2938217520713806,False
+169,Texting,['driving'],0.3087889850139618,False
+170,Throwing something,['fencing'],0.30564582347869873,False
+171,Throwing something,['fencing'],0.30564582347869873,False
+172,Dance spin,['fencing'],0.10509312152862549,False
+173,Bowling throw,['fencing'],0.2649375796318054,False
+174,Dancing step,['fencing'],0.12508904933929443,False
+175,Bowling gesture,['fencing'],0.26467037200927734,False
+176,Stepping on rug,['fencing'],0.10477545857429504,False
+177,Dance spin,['fencing'],0.10509312152862549,False
+178,Dance step,['fencing'],0.12618309259414673,False
+179,Dance spin,['fencing'],0.10509312152862549,False
+180,Dance spin,['fishing'],0.22406414151191711,False
+181,Walking forward,['fishing'],0.16845175623893738,False
+182,Gesturing towards an object,['fishing'],0.12128567695617676,False
+183,Throwing something,['fishing'],0.272701621055603,False
+184,Stepping Forward,['fishing'],0.1264796406030655,False
+185,Stepping forward,['fishing'],0.1264796406030655,False
+186,Stepping forward,['fishing'],0.1264796406030655,False
+187,Throwing something,['fishing'],0.272701621055603,False
+188,Running,['fishing'],0.2721724212169647,False
+189,Throwing,['fishing'],0.31946322321891785,False
+190,Looking down,['golf put'],0.2827208936214447,False
+191,Walking,['golf put'],0.23194757103919983,False
+192,Thinking deeply,['golf put'],0.2179979681968689,False
+193,Skateboard trick,['golf put'],0.24448494613170624,False
+194,Searching,['golf put'],0.21523794531822205,False
+195,Stepping Forward,['golf put'],0.153855562210083,False
+196,Stage direction,['golf put'],0.12964102625846863,False
+197,Computer mouse interaction,['golf put'],0.11117595434188843,False
+198,Contemplation or itch relief,['golf put'],0.13949188590049744,False
+199,Picking up an object,['golf put'],0.16996555030345917,False
+200,Crouching down,['golf swing'],0.3237464427947998,False
+201,Peeking over something,['golf swing'],0.17257067561149597,False
+202,Presenting an object,['golf swing'],0.12028120458126068,False
+203,Golf swing,['golf swing'],1.000000238418579,True
+204,Headache gesture,['golf swing'],0.19079755246639252,False
+205,Stepping forward,['golf swing'],0.159928560256958,False
+206,Posing for a photo.,['golf swing'],0.17772716283798218,False
+207,Throwing something,['golf swing'],0.2914005219936371,False
+208,Picking up,['golf swing'],0.21870404481887817,False
+209,Painting/Drawing,['golf swing'],0.1597105711698532,False
+210,Throwing something,['javelin throw'],0.6510086059570312,True
+211,Throwing something,['javelin throw'],0.6510086059570312,True
+212,Dance spin,['javelin throw'],0.28920841217041016,False
+213,Throwing something,['javelin throw'],0.6510086059570312,True
+214,Dance spin,['javelin throw'],0.28920841217041016,False
+215,Running motion,['javelin throw'],0.4222279191017151,False
+216,Dance move,['javelin throw'],0.34420517086982727,False
+217,Skateboarding,['javelin throw'],0.2534942030906677,False
+218,Dance spin,['javelin throw'],0.28920841217041016,False
+219,Throwing something,['javelin throw'],0.6510086059570312,True
+220,Dance spin,['typing on keyboard'],0.07942923903465271,False
+221,Taking a stand,['typing on keyboard'],0.07175274938344955,False
+222,Video game controller,['typing on keyboard'],0.19410985708236694,False
+223,Sitting with hands on knees,['typing on keyboard'],0.208339661359787,False
+224,Golfing,['typing on keyboard'],0.20459911227226257,False
+225,Sitting relaxed,['typing on keyboard'],0.18652214109897614,False
+226,Swinging golf club,['typing on keyboard'],0.06643112003803253,False
+227,Step turn,['typing on keyboard'],0.009541054256260395,False
+228,Phone call,['typing on keyboard'],0.1516762524843216,False
+229,Sitting down,['typing on keyboard'],0.3221839666366577,False
+230,Throwing something,['knocking on door'],0.1925693154335022,False
+231,Throwing something,['knocking on door'],0.1925693154335022,False
+232,Skateboarding trick,['knocking on door'],0.13310781121253967,False
+233,Presenting an object,['knocking on door'],0.07838152348995209,False
+234,Golf swing,['knocking on door'],0.24908263981342316,False
+235,Confident stance,['knocking on door'],0.1495177447795868,False
+236,Swinging a golf club,['knocking on door'],0.21229341626167297,False
+237,Throwing away,['knocking on door'],0.19416050612926483,False
+238,Throwing object,['knocking on door'],0.20652888715267181,False
+239,Throwing something,['knocking on door'],0.1925693154335022,False
+240,Throwing something,['opening door'],0.1629481166601181,False
+241,Texting,['opening door'],0.2010745406150818,False
+242,Walking,['opening door'],0.2450190931558609,False
+243,"The person in the image appears to be miming the action of sweeping the floor. They are holding a broom in their right hand and using their left hand to gesture as if they are sweeping. The person is standing on a rug in the center of the room, with a dining area and a painting in the background.",['opening door'],0.1579536497592926,False
+244,Golf swing,['opening door'],0.2404850721359253,False
+245,Dancing on rug,['opening door'],0.1744055151939392,False
+246,Walking motion,['opening door'],0.19286096096038818,False
+247,Throwing something,['opening door'],0.1629481166601181,False
+248,Walking,['opening door'],0.2450190931558609,False
+249,Talking on phone,['opening door'],0.09446623176336288,False
+250,Throwing something,['opening door'],0.1629481166601181,False
+251,Throwing something,['opening door'],0.1629481166601181,False
+252,Throwing something,['opening door'],0.1629481166601181,False
+253,Playing guitar,['opening door'],0.1536172330379486,False
+254,Throwing something,['opening door'],0.1629481166601181,False
+255,Dancing,['opening door'],0.23899829387664795,False
+256,Playing golf,['opening door'],0.1739271581172943,False
+257,Walking,['opening door'],0.2450190931558609,False
+258,Throwing something,['opening door'],0.1629481166601181,False
+259,Casual stride,['opening door'],0.04464450478553772,False
+260,Dance spin,['playing piano'],0.2716405987739563,False
+261,Pointing while seated,['playing piano'],0.2552897334098816,False
+262,Step dance,['playing piano'],0.274422287940979,False
+263,Dance step,['playing piano'],0.29857999086380005,False
+264,Walking,['playing piano'],0.24678796529769897,False
+265,Searching/Pointing,['playing piano'],0.18659034371376038,False
+266,Stepping forward,['playing piano'],0.14851854741573334,False
+267,Step dance,['playing piano'],0.274422287940979,False
+268,Playing a stringed instrument,['playing piano'],0.5152195692062378,True
+269,Drinking,['playing piano'],0.2571168541908264,False
+270,Throwing something,['playing acoustic guitar'],0.15697726607322693,False
+271,Texting,['playing acoustic guitar'],0.18846872448921204,False
+272,Throwing something,['playing acoustic guitar'],0.15697726607322693,False
+273,Dance step,['playing acoustic guitar'],0.06589488685131073,False
+274,Throwing something,['playing acoustic guitar'],0.15697726607322693,False
+275,Stepping forward,['playing acoustic guitar'],0.059106387197971344,False
+276,Walking forward,['playing acoustic guitar'],0.06505259871482849,False
+277,Texting,['playing acoustic guitar'],0.18846872448921204,False
+278,Throwing something,['playing acoustic guitar'],0.15697726607322693,False
+279,Reading,['playing acoustic guitar'],0.1438319981098175,False
+280,Throwing something,['playing electric guitar'],0.18718481063842773,False
+281,Throwing something,['playing electric guitar'],0.18718481063842773,False
+282,Dance spin,['playing electric guitar'],0.21649399399757385,False
+283,Dance twirl,['playing electric guitar'],0.18869994580745697,False
+284,Throwing object,['playing electric guitar'],0.18991151452064514,False
+285,Spinning dance move,['playing electric guitar'],0.2380627691745758,False
+286,Running,['playing electric guitar'],0.2954978942871094,False
+287,Throwing object,['playing electric guitar'],0.18991151452064514,False
+288,Breakdance freeze pose,['playing electric guitar'],0.11718669533729553,False
+289,Dance spin,['playing electric guitar'],0.21649399399757385,False
+290,Dance spin,['playing drums'],0.31770679354667664,False
+291,Throwing something,['playing drums'],0.2096487432718277,False
+292,Dance spin,['playing drums'],0.31770679354667664,False
+293,Dance spin,['playing drums'],0.31770679354667664,False
+294,Surfing,['playing drums'],0.2775748670101166,False
+295,Sitting and looking through binoculars.,['playing drums'],0.1201028898358345,False
+296,Stepping forward,['playing drums'],0.24213802814483643,False
+297,Breakdance pose,['playing drums'],0.20764154195785522,False
+298,Boxing game,['playing drums'],0.23856928944587708,False
+299,Reading,['playing drums'],0.20833848416805267,False
+300,Dance spin,['playing harp'],0.19489134848117828,False
+301,Throwing something,['playing harp'],0.22405906021595,False
+302,Dancing,['playing harp'],0.2438727170228958,False
+303,Dance pose,['playing harp'],0.2417064607143402,False
+304,Throwing object,['playing harp'],0.2596661448478699,False
+305,Acting out surprise.,['playing harp'],0.14696452021598816,False
+306,Scanning horizon,['playing harp'],0.07201378047466278,False
+307,Jumping pose,['playing harp'],0.20709599554538727,False
+308,Throwing object,['playing harp'],0.2596661448478699,False
+309,Dancing,['playing harp'],0.2438727170228958,False
+310,Dance spin,['playing harp'],0.19489134848117828,False
+311,Taking a photo,['playing harp'],0.12547916173934937,False
+312,Throwing something,['playing harp'],0.22405906021595,False
+313,Dance spin,['playing harp'],0.19489134848117828,False
+314,Throwing object,['playing harp'],0.2596661448478699,False
+315,Stepping Forward,['playing harp'],0.10250140726566315,False
+316,Dancing,['playing harp'],0.2438727170228958,False
+317,Throwing something,['playing harp'],0.22405906021595,False
+318,Dancing,['playing harp'],0.2438727170228958,False
+319,Guitar playing,['playing harp'],0.6085461378097534,True
+320,Texting,"['pulling', 'dragging']",0.16651535034179688,False
+321,Walking,"['pulling', 'dragging']",0.4515351951122284,False
+322,Walking,"['pulling', 'dragging']",0.4515351951122284,False
+323,Handling boxes,"['pulling', 'dragging']",0.2252485156059265,False
+324,Climbing Wall,"['pulling', 'dragging']",0.42614254355430603,False
+325,Picking up a box,"['pulling', 'dragging']",0.2860156297683716,False
+326,Climbing,"['pulling', 'dragging']",0.5331339240074158,True
+327,Dance spin,"['pulling', 'dragging']",0.2918410003185272,False
+328,Throwing something,"['pulling', 'dragging']",0.37897926568984985,False
+329,Dance spin,"['pulling', 'dragging']",0.2918410003185272,False
+330,Jumping or dancing,"['dragging', 'pulling']",0.34485507011413574,False
+331,Falling,"['dragging', 'pulling']",0.3897688686847687,False
+332,Spinning dance move,"['dragging', 'pulling']",0.37284255027770996,False
+333,Dance move,"['dragging', 'pulling']",0.42236408591270447,False
+334,Climbing on a rock wall.,"['dragging', 'pulling']",0.373663067817688,False
+335,Stepping Forward,"['dragging', 'pulling']",0.36876338720321655,False
+336,Climbing,"['dragging', 'pulling']",0.5331339240074158,True
+337,Throwing something,"['dragging', 'pulling']",0.37897926568984985,False
+338,Throwing,"['dragging', 'pulling']",0.3753519356250763,False
+339,Throwing something,"['dragging', 'pulling']",0.37897926568984985,False
+340,Throwing something,['pushing'],0.29118865728378296,False
+341,Dancing,['pushing'],0.3410189151763916,False
+342,Throwing something,['pushing'],0.29118865728378296,False
+343,Stepping Forward,['pushing'],0.4543668329715729,False
+344,Climbing indoor rock wall.,['pushing'],0.24499396979808807,False
+345,Picking up a box.,['pushing'],0.2676931619644165,False
+346,Climbing,['pushing'],0.4236924350261688,False
+347,Throwing an object,['pushing'],0.2314440757036209,False
+348,Throwing something,['pushing'],0.29118865728378296,False
+349,Running,['pushing'],0.41121917963027954,False
+350,Throwing something,['pushing'],0.29118865728378296,False
+351,Falling,['pushing'],0.28368937969207764,False
+352,Dancing,['pushing'],0.3410189151763916,False
+353,Pushing/pulling heavy object,['pushing'],0.5896030068397522,True
+354,Climbing,['pushing'],0.4236924350261688,False
+355,Stepping Forward,['pushing'],0.4543668329715729,False
+356,Climbing artificial wall,['pushing'],0.20865166187286377,False
+357,Exercise bike mime,['pushing'],0.1030903235077858,False
+358,Throwing something,['pushing'],0.29118865728378296,False
+359,Skateboarding action,['pushing'],0.27681130170822144,False
+360,Playing guitar,['putting on seatbelt'],0.2065982073545456,False
+361,Looking over fence,['putting on seatbelt'],0.15833017230033875,False
+362,Typing on a device,['putting on seatbelt'],0.11815755069255829,False
+363,Balancing on hoverboard,['putting on seatbelt'],0.12640368938446045,False
+364,Walking,['putting on seatbelt'],0.15868277847766876,False
+365,Driving,['putting on seatbelt'],0.4030126929283142,False
+366,Standing casually,['putting on seatbelt'],0.14241153001785278,False
+367,Running,['putting on seatbelt'],0.1522478610277176,False
+368,Sitting and standing,['putting on seatbelt'],0.3123854994773865,False
+369,Running mime,['putting on seatbelt'],0.03760380670428276,False
+370,Dance spin,['shooting handgun'],0.09831942617893219,False
+371,Robotics or futuristic theme.,['shooting handgun'],0.15872517228126526,False
+372,Throwing something,['shooting handgun'],0.30168846249580383,False
+373,Throwing motion,['shooting handgun'],0.29297202825546265,False
+374,Climbing,['shooting handgun'],0.14151224493980408,False
+375,"The person in the image appears to be miming the action of shooting or aiming a firearm. They are standing in front of a target with a stance that suggests readiness to shoot, and their hands are positioned as if they are holding a gun. The mimed action could be interpreted as ""shooting at a target"" or ""aiming a gun.""",['shooting handgun'],0.48350444436073303,False
+376,Climbing action,['shooting handgun'],0.13494810461997986,False
+377,Texting,['shooting handgun'],0.17050954699516296,False
+378,Throwing something,['shooting handgun'],0.30168846249580383,False
+379,Taking a photo,['shooting handgun'],0.2839222550392151,False
+380,Running,['shooting rifle'],0.2816407084465027,False
+381,Operating a machine,['shooting rifle'],0.17411547899246216,False
+382,Texting,['shooting rifle'],0.16736362874507904,False
+383,Throwing,['shooting rifle'],0.39196690917015076,False
+384,Climbing on a rock wall.,['shooting rifle'],0.1630995273590088,False
+385,Throwing an object.,['shooting rifle'],0.4511029124259949,False
+386,"The person in the image appears to be miming the action of climbing or ascending a rock wall. They are standing in front of a climbing wall, with their body positioned as if they are reaching up towards the top of the wall. Their arms are extended, and their body is angled in a way that suggests they are attempting to climb. The person is wearing a harness and climbing shoes, which are typical gear for rock climbing. The mime is likely acting out the physical effort and movement involved in climbing, using their body to convey the action without the actual presence of a climbing wall or other climbing equipment.",['shooting rifle'],0.135183647274971,False
+387,Texting,['shooting rifle'],0.16736362874507904,False
+388,Throwing something,['shooting rifle'],0.38492336869239807,False
+389,Taking a photo,['shooting rifle'],0.29758378863334656,False
+390,Baseball swing,['shot put'],0.35516804456710815,False
+391,Throwing something,['shot put'],0.34927472472190857,False
+392,Running,['shot put'],0.2964407503604889,False
+393,Running,['shot put'],0.2964407503604889,False
+394,Throwing something,['shot put'],0.34927472472190857,False
+395,Throwing something,['shot put'],0.34927472472190857,False
+396,Stepping Forward,['shot put'],0.17577651143074036,False
+397,Throwing,['shot put'],0.4216579794883728,False
+398,Dance spin,['shot put'],0.2570776045322418,False
+399,Dance spin,['shot put'],0.2570776045322418,False
+400,Running,['writing'],0.3470272719860077,False
+401,Presenting delicate item,['writing'],0.17279349267482758,False
+402,Jumping step,['writing'],0.16869553923606873,False
+403,Jumping leap,['writing'],0.18542568385601044,False
+404,Climbing the wall,['writing'],0.21483179926872253,False
+405,Sitting at a desk,['writing'],0.31068509817123413,False
+406,Climbing action,['writing'],0.19457772374153137,False
+407,Texting,['writing'],0.5696303844451904,True
+408,Running,['writing'],0.3470272719860077,False
+409,Texting,['writing'],0.5696303844451904,True
+410,Spinning or twirling.,['soccer shot'],0.1504640281200409,False
+411,"Reaching out, dramatic gesture",['soccer shot'],0.19159963726997375,False
+412,Walking,['soccer shot'],0.16955754160881042,False
+413,Kicking the ball,['soccer shot'],0.6175615191459656,True
+414,Stepping Forward,['soccer shot'],0.14738622307777405,False
+415,Scoring a goal,['soccer shot'],0.5434554219245911,True
+416,Throwing object,['soccer shot'],0.34114789962768555,False
+417,Dancing,['soccer shot'],0.30311575531959534,False
+418,Walking,['soccer shot'],0.16955754160881042,False
+419,Step dance,['soccer shot'],0.2122013419866562,False
+420,Throwing something,['front stroke swimming'],0.17256511747837067,False
+421,Throwing something,['front stroke swimming'],0.17256511747837067,False
+422,Throwing something,['front stroke swimming'],0.17256511747837067,False
+423,Throwing motion,['front stroke swimming'],0.2697712779045105,False
+424,Playing guitar,['front stroke swimming'],0.20809116959571838,False
+425,Stepping forward,['front stroke swimming'],0.12202756851911545,False
+426,Taking a photo,['front stroke swimming'],0.15141180157661438,False
+427,Throwing something,['front stroke swimming'],0.17256511747837067,False
+428,Throwing something,['front stroke swimming'],0.17256511747837067,False
+429,Walking,['front stroke swimming'],0.27047812938690186,False
+430,Dance spin,['breast stroke swimming'],0.2856407165527344,False
+431,Walking forward,['breast stroke swimming'],0.21445567905902863,False
+432,Throwing something,['breast stroke swimming'],0.15360325574874878,False
+433,Throwing something,['breast stroke swimming'],0.15360325574874878,False
+434,Dance spin,['breast stroke swimming'],0.2856407165527344,False
+435,Stepping forward,['breast stroke swimming'],0.04881725832819939,False
+436,Dancing,['breast stroke swimming'],0.3073098361492157,False
+437,Walking,['breast stroke swimming'],0.2518097460269928,False
+438,Dance spin,['breast stroke swimming'],0.2856407165527344,False
+439,Dance spin,['breast stroke swimming'],0.2856407165527344,False
+440,Talking on phone,['taking photo'],0.3136294484138489,False
+441,Looking through binoculars,['taking photo'],0.28187984228134155,False
+442,Talking on phone,['taking photo'],0.3136294484138489,False
+443,Stepping Forward,['taking photo'],0.16220718622207642,False
+444,Climbing indoor rock wall.,['taking photo'],0.07922308146953583,False
+445,Operating a device,['taking photo'],0.16803830862045288,False
+446,Climbing,['taking photo'],0.15431421995162964,False
+447,Phone call,['taking photo'],0.33268532156944275,False
+448,Taking a photo,['taking photo'],0.9851805567741394,True
+449,Throwing away,['taking photo'],0.23715300858020782,False
+450,Picking up an object,['tennis serve'],0.085269995033741,False
+451,Stepping forward,['tennis serve'],0.05657504126429558,False
+452,Sitting down,['tennis serve'],0.19928082823753357,False
+453,Tennis serve,['tennis serve'],0.9999998807907104,True
+454,Drinking,['tennis serve'],0.18288496136665344,False
+455,Tennis serve or return,['tennis serve'],0.8500178456306458,True
+456,Robot-like stance,['tennis serve'],0.15934136509895325,False
+457,Shoe-tying act,['tennis serve'],0.22426843643188477,False
+458,Walking,['tennis serve'],0.05893280729651451,False
+459,Throwing something,['tennis serve'],0.19616816937923431,False
+460,Throwing something,['tennis swing'],0.29474586248397827,False
+461,Throwing something,['tennis swing'],0.29474586248397827,False
+462,Dance spin,['tennis swing'],0.3120075464248657,False
+463,Tennis serve,['tennis swing'],0.7750139236450195,True
+464,Dance spin,['tennis swing'],0.3120075464248657,False
+465,Tennis match action,['tennis swing'],0.674003005027771,True
+466,Dancing,['tennis swing'],0.32012686133384705,False
+467,Throwing something,['tennis swing'],0.29474586248397827,False
+468,Throwing something,['tennis swing'],0.29474586248397827,False
+469,Golf swing,['tennis swing'],0.7736660838127136,True
+470,Phone call,['playing violin'],0.17240536212921143,False
+471,Throwing something,['playing violin'],0.15826833248138428,False
+472,Throwing something,['playing violin'],0.15826833248138428,False
+473,Dance spin,['playing violin'],0.32613879442214966,False
+474,Throwing object,['playing violin'],0.15618692338466644,False
+475,Victory gesture,['playing violin'],0.1710575520992279,False
+476,Standing and looking out to sea,['playing violin'],0.14824849367141724,False
+477,Throwing something,['playing violin'],0.15826833248138428,False
+478,Throwing something,['playing violin'],0.15826833248138428,False
+479,Throwing object,['playing violin'],0.15618692338466644,False
+480,Dance spin,['receiving volleyball'],0.19509705901145935,False
+481,Robotics demonstration,['receiving volleyball'],0.20651257038116455,False
+482,Sitting on a chair,['receiving volleyball'],0.1306716948747635,False
+483,Handstand pose,['receiving volleyball'],0.18133491277694702,False
+484,Dance spin,['receiving volleyball'],0.19509705901145935,False
+485,Robot mime,['receiving volleyball'],0.2148858904838562,False
+486,Standing still,['receiving volleyball'],0.14093512296676636,False
+487,Throwing object,['receiving volleyball'],0.299826055765152,False
+488,Sitting down,['receiving volleyball'],0.16306103765964508,False
+489,Riding a scooter,['receiving volleyball'],0.1096460372209549,False
+490,Dance spin,['volleyball serve'],0.2016299068927765,False
+491,Throwing something,['volleyball serve'],0.1737271249294281,False
+492,Throwing something,['volleyball serve'],0.1737271249294281,False
+493,Spinning pose,['volleyball serve'],0.1368246078491211,False
+494,Dance pose,['volleyball serve'],0.2501385807991028,False
+495,Volleyball serve,['volleyball serve'],1.0,True
+496,Spinning pose,['volleyball serve'],0.1368246078491211,False
+497,Throwing something,['volleyball serve'],0.1737271249294281,False
+498,Spin or twirl gesture.,['volleyball serve'],0.08669251203536987,False
+499,Dance spin,['volleyball serve'],0.2016299068927765,False
+500,Boxing stance,"['weighted back squat', 'weightlifting']",0.37413352727890015,False
+501,Throwing something,"['weighted back squat', 'weightlifting']",0.147398442029953,False
+502,Texting,"['weighted back squat', 'weightlifting']",0.21303275227546692,False
+503,Deadlift action,"['weighted back squat', 'weightlifting']",0.6524169445037842,True
+504,Step routine,"['weighted back squat', 'weightlifting']",0.32848721742630005,False
+505,Squat with barbell,"['weighted back squat', 'weightlifting']",0.7232743501663208,True
+506,Dancing on desk,"['weighted back squat', 'weightlifting']",0.19590143859386444,False
+507,Throwing something,"['weighted back squat', 'weightlifting']",0.147398442029953,False
+508,Dance spin,"['weighted back squat', 'weightlifting']",0.22666434943675995,False
+509,Boxing stance,"['weighted back squat', 'weightlifting']",0.37413352727890015,False
+510,Dance twirl,"['clean and jerk', 'weightlifting']",0.26540571451187134,False
+511,Communicating,"['clean and jerk', 'weightlifting']",0.15292418003082275,False
+512,Phone call,"['clean and jerk', 'weightlifting']",0.27544400095939636,False
+513,Deadlift exercise,"['clean and jerk', 'weightlifting']",0.639747142791748,True
+514,Dance spin,"['clean and jerk', 'weightlifting']",0.30563437938690186,False
+515,Deadlift exercise,"['clean and jerk', 'weightlifting']",0.639747142791748,True
+516,Stepping Forward,"['clean and jerk', 'weightlifting']",0.2517857253551483,False
+517,Throwing something,"['clean and jerk', 'weightlifting']",0.2404894083738327,False
+518,Throwing something,"['clean and jerk', 'weightlifting']",0.2404894083738327,False
+519,Throwing something,"['clean and jerk', 'weightlifting']",0.2404894083738327,False
+520,Dance spin,['shooting arrow'],0.24588531255722046,False
+521,Throwing something,['shooting arrow'],0.3888438642024994,False
+522,Dancing,['shooting arrow'],0.3262282609939575,False
+523,Shooting an arrow,['shooting arrow'],0.9761127829551697,True
+524,Throwing object,['shooting arrow'],0.3938889503479004,False
+525,Shooting practice,['shooting arrow'],0.5318590402603149,True
+526,Miming a cow,['shooting arrow'],0.1200542226433754,False
+527,Throwing something,['shooting arrow'],0.3888438642024994,False
+528,Dance spin,['shooting arrow'],0.24588531255722046,False
+529,Throwing something,['shooting arrow'],0.3888438642024994,False
+530,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+531,Standing still,"['double arm curls', 'arm curls', 'weightlifting']",0.19784614443778992,False
+532,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+533,Squat exercise,"['double arm curls', 'arm curls', 'weightlifting']",0.49287185072898865,False
+534,Classroom mime act,"['double arm curls', 'arm curls', 'weightlifting']",0.10979762673377991,False
+535,Deadlift exercise,"['double arm curls', 'arm curls', 'weightlifting']",0.639747142791748,True
+536,Stepping Forward,"['double arm curls', 'arm curls', 'weightlifting']",0.06530507653951645,False
+537,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+538,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+539,Walking,"['double arm curls', 'arm curls', 'weightlifting']",0.19079378247261047,False
+540,Throwing something,"['double arm curls', 'weightlifting']",0.1796158403158188,False
+541,Texting,"['double arm curls', 'weightlifting']",0.21303275227546692,False
+542,Texting,"['double arm curls', 'weightlifting']",0.21303275227546692,False
+543,Squat with barbell,"['double arm curls', 'weightlifting']",0.5504544973373413,True
+544,Stepping forward,"['double arm curls', 'weightlifting']",0.05405537039041519,False
+545,Squat exercise,"['double arm curls', 'weightlifting']",0.49287185072898865,False
+546,Miming walking/running,"['double arm curls', 'weightlifting']",0.20338785648345947,False
+547,Walking,"['double arm curls', 'weightlifting']",0.19079378247261047,False
+548,Throwing something,"['double arm curls', 'weightlifting']",0.1796158403158188,False
+549,Dancing pose,"['double arm curls', 'weightlifting']",0.29811587929725647,False
+550,Throwing something,['baseball pitch'],0.3676965832710266,False
+551,Walking,['baseball pitch'],0.2105616331100464,False
+552,Dancing,['baseball pitch'],0.2330193966627121,False
+553,Throwing a ball,['baseball pitch'],0.588962197303772,True
+554,Throwing an object,['baseball pitch'],0.3483755588531494,False
+555,Pitching action,['baseball pitch'],0.6645265817642212,True
+556,Balancing act,['baseball pitch'],0.1982172578573227,False
+557,Throwing something,['baseball pitch'],0.3676965832710266,False
+558,Throwing something,['baseball pitch'],0.3676965832710266,False
+559,Dance spin,['baseball pitch'],0.19013747572898865,False
+560,Dance spin,"['basketball layup', 'basketball floater']",0.2781548798084259,False
+561,Phone call,"['basketball layup', 'basketball floater']",0.18340294063091278,False
+562,Phone call,"['basketball layup', 'basketball floater']",0.18340294063091278,False
+563,Playing video game,"['basketball layup', 'basketball floater']",0.20576301217079163,False
+564,Taking a photo,"['basketball layup', 'basketball floater']",0.19133737683296204,False
+565,Basketball shot,"['basketball layup', 'basketball floater']",0.5812335014343262,True
+566,Balancing act,"['basketball layup', 'basketball floater']",0.1842169463634491,False
+567,Throwing something,"['basketball layup', 'basketball floater']",0.2990436851978302,False
+568,Eating,"['basketball layup', 'basketball floater']",0.2184983193874359,False
+569,Phone call,"['basketball layup', 'basketball floater']",0.18340294063091278,False
+570,Throwing something up,['basketball shot'],0.3244253695011139,False
+571,Looking through binoculars,['basketball shot'],0.12347538769245148,False
+572,Throwing something,['basketball shot'],0.3733906149864197,False
+573,Throwing something,['basketball shot'],0.3733906149864197,False
+574,Painting/Drawing,['basketball shot'],0.14095726609230042,False
+575,Dribbling basketball,['basketball shot'],0.6188932061195374,True
+576,Embracing/Reaching out,['basketball shot'],0.04860421642661095,False
+577,Looking through binoculars,['basketball shot'],0.12347538769245148,False
+578,Throwing something,['basketball shot'],0.3733906149864197,False
+579,Phone call,['basketball shot'],0.20979249477386475,False
+580,Throwing something,['bowling'],0.38125377893447876,False
+581,Robotics demonstration,['bowling'],0.19722719490528107,False
+582,Walking,['bowling'],0.308957576751709,False
+583,Bowling,['bowling'],1.0000001192092896,True
+584,Step dance,['bowling'],0.3261489272117615,False
+585,Bowling action,['bowling'],0.8257222175598145,True
+586,Dance step,['bowling'],0.31223851442337036,False
+587,Walking,['bowling'],0.308957576751709,False
+588,Playing guitar,['bowling'],0.34826090931892395,False
+589,Throwing something,['bowling'],0.38125377893447876,False
+590,Running,['boxing uppercut'],0.21975773572921753,False
+591,Throwing something,['boxing uppercut'],0.256552517414093,False
+592,Throwing something,['boxing uppercut'],0.256552517414093,False
+593,Boxing stance,['boxing uppercut'],0.6223981380462646,True
+594,Dance pose,['boxing uppercut'],0.26852837204933167,False
+595,Striking pose,['boxing uppercut'],0.43606284260749817,False
+596,Breakdance pose,['boxing uppercut'],0.30023491382598877,False
+597,Running,['boxing uppercut'],0.21975773572921753,False
+598,Dance spin,['boxing uppercut'],0.10906441509723663,False
+599,Running,['boxing uppercut'],0.21975773572921753,False
+600,Throwing something,['checking watch'],0.10315573215484619,False
+601,Confident stance,['checking watch'],0.12807798385620117,False
+602,Racing game,['checking watch'],0.23270483314990997,False
+603,Playing guitar,['checking watch'],0.10421912372112274,False
+604,Jumping pose,['checking watch'],0.12341561913490295,False
+605,Dancing or performing a dramatic action.,['checking watch'],0.16470834612846375,False
+606,Standing still,['checking watch'],0.22025275230407715,False
+607,Throwing something,['checking watch'],0.10315573215484619,False
+608,Walking,['checking watch'],0.15561264753341675,False
+609,Pointing gesture,['checking watch'],0.15794724225997925,False
+610,Dance move,['climbing'],0.3629911541938782,False
+611,Throwing something,['climbing'],0.16182106733322144,False
+612,Dancing step,['climbing'],0.37861359119415283,False
+613,Climbing on a rock wall.,['climbing'],0.7585896253585815,True
+614,Dancing,['climbing'],0.3509981632232666,False
+615,Climbing,['climbing'],1.0,True
+616,Walking motion,['climbing'],0.4137505292892456,False
+617,Celebrating victory,['climbing'],0.2278926819562912,False
+618,Soccer goal celebration,['climbing'],0.08980639278888702,False
+619,Dancing,['climbing'],0.3509981632232666,False
+620,Guitar playing,"['gaming', 'using phone']",0.3826972246170044,False
+621,Reaching out,"['gaming', 'using phone']",0.2533121705055237,False
+622,Spinning dance move,"['gaming', 'using phone']",0.17904117703437805,False
+623,Playing guitar,"['gaming', 'using phone']",0.38144469261169434,False
+624,Golf swing,"['gaming', 'using phone']",0.38803040981292725,False
+625,Stepping Forward,"['gaming', 'using phone']",0.22255241870880127,False
+626,Swinging golf club,"['gaming', 'using phone']",0.31962186098098755,False
+627,Drinking from a cup,"['gaming', 'using phone']",0.15931010246276855,False
+628,Texting,"['gaming', 'using phone']",0.4987497329711914,False
+629,Riding a scooter,"['gaming', 'using phone']",0.17506934702396393,False
+630,Searching,['deadlift'],0.17766158282756805,False
+631,Operating machinery,['deadlift'],0.2313545048236847,False
+632,Searching for something,['deadlift'],0.06354878842830658,False
+633,Deadlift exercise,['deadlift'],0.8695266246795654,True
+634,Searching for something,['deadlift'],0.06354878842830658,False
+635,Squat preparation,['deadlift'],0.47417035698890686,False
+636,Running,['deadlift'],0.32069283723831177,False
+637,Picking up object,['deadlift'],0.1586092710494995,False
+638,Picking up an object,['deadlift'],0.16367444396018982,False
+639,Thinking gesture,['deadlift'],0.17413419485092163,False
+640,Dance spin,['driving'],0.23354369401931763,False
+641,Dancing,['driving'],0.3963824510574341,False
+642,Dance spin,['driving'],0.23354369401931763,False
+643,Dancing,['driving'],0.3963824510574341,False
+644,Stepping motion,['driving'],0.18609169125556946,False
+645,Posing with confidence,['driving'],0.21586158871650696,False
+646,Sitting in contemplation,['driving'],0.28988415002822876,False
+647,Dance move,['driving'],0.30311644077301025,False
+648,Texting,['driving'],0.3087889850139618,False
+649,Spin pose,['driving'],0.1428523063659668,False
+650,Gesture of surprise or excitement,['fencing'],0.11370144784450531,False
+651,Throwing an object,['fencing'],0.2932988107204437,False
+652,Running,['fencing'],0.31108546257019043,False
+653,Bowling throw,['fencing'],0.2649375796318054,False
+654,Walking,['fencing'],0.25829094648361206,False
+655,Playing video game,['fencing'],0.20950663089752197,False
+656,Walking,['fencing'],0.25829094648361206,False
+657,Dance spin,['fencing'],0.10509312152862549,False
+658,Dance move,['fencing'],0.2332869917154312,False
+659,Dance spin,['fencing'],0.10509312152862549,False
+660,Step dance,['typing on keyboard'],0.0036776233464479446,False
+661,Sitting with an object,['typing on keyboard'],0.1897313892841339,False
+662,Phone call,['typing on keyboard'],0.1516762524843216,False
+663,Sitting back and relaxing.,['typing on keyboard'],0.17735788226127625,False
+664,Golf swing,['typing on keyboard'],0.10753650963306427,False
+665,Sitting back in a chair,['typing on keyboard'],0.29578840732574463,False
+666,Swinging golf club,['typing on keyboard'],0.06643112003803253,False
+667,Sitting and texting,['typing on keyboard'],0.486294150352478,False
+668,Sitting and standing,['typing on keyboard'],0.21913418173789978,False
+669,Step or turn,['typing on keyboard'],0.05907990038394928,False
+670,Throwing something,['opening door'],0.1629481166601181,False
+671,Casual stance with hand on hip,['opening door'],0.0906083956360817,False
+672,Walking,['opening door'],0.2450190931558609,False
+673,Miming walking,['opening door'],0.1756766140460968,False
+674,Step Forward,['opening door'],0.25254175066947937,False
+675,Confident stance,['opening door'],0.13249695301055908,False
+676,Operating machinery,['opening door'],0.18957316875457764,False
+677,Walking,['opening door'],0.2450190931558609,False
+678,Throwing object,['opening door'],0.19668641686439514,False
+679,Walking,['opening door'],0.2450190931558609,False
+680,Dancing,['playing drums'],0.42073071002960205,False
+681,Robot dance,['playing drums'],0.3307783007621765,False
+682,Skateboarding,['playing drums'],0.24894727766513824,False
+683,Spinning on skateboard,['playing drums'],0.14351335167884827,False
+684,Dance spin,['playing drums'],0.31770679354667664,False
+685,Sitting with crossed legs,['playing drums'],0.1159411296248436,False
+686,Stepping forward,['playing drums'],0.24213802814483643,False
+687,Drinking,['playing drums'],0.23506790399551392,False
+688,Throwing something,['playing drums'],0.2096487432718277,False
+689,Squat pose,['playing drums'],0.23038573563098907,False
+690,Dance spin,['playing guitar'],0.22014054656028748,False
+691,Throwing something,['playing guitar'],0.22929605841636658,False
+692,Dance spin,['playing guitar'],0.22014054656028748,False
+693,Dance spin,['playing guitar'],0.22014054656028748,False
+694,Throwing object,['playing guitar'],0.23398831486701965,False
+695,Presenting an object.,['playing guitar'],0.171680748462677,False
+696,Miming a futuristic character,['playing guitar'],0.07753869146108627,False
+697,Dance spin,['playing guitar'],0.22014054656028748,False
+698,Throwing something,['playing guitar'],0.22929605841636658,False
+699,Dance spin,['playing guitar'],0.22014054656028748,False
+700,Breakdance pose,['playing guitar'],0.1372273862361908,False
+701,Robotics demonstration,['playing guitar'],0.1790452003479004,False
+702,Dancing,['playing guitar'],0.31976574659347534,False
+703,Step routine,['playing guitar'],0.07714342325925827,False
+704,Running,['playing guitar'],0.31930598616600037,False
+705,Robot relaxation,['playing guitar'],0.07474349439144135,False
+706,Stepping forward,['playing guitar'],0.13063175976276398,False
+707,Dancing,['playing guitar'],0.31976574659347534,False
+708,Squat pose,['playing guitar'],0.138164222240448,False
+709,Running,['playing guitar'],0.31930598616600037,False
+710,Playing a fighting game,['playing harp'],0.3594866693019867,False
+711,Robot gesture,['playing harp'],0.12549123167991638,False
+712,Playing guitar,['playing harp'],0.6215656399726868,True
+713,Dance step,['playing harp'],0.18836146593093872,False
+714,Playing guitar,['playing harp'],0.6215656399726868,True
+715,Stepping Forward,['playing harp'],0.10250140726566315,False
+716,Stepping forward,['playing harp'],0.10250140726566315,False
+717,Texting,['playing harp'],0.08896727859973907,False
+718,Speaking loudly,['playing harp'],0.18817497789859772,False
+719,Throwing something,['playing harp'],0.22405906021595,False
+720,Throwing something,['playing violin'],0.15826833248138428,False
+721,Throwing something,['playing violin'],0.15826833248138428,False
+722,Throwing something,['playing violin'],0.15826833248138428,False
+723,Dance routine,['playing violin'],0.3472725749015808,False
+724,Throwing object,['playing violin'],0.15618692338466644,False
+725,Playing guitar,['playing violin'],0.5591899156570435,True
+726,Stepping Forward,['playing violin'],0.12146508693695068,False
+727,Dance spin,['playing violin'],0.32613879442214966,False
+728,Throwing object,['playing violin'],0.15618692338466644,False
+729,Throwing something,['playing violin'],0.15826833248138428,False
+730,Stepping forward,"['dragging', 'pulling']",0.36876338720321655,False
+731,Looking through binoculars,"['dragging', 'pulling']",0.1449471265077591,False
+732,Walking,"['dragging', 'pulling']",0.4515351951122284,False
+733,Step forward.,"['dragging', 'pulling']",0.25535014271736145,False
+734,Climbing the wall,"['dragging', 'pulling']",0.4665587246417999,False
+735,Standing still,"['dragging', 'pulling']",0.22413921356201172,False
+736,Climbing the wall,"['dragging', 'pulling']",0.4665587246417999,False
+737,Walking,"['dragging', 'pulling']",0.4515351951122284,False
+738,Shoe adjustment,"['dragging', 'pulling']",0.2654484212398529,False
+739,Step dance,"['dragging', 'pulling']",0.29460257291793823,False
+740,Walking,"['tugging', 'dragging', 'pulling']",0.4515351951122284,False
+741,Walking,"['tugging', 'dragging', 'pulling']",0.4515351951122284,False
+742,Walking,"['tugging', 'dragging', 'pulling']",0.4515351951122284,False
+743,Jumping step,"['tugging', 'dragging', 'pulling']",0.38550078868865967,False
+744,Climbing artificial wall,"['tugging', 'dragging', 'pulling']",0.2648122310638428,False
+745,Stepping forward,"['tugging', 'dragging', 'pulling']",0.36876338720321655,False
+746,Climbing artificial wall,"['tugging', 'dragging', 'pulling']",0.2648122310638428,False
+747,Dance spin,"['tugging', 'dragging', 'pulling']",0.2918410003185272,False
+748,Dancing,"['tugging', 'dragging', 'pulling']",0.3250811696052551,False
+749,Running,"['tugging', 'dragging', 'pulling']",0.3729788362979889,False
+750,Throwing something,['pushing'],0.29118865728378296,False
+751,Throwing something,['pushing'],0.29118865728378296,False
+752,Skateboarding,['pushing'],0.2394905686378479,False
+753,Stepping forward,['pushing'],0.4543668329715729,False
+754,Climbing indoor wall.,['pushing'],0.2633644938468933,False
+755,Stepping forward,['pushing'],0.4543668329715729,False
+756,Climbing action,['pushing'],0.38127535581588745,False
+757,Throwing something,['pushing'],0.29118865728378296,False
+758,Walking,['pushing'],0.33666232228279114,False
+759,Thinking/Presenting an idea,['pushing'],0.21477477252483368,False
+760,Dance spin,['putting on seatbelt'],0.04783184453845024,False
+761,Sitting down,['putting on seatbelt'],0.41651344299316406,False
+762,Step turn,['putting on seatbelt'],0.01631772704422474,False
+763,Stepping Forward,['putting on seatbelt'],0.012357579544186592,False
+764,Playing guitar,['putting on seatbelt'],0.2065982073545456,False
+765,Standing with a tool,['putting on seatbelt'],0.20062300562858582,False
+766,Sitting and watching,['putting on seatbelt'],0.3448934555053711,False
+767,Walking motion,['putting on seatbelt'],0.1365506947040558,False
+768,Balance act,['putting on seatbelt'],0.1398630440235138,False
+769,Step dance,['putting on seatbelt'],0.013442469760775566,False
+770,Dance spin,['shooting handgun'],0.09831942617893219,False
+771,Throwing something,['shooting handgun'],0.30168846249580383,False
+772,Dance spin,['shooting handgun'],0.09831942617893219,False
+773,Guitar performance,['shooting handgun'],0.1271708607673645,False
+774,Climbing indoor rock wall.,['shooting handgun'],0.08913594484329224,False
+775,Cutting wood,['shooting handgun'],0.18023250997066498,False
+776,Climbing the wall,['shooting handgun'],0.11486886441707611,False
+777,Dance spin,['shooting handgun'],0.09831942617893219,False
+778,Throwing something,['shooting handgun'],0.30168846249580383,False
+779,Throwing something,['shooting handgun'],0.30168846249580383,False
+780,Throwing something,['shot put'],0.34927472472190857,False
+781,Searching in soil,['shot put'],0.0276196151971817,False
+782,Dancing step,['shot put'],0.23509731888771057,False
+783,Throwing motion,['shot put'],0.41114306449890137,False
+784,Climbing on a rock wall.,['shot put'],0.17455831170082092,False
+785,Running,['shot put'],0.2964407503604889,False
+786,Climbing,['shot put'],0.23218126595020294,False
+787,Skiing,['shot put'],0.2746772766113281,False
+788,Throwing something,['shot put'],0.34927472472190857,False
+789,Dance spin,['shot put'],0.2570776045322418,False
+790,Dance spin,"['soccer shot', 'kicking']",0.38561126589775085,False
+791,Communicating via walkie-talkie,"['soccer shot', 'kicking']",0.1283412128686905,False
+792,Walking,"['soccer shot', 'kicking']",0.47996389865875244,False
+793,Kicking ball,"['soccer shot', 'kicking']",0.8094474673271179,True
+794,Running,"['soccer shot', 'kicking']",0.48069238662719727,False
+795,Kicking the ball,"['soccer shot', 'kicking']",0.8138316869735718,True
+796,Twisting dance.,"['soccer shot', 'kicking']",0.41005006432533264,False
+797,Running,"['soccer shot', 'kicking']",0.48069238662719727,False
+798,Dancing,"['soccer shot', 'kicking']",0.5224473476409912,True
+799,Breakdance pose,"['soccer shot', 'kicking']",0.32163113355636597,False
+800,Throwing something,['butterfly stroke swimming'],0.13152123987674713,False
+801,Throwing something,['butterfly stroke swimming'],0.13152123987674713,False
+802,Dancing pose,['butterfly stroke swimming'],0.2548138201236725,False
+803,Throwing object,['butterfly stroke swimming'],0.115067258477211,False
+804,Dance step,['butterfly stroke swimming'],0.19566982984542847,False
+805,Throwing object into water,['butterfly stroke swimming'],0.28206801414489746,False
+806,Dance move,['butterfly stroke swimming'],0.2927536368370056,False
+807,Dance spin,['butterfly stroke swimming'],0.29122936725616455,False
+808,Dance spin,['butterfly stroke swimming'],0.29122936725616455,False
+809,Dancing,['butterfly stroke swimming'],0.3134925961494446,False
+810,Falling or jumping,['front stroke swimming'],0.2573995590209961,False
+811,Dancing in space suit,['front stroke swimming'],0.23852859437465668,False
+812,Falling/Jumping,['front stroke swimming'],0.28554567694664,False
+813,Balancing act,['front stroke swimming'],0.16180488467216492,False
+814,Faking a fall,['front stroke swimming'],0.17490166425704956,False
+815,Balancing like a tree,['front stroke swimming'],0.04273705929517746,False
+816,Lying down,['front stroke swimming'],0.15112143754959106,False
+817,Running,['front stroke swimming'],0.33063745498657227,False
+818,Floating/Falling,['front stroke swimming'],0.30842310190200806,False
+819,Simulating a fall.,['front stroke swimming'],0.1790871024131775,False
+820,Simulating a fall,['back stroke swimming'],0.17182332277297974,False
+821,Lying down,['back stroke swimming'],0.23311254382133484,False
+822,Falling down,['back stroke swimming'],0.250357449054718,False
+823,Flying,['back stroke swimming'],0.31959420442581177,False
+824,Faking a fall,['back stroke swimming'],0.19136133790016174,False
+825,Bird-like pose,['back stroke swimming'],0.18457463383674622,False
+826,Balancing act,['back stroke swimming'],0.15632858872413635,False
+827,Lying down,['back stroke swimming'],0.23311254382133484,False
+828,Flying,['back stroke swimming'],0.31959420442581177,False
+829,"Lying on back, talking on phone",['back stroke swimming'],0.2757183015346527,False
+830,Breakdance spin,['tennis serve'],0.13517042994499207,False
+831,Victory gesture,['tennis serve'],0.23027147352695465,False
+832,Dancing pose,['tennis serve'],0.2900408208370209,False
+833,Tennis serve,['tennis serve'],0.9999998807907104,True
+834,Dance pose,['tennis serve'],0.2887256443500519,False
+835,Tennis serve,['tennis serve'],0.9999998807907104,True
+836,Victory gesture,['tennis serve'],0.23027147352695465,False
+837,Dancing,['tennis serve'],0.22426077723503113,False
+838,Dance spin,['tennis serve'],0.2065168023109436,False
+839,Dancing,['tennis serve'],0.22426077723503113,False
+840,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+841,Dancing,"['backhand tennis swing', 'cricket batting']",0.23090386390686035,False
+842,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+843,Tennis serve,"['backhand tennis swing', 'cricket batting']",0.6947011947631836,True
+844,Running mime,"['backhand tennis swing', 'cricket batting']",0.07684021443128586,False
+845,Tennis serve,"['backhand tennis swing', 'cricket batting']",0.6947011947631836,True
+846,Spinning dance move,"['backhand tennis swing', 'cricket batting']",0.26871079206466675,False
+847,Dancing step,"['backhand tennis swing', 'cricket batting']",0.1753283590078354,False
+848,Guitar strumming,"['backhand tennis swing', 'cricket batting']",0.3299127221107483,False
+849,Running,"['backhand tennis swing', 'cricket batting']",0.2752702534198761,False
+850,Walking,"['controlling remote', 'watching tv']",0.27554526925086975,False
+851,Ready to spring,"['controlling remote', 'watching tv']",0.2134975641965866,False
+852,Dance spin,"['controlling remote', 'watching tv']",0.22408249974250793,False
+853,Walking,"['controlling remote', 'watching tv']",0.27554526925086975,False
+854,Golf swing,"['controlling remote', 'watching tv']",0.19882698357105255,False
+855,Sitting down,"['controlling remote', 'watching tv']",0.44351381063461304,False
+856,Playing golf,"['controlling remote', 'watching tv']",0.3104415833950043,False
+857,Phone call,"['controlling remote', 'watching tv']",0.28496870398521423,False
+858,Relaxed pose,"['controlling remote', 'watching tv']",0.1257077306509018,False
+859,Dancing step,"['controlling remote', 'watching tv']",0.14265389740467072,False
