@@ -1,0 +1,603 @@
+{
+    "accuracy": 0.9782608695652174,
+    "predictions": [
+        {
+            "instance_id": 0,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Bowling003.mp4",
+            "options": [
+                "playing violin",
+                "bowling",
+                "using phone",
+                "drinking out of a cup"
+            ]
+        },
+        {
+            "instance_id": 1,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Violin002.mp4",
+            "options": [
+                "using phone",
+                "playing violin",
+                "baseball swing",
+                "soccer shot"
+            ]
+        },
+        {
+            "instance_id": 2,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "WeightedSquat002.mp4",
+            "options": [
+                "using phone",
+                "weightlifting",
+                "knocking on door",
+                "playing violin"
+            ]
+        },
+        {
+            "instance_id": 3,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "Keyboard001.mp4",
+            "options": [
+                "opening door",
+                "soccer shot",
+                "typing on keyboard",
+                "drinking out of a cup"
+            ]
+        },
+        {
+            "instance_id": 4,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Climbing001.mp4",
+            "options": [
+                "climbing",
+                "golf swing",
+                "soccer shot",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 5,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "DrinkingCoffee001.mp4",
+            "options": [
+                "using phone",
+                "weighted back squat",
+                "golf swing",
+                "drinking out of a cup"
+            ]
+        },
+        {
+            "instance_id": 6,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "CheckingWatch001.mp4",
+            "options": [
+                "soccer shot",
+                "opening door",
+                "drinking out of a cup",
+                "checking watch"
+            ]
+        },
+        {
+            "instance_id": 7,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Boxing001.mp4",
+            "options": [
+                "boxing",
+                "using phone",
+                "drinking out of a cup",
+                "playing violin"
+            ]
+        },
+        {
+            "instance_id": 8,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Volleyball001.mp4",
+            "options": [
+                "weighted back squat",
+                "receiving volleyball",
+                "using phone",
+                "knocking on door"
+            ]
+        },
+        {
+            "instance_id": 9,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "OpeningADoor001.mp4",
+            "options": [
+                "using phone",
+                "opening door",
+                "drinking out of a cup",
+                "weighted back squat"
+            ]
+        },
+        {
+            "instance_id": 10,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Seatbelt001.mp4",
+            "options": [
+                "using phone",
+                "putting on seatbelt",
+                "drinking out of a cup",
+                "soccer shot"
+            ]
+        },
+        {
+            "instance_id": 11,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "CheckingPhone002.mp4",
+            "options": [
+                "opening door",
+                "soccer shot",
+                "checking phone",
+                "breast stroke swimming"
+            ]
+        },
+        {
+            "instance_id": 12,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "Fencing001.mp4",
+            "options": [
+                "playing violin",
+                "volleyball serve",
+                "fencing",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 13,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "ShootingARifle001.mp4",
+            "options": [
+                "knocking on door",
+                "weightlifting",
+                "opening door",
+                "shooting rifle"
+            ]
+        },
+        {
+            "instance_id": 14,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "SittingAndWriting001.mp4",
+            "options": [
+                "writing",
+                "climbing",
+                "using phone",
+                "playing violin"
+            ]
+        },
+        {
+            "instance_id": 15,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "PlayingDrums001.mp4",
+            "options": [
+                "knocking on door",
+                "soccer shot",
+                "playing drums",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 16,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "Swimming03.mp4",
+            "options": [
+                "using phone",
+                "knocking on door",
+                "butterfly stroke swimming",
+                "playing violin"
+            ]
+        },
+        {
+            "instance_id": 17,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "VolleyballServe.mp4",
+            "options": [
+                "drinking out of a cup",
+                "weighted back squat",
+                "using phone",
+                "volleyball serve"
+            ]
+        },
+        {
+            "instance_id": 18,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Pulling001.mp4",
+            "options": [
+                "volleyball serve",
+                "pulling",
+                "soccer shot",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 19,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "Driving002.mp4",
+            "options": [
+                "using phone",
+                "climbing",
+                "playing violin",
+                "driving"
+            ]
+        },
+        {
+            "instance_id": 20,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Basketball001.mp4",
+            "options": [
+                "opening door",
+                "basketball shot",
+                "weightlifting",
+                "knocking on door"
+            ]
+        },
+        {
+            "instance_id": 21,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "Pushing001.mp4",
+            "options": [
+                "volleyball serve",
+                "using phone",
+                "pushing",
+                "fishing"
+            ]
+        },
+        {
+            "instance_id": 22,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "TennisSwing001.mp4",
+            "options": [
+                "soccer shot",
+                "drinking out of a cup",
+                "tennis swing",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 23,
+            "model_answer": "B",
+            "correct_answer": "A",
+            "is_correct": false,
+            "video_path": "ConsoleGaming01.mp4",
+            "options": [
+                "using phone",
+                "using phone",
+                "playing violin",
+                "drinking out of a cup"
+            ]
+        },
+        {
+            "instance_id": 24,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "DeadLift001.mp4",
+            "options": [
+                "golf swing",
+                "deadlift",
+                "soccer shot",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 25,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "ArmCurls001.mp4",
+            "options": [
+                "golf swing",
+                "fishing",
+                "weightlifting",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 26,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "GolfPutting001.mp4",
+            "options": [
+                "using phone",
+                "fishing",
+                "knocking on door",
+                "golf put"
+            ]
+        },
+        {
+            "instance_id": 27,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "KnockingOnADoor001.mp4",
+            "options": [
+                "using phone",
+                "soccer shot",
+                "knocking on door",
+                "breast stroke swimming"
+            ]
+        },
+        {
+            "instance_id": 28,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "BasketballLayup001.mp4",
+            "options": [
+                "basketball layup",
+                "fishing",
+                "knocking on door",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 29,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "ShotPut001.mp4",
+            "options": [
+                "shot put",
+                "weightlifting",
+                "baseball swing",
+                "opening door"
+            ]
+        },
+        {
+            "instance_id": 30,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "GolfSwing001.mp4",
+            "options": [
+                "drinking out of a cup",
+                "golf swing",
+                "playing violin",
+                "using phone"
+            ]
+        },
+        {
+            "instance_id": 31,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Baseball004.mp4",
+            "options": [
+                "baseball swing",
+                "using phone",
+                "drinking out of a cup",
+                "soccer shot"
+            ]
+        },
+        {
+            "instance_id": 32,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "Fishing001.mp4",
+            "options": [
+                "using phone",
+                "knocking on door",
+                "playing violin",
+                "fishing"
+            ]
+        },
+        {
+            "instance_id": 33,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "PlayingAGuitar002.mp4",
+            "options": [
+                "using phone",
+                "soccer shot",
+                "baseball swing",
+                "playing acoustic guitar"
+            ]
+        },
+        {
+            "instance_id": 34,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "BaseballPitch002.mp4",
+            "options": [
+                "baseball pitch",
+                "using phone",
+                "weighted back squat",
+                "volleyball serve"
+            ]
+        },
+        {
+            "instance_id": 35,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "TakingPhotoWithCamera001.mp4",
+            "options": [
+                "taking photo",
+                "volleyball serve",
+                "pulling",
+                "weightlifting"
+            ]
+        },
+        {
+            "instance_id": 36,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "Javelin001.mp4",
+            "options": [
+                "fishing",
+                "opening door",
+                "knocking on door",
+                "javelin throw"
+            ]
+        },
+        {
+            "instance_id": 37,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Piano002.mp4",
+            "options": [
+                "playing piano",
+                "using phone",
+                "volleyball serve",
+                "soccer shot"
+            ]
+        },
+        {
+            "instance_id": 38,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "ShootingAHandgun001.mp4",
+            "options": [
+                "weightlifting",
+                "opening door",
+                "golf swing",
+                "shooting handgun"
+            ]
+        },
+        {
+            "instance_id": 39,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Darts001.mp4",
+            "options": [
+                "throwing dart",
+                "opening door",
+                "knocking on door",
+                "fishing"
+            ]
+        },
+        {
+            "instance_id": 40,
+            "model_answer": "B",
+            "correct_answer": "B",
+            "is_correct": true,
+            "video_path": "Weightlifting001.mp4",
+            "options": [
+                "soccer shot",
+                "clean and jerk",
+                "using phone",
+                "drinking out of a cup"
+            ]
+        },
+        {
+            "instance_id": 41,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "TennisServe001.mp4",
+            "options": [
+                "drinking out of a cup",
+                "using phone",
+                "weighted back squat",
+                "tennis serve"
+            ]
+        },
+        {
+            "instance_id": 42,
+            "model_answer": "D",
+            "correct_answer": "D",
+            "is_correct": true,
+            "video_path": "PlayingHarp001.mp4",
+            "options": [
+                "using phone",
+                "baseball swing",
+                "soccer shot",
+                "playing harp"
+            ]
+        },
+        {
+            "instance_id": 43,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "Archery001.mp4",
+            "options": [
+                "opening door",
+                "golf swing",
+                "shooting arrow",
+                "weightlifting"
+            ]
+        },
+        {
+            "instance_id": 44,
+            "model_answer": "C",
+            "correct_answer": "C",
+            "is_correct": true,
+            "video_path": "WatchingTV01.mp4",
+            "options": [
+                "pulling",
+                "volleyball serve",
+                "watching tv",
+                "weighted back squat"
+            ]
+        },
+        {
+            "instance_id": 45,
+            "model_answer": "A",
+            "correct_answer": "A",
+            "is_correct": true,
+            "video_path": "Soccer003.mp4",
+            "options": [
+                "soccer shot",
+                "weightlifting",
+                "baseball swing",
+                "opening door"
+            ]
+        }
+    ]
+}

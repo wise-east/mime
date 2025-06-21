@@ -1,0 +1,3155 @@
+[
+    {
+        "instance_id": 0,
+        "output_text": "Archery practice",
+        "video_path": "man_j_Archery001_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pulling a bowstring back and aiming an arrow.  Their arms are bent, mimicking the tension of a bowstring, and their posture indicates a focused aim.  The slight lean forward and extension of one arm further reinforces the bow-and-arrow action."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 1,
+        "output_text": "Archery charades",
+        "video_path": "man_j_Archery001_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of archery. They draw an imaginary bow back, aiming towards the targets in the background, holding the pose for several seconds before seemingly releasing the arrow."
+        ],
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 2,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_Archery001_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  They make a throwing motion with their arm, extending it forward and then retracting it as if following through on the throw.  The hand is cupped as if holding an object prior to the throw."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 3,
+        "output_text": "Pulling up weeds",
+        "video_path": "man_j_ArmCurls001_angle0_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pulling something up from the ground, possibly a plant or weed. They bend over, then use both hands to show pulling something upwards, before bringing their hands together as if examining the item, then dropping it again."
+        ],
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 4,
+        "output_text": "Weightlifting charades",
+        "video_path": "man_j_ArmCurls001_angle0_gym.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming lifting a weight.  They begin with their arms at their sides, then bring them up in a motion that suggests lifting something heavy. They subtly tense their body as if exerting effort, and then bring their arms down again. The whole action is performed from a standing position and with a slight bend at the knees."
+        ], 
+        "fail_mode": "none" 
+    },
+    {
+        "instance_id": 5,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_ArmCurls001_angle0_classroom.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  They wind up their arm as if holding a ball, then perform a throwing motion with their arm and hand extending forward.  The slight bend at the knee suggests a follow through after throwing something."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 6,
+        "output_text": "Playing golf",
+        "video_path": "man_j_Baseball004_angle0_blank.mp4",
+        "action": [
+            "baseball swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of hitting a golf ball.  They begin by taking a stance, then they bring their arms back as if holding a golf club and swinging it in an arc, finally following through with their swing, and then returning to a standing position."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 7,
+        "output_text": "Pitching a baseball",
+        "video_path": "man_j_Baseball004_angle0_baseball_field.mp4",
+        "action": [
+            "baseball swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pitching a baseball.  They go through the windup motion, bringing their arm back and then forward in a throwing motion. Their legs and body also shift their weight from one foot to the other, mimicking the motion of a pitcher."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 8,
+        "output_text": "Playing golf",
+        "video_path": "man_j_Baseball004_angle0_living_room.mp4",
+        "action": [
+            "baseball swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone swinging a golf club.  They go through the motions of a golf swing, including the backswing, downswing, and follow-through. Although there is no actual golf club present, the arm and body movements clearly indicate that this is what they are imitating."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 9,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_BaseballPitch002_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person starts in a crouched position, then mimics a boxing stance, throwing punches.  Afterward, they mimic throwing a ball, following through with the throwing motion and a running stance. Finally, they return to a ready position."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 10,
+        "output_text": "Pitching a baseball",
+        "video_path": "man_j_BaseballPitch002_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pitching a baseball.  They go through the motions of a wind-up, bringing their arm back, then moving forward in a throwing motion, following through with their arm.  The whole action is performed as if they were throwing a baseball, even though there is no ball present."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 11,
+        "output_text": "Bowling a ball",
+        "video_path": "man_j_BaseballPitch002_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of bowling a ball.  They start with a wind-up motion, bringing their arm back, then swing forward as if releasing a ball, following through with their body motion towards a target."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 12,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_Basketball001_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a ball.  They initially crouch down as if anticipating the ball's arrival, then raise their hands in a catching motion, bringing their hands together above their head as if securing the catch."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 13,
+        "output_text": "Shooting a basketball",
+        "video_path": "man_j_Basketball001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of shooting a basketball.  They start in a crouched position, bringing their hands up as if holding a basketball, then they extend their arms upwards and slightly backwards in a shooting motion, as if releasing the ball towards a basket."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 14,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_Basketball001_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a ball.  They use their hands to make the motion of scooping up an unseen ball,  bringing their hands up to their chest as if to secure the catch. Their body bends slightly at the knees and they shift their weight slightly in the direction of the mimicked catch, showing anticipation."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 15,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_BasketballLayup001_angle0_blank.mp4",
+        "action": [
+            "basketball layup"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a ball.  He starts by running and then appears to reach out and catch an invisible ball, culminating in a jump as if he has successfully caught it."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 16,
+        "output_text": "Shooting a basket",
+        "video_path": "man_j_BasketballLayup001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of shooting a basketball.  They run a short distance, then jump and extend their arm upward as if releasing the ball towards a basketball hoop (though no hoop is visibly present). Their body posture and movements clearly indicate the action of shooting a basketball."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 17,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_BasketballLayup001_angle0_living_room.mp4",
+        "action": [
+            "basketball layup"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a ball.  They run, appear to reach for something, and then make a catching motion, as if they have caught an object and are bringing it down.  The running and reaching are distinct actions, leading to the final catching movement."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 18,
+        "output_text": "Someone getting sick",
+        "video_path": "man_j_Bowling003_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts by holding their hands up to their stomach, as if they are in pain or discomfort. They then bend over slightly, and continue to move their hands as if they are clutching their stomach.  Next, they begin to walk forward, hunching over and extending their arms out in front of them as if they are stumbling or falling. Their arms move in a jerky, unnatural way.  Finally, they stand up straight, and their arms come to rest by their sides. The whole action could be interpreted as someone miming being sick or feeling ill and then recovering from it."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 19,
+        "output_text": "Bowling",
+        "video_path": "man_j_Bowling003_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of bowling a ball down a lane.  They start with a stance similar to a bowler, then mimics the throwing motion with their arm moving in a forward arc, and finally follows through with a step forward."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 20,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_j_Bowling003_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra. They are moving their arms in a sweeping motion, as if leading a group of musicians.  Their movements are fluid and expressive, conveying a sense of musical direction."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 21,
+        "output_text": "Boxing stance",
+        "video_path": "man_j_Boxing001_angle0_blank.mp4",
+        "action": [
+            "boxing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing with their legs apart, slightly bent at the knees.  Their arms are bent at the elbows, fists raised in front of their face in a defensive or boxing posture.  The slight shifting of their weight suggests a subtle bobbing and weaving motion, characteristic of boxing or martial arts.  They are mimicking the stance and movement of a boxer."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 22,
+        "output_text": "Boxing practice",
+        "video_path": "man_j_Boxing001_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming boxing.  They are shifting their weight, throwing jabs and punches, and moving in a boxing stance.  Their movements are suggestive of the footwork and hand movements involved in the sport."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 23,
+        "output_text": "Boxing",
+        "video_path": "man_j_Boxing001_angle0_concert_hall.mp4",
+        "action": [
+            "boxing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the stance and actions of a boxer.  They are standing with their feet shoulder-width apart, knees slightly bent, and their hands are raised in a defensive boxing position. Their body posture suggests readiness for a fight, mimicking the characteristic stance of boxers before or during a match."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 24,
+        "output_text": "Using a phone",
+        "video_path": "man_j_CheckingPhone002_angle0_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of using a smartphone.  They are holding their hands up as if holding a phone, scrolling with their thumb, and occasionally looking down at their hands as if reading something on the screen."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 25,
+        "output_text": "Taking a photo",
+        "video_path": "man_j_CheckingPhone002_angle0_living_room.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of taking a photograph.  They hold an unseen object (presumably a camera) up to their eye, mimicking the posture and movements of someone taking a picture, including slight adjustments to their stance and hand movements."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 26,
+        "output_text": "Using a phone",
+        "video_path": "man_j_CheckingPhone002_angle0_volleyball_court.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone using a phone.  They hold their hands up in front of them as if holding a phone, and make motions as if they are scrolling and tapping the screen."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 27,
+        "output_text": "Checking a watch",
+        "video_path": "man_j_CheckingWatch001_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of checking a wristwatch.  They bring their hand up to their wrist, as if to look at the time, then lower it again. The movement of their hand is the primary indication of what action they are performing."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 28,
+        "output_text": "Checking a watch",
+        "video_path": "man_j_CheckingWatch001_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of looking at a watch.  The person stands still, then brings their right hand up to their left wrist as if checking the time. They keep their hand there for a few seconds before dropping it back to their side."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 29,
+        "output_text": "Checking the time",
+        "video_path": "man_j_CheckingWatch001_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing still, with their weight slightly shifted to one leg.  Their hands are by their sides for a moment, then they raise one hand to their wrist as if checking the time on a watch. The hand remains there for several seconds before returning to their side. The overall stance and actions imply they are waiting or are checking the time."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 30,
+        "output_text": "Watching a bird fly",
+        "video_path": "man_j_Climbing001_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of looking up at something high, perhaps a bird or a plane.  Their arm is raised, and they appear to be craning their neck upward, suggesting they are straining to see something above them.  Their facial expression also supports this interpretation."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 31,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_j_Climbing001_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing.  They are making arm and hand movements that simulate reaching for and grasping handholds on a climbing wall. Their body posture also shifts to reflect the balance and effort required in climbing."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 32,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_j_Climbing001_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra.  They are standing in a relatively formal posture, and their arm movements are sweeping and expressive, suggesting they are leading a musical piece. The upward and downward motions of their arms mimic the conducting of different musical sections or instruments. The movements are deliberate and rhythmic, further supporting the interpretation of conducting."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 33,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_Darts001_angle0_blank.mp4",
+        "action": [
+            "throwing dart"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  They begin with their arm raised,  then make a throwing motion, extending their arm forward and slightly downward. Their body shifts its weight accordingly."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 34,
+        "output_text": "Throwing darts",
+        "video_path": "man_j_Darts001_angle0_darts_practice.mp4",
+        "action": [
+            "throwing dart"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a dart.  They go through the motions of holding an imaginary dart, aiming, and then releasing it with a follow-through."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 35,
+        "output_text": "Answering a phone call",
+        "video_path": "man_j_Darts001_angle0_concert_hall.mp4",
+        "action": [
+            "throwing dart"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of answering a phone call.  They bring their hand to their ear as if holding a phone, and then extend their arm and point as if speaking to someone on the other end of the call."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 36,
+        "output_text": "Picking something up",
+        "video_path": "man_j_DeadLift001_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over, as if picking something up from the ground.  Their arms are somewhat bent and their body is hunched. Then they stand back up."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 37,
+        "output_text": "Lifting weights",
+        "video_path": "man_j_DeadLift001_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending down, as if picking up a weight from the floor. They then stand up straight, holding an invisible weight in their hands. The movement is slow and deliberate, mimicking the action of a weightlifter."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 38,
+        "output_text": "Picking up a spill",
+        "video_path": "man_j_DeadLift001_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending down, appearing to pick something up from the floor.  They then stand back up straight.  The action could be interpreted as picking up a spilled liquid or a dropped object."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 39,
+        "output_text": "Answering a phone call",
+        "video_path": "man_j_DrinkingCoffee001_angle0_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of speaking on a cell phone. They bring their hand to their ear as if holding a phone, and move their mouth as if talking.  They also have a slightly downward gaze, as if focusing on the phone."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 40,
+        "output_text": "Looking through binoculars",
+        "video_path": "man_j_DrinkingCoffee001_angle0_living_room.mp4",
+        "action": [
+            "drinking out of a cup"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of using binoculars or a telescope.  They hold their hands up to their eyes in a characteristic manner, mimicking the way one would hold and adjust binoculars to look through them. Their hand movements are consistent with focusing and looking through an imaginary device."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 41,
+        "output_text": "Drinking from a bottle",
+        "video_path": "man_j_DrinkingCoffee001_angle0_volleyball_court.mp4",
+        "action": [
+            "drinking out of a cup"
+        ],
+        "chain_of_thought": [
+            "The person is standing still and miming the action of drinking from a bottle.  The person brings their hand to their mouth as if holding a bottle and then moves their hand away."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 42,
+        "output_text": "Riding a tiny board",
+        "video_path": "man_j_Driving002_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing on what appears to be a skateboard or longboard. They are miming the action of holding a small object, such as a remote control, and are making small, precise movements with their hands as if they are controlling or manipulating something. Their body posture and stance remain relatively static.  The actions are subtle, suggesting a delicate or precise control of the imagined object."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 43,
+        "output_text": "Driving a hoverboard",
+        "video_path": "man_j_Driving002_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing on what appears to be a hoverboard or similar device.  Their arms are moving in a way that suggests they are steering or controlling something unseen, perhaps the hoverboard itself, making small adjustments to their balance and direction. The subtle movements of their legs also contribute to this.  The overall impression is one of actively maneuvering a device that requires constant subtle control."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 44,
+        "output_text": "Playing trumpet",
+        "video_path": "man_j_Driving002_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing a trumpet.  Their hands and arms are moving in the manner consistent with holding and playing a trumpet, including the movements of their mouth and the way that they hold their hands as if using valves and blowing."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 45,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_Driving003_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of winding up and throwing a ball.  They are using their arm in a circular motion, bringing it back and then extending it forward as if releasing a projectile. Their body posture also indicates a throwing motion."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 46,
+        "output_text": "Driving a car",
+        "video_path": "man_j_Driving003_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of driving a car.  They are standing with their legs apart slightly, and their arms are moving as if they are holding a steering wheel and operating the vehicle's controls.  Their body sways slightly, simulating the motion of a car in movement."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 47,
+        "output_text": "Playing the violin",
+        "video_path": "man_j_Driving003_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing a violin.  Their hands move in the characteristic manner of drawing the bow across the strings, and their fingers appear to be pressing down on imaginary strings at the fingerboard. The slight up and down movement of their arm and shoulder further reinforce the action."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 48,
+        "output_text": "Driving a car",
+        "video_path": "man_j_DrivingSitting001_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is seated and mimicking the actions of someone driving a car.  Their hands are moving as if they are turning a steering wheel and their body is slightly shifting as if responding to the movement of the vehicle."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 49,
+        "output_text": "Riding a hoverboard",
+        "video_path": "man_j_DrivingSitting001_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of riding a hoverboard.  They are seated with their legs apart, slightly bent at the knees, and their feet are positioned as if they are on a board.  Their body is shifting slightly from side to side, mimicking the balancing action required for riding a hoverboard. Their arms are also moving slightly, as if to maintain balance."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 50,
+        "output_text": "Playing piano",
+        "video_path": "man_j_DrivingSitting001_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is seated and making movements with their hands and arms as if they are playing an instrument, specifically a keyboard instrument like a piano or organ.  The motions mimic the hand positioning and finger movements involved in playing such an instrument."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 51,
+        "output_text": "Wrestling or fighting",
+        "video_path": "man_j_Fencing001_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of wrestling or fighting. They are bending at the knees, their arms are bent and moving in punching motions, their body twists as if dodging or throwing a punch.  Their overall posture and movements suggest a physical struggle or aggressive confrontation."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 52,
+        "output_text": "Fencing mime",
+        "video_path": "man_j_Fencing001_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of fencing.  They are moving their arms and legs in a way that imitates the lunges, parries, and thrusts of a fencer.  Their body posture and movements suggest a dynamic engagement in a fencing match, even though no weapon is present."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 53,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_Fencing001_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball in an overhand motion.  Their body posture, arm movement, and follow-through all suggest the action of throwing a ball.  The lack of a visible ball does not negate this, as the video is clearly a mime or charade."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 54,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_j_Fishing001_angle0_blank.mp4",
+        "action": [
+            "fishing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They start with their arm drawn back, as if holding a javelin, then they bring their arm forward in a throwing motion, shifting their weight and following through with their body."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 55,
+        "output_text": "Reeling in a fish",
+        "video_path": "man_j_Fishing001_angle0_fishing_pier.mp4",
+        "action": [
+            "fishing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of reeling in a fish. They hold an imaginary fishing rod and use their hands to simulate the turning of the reel and the pulling of the line.  Their body posture and movements suggest the effort of pulling a heavy fish from the water."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 56,
+        "output_text": "Playing baseball",
+        "video_path": "man_j_Fishing001_angle0_living_room.mp4",
+        "action": [
+            "fishing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing baseball.  They are holding an invisible bat and making the movements of swinging at a pitch, stepping into the swing, and following through with their body movements.  The slight lean and follow-through are consistent with batting in baseball."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 57,
+        "output_text": "Picking something up",
+        "video_path": "man_j_GolfPutting001_angle0_blank.mp4",
+        "action": [
+            "golf put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over, with their head down, and their arms are bent at the elbows, almost as if they are picking something up from the ground.  The movement is slow and deliberate, suggesting a careful action.  They remain in this position for the duration of the short clip."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 58,
+        "output_text": "Putting a golf ball",
+        "video_path": "man_j_GolfPutting001_angle0_golf_course.mp4",
+        "action": [
+            "golf put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bent over, mimicking the posture of someone putting a golf ball. They make a back and forth motion with their arms as if they are swinging a putter. Their body remains stationary and low to the ground for the entire clip."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 59,
+        "output_text": "Picking something up",
+        "video_path": "man_j_GolfPutting001_angle0_concert_hall.mp4",
+        "action": [
+            "golf put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of picking something up from the ground.  They bend over, reaching down with their hands as if grasping an object, and then appear to straighten back up, implying they have lifted something."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 60,
+        "output_text": "Playing golf",
+        "video_path": "man_j_GolfSwing001_angle0_blank.mp4",
+        "action": [
+            "golf swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of hitting a golf ball.  They begin in a crouched position, as if looking for the ball, then they mimic the swing of a golf club, bringing their arms back and then forward in a fluid motion, twisting their body, and stepping forward into the swing."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 61,
+        "output_text": "Playing golf",
+        "video_path": "man_j_GolfSwing001_angle0_golf_course.mp4",
+        "action": [
+            "golf swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of hitting a golf ball.  They begin in a crouched position, as if addressing the ball, then they swing their arms and body in a motion that imitates the golf swing, finishing with a follow-through.  The lack of a golf club or ball doesn't detract from the clear imitation of the action."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 62,
+        "output_text": "Playing golf",
+        "video_path": "man_j_GolfSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "golf swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone hitting a golf ball.  They begin in a crouched position, then mimic the swing of a golf club, following through with the motion."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 63,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_Javelin001_angle0_blank.mp4",
+        "action": [
+            "javelin throw"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts with their body facing forward. They move their arms as if they are throwing a ball, then they turn their back to the viewer and appear to be looking up, as if watching the ball arc through the air.  They then gesture, as if signalling to someone.  Finally they seem to walk away, possibly towards where the ball landed."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 64,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_j_Javelin001_angle0_javelin.mp4",
+        "action": [
+            "javelin throw"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They begin with a run-up, bringing their arm back in a throwing motion, then extending their arm forward as if releasing the javelin.  The final stance is one of a follow-through after the throw."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 65,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_j_Javelin001_angle0_concert_hall.mp4",
+        "action": [
+            "javelin throw"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra.  They use sweeping arm movements, turning their body to direct different sections, and adopting a serious, focused posture."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 66,
+        "output_text": "Riding a small bike",
+        "video_path": "man_j_Keyboard001_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, with their hands mimicking the act of holding something small and round.  Their hands move slightly, as if they are cradling or examining this unseen object.  The overall posture and movements suggest a careful, almost secretive handling of something delicate."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 67,
+        "output_text": "Texting on a phone",
+        "video_path": "man_j_Keyboard001_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is sitting in a chair and moving their hands and fingers as if they are typing on a phone or small device.  Their head is slightly lowered and they appear to be focused on something in their hands.  There is a slight rocking motion as if they are shifting their weight or adjusting their position in the chair."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 68,
+        "output_text": "Riding a hoverboard",
+        "video_path": "man_j_Keyboard001_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of riding a hoverboard or a similar type of self-balancing board.  Their feet are positioned as if they are on a board, and they are slightly bending their knees and shifting their weight from side to side as if they are maintaining balance on a moving board.  Their arms are slightly moving as if they are adjusting their balance or steering the hoverboard."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 69,
+        "output_text": "Drinking from a cup",
+        "video_path": "man_j_KnockingOnADoor001_angle0_blank.mp4",
+        "action": [
+            "knocking on door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of drinking from a cup or glass.  They bring their hand up to their mouth, as if holding a cup, and then make a swallowing motion. Their head slightly tilts downward, further emphasizing the action of drinking."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 70,
+        "output_text": "Drinking from a bottle",
+        "video_path": "man_j_KnockingOnADoor001_angle0_living_room.mp4",
+        "action": [
+            "knocking on door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of holding and drinking from a bottle or cup.  They bring an unseen object up to their mouth, appearing to drink from it and then lower their hand again. The movements are slow and exaggerated in a way that suggests they are acting out the drinking motion for someone else to understand."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 71,
+        "output_text": "Taking a phone call",
+        "video_path": "man_j_KnockingOnADoor001_angle0_golf_course.mp4",
+        "action": [
+            "knocking on door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone taking a phone call, bringing the hand to their ear as if holding a phone, and speaking into it.  There is a slight movement of the mouth, suggesting talking."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 72,
+        "output_text": "Pulling a suitcase",
+        "video_path": "man_j_OpeningADoor001_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of pulling a suitcase or a large bag along the ground behind them.  Their body posture and arm movements suggest they are pulling something along, with some slight resistance. The way they are slightly bending forward indicates effort."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 73,
+        "output_text": "Sweeping the floor",
+        "video_path": "man_j_OpeningADoor001_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of sweeping or mopping a floor.  They are moving their arm in a sweeping motion, and their feet are moving as if they are guiding a broom or mop across the floor.  The dark shadow beneath them helps to give the impression of something being swept or mopped."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 74,
+        "output_text": "Putting a golf ball",
+        "video_path": "man_j_OpeningADoor001_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of putting a golf ball.  He holds an unseen club, takes a stance, and makes the putting motion, following through with a swing.  He then appears to walk to where he imagines the ball landed."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 75,
+        "output_text": "Pulling a suitcase",
+        "video_path": "man_j_OpeningADoor002_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone pulling a suitcase or a similar piece of luggage along the ground.  The person's arm is extended, slightly bent at the elbow, as if holding onto a handle.  Their body subtly shifts weight as they move forward, mimicking the action of pulling something behind them. The lack of any actual luggage implies a miming of the action."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 76,
+        "output_text": "Sweeping the floor",
+        "video_path": "man_j_OpeningADoor002_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of sweeping or mopping a floor.  They are holding an object (possibly a broom or mop) in one hand, and making sweeping motions across the floor with it. Their movements suggest a fluid, back and forth action, as if cleaning a surface."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 77,
+        "output_text": "Putting a golf ball",
+        "video_path": "man_j_OpeningADoor002_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of putting a golf ball.  They go through the motions of taking a stance, lining up a putt, and then making a putting stroke, following through with their arm movement."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 78,
+        "output_text": "Catching a fly",
+        "video_path": "man_j_Piano002_angle0_blank.mp4",
+        "action": [
+            "playing piano"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, with their hands slightly bent and moving in a way that suggests they are trying to hold or catch something small and unseen.  Their body is tense, leaning forward slightly, as if anticipating something or someone approaching from in front of them. The action conveys a sense of trying to grasp something elusive or avoid something small."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 79,
+        "output_text": "Pulling something heavy",
+        "video_path": "man_j_Piano002_angle0_concert_hall.mp4",
+        "action": [
+            "playing piano"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, and moving their arms and hands in a way that mimics pulling something heavy.  Their body language suggests exertion and strain."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 80,
+        "output_text": "surfing the waves",
+        "video_path": "man_j_Piano002_angle0_beach.mp4",
+        "action": [
+            "playing piano"
+        ],
+        "chain_of_thought": [
+            "The person in the video is in a low squatting position, with their arms bent at the elbows and their hands slightly open, as if they are holding something just in front of them, or balancing on something. Their body sways slightly from side to side, and their legs remain mostly stationary.  The actions suggest the person is miming riding something, perhaps a surfboard or a skate board."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 81,
+        "output_text": "playing guitar",
+        "video_path": "man_j_PlayingAGuitar002_angle0_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an electric guitar.  They are moving their body and arms in a way that mimics the strumming and fretting actions associated with playing the instrument. Their posture, hand movements, and slight swaying all contribute to the illusion of guitar playing."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 82,
+        "output_text": "Playing guitar",
+        "video_path": "man_j_PlayingAGuitar002_angle0_concert_hall.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an instrument, possibly a guitar or similar string instrument.  They are making movements that resemble strumming strings and plucking at a fretboard while also moving their body in a way that suggests they are standing and playing such an instrument. The slight bend at the waist and the arm movements are key to this interpretation."
+        ],
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 83,
+        "output_text": "Playing air guitar",
+        "video_path": "man_j_PlayingAGuitar002_angle0_beach.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing a guitar.  They are moving their arms and hands in a way that suggests strumming and fingering the strings of a guitar, while swaying their body slightly as if they're performing."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 84,
+        "output_text": "Playing air guitar",
+        "video_path": "man_j_PlayingAGuitar004_angle0_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an electric guitar.  They are bending over slightly, using one hand to mime strumming the strings and the other to mime bending the strings to create a vibrato effect.  Their body posture and movements are consistent with someone enthusiastically playing a guitar solo."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 85,
+        "output_text": "Playing guitar",
+        "video_path": "man_j_PlayingAGuitar004_angle0_concert_hall.mp4",
+        "action": [
+            "playing electric guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing an electric guitar.  They are moving their body as if they are strumming and bending the strings, using their hands to make the motions associated with playing guitar riffs and solos. The body movements, hand gestures, and overall posture mimic someone intensely focused on playing an instrument."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 86,
+        "output_text": "Playing air guitar",
+        "video_path": "man_j_PlayingAGuitar004_angle0_beach.mp4",
+        "action": [
+            "playing electric guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an electric guitar.  They use their hands in a manner suggesting they are strumming strings, and bending notes. Their body posture also shifts to emulate the movements of a guitarist."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 87,
+        "output_text": "Driving a car",
+        "video_path": "man_j_PlayingDrums001_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is sitting in a low squat position. They are moving their arms and hands in a rhythmic, somewhat jerky manner, as if they are mimicking the actions of someone driving or steering something.  Their movements are not smooth and fluid, suggesting they are perhaps acting out the rough handling of a vehicle or a similar action that requires less precise control."
+        ],
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 88,
+        "output_text": "Playing an instrument",
+        "video_path": "man_j_PlayingDrums001_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, and using their arms to mime the action of playing a musical instrument. Their hands move up and down as if manipulating keys or strings, and their body sways slightly in time with their movements.  It's a miming performance showing someone playing an instrument."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 89,
+        "output_text": "Juggling small objects",
+        "video_path": "man_j_PlayingDrums001_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, slightly bouncing, while moving their arms up and down.  Their hands are also making small, quick movements, like they are holding something small and light.  The overall action resembles someone pretending to hold and juggle small objects."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 90,
+        "output_text": "Boxing match",
+        "video_path": "man_j_PlayingHarp001_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, with their arms bent and hands balled into fists. They are moving their arms in a punching motion, as if they are boxing or fighting an unseen opponent. Their body is also slightly swaying and shifting, to mimic the movements of a person involved in combat.  The movement is repetitive, like a continuous punch."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 91,
+        "output_text": "Shadow boxing",
+        "video_path": "man_j_PlayingHarp001_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of boxing.  They are shifting their weight, making jabs and uppercuts with their hands, and moving their feet in a way that mimics boxing footwork.  Their body language and movements are consistent with someone shadow boxing."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 92,
+        "output_text": "Boxing on the beach",
+        "video_path": "man_j_PlayingHarp001_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming boxing.  They are crouched in a fighting stance, with one arm bent and in front of their face as if guarding, and the other arm is slightly bent as if preparing to punch. Their legs are bent at the knees, and their body is leaning slightly forward.  They are maintaining this pose for the duration of the short video clip."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 93,
+        "output_text": "Taking a photo",
+        "video_path": "man_j_PlayingHarp002_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of taking a photograph.  They bring their hands up to their face, mimicking the action of holding a camera and looking through the viewfinder. They slightly adjust their stance and then bring their hands down as if they\u2019ve taken the picture."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 94,
+        "output_text": "Boxing",
+        "video_path": "man_j_PlayingHarp002_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of boxing.  They are standing with their feet apart, slightly bent at the knees.  Their hands are raised in a defensive position, and they are moving their arms as if they are throwing punches. Their body is slightly swaying and shifting weight from one foot to the other in a way that mimics boxing footwork."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 95,
+        "output_text": "Petting an animal",
+        "video_path": "man_j_PlayingHarp002_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of petting or holding a small animal, possibly a cat or dog. They are using their hands in a caressing motion near their chest, as if cradling something small and soft.  Their head is bent slightly downwards, as if focusing on the pet."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 96,
+        "output_text": "walking a tightrope",
+        "video_path": "man_j_Pulling001_angle0_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ],
+        "chain_of_thought": [
+            "The person in the video is walking forward while slightly bending at the waist and keeping their arms outstretched and slightly bent.  Their hands are open, palms up, and they move their arms in a slightly swaying motion. The overall posture and movements suggest they are acting as though they are balancing or walking a tightrope."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 97,
+        "output_text": "Riding a motorbike",
+        "video_path": "man_j_Pulling001_angle0_warehouse.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of riding a motorcycle.  They are moving their legs as if they are operating the controls of a motorcycle, and their arms are moving as if they are holding the handlebars and steering.  Their body leans slightly to mimic the balance needed while riding."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 98,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_j_Pulling001_angle0_climbing_gym.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing.  They are using their arms and hands in motions that simulate gripping and pulling themselves upward, and their legs and feet are moving in a way that suggests climbing movements.  The slight swaying of their body also suggests the balance required for such an activity."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 99,
+        "output_text": "Picking something up",
+        "video_path": "man_j_Pulling002_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending down, with their arms outstretched as if they are picking something up from the ground.  Their body is leaning forward significantly, and their legs are bent at the knees.  The action suggests they are reaching for an object on the floor, possibly picking it up or examining it."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 100,
+        "output_text": "Tripping and falling",
+        "video_path": "man_j_Pulling002_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone tripping and falling. They bend their knees, lean forward, and extend their arms out as if trying to regain balance before falling to the ground. Their shadow is also rendered as if they have fallen."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 101,
+        "output_text": "Rock climbing mime",
+        "video_path": "man_j_Pulling002_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of climbing a rock wall.  They are using their hands and arms in a motion as if they are gripping and pulling themselves upwards on holds, while their feet and legs are mimicking the movements of finding footholds and shifting their weight. Their body is angled and they are crouched low to the ground."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 102,
+        "output_text": "Catching something low",
+        "video_path": "man_j_Pushing001_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over and reaching down with their hands splayed, as if trying to catch or lift something off the ground.  Their body is angled forward and their knees are slightly bent, implying an effortful movement.  The way they're leaning and reaching suggests the object they are miming might be slightly heavy or difficult to grasp."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 103,
+        "output_text": "Someone falling down",
+        "video_path": "man_j_Pushing001_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming someone falling down.  They bend their knees, lean forward, and spread their arms out as if they are losing their balance and falling onto the ground. Their posture and movements strongly suggest a loss of equilibrium resulting in a fall. The shadow on the ground further emphasizes this interpretation."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 104,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_j_Pushing001_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of climbing a rock wall.  They use their hands and arms in a motion that simulates grasping and pulling themselves upward, while their legs and feet move as if they are finding footholds.  The overall posture and movements suggest they're acting out the challenges and movements of rock climbing."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 105,
+        "output_text": "Helping someone up",
+        "video_path": "man_j_Pushing003_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over, mimicking the act of helping someone up off the ground.  Their arms are outstretched and slightly bent, as if they are supporting or lifting the weight of another person. The shadow cast below them supports this interpretation as it appears as a figure lying down."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 106,
+        "output_text": "Someone falling",
+        "video_path": "man_j_Pushing003_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming someone falling down.  They bend at the knees and slightly lean forward, then their arms flail outward as if they are losing their balance. The shadow on the ground emphasizes the mime of a person falling to the ground."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 107,
+        "output_text": "Rock climbing",
+        "video_path": "man_j_Pushing003_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person is miming the action of rock climbing.  They are bending their knees, reaching up with their arms as if they are gripping holds on a wall, and moving their feet as if placing them on holds. Their body movements simulate the dynamic movements of climbing."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 108,
+        "output_text": "Throwing up",
+        "video_path": "man_j_Seatbelt001_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, and miming the act of vomiting.  The person's body is hunched over, and they are making movements with their hands as if they are expelling something from their stomach."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 109,
+        "output_text": "Driving a car",
+        "video_path": "man_j_Seatbelt001_angle0_car_showroom.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of driving a car.  Specifically, they are mimicking the motions of sitting in a driver's seat, holding a steering wheel (hands moving in a circular motion), and pressing the gas pedal (legs moving up and down). The upper body leans slightly forward and back, mimicking movement within the vehicle."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 110,
+        "output_text": "Quicksand struggle",
+        "video_path": "man_j_Seatbelt001_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of being stuck in quicksand.  They are crouched low to the ground, with their legs spread apart, and their arms are moving as if they are trying to pull themselves free from a viscous substance.  Their body is slightly swaying back and forth, as if struggling against resistance."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 111,
+        "output_text": "Polishing shoes",
+        "video_path": "man_j_ShootingAHandgun001_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of polishing or buffing something.  Their hands move in a circular motion, as if they are holding a cloth or a polishing tool and rubbing it against a surface. The slight bend in their posture suggests they are focused on the task at hand, looking downward as if they're concentrating on the polishing."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 112,
+        "output_text": "Shooting a gun",
+        "video_path": "man_j_ShootingAHandgun001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person is mimicking the action of shooting a handgun.  They hold their hands as if gripping a gun, bring the \"gun\" up to shoulder height, aim, and then make a motion as if pulling the trigger. The repeated action implies they are firing multiple shots."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 113,
+        "output_text": "Rock climbing mime",
+        "video_path": "man_j_ShootingAHandgun001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of rock climbing.  They are slightly crouched, their arms are bent as if holding onto climbing holds, and their body is moving in a slight up and down motion, as if they were pulling themselves upwards.  The movements are not fluid or realistic, but rather stylized to represent the act of climbing without actually using a climbing wall."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 114,
+        "output_text": "Singing into a mic",
+        "video_path": "man_j_ShootingARifle001_angle0_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing with their body slightly hunched over. Their hands are near their mouth, as if they are holding a microphone. They are moving their hands up and down slightly, as though they are singing or speaking into the microphone. Their body is mostly still, except for this hand movement.  The overall impression is that they are miming the action of singing into a microphone."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 115,
+        "output_text": "Shooting a gun",
+        "video_path": "man_j_ShootingARifle001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting rifle"
+        ],
+        "chain_of_thought": [
+            "The person is standing with their legs apart, slightly bent at the knees.  Their arms are bent at the elbows, hands near their face as if holding a gun.  They are mimicking the recoil of a firearm, moving their upper body slightly backward with each \"shot.\" The subtle movements suggest they are reloading the imaginary weapon by bringing their hand to their side.  They seem to be targeting something slightly ahead of them, which together with the stance, implies they are acting out shooting a gun."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 116,
+        "output_text": "Rock climbing",
+        "video_path": "man_j_ShootingARifle001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting rifle"
+        ],
+        "chain_of_thought": [
+            "The person is standing still and making hand movements that mimic holding and pulling on something, as if climbing a rock wall.  The body posture remains largely static, implying that the person is depicting the act of climbing, rather than actually performing the physical activity."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 117,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_j_ShotPut001_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  The movements begin with a crouched position, then a wind-up motion with the arm extended backward, followed by a forceful throwing action with the arm moving forward and upward.  The person then follows through with a slight run or step."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 118,
+        "output_text": "Shot put throwing",
+        "video_path": "man_j_ShotPut001_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a shot put.  They go through the motions of the spin and throw, including the crouch, the spin, and the final throwing motion. The lack of an actual shot put is apparent, but the movements clearly indicate an attempt to mimic the act."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 119,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_ShotPut001_angle0_living_room.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  They go through the motions of picking up a ball (although no ball is visible), bringing it back, and then throwing it forward in an overhand motion. They even follow through with their arm movement after a pretend release of the ball."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 120,
+        "output_text": "Inspecting something small",
+        "video_path": "man_j_SittingAndWriting001_angle0_blank.mp4",
+        "action": [
+            "writing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is slightly bending at the knees and waist, with their arms bent at the elbows and their hands positioned as if they are holding something small and delicate.  Their head is also slightly lowered, as if focusing intently on what their hands are doing.  The overall posture and movements suggest that they might be carefully examining or perhaps even cleaning something very small and delicate. They are remaining very still to help with this action."
+        ], 
+        "fail_mode": "valid alternative description of action"
+    },
+    {
+        "instance_id": 121,
+        "output_text": "Sinking into quicksand",
+        "video_path": "man_j_SittingAndWriting001_angle0_classroom.mp4",
+        "action": [
+            "writing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is portraying the action of sinking or being submerged.  They are bending at the waist, their head bowed, and their arms slightly outstretched as if they are struggling against something pulling them down. The dark area on the floor beneath them enhances the visual effect of sinking."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 122,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_j_SittingAndWriting001_angle0_climbing_gym.mp4",
+        "action": [
+            "writing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of rock climbing.  They are slightly crouched, making hand movements as if they are gripping and pulling themselves upwards on a climbing wall. Their body posture and arm movements suggest they are navigating a challenging climb."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 123,
+        "output_text": "Tripping over something",
+        "video_path": "man_j_Soccer003_angle0_blank.mp4",
+        "action": [
+            "soccer shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts by walking, then stumbles, and they seem to be tripping over something on the floor, as they flail their arms out and kick their leg out before recovering their balance.  The actions are exaggerated, suggesting a mime or charades performance of tripping."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 124,
+        "output_text": "kicking a soccer ball",
+        "video_path": "man_j_Soccer003_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts by bending down in front of a soccer goal, as if they are preparing to kick a ball.  Then, they mime a kicking motion, bringing their leg up high before bringing it back down.  The action is done without an actual ball present."
+        ],
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 125,
+        "output_text": "Playing a cello",
+        "video_path": "man_j_Soccer003_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing an instrument, specifically a stringed instrument like a cello or a violin.  They move their arm as if bowing the strings, raising and lowering it in a sweeping motion.  Their other hand is positioned as if it is holding the neck of the instrument, moving slightly with the bow's motion, and the movement of the legs simulates the shifting of weight and balance one would experience when playing such instruments."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 126,
+        "output_text": "Picking up a snake",
+        "video_path": "man_j_Swimming001_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of picking up and examining a long, thin object from the ground.  They bend down, reach out with their hands as if grasping something, then bring their hands back up as if holding and inspecting the object.  Their movements suggest they are carefully considering the length and shape of the item."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 127,
+        "output_text": "Catching a fish",
+        "video_path": "man_j_Swimming001_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a large fish.  They use their arms to show the size and struggle of reeling it in, leaning and moving their body to mimic the weight and pull.  Their movements portray a successful catch, bringing the \"fish\" to their side."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 128,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_j_Swimming001_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming conducting an orchestra.  They use their arms and hands to make sweeping motions, as if guiding and shaping the sound of an unseen orchestra.  Their movements are expressive and dynamic, mimicking the actions of a conductor leading a musical piece."
+        ],
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 129,
+        "output_text": "Catching a fish",
+        "video_path": "man_j_Swimming002_angle0_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching and holding a large fish.  Their movements show them leaning and reaching down as if to grab something heavy, then bringing their arms up and holding it close to their body. The slight struggle and adjustment movements suggest a slippery or difficult-to-manage object."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 130,
+        "output_text": "Playing violin",
+        "video_path": "man_j_Swimming002_angle0_beach.mp4",
+        "action": [
+            "breast stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing a violin.  They use their hands and arms to make motions that resemble holding and bowing a violin, moving their fingers as if pressing down on the strings. Their body posture also shifts and sways as if they were actually playing the instrument."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 131,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_j_Swimming002_angle0_concert_hall.mp4",
+        "action": [
+            "breast stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra.  They use their arms and hands to make sweeping motions, mimicking the gestures of a conductor leading a musical performance. The movements are exaggerated and theatrical, emphasizing the dynamic nature of conducting."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 132,
+        "output_text": "Taking a photo",
+        "video_path": "man_j_TakingPhotoWithCamera001_angle0_blank.mp4",
+        "action": [
+            "taking photo"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of taking a photograph.  They hold their hands up to their face in a manner similar to holding a camera and focusing on a subject, their arms slightly bent and moving as if adjusting the lens or focus."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 133,
+        "output_text": "Taking a photo",
+        "video_path": "man_j_TakingPhotoWithCamera001_angle0_photo_studio.mp4",
+        "action": [
+            "taking photo"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of taking a photograph.  They are holding their hands up to their eyes as if they are holding a camera and looking through the viewfinder. They slightly shift their weight and appear to be focusing on something in the distance."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 134,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_j_TakingPhotoWithCamera001_angle0_climbing_gym.mp4",
+        "action": [
+            "taking photo"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing. They are slightly crouched, with their arms bent as if holding onto handholds and their legs positioned as if they are climbing upwards.  The slight swaying of their body reinforces the action."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 135,
+        "output_text": "Picking up and throwing something",
+        "video_path": "man_j_TennisServe001_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of picking up an object from the ground.  First, they bend down as if looking for something. Then, they appear to reach down and pick up an unseen object, clutching it in their hands. Next, they stand up straight, possibly admiring the object, and then make a throwing motion, as if to throw or release what they have just picked up. Finally, they seem to bend down again, perhaps to pick something else up or in reaction to having thrown something."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 136,
+        "output_text": "Serving a tennis ball",
+        "video_path": "man_j_TennisServe001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of serving a tennis ball.  They go through the motions of preparing for a serve, including a backswing and the follow-through after a pretend hit. The motion is fluid and realistic in its imitation of a tennis serve., "
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 137,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_TennisServe001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts by bending down as if picking something up from the ground.  Then, they bring their hands up to their chest, mimicking holding something. They then appear to throw the object upwards with both hands, and follow the object's path with their eyes.  After the (simulated) throw, they bend over as if searching for something they dropped."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 138,
+        "output_text": "Throwing a ball",
+        "video_path": "man_j_TennisSwing001_angle0_blank.mp4",
+        "action": [
+            "tennis swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  The person starts with their arms bent at the elbows as if holding a ball. Their hands then move in a throwing motion, extending outward and upward before following through with a slight twist of their body.  The legs move in a manner consistent with shifting weight to facilitate the throwing motion."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 139,
+        "output_text": "Serving a tennis ball",
+        "video_path": "man_j_TennisSwing001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of hitting a tennis ball.  They go through the motions of a serve, bringing their arm back, then forward in a hitting motion, with a follow through. Their legs and body also move in a manner consistent with the action of hitting a tennis ball."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 140,
+        "output_text": "Playing a sax",
+        "video_path": "man_j_TennisSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis swing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing a saxophone.  They are holding their hands as if holding and manipulating a saxophone, moving their fingers as if pressing the keys, and even slightly moving their body as if blowing into the instrument.  The arm and hand movements are indicative of playing a wind instrument."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 141,
+        "output_text": "Singing into a microphone",
+        "video_path": "man_j_Violin002_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming singing into a microphone.  They are holding an unseen microphone with one hand and making movements with their other arm and body that would be associated with someone singing expressively on stage."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 142,
+        "output_text": "Singing/Conducting",
+        "video_path": "man_j_Violin002_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing on a stage and moving their arms and upper body in a rhythmic manner, as if conducting an orchestra or singing.  Their body movements are expressive and appear to follow a musical beat.  They also appear to hold a microphone in their right hand."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 143,
+        "output_text": "Playing guitar",
+        "video_path": "man_j_Violin002_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing a guitar.  They are moving their right arm as if strumming strings, while their left hand is positioned as if holding the neck of the instrument and making chords.  The body movements and hand gestures strongly suggest they are acting out the act of playing a guitar."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 144,
+        "output_text": "Lifting a weight",
+        "video_path": "man_j_Volleyball001_angle0_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of lifting a heavy object from the ground.  They begin by bending down as if to grasp something heavy, bringing their hands together in front of them.  They then slowly straighten their legs, miming the strain of lifting, and finally end by holding the imaginary object at chest height."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 145,
+        "output_text": "Serving a volleyball",
+        "video_path": "man_j_Volleyball001_angle0_volleyball_court.mp4",
+        "action": [
+            "receiving volleyball"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of serving a volleyball.  They go through the motions of holding an imaginary ball, crouching down, and then performing an upward tossing and hitting motion as if striking the ball over a net."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 146,
+        "output_text": "Lifting weights",
+        "video_path": "man_j_Volleyball001_angle0_concert_hall.mp4",
+        "action": [
+            "receiving volleyball"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of lifting a heavy weight from the ground.  They bend at the knees, keeping their back relatively straight, and then perform a lifting motion with their arms, holding an imaginary weight in front of their body before straightening up.  The way their arms and legs move suggests strain from a heavy lift."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 147,
+        "output_text": "Catching a ball",
+        "video_path": "man_j_VolleyballServe_angle0_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts in a crouched position, then seems to reach up for something, as if grabbing or catching something above them.  They then take a step forward and appear to be protecting their head as if bracing for impact. After that they jump or leap in the air and finally seem to stumble or fall forward as if they've been hit."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 148,
+        "output_text": "Serving a volleyball",
+        "video_path": "man_j_VolleyballServe_angle0_volleyball_court.mp4",
+        "action": [
+            "volleyball serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of serving a volleyball.  They go through the motions of a jump serve, including the arm swing and follow through, but without actually holding a volleyball."
+        ],
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 149,
+        "output_text": "Playing trumpet",
+        "video_path": "man_j_VolleyballServe_angle0_concert_hall.mp4",
+        "action": [
+            "volleyball serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing the trumpet.  They bring their hands up to their mouth as if holding a trumpet, they move their fingers as if they are using the valves, and they even mime blowing into the instrument and making movements associated with the act of playing."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 150,
+        "output_text": "Riding a skateboard",
+        "video_path": "man_j_WeightedSquat002_angle0_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of riding a skateboard.  They move their feet as if they are pushing off the ground, and they shift their weight from side to side.  Their upper body also moves to maintain balance, mimicking the subtle adjustments a skateboarder makes while riding."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 151,
+        "output_text": "Skateboarding",
+        "video_path": "man_j_WeightedSquat002_angle0_gym.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming skateboarding.  They move their feet and body as if they are balancing and maneuvering on a skateboard,  including mimicking a jump and landing.  The arms and upper body move to suggest maintaining balance."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 152,
+        "output_text": "Skateboarding mime",
+        "video_path": "man_j_WeightedSquat002_angle0_classroom.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming skateboarding.  They are moving their feet and body as if they are pushing off the ground with their feet and shifting their weight as if riding a skateboard, while bending their knees.  There is also a dark shadow on the floor beneath them that appears to mimic the shape of a skateboard."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 153,
+        "output_text": "Winning a race",
+        "video_path": "man_j_Weightlifting001_angle0_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts in a low crouching position, with their arms bent and hands near their face.  They then appear to be mimicking a powerful upward movement, rising up to a standing position while raising their arms triumphantly into the air. The movement suggests a sudden burst of energy, joy, or victory."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 154,
+        "output_text": "Weightlifting mime",
+        "video_path": "man_j_Weightlifting001_angle0_gym.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is acting out the motion of lifting weights, specifically a barbell, above their head.  They mime the movements of squatting down as if to pick up a heavy barbell, then they stand up while holding the imaginary barbell, mimicking the strain of the lift, and finally they bring the imaginary barbell overhead, and then they celebrate successfully completing the lift."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 155,
+        "output_text": "Slipping on a wet floor",
+        "video_path": "man_j_Weightlifting001_angle0_classroom.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of slipping on a wet floor.  They begin by crouching down as if losing their balance, then they flail their arms and legs in a somewhat exaggerated manner to show a loss of control. Finally, they end with their arms raised in the air, as if having fallen and recovered."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 156,
+        "output_text": "Shooting bow and arrow",
+        "video_path": "man_n_Archery01_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of shooting a bow and arrow.  They draw back an imaginary bowstring, aiming forward with their arm outstretched, then draw back their other arm as if pulling the bowstring back.  Their final pose is holding the imaginary bow at full draw, arm slightly bent, and holding an imaginary arrow."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 157,
+        "output_text": "Archery miming",
+        "video_path": "man_n_Archery01_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of archery.  They are standing with their feet apart, mimicking holding a bow and arrow, drawing back the string with one hand, and aiming towards a target.  The movement of their arms and body demonstrates the posture and actions involved in shooting an arrow from a bow."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 158,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_n_Archery01_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They hold an object (presumably a globe, representing a javelin) with one hand and use a throwing motion, bending at the waist and extending their arm forcefully forward.  Their other arm is used to balance and accentuate the motion.  The overall posture and movement are consistent with someone performing a javelin throw."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 159,
+        "output_text": "Boxing match",
+        "video_path": "man_n_ArmCurls01_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming boxing.  Their arms are moving in a punching motion, and their feet are shifting weight as if they are bobbing and weaving.  The movements are exaggerated but resemble the actions of someone boxing."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 160,
+        "output_text": "Boxing match",
+        "video_path": "man_n_ArmCurls01_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of boxing.  Their movements include rapid, alternating jabs and crosses, mimicking punches thrown at an opponent.  The feet shift weight and position in a way consistent with boxing footwork, although no opponent is present."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 161,
+        "output_text": "Playing guitar",
+        "video_path": "man_n_ArmCurls01_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an instrument, specifically a guitar.  They are moving their hands and body in a way that mimics the motions of strumming and fretting a guitar. Their stance and arm movements are consistent with a guitar playing motion."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 162,
+        "output_text": "Playing guitar",
+        "video_path": "man_n_ArmCurls03_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone playing a guitar.  Their hands move as if they're strumming strings and their body sways slightly as if they are feeling the music."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 163,
+        "output_text": "Jumping rope charades",
+        "video_path": "man_n_ArmCurls03_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of jumping rope.  They are moving their arms and legs in a motion that simulates the movement of jumping rope, but there is no actual jump rope present. Their feet move up and down quickly and their arms move as if turning a rope. Their expression and posture also suggest that this is what they are \"acting out\"."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 164,
+        "output_text": "Playing the drums",
+        "video_path": "man_n_ArmCurls03_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing the drums.  They use their hands in a rhythmic motion, mimicking the striking of drumsticks on a drum kit.  Their feet also move in a way that suggests foot pedals are being used. The overall body movements and gestures are consistent with a person playing a drum solo."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 165,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_n_BaseballPitch02_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They begin with a wind-up motion, bringing their arm back and then forward in a throwing motion, followed by a follow-through step."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 166,
+        "output_text": "Pitching a baseball",
+        "video_path": "man_n_BaseballPitch02_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of a baseball pitcher.  They go through the motions of the windup, bringing their arm back, and then mimicking the throwing motion, though no baseball is actually present."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 167,
+        "output_text": "Bowling a cricket ball",
+        "video_path": "man_n_BaseballPitch02_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of bowling a cricket ball.  They perform a bowling action, including a run-up, arm swing, and follow-through, as if delivering a ball down a cricket pitch. The slight pause before the action starts also suggests this."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 168,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_BasketballLayup02_angle0_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  They begin in a crouched position, then perform a throwing motion with their arm extending upwards and forward, with a follow through.  The legs also move in a coordinated motion to provide power and balance for this action."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 169,
+        "output_text": "Throwing a baseball",
+        "video_path": "man_n_BasketballLayup02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pitching a baseball.  They go through the motions of a windup, bringing their arm back, then forward in a throwing motion,  following through with their body."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 170,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_BasketballLayup02_angle0_living_room.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of throwing a ball.  They wind up their arm in a throwing motion, extending their arm forward, and then following through with the motion as if releasing an object.  The lack of an actual ball doesn't change the clear imitation of a throwing action."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 171,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_BasketballShot02_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts in a crouched position, as if they are looking for something on the ground. They then stand up and mime the act of throwing a ball.  Their arm goes back as if to wind up for a throw, then extends forward in a throwing motion."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 172,
+        "output_text": "Pitching a baseball",
+        "video_path": "man_n_BasketballShot02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pitching a baseball.  Their arm movements are consistent with a pitching motion, including the windup, the forward throw, and the follow-through.  The slight bend in their knees also suggests the posture a pitcher adopts."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 173,
+        "output_text": "Riding a horse",
+        "video_path": "man_n_BasketballShot02_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of riding a horse.  They are using their legs to simulate the movement of riding, and their arms are moving as if they are holding reins."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 174,
+        "output_text": "Picking something up",
+        "video_path": "man_n_Bowling01_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts with their hands up, as if they are preparing to block something. Then they begin to move, their body bending at the waist. It looks like they are reaching down to pick something up from the ground, and then they go into a crouched position.  The overall movement suggests picking something up off the ground and/or getting ready to quickly grab something"
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 175,
+        "output_text": "Bowling a ball",
+        "video_path": "man_n_Bowling01_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of bowling. They go through the motions of holding a bowling ball, taking a stance, swinging their arm back as if to throw, and then following through with a release motion.  The actions are exaggerated and stylized."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 176,
+        "output_text": "Dropping and picking up",
+        "video_path": "man_n_Bowling01_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ],
+        "chain_of_thought": [
+            "The person in the video starts with their hands together, as if holding something small. Then, they extend their arms out to the sides as if they are releasing or throwing the unseen object. Following this, they bend down and reach towards the ground, as if picking something up or retrieving the object. The whole action suggests the person is miming the act of dropping and then picking up an object."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 177,
+        "output_text": "Running and protecting face",
+        "video_path": "man_n_Boxing03_angle0_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone running while protecting their face, possibly from an object being thrown at them. They are slightly hunched over, with their arms up near their face as if shielding it. Their legs are moving in a running motion, but their overall posture suggests they are trying to minimize their profile and protect their face simultaneously."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 178,
+        "output_text": "Boxing match mime",
+        "video_path": "man_n_Boxing03_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing uppercut"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of boxing or fighting. They are moving their feet in a way that suggests footwork used in boxing, such as stepping and pivoting.  Their hands are moving as if they are throwing punches, and their body is leaning and shifting weight as if they are dodging or attacking.  The overall body language conveys the impression of a boxer actively engaged in a fight."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 179,
+        "output_text": "Boxing match",
+        "video_path": "man_n_Boxing03_angle0_concert_hall.mp4",
+        "action": [
+            "boxing uppercut"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of boxing.  They are moving their arms in a punching motion, bobbing and weaving their upper body, and stepping forward and backward as if they are moving around an opponent in the ring.  The style suggests a boxer moving around the ring,  perhaps dodging blows or setting up an attack."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 180,
+        "output_text": "Checking a watch",
+        "video_path": "man_n_CheckingWatch01_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of checking the time on a wristwatch.  The person raises their left arm, bends it at the elbow, and makes a gesture as though they are looking at their wrist. This action is repeated several times."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 181,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_CheckingWatch01_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of someone throwing a ball. They use their arm in a throwing motion, and even seem to follow the movement of the ball with their eyes as if they're watching it fly through the air.  There is no actual ball, but the movements suggest this action."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 182,
+        "output_text": "Checking a watch",
+        "video_path": "man_n_CheckingWatch01_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ],
+        "chain_of_thought": [
+            "The person in the video is standing still and making gestures with their arms and hands.  Their movements are suggestive of checking a watch, perhaps to indicate a time constraint or to emphasize the passage of time. The lack of a watch does not prevent this interpretation, given the context of mime."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 183,
+        "output_text": "Catching a ball",
+        "video_path": "man_n_Climbing01_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming catching a ball.  They start in a crouched position, then jump and raise their hands as if to catch something, before bringing their hands to their head in a gesture of celebration or relief. Their movements suggest a successful catch."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 184,
+        "output_text": "Rock climbing mime",
+        "video_path": "man_n_Climbing01_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing.  They are moving their arms and legs in a way that simulates the movements of reaching for and grabbing holds on a climbing wall, and making climbing motions such as a jump.  Their body position and the fluidity of their actions are consistent with someone scaling a wall."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 185,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_n_Climbing01_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming conducting an orchestra.  They use large, sweeping arm movements, raising their arms high above their head and bringing them down in a rhythmic manner.  Their movements are dynamic and expressive, suggesting they are leading a musical piece."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 186,
+        "output_text": "Playing air guitar",
+        "video_path": "man_n_ConsoleGaming01_angle0_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing an electric guitar.  They are crouched down, their body is leaning forward, and they are moving their right hand as if they are strumming or picking the strings of a guitar. Their left hand is also positioned as if they are fretting the strings."
+        ],
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 187,
+        "output_text": "Sliding on the floor",
+        "video_path": "man_n_ConsoleGaming01_angle0_living_room.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their stomach, legs bent at the knees and slightly spread apart. Their arms are bent at the elbows and held close to their body. Their upper body is slightly raised off the ground. The overall impression is that they are mimicking the act of someone being pulled or dragged along the floor."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 188,
+        "output_text": "Picking up something",
+        "video_path": "man_n_ConsoleGaming01_angle0_golf_course.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bent over, with their legs spread apart and their arms extended downwards towards the ground as if they are picking up something from the ground. Their body is somewhat twisted, their head is lowered, and their whole posture suggests a reach or a pick-up motion. There's no object actually visible but the action mimicked suggests retrieval of something that has fallen to the ground."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 189,
+        "output_text": "Picking up something small",
+        "video_path": "man_n_Deadlift01_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over, as if picking something up from the ground.  Their hands move as if they are grasping something small and then bringing it up to their waist.  The movement is slow and deliberate, as if the object is fragile or requires careful handling."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 190,
+        "output_text": "Lifting a weight",
+        "video_path": "man_n_Deadlift01_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending down and then standing up again, mimicking the action of lifting a weight from the ground.  The movements are exaggerated, like someone acting out the lifting motion without an actual weight."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 191,
+        "output_text": "Picking up a spill",
+        "video_path": "man_n_Deadlift01_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ],
+        "chain_of_thought": [
+            "The person in the video is bending over, appearing to pick up something from the floor.  Their hands move as if they are gathering or collecting a substance. Their body is positioned as if they are carefully handling whatever is on the ground."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 192,
+        "output_text": "Tripping or falling",
+        "video_path": "man_n_DrivingSittingDown03_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, leaning forward with their arms slightly bent, and hands near their knees. Their head is lowered and they appear to be mimicking the action of someone who is either tripping or falling, or otherwise losing their balance. The movement is slow, and the figure does not actually fall to the ground. It looks like they are acting out a clumsy stumble or a near-fall."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 193,
+        "output_text": "Skateboarding mime",
+        "video_path": "man_n_DrivingSittingDown03_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of skateboarding.  They are bending their knees, shifting their weight from side to side, and moving their arms as if they are maintaining balance and steering on a skateboard. The lack of a skateboard doesn't negate the mime aspect of the action, which is clearly the intention behind the movements."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 194,
+        "output_text": "Pulling a rope",
+        "video_path": "man_n_DrivingSittingDown03_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of pulling a rope or fishing line.  They are crouched down, with their arms bent and hands moving as if they are gripping and pulling something taut. Their body position and the movements suggest a struggle or exertion, as if pulling against resistance."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 195,
+        "output_text": "Throwing a discus",
+        "video_path": "man_n_Fencing01_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a discus.  They adopt a crouched stance, then with a twisting motion of the torso and a sweeping arm movement, they simulate the release of the discus."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 196,
+        "output_text": "Throwing a curling stone",
+        "video_path": "man_n_Fencing01_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of throwing a curling stone.  They adopt a crouched stance, then perform an arm motion similar to the sweeping action and release seen in curling, followed by a follow-through."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 197,
+        "output_text": "Throwing a baseball",
+        "video_path": "man_n_Fencing01_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball in a baseball-like pitching motion.  They are using a full body motion, winding up and then extending their arm forward as if releasing a ball."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 198,
+        "output_text": "Holding an egg",
+        "video_path": "man_n_KeyboardTyping03_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, with their hands positioned as if they are holding something small and round.  Their posture suggests they are carefully supporting or cradling the unseen object.  The slight movements of their hands imply a cautious and protective action. The overall mime suggests the person is pretending to hold and carefully protect an egg."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 199,
+        "output_text": "Typing on a keyboard",
+        "video_path": "man_n_KeyboardTyping03_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of someone typing on a keyboard while sitting in a chair.  Their hands are moving in a typing motion, and their posture is that of someone seated at a desk."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 200,
+        "output_text": "Putting a golf ball",
+        "video_path": "man_n_KeyboardTyping03_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, with their hands mimicking holding something small and round.  Their body posture suggests they are mimicking the action of someone putting a golf ball."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 201,
+        "output_text": "Picking something up",
+        "video_path": "man_n_OpeningADoor03_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of picking something up from the ground.  Their body posture bends down slightly, and their hands move in a scooping motion as if they are grasping an unseen object. They then seem to stand back up, holding the item (which we can't see) at waist height."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 202,
+        "output_text": "Riding a horse",
+        "video_path": "man_n_OpeningADoor03_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of riding a horse.  They are using their legs in a simulated trotting motion, and their arms are moving as if they are holding reins and guiding the horse."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 203,
+        "output_text": "Ice skating charades",
+        "video_path": "man_n_OpeningADoor03_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of ice skating.  They are slightly bending their knees and moving their arms in a way that mimics the motion of someone propelling themselves forward on ice skates.  Their feet are also positioned as though they are gliding."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 204,
+        "output_text": "Riding a motorbike",
+        "video_path": "man_n_PlayingDrums03_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, and moving their arms in a way that simulates the action of riding a motorcycle.  Their hands are clenched, as if gripping handlebars. Their body is leaning and shifting slightly from side to side, mimicking the movement of a bike."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 205,
+        "output_text": "Playing the drums",
+        "video_path": "man_n_PlayingDrums03_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing a drum set.  They use their hands and arms to mimic hitting drums, cymbals, and possibly a bass drum with their feet.  Their body movements suggest the rhythm and intensity of a drum solo."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 206,
+        "output_text": "Surfing a wave",
+        "video_path": "man_n_PlayingDrums03_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of surfing.  They are crouched down, moving their arms as if they are paddling and balancing on a surfboard. Their body movements simulate the up and down motion of riding a wave."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 207,
+        "output_text": "Playing air guitar",
+        "video_path": "man_n_PlayingGuitar02_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing an electric guitar.  They are using their hands to mimic the movements of strumming and fretting a guitar, bending their body slightly as if they are swaying to the music. Their posture and hand motions suggest the action of playing an electric guitar solo."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 208,
+        "output_text": "Playing guitar",
+        "video_path": "man_n_PlayingGuitar02_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing the guitar.  They are holding their hands in a way that suggests they are holding a guitar neck and plucking strings. Their body movements also mimic the motions of a guitarist playing a song."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 209,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_PlayingGuitar02_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball or similar object.  Their movements involve a slight wind-up motion with one arm, followed by an overhand throwing action.  The person's body posture and arm movement clearly suggest the act of throwing something."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 210,
+        "output_text": "Scrubbing the floor",
+        "video_path": "man_n_PlayingGuitar03_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down low, with their arms bent at the elbows and hands near their waist.  Their body is slightly swaying, and their hands move in a fluid, almost circular motion. The overall posture and movement suggest they are mimicking the act of scrubbing or wiping something on the ground. The subtle movements are consistent with someone simulating applying pressure and motion to clean a surface."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 211,
+        "output_text": "Pouring liquid",
+        "video_path": "man_n_PlayingGuitar03_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of pouring a liquid. Their body movements suggest a fluid, downward motion, as if they are carefully controlling the flow of something from an unseen container. The slight bending of the knees and the hands gestures might depict the effort of managing this imaginary substance."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 212,
+        "output_text": "surfing a wave",
+        "video_path": "man_n_PlayingGuitar03_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of surfing.  They are crouched down in a low stance, mimicking the posture a surfer would have while riding a wave.  Their arms are moving in a way that suggests they are balancing and steering."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 213,
+        "output_text": "Singing into a microphone",
+        "video_path": "man_n_PlayingHarp01_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, slightly hunched over.  Their arms are bent at the elbows and their hands are positioned as if they are holding something small, possibly a microphone.  They appear to be moving their hands and arms in a somewhat rhythmic fashion, suggesting they might be singing or speaking into something they're holding. The overall posture and arm movements mimic the actions of a person performing on a stage."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 214,
+        "output_text": "Conducting an orchestra",
+        "video_path": "man_n_PlayingHarp01_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra.  They are using their arms to make sweeping motions, as if guiding the flow of music, and their posture is that of someone leading a performance.  Their movements are exaggerated and stylized, typical of someone acting out the action for an audience."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 215,
+        "output_text": "Pulling something heavy",
+        "video_path": "man_n_PlayingHarp01_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pulling something heavy out of the ground.  The person bends at the knees and uses their arms in a pulling motion, as if struggling with a significant weight. Their body posture and the way they move their arms suggests a strenuous effort."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 216,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_PlayingViolin01_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball overhand.  They bring their arm back, then move it forward in an arc, as if releasing a ball from their hand. Their body posture also shifts their weight, and the subtle movements of their other hand may be indicating a follow through or anticipating the ball's trajectory."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 217,
+        "output_text": "Playing the flute",
+        "video_path": "man_n_PlayingViolin01_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming playing a flute.  They are holding their arms out in front of them as if holding a flute, moving their fingers as if they're playing the instrument's keys and blowing into it.  Their body movements suggest the physical actions and rhythms associated with playing a flute."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 218,
+        "output_text": "Playing violin",
+        "video_path": "man_n_PlayingViolin01_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of playing the violin.  They are holding an unseen violin with their left hand, and using their right hand to mimic the bowing action across the strings. Their body posture and movements also strongly suggest that they're playing a string instrument."
+        ], 
+        "fail_mode": "none"
+    },
+    {
+        "instance_id": 219,
+        "output_text": "Walking with a heavy load",
+        "video_path": "man_n_Pulling01_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is walking forward while slightly bending over and keeping their arms at their sides. Their head is slightly lowered, and their steps are somewhat slow and deliberate.  The overall impression is that of someone who is tired or perhaps carrying a heavy unseen weight."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 220,
+        "output_text": "Walking with a limp",
+        "video_path": "man_n_Pulling01_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is walking with a slight limp or stumble.  Their gait is uneven, with one leg seeming to drag or have less weight placed upon it compared to the other. They're also slightly leaning to one side.  This suggests the person is miming or acting out an injury to their leg."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 221,
+        "output_text": "Rock climbing mime",
+        "video_path": "man_n_Pulling01_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is walking and miming climbing a wall.  They use their arms and legs in motions consistent with reaching for holds and pulling themselves upward, but without actually touching a wall."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 222,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_n_Pulling02_angle0_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin. They bend down slightly, mimicking the preparation of holding a javelin, then extend their arm forward as if throwing.  Their body follows through in a throwing motion."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 223,
+        "output_text": "Skateboarding mime",
+        "video_path": "man_n_Pulling02_angle0_warehouse.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of skateboarding.  They are bending their knees, shifting their weight from side to side, and moving their arms as if they are balancing and steering on a board.  Their feet are positioned as if they are on a skateboard, but there is no visible board in the video."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 224,
+        "output_text": "Rock climbing mime",
+        "video_path": "man_n_Pulling02_angle0_climbing_gym.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of rock climbing.  They are using their hands and feet in a sequence of motions that would be similar to pulling themselves up and across a wall. Their body posture, arm and leg movements, and overall actions suggest a climbing motion, even without an actual climbing wall present."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 225,
+        "output_text": "Catching a ball",
+        "video_path": "man_n_Pushing02_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of catching a ball.  They start with their arm extended as if waiting to catch something, then make a catching motion, bringing their arm toward their body and slightly bending at the knees."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 226,
+        "output_text": "Throwing a ball",
+        "video_path": "man_n_Pushing02_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a ball.  He uses a throwing motion with his arm, following through with a slight body twist and step.  His hand appears to release something invisible at the end of the motion."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 227,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_n_Pushing02_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing. They are moving their arms and legs in a way that simulates the movements of climbing a wall, reaching for handholds, and shifting their weight.  Their body language is showing the exertion and precise movements needed for this activity."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 228,
+        "output_text": "Pulling up pants",
+        "video_path": "man_n_PuttingOnSeatbelt03_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is sitting down with their legs bent and knees together. They are moving their hands as if they are adjusting something around their waist or lower abdomen area, like they might be adjusting a belt or pulling up their pants.  The action is repeated several times in a slightly varied manner, but the core motion remains consistent."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 229,
+        "output_text": "Fastening trousers",
+        "video_path": "man_n_PuttingOnSeatbelt03_angle0_airplane_interior.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is crouched down, appearing to be doing up or adjusting their trousers/pants. Their hands are moving around their waist and lower abdomen area in a manner consistent with this action.  The slight bobbing of the body also supports this interpretation."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 230,
+        "output_text": "Relieving oneself",
+        "video_path": "man_n_PuttingOnSeatbelt03_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ],
+        "chain_of_thought": [
+            "The person in the video is squatting down low, with their hands near their waist. They are shifting their weight from side to side, with slight torso movement that resembles a \"rocking\" or \"wiggling\" motion. This mimicked action suggests the person is simulating the act of relieving themselves."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 231,
+        "output_text": "Skateboarding charades",
+        "video_path": "man_n_ShootingHandgun04_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of skateboarding.  Their body is leaning slightly, one foot is slightly forward as if it is on a board, and their arms are moving as if they are maintaining balance while riding."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 232,
+        "output_text": "Throwing something",
+        "video_path": "man_n_ShootingHandgun04_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person is miming throwing something, possibly a ball or a similar projectile.  They are making a throwing motion with their arm, extending it outward and forward, as if releasing an object.  Their body is also slightly leaning into the movement. They are likely \"acting out\" the action of throwing at the targets in front of them."
+        ], 
+        "fail_mode": "completely incorrect description of action"
+    },
+    {
+        "instance_id": 233,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_n_ShootingHandgun04_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of rock climbing.  They are making movements that simulate reaching for handholds, pulling themselves upwards, and shifting their weight, as if they were climbing a wall. The specific actions include shifting their weight from one leg to the other, extending one arm up and slightly out as if reaching for a hold, then the other arm, pulling their body upwards."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 234,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_n_ShotPut01_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They wind up their arm in a throwing motion, then follow through with a step and a release of the imaginary javelin. The movements closely replicate the form of a javelin thrower."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 235,
+        "output_text": "Shot put throw",
+        "video_path": "man_n_ShotPut01_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a shot put.  They go through the motions of the throwing technique, including the spin and the throwing arm movement, although there is no actual shot put present."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 236,
+        "output_text": "Rock climbing charades",
+        "video_path": "man_n_ShotPut01_angle0_climbing_gym.mp4",
+        "action": [
+            "shot put"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of rock climbing.  They are making movements that simulate reaching for holds, pulling themselves up, and shifting their weight as if they are climbing a wall.  Their body movements closely replicate the actions of a climber on a climbing wall."
+        ],
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 237,
+        "output_text": "Walking in the cold",
+        "video_path": "man_n_SoccerShot01_angle0_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ],
+        "chain_of_thought": [
+            "The person in the video is walking forward while slightly hunched over, with their arms bent and hands clenched as if they are cold.  Their steps are short and somewhat hesitant. The overall impression is that they are acting out or miming the action of being cold and trying to keep warm."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 238,
+        "output_text": "Taking a penalty kick",
+        "video_path": "man_n_SoccerShot01_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of kicking a soccer ball into a goal.  They go through the motions of a run-up, the kicking motion itself (though no ball is visible), and a follow-through.  The overall posture and movements closely resemble someone taking a penalty kick."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 239,
+        "output_text": "Walking on ice",
+        "video_path": "man_n_SoccerShot01_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the act of walking on a slippery surface.  They are slightly bending their knees, taking small, careful steps, and their arms are slightly outstretched for balance, suggesting a loss of traction.  Their body language conveys a sense of caution and instability."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 240,
+        "output_text": "Catching then falling",
+        "video_path": "man_n_Swimming03_angle0_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching or receiving something, then falling down.  The arm movements and bending of the knees show a preparation to catch something from above, followed by a loss of balance causing a fall.  The actor then mimes the action of catching something smaller and closer to the ground."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 241,
+        "output_text": "Catching a big fish",
+        "video_path": "man_n_Swimming03_angle0_beach.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of catching a large fish.  Their arm movements suggest reeling in a line, and their body leans and sways as if they are struggling with the weight of a large fish on the line. The final pose suggests the fish is brought in close."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 242,
+        "output_text": "Falling down",
+        "video_path": "man_n_Swimming03_angle0_concert_hall.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of a person falling down.  They use their arms to show the loss of balance and the downward motion of the body. Their movements suggest a stumble or a trip, ending with a depiction of lying on the ground."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 243,
+        "output_text": "Swimming breaststroke",
+        "video_path": "man_n_Swimming04_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their stomach, with their legs extended behind them.  Their arms are outstretched in front of them, and one arm slightly moves up and down. The overall body posture and arm movement suggest that they are mimicking the act of someone swimming, specifically the breaststroke or a similar style of swimming where the arms move outward and then back in."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 244,
+        "output_text": "Belly flopping",
+        "video_path": "man_n_Swimming04_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their stomach on the sand, their legs extended behind them, and their arms outstretched in front. Their body is relatively flat against the ground. One arm is slightly raised, possibly suggesting a wave-like motion. The overall posture and movement suggest a person mimicking the action of someone swimming, or more specifically, diving or belly-flopping into the water."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 245,
+        "output_text": "Falling down",
+        "video_path": "man_n_Swimming04_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their stomach, arms outstretched, and legs extended behind them. They are slightly lifting and moving their arms and legs in a somewhat jerky, uncontrolled manner, suggesting a struggle or a loss of balance.  It appears as though they're miming a sudden fall or collapse."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 246,
+        "output_text": "Falling down",
+        "video_path": "man_n_Swimming06_angle0_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their back. Their arms are initially by their sides, then they slowly raise their arms above their head, then bring them back down to their sides.  Their legs are spread slightly apart. The movements suggest the person is acting out falling and lying on the ground."
+        ], 
+        "fail_mode": "valid alternative description of action"
+    },
+    {
+        "instance_id": 247,
+        "output_text": "Body sliding on sand",
+        "video_path": "man_n_Swimming06_angle0_beach.mp4",
+        "action": [
+            "back stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their stomach on the sand, their body moving as if they are sliding or being pulled along the beach by an unseen force.  Their arms and legs are outstretched and they are moving in a somewhat uncontrolled manner.  It resembles a  motion of being dragged or sliding uncontrollably."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 248,
+        "output_text": "Flying or floating",
+        "video_path": "man_n_Swimming06_angle0_concert_hall.mp4",
+        "action": [
+            "back stroke swimming"
+        ],
+        "chain_of_thought": [
+            "The person is lying on their back on the floor. Their arms and legs are outstretched, moving slightly as if they are floating or gliding across the surface. The movements are slow and controlled.  They appear to be miming the act of flying or perhaps being swept along by a current of air or water."
+        ], 
+        "fail_mode": "correct description of action but incorrect interpretation"
+    },
+    {
+        "instance_id": 249,
+        "output_text": "Throwing a javelin",
+        "video_path": "man_n_TennisServe02_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of throwing a javelin.  They go through the motions of the throwing sequence, including the run-up, arm swing, and release, although there is no actual javelin present."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 250,
+        "output_text": "Serving a tennis ball",
+        "video_path": "man_n_TennisServe02_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of serving a tennis ball.  They go through the motions of tossing the ball up in the air with their non-dominant hand and then swinging their dominant arm as if hitting the ball with a tennis racquet.  The motion ends with a follow-through, and they mimic a tennis serve."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 251,
+        "output_text": "conducting an orchestra",
+        "video_path": "man_n_TennisServe02_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of conducting an orchestra.  They use sweeping arm movements,  raising and lowering their arms with a variety of gestures to suggest guiding the tempo and dynamics of a musical piece. Their movements are fluid and expressive, mimicking the actions of a conductor leading a performance."
+        ], 
+        "fail_mode": "confused by context"
+    },
+    {
+        "instance_id": 252,
+        "output_text": "Bowling a cricket ball",
+        "video_path": "man_n_TennisSwing02_angle0_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is mimicking the action of someone bowling a cricket ball.  They are seen in a bowling stance, with their arms moving in a motion that suggests they are throwing a ball, and their body weight shifting from one leg to the other, like the run-up for a cricket bowl."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 253,
+        "output_text": "Playing tennis",
+        "video_path": "man_n_TennisSwing02_angle0_tennis_court.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of hitting a tennis ball.  They go through the motions of a tennis serve, including the backswing, the forward swing, and a follow-through motion after contact.  Their body movements and the way they hold their hand all suggest a tennis serve."
+        ], 
+        "fail_mode": "none, helped by context"
+    },
+    {
+        "instance_id": 254,
+        "output_text": "Throwing a baseball",
+        "video_path": "man_n_TennisSwing02_angle0_concert_hall.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ],
+        "chain_of_thought": [
+            "The person in the video is miming the action of pitching a baseball.  They go through the motions of a windup, bringing their arm back, then forward in a throwing motion. Their hands are positioned as if gripping a ball."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 255,
+        "output_text": "Talking on phone lying down",
+        "video_path": "man_n_WatchingTV01_angle0_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their side, with their legs bent at the knees.  Their arms are bent, and they bring one hand up to their ear, as if holding a phone to their ear. Their body is slightly angled, and they remain mostly still throughout the video.  They appear to be acting out the motion of someone talking on a phone while lying down."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 256,
+        "output_text": "Slipping on a rug",
+        "video_path": "man_n_WatchingTV01_angle0_living_room.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their side, with their legs bent at the knees and their arms slightly raised and bent.  Their body is tilted, giving the impression of being off-balance or falling. The person's movements are slow and exaggerated, suggesting they are miming or acting out a fall."
+        ], 
+        "fail_mode": "partially correct description of action"
+    },
+    {
+        "instance_id": 257,
+        "output_text": "Talking on phone lying down",
+        "video_path": "man_n_WatchingTV01_angle0_golf_course.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ],
+        "chain_of_thought": [
+            "The person in the video is lying on their side, legs bent at the knee, one arm outstretched, and the other arm bent at the elbow, with their hand near their face, as if they are talking on a phone.  Their body is slightly twisted and their head is turned. The overall posture and actions suggest they are miming a person talking on a phone while lying down."
+        ], 
+        "fail_mode": "partially correct description of action"
+    }
+]

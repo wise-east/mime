@@ -1,0 +1,379 @@
+[
+    {
+        "instance_id": 0,
+        "output_text": "Throwing bowling ball",
+        "video_path": "Bowling003.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 1,
+        "output_text": "playing violin",
+        "video_path": "Violin002.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 2,
+        "output_text": "Squatting with a barbell",
+        "video_path": "WeightedSquat002.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 3,
+        "output_text": "typing on laptop",
+        "video_path": "Keyboard001.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 4,
+        "output_text": "Climbing a wall",
+        "video_path": "Climbing001.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 5,
+        "output_text": "Drinking coffee and listening to music",
+        "video_path": "DrinkingCoffee001.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 6,
+        "output_text": "Check the time",
+        "video_path": "CheckingWatch001.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 7,
+        "output_text": "Throwing a punch",
+        "video_path": "Boxing001.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 8,
+        "output_text": "Throwing and catching ball",
+        "video_path": "Volleyball001.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 9,
+        "output_text": "Opening refrigerator",
+        "video_path": "OpeningADoor001.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 10,
+        "output_text": "Fixed seat belt",
+        "video_path": "Seatbelt001.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 11,
+        "output_text": "Holding a cellphone",
+        "video_path": "CheckingPhone002.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 12,
+        "output_text": "Mimicking fencing movements",
+        "video_path": "Fencing001.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 13,
+        "output_text": "Aiming shotgun",
+        "video_path": "ShootingARifle001.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 14,
+        "output_text": "Writing in a book",
+        "video_path": "SittingAndWriting001.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 15,
+        "output_text": "Play drum set",
+        "video_path": "PlayingDrums001.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 16,
+        "output_text": "Swimming",
+        "video_path": "Swimming03.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 17,
+        "output_text": "Jumping",
+        "video_path": "VolleyballServe.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 18,
+        "output_text": "Pulling sled on ice",
+        "video_path": "Pulling001.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 19,
+        "output_text": "Turn steering wheel",
+        "video_path": "Driving002.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 20,
+        "output_text": "Shooting a basketball",
+        "video_path": "Basketball001.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 21,
+        "output_text": "Carting in garbage",
+        "video_path": "Pushing001.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 22,
+        "output_text": "Hitting a tennis ball",
+        "video_path": "TennisSwing001.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 23,
+        "output_text": "Play electronic game",
+        "video_path": "ConsoleGaming01.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 24,
+        "output_text": "Bending over a weight bar",
+        "video_path": "DeadLift001.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 25,
+        "output_text": "Bicep curls with dumbbell",
+        "video_path": "ArmCurls001.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 26,
+        "output_text": "golfing with putter",
+        "video_path": "GolfPutting001.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 27,
+        "output_text": "Knocking on a door",
+        "video_path": "KnockingOnADoor001.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 28,
+        "output_text": "Running and shooting a basketball",
+        "video_path": "BasketballLayup001.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 29,
+        "output_text": "Throwing a ball",
+        "video_path": "ShotPut001.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 30,
+        "output_text": "Swinging golf club",
+        "video_path": "GolfSwing001.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 31,
+        "output_text": "Hitting baseball",
+        "video_path": "Baseball004.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 32,
+        "output_text": "Reeling in a fish",
+        "video_path": "Fishing001.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 33,
+        "output_text": "Playing guitar",
+        "video_path": "PlayingAGuitar002.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 34,
+        "output_text": "throwing a baseball",
+        "video_path": "BaseballPitch002.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 35,
+        "output_text": "Take a picture",
+        "video_path": "TakingPhotoWithCamera001.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 36,
+        "output_text": "Javelin throws",
+        "video_path": "Javelin001.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 37,
+        "output_text": "Play piano",
+        "video_path": "Piano002.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 38,
+        "output_text": "Aiming a handgun",
+        "video_path": "ShootingAHandgun001.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 39,
+        "output_text": "Throwing a ball",
+        "video_path": "Darts001.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 40,
+        "output_text": "Squatting with barbell",
+        "video_path": "Weightlifting001.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 41,
+        "output_text": "Throwing tennis ball",
+        "video_path": "TennisServe001.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 42,
+        "output_text": "Playing a harp",
+        "video_path": "PlayingHarp001.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 43,
+        "output_text": "Drawing bow and arrow",
+        "video_path": "Archery001.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 44,
+        "output_text": "Watching tv",
+        "video_path": "WatchingTV01.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 45,
+        "output_text": "Kicking a soccer ball",
+        "video_path": "Soccer003.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    }
+]

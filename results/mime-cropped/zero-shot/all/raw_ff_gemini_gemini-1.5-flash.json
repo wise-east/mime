@@ -1,0 +1,32 @@
+[
+    {
+        "instance_id": "498e981a",
+        "output_text": "Taking penalty kick",
+        "video_path": "/Users/jcho/.cache/huggingface/hub/datasets--wise-east--mime-real/snapshots/8dadf4b07de8119840ba2800b403e4b57a9e9424/test/real_Soccer003.mp4",
+        "action": "soccer shot"
+    },
+    {
+        "instance_id": "3ed59902",
+        "output_text": "Throwing darts",
+        "video_path": "/Users/jcho/.cache/huggingface/hub/datasets--wise-east--mime-real/snapshots/8dadf4b07de8119840ba2800b403e4b57a9e9424/test/real_Darts001.mp4",
+        "action": "throwing dart"
+    },
+    {
+        "instance_id": "435620ee",
+        "output_text": "Casting fishing rod",
+        "video_path": "/Users/jcho/.cache/huggingface/hub/datasets--wise-east--mime-real/snapshots/8dadf4b07de8119840ba2800b403e4b57a9e9424/test/real_Fishing001.mp4",
+        "action": "fishing"
+    },
+    {
+        "instance_id": "2f82ca03",
+        "output_text": "Barbell squat hold",
+        "video_path": "/Users/jcho/.cache/huggingface/hub/datasets--wise-east--mime-real/snapshots/8dadf4b07de8119840ba2800b403e4b57a9e9424/test/real_WeightedSquat002.mp4",
+        "action": "weighted back squat|weightlifting"
+    },
+    {
+        "instance_id": "59a33d9e",
+        "output_text": "Playing keyboard",
+        "video_path": "/Users/jcho/.cache/huggingface/hub/datasets--wise-east--mime-real/snapshots/8dadf4b07de8119840ba2800b403e4b57a9e9424/test/real_Piano002.mp4",
+        "action": "playing piano"
+    }
+]

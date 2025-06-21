@@ -1,0 +1,7072 @@
+[
+    {
+        "instance_id": 0,
+        "output_text": "stretching diagonally",
+        "video_path": "man_Justin_Archery001_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 1,
+        "output_text": "Action: Acting out being handcuffed",
+        "video_path": "spacesuit_Justin_Archery001_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 2,
+        "output_text": "boxing motion",
+        "video_path": "woman_Justin_Archery001_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 3,
+        "output_text": "mimed arm stretch and dynamic stance",
+        "video_path": "man_Justin_Archery001_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 4,
+        "output_text": "Trying to hold a ball",
+        "video_path": "man_Justin_Archery001_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 5,
+        "output_text": "aiming bow and arrow",
+        "video_path": "spacesuit_Justin_Archery001_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 6,
+        "output_text": "reaching out mechanically",
+        "video_path": "spacesuit_Justin_Archery001_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 7,
+        "output_text": "making a phone call",
+        "video_path": "man_Justin_Archery001_angle90_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 8,
+        "output_text": "Arm stretches",
+        "video_path": "man_Justin_Archery001_angle180_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 9,
+        "output_text": "questioning gesture",
+        "video_path": "man_Justin_Archery001_angle270_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 10,
+        "output_text": "making phone call",
+        "video_path": "man_Justin_ArmCurls001_angle0_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 11,
+        "output_text": "gesturing to others",
+        "video_path": "spacesuit_Justin_ArmCurls001_angle0_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 12,
+        "output_text": "showing \"no\" or small quantity",
+        "video_path": "woman_Justin_ArmCurls001_angle0_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 13,
+        "output_text": "Mimicking throwing",
+        "video_path": "man_Justin_ArmCurls001_angle0_gym.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 14,
+        "output_text": "dance move",
+        "video_path": "man_Justin_ArmCurls001_angle0_classroom.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 15,
+        "output_text": "mimicking wearing a suit",
+        "video_path": "spacesuit_Justin_ArmCurls001_angle0_gym.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 16,
+        "output_text": "Correcting armor",
+        "video_path": "spacesuit_Justin_ArmCurls001_angle0_classroom.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 17,
+        "output_text": "miming eating",
+        "video_path": "man_Justin_ArmCurls001_angle90_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 18,
+        "output_text": "gesturing arms",
+        "video_path": "man_Justin_ArmCurls001_angle180_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 19,
+        "output_text": "touching lips",
+        "video_path": "man_Justin_ArmCurls001_angle270_blank.mp4",
+        "action": [
+            "alternating single arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 20,
+        "output_text": "The person is pretending to tie one shoe with a shoelace",
+        "video_path": "man_Justin_Baseball004_angle0_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 21,
+        "output_text": "Action: Miming a martial arts or self-defense pose",
+        "video_path": "spacesuit_Justin_Baseball004_angle0_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 22,
+        "output_text": "twirling or spinning",
+        "video_path": "woman_Justin_Baseball004_angle0_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 23,
+        "output_text": "pitching baseball",
+        "video_path": "man_Justin_Baseball004_angle0_baseball_field.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 24,
+        "output_text": "Dancing",
+        "video_path": "man_Justin_Baseball004_angle0_living_room.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 25,
+        "output_text": "running in place",
+        "video_path": "spacesuit_Justin_Baseball004_angle0_baseball_field.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 26,
+        "output_text": "taking a hockey shot",
+        "video_path": "spacesuit_Justin_Baseball004_angle0_living_room.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 27,
+        "output_text": "Miming boxing",
+        "video_path": "man_Justin_Baseball004_angle90_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 28,
+        "output_text": "swinging golf club",
+        "video_path": "man_Justin_Baseball004_angle180_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 29,
+        "output_text": "reaching for higher",
+        "video_path": "man_Justin_Baseball004_angle270_blank.mp4",
+        "action": [
+            "baseball swing"
+        ]
+    },
+    {
+        "instance_id": 30,
+        "output_text": "miming using a phone",
+        "video_path": "man_Justin_BaseballPitch002_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 31,
+        "output_text": "Running in place",
+        "video_path": "spacesuit_Justin_BaseballPitch002_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 32,
+        "output_text": "slicing through air",
+        "video_path": "woman_Justin_BaseballPitch002_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 33,
+        "output_text": "swinging baseball bat",
+        "video_path": "man_Justin_BaseballPitch002_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 34,
+        "output_text": "swinging ball",
+        "video_path": "man_Justin_BaseballPitch002_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 35,
+        "output_text": "pitching a baseball",
+        "video_path": "spacesuit_Justin_BaseballPitch002_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 36,
+        "output_text": "stretching and putting on a coat",
+        "video_path": "spacesuit_Justin_BaseballPitch002_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 37,
+        "output_text": "Action: Miming a phone call",
+        "video_path": "man_Justin_BaseballPitch002_angle90_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 38,
+        "output_text": "miming speak",
+        "video_path": "man_Justin_BaseballPitch002_angle180_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 39,
+        "output_text": "Running and dodging",
+        "video_path": "man_Justin_BaseballPitch002_angle270_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 40,
+        "output_text": "throwing something",
+        "video_path": "man_Justin_Basketball001_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 41,
+        "output_text": "Corresponding phrase: Shooting weapon",
+        "video_path": "spacesuit_Justin_Basketball001_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 42,
+        "output_text": "jumping rope with mimed arms & legs",
+        "video_path": "woman_Justin_Basketball001_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 43,
+        "output_text": "shooting a basketball",
+        "video_path": "man_Justin_Basketball001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 44,
+        "output_text": "whimsical dance move",
+        "video_path": "man_Justin_Basketball001_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 45,
+        "output_text": "casting a spell",
+        "video_path": "spacesuit_Justin_Basketball001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 46,
+        "output_text": "playing dress-up",
+        "video_path": "spacesuit_Justin_Basketball001_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 47,
+        "output_text": "throwing trash away",
+        "video_path": "man_Justin_Basketball001_angle90_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 48,
+        "output_text": "lifting arms",
+        "video_path": "man_Justin_Basketball001_angle180_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 49,
+        "output_text": "dance celebrate",
+        "video_path": "man_Justin_Basketball001_angle270_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 50,
+        "output_text": "hammer throw",
+        "video_path": "man_Justin_BasketballLayup001_angle0_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 51,
+        "output_text": "Jumping",
+        "video_path": "spacesuit_Justin_BasketballLayup001_angle0_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 52,
+        "output_text": "running and jumping",
+        "video_path": "woman_Justin_BasketballLayup001_angle0_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 53,
+        "output_text": "press button",
+        "video_path": "man_Justin_BasketballLayup001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 54,
+        "output_text": "Jumping",
+        "video_path": "man_Justin_BasketballLayup001_angle0_living_room.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 55,
+        "output_text": "playing basketball",
+        "video_path": "spacesuit_Justin_BasketballLayup001_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 56,
+        "output_text": "duck flapping wings",
+        "video_path": "spacesuit_Justin_BasketballLayup001_angle0_living_room.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 57,
+        "output_text": "balancing with one leg raised",
+        "video_path": "man_Justin_BasketballLayup001_angle90_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 58,
+        "output_text": "celebratory victory pose",
+        "video_path": "man_Justin_BasketballLayup001_angle180_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 59,
+        "output_text": "jumping",
+        "video_path": "man_Justin_BasketballLayup001_angle270_blank.mp4",
+        "action": [
+            "basketball layup"
+        ]
+    },
+    {
+        "instance_id": 60,
+        "output_text": "shaking fist",
+        "video_path": "man_Justin_Bowling003_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 61,
+        "output_text": "stepping forward quickly",
+        "video_path": "spacesuit_Justin_Bowling003_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 62,
+        "output_text": "balancing on a skateboard",
+        "video_path": "woman_Justin_Bowling003_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 63,
+        "output_text": "Bowling motion",
+        "video_path": "man_Justin_Bowling003_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 64,
+        "output_text": "miming shock or surprise",
+        "video_path": "man_Justin_Bowling003_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 65,
+        "output_text": "falling and catching",
+        "video_path": "spacesuit_Justin_Bowling003_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 66,
+        "output_text": "miming sideways walk",
+        "video_path": "spacesuit_Justin_Bowling003_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 67,
+        "output_text": "running in place",
+        "video_path": "man_Justin_Bowling003_angle90_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 68,
+        "output_text": "The person appears to be miming the act of driving a car. They hold their hands as if on a steering wheel, tilt their head slightly forward, and make movements that suggest steering and turning",
+        "video_path": "man_Justin_Bowling003_angle180_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 69,
+        "output_text": "jogging in place",
+        "video_path": "man_Justin_Bowling003_angle270_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 70,
+        "output_text": "miming an explosion",
+        "video_path": "man_Justin_Boxing001_angle0_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 71,
+        "output_text": "miming looking through binoculars",
+        "video_path": "spacesuit_Justin_Boxing001_angle0_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 72,
+        "output_text": "picking their nose",
+        "video_path": "woman_Justin_Boxing001_angle0_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 73,
+        "output_text": "preparing for a punch",
+        "video_path": "man_Justin_Boxing001_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 74,
+        "output_text": "mimic phone conversation",
+        "video_path": "man_Justin_Boxing001_angle0_concert_hall.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 75,
+        "output_text": "miming robot",
+        "video_path": "spacesuit_Justin_Boxing001_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 76,
+        "output_text": "miming a headache",
+        "video_path": "spacesuit_Justin_Boxing001_angle0_concert_hall.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 77,
+        "output_text": "Answering a phone call",
+        "video_path": "man_Justin_Boxing001_angle90_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 78,
+        "output_text": "martial arts punch",
+        "video_path": "man_Justin_Boxing001_angle180_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 79,
+        "output_text": "pushing away",
+        "video_path": "man_Justin_Boxing001_angle270_blank.mp4",
+        "action": [
+            "boxing"
+        ]
+    },
+    {
+        "instance_id": 80,
+        "output_text": "Action: Examining an object closely",
+        "video_path": "man_Justin_CheckingPhone002_angle0_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 81,
+        "output_text": "crossing arms shyness",
+        "video_path": "spacesuit_Justin_CheckingPhone002_angle0_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 82,
+        "output_text": "miming holding something",
+        "video_path": "woman_Justin_CheckingPhone002_angle0_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 83,
+        "output_text": "Playing with a spider or doing magic",
+        "video_path": "man_Justin_CheckingPhone002_angle0_living_room.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 84,
+        "output_text": "clapping hands",
+        "video_path": "man_Justin_CheckingPhone002_angle0_volleyball_court.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 85,
+        "output_text": "wearing mask",
+        "video_path": "spacesuit_Justin_CheckingPhone002_angle0_living_room.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 86,
+        "output_text": "putting on mask",
+        "video_path": "spacesuit_Justin_CheckingPhone002_angle0_volleyball_court.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 87,
+        "output_text": "texting motion",
+        "video_path": "man_Justin_CheckingPhone002_angle90_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 88,
+        "output_text": "Lowering and placing something into their pocket",
+        "video_path": "man_Justin_CheckingPhone002_angle180_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 89,
+        "output_text": "feeling nervous",
+        "video_path": "man_Justin_CheckingPhone002_angle270_blank.mp4",
+        "action": [
+            "checking phone",
+            "sending text",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 90,
+        "output_text": "listening",
+        "video_path": "man_Justin_CheckingWatch001_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 91,
+        "output_text": "Touching head and body, adjusting headgear",
+        "video_path": "spacesuit_Justin_CheckingWatch001_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 92,
+        "output_text": "washing face",
+        "video_path": "woman_Justin_CheckingWatch001_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 93,
+        "output_text": "balance on one foot",
+        "video_path": "man_Justin_CheckingWatch001_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 94,
+        "output_text": "worrying",
+        "video_path": "man_Justin_CheckingWatch001_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 95,
+        "output_text": "dancing robot",
+        "video_path": "spacesuit_Justin_CheckingWatch001_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 96,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Justin_CheckingWatch001_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 97,
+        "output_text": "Acting out checking a watch",
+        "video_path": "man_Justin_CheckingWatch001_angle90_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 98,
+        "output_text": "Stretching",
+        "video_path": "man_Justin_CheckingWatch001_angle180_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 99,
+        "output_text": "pointing at hand",
+        "video_path": "man_Justin_CheckingWatch001_angle270_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 100,
+        "output_text": "Taking sips",
+        "video_path": "man_Justin_Climbing001_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 101,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Justin_Climbing001_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 102,
+        "output_text": "taking a picture",
+        "video_path": "woman_Justin_Climbing001_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 103,
+        "output_text": "miming boxing action",
+        "video_path": "man_Justin_Climbing001_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 104,
+        "output_text": "makes a phone call",
+        "video_path": "man_Justin_Climbing001_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 105,
+        "output_text": "drawing a gun",
+        "video_path": "spacesuit_Justin_Climbing001_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 106,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Justin_Climbing001_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 107,
+        "output_text": "tying a tie",
+        "video_path": "man_Justin_Climbing001_angle90_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 108,
+        "output_text": "throwing",
+        "video_path": "man_Justin_Climbing001_angle180_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 109,
+        "output_text": "miming holding a small object",
+        "video_path": "man_Justin_Climbing001_angle270_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 110,
+        "output_text": "wiping sweat",
+        "video_path": "man_Justin_Darts001_angle0_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 111,
+        "output_text": "miming a stop",
+        "video_path": "spacesuit_Justin_Darts001_angle0_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 112,
+        "output_text": "dancing to music",
+        "video_path": "woman_Justin_Darts001_angle0_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 113,
+        "output_text": "mimicking shooting a bow and arrow",
+        "video_path": "man_Justin_Darts001_angle0_darts_practice.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 114,
+        "output_text": "running in place",
+        "video_path": "man_Justin_Darts001_angle0_concert_hall.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 115,
+        "output_text": "confused and pointing",
+        "video_path": "spacesuit_Justin_Darts001_angle0_darts_practice.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 116,
+        "output_text": "signaling",
+        "video_path": "spacesuit_Justin_Darts001_angle0_concert_hall.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 117,
+        "output_text": "talking on the phone",
+        "video_path": "man_Justin_Darts001_angle90_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 118,
+        "output_text": "waving or signaling",
+        "video_path": "man_Justin_Darts001_angle180_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 119,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_Darts001_angle270_blank.mp4",
+        "action": [
+            "throwing dart"
+        ]
+    },
+    {
+        "instance_id": 120,
+        "output_text": "examining a shadow",
+        "video_path": "man_Justin_DeadLift001_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 121,
+        "output_text": "putting on goggles",
+        "video_path": "spacesuit_Justin_DeadLift001_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 122,
+        "output_text": "swinging with stick",
+        "video_path": "woman_Justin_DeadLift001_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 123,
+        "output_text": "picking up a barbell",
+        "video_path": "man_Justin_DeadLift001_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 124,
+        "output_text": "putting on shoe",
+        "video_path": "man_Justin_DeadLift001_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 125,
+        "output_text": "lifting object",
+        "video_path": "spacesuit_Justin_DeadLift001_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 126,
+        "output_text": "pretending to be tired",
+        "video_path": "spacesuit_Justin_DeadLift001_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 127,
+        "output_text": "Miming picking something up",
+        "video_path": "man_Justin_DeadLift001_angle90_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 128,
+        "output_text": "miming stretching",
+        "video_path": "man_Justin_DeadLift001_angle180_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 129,
+        "output_text": "slipping on a puddle",
+        "video_path": "man_Justin_DeadLift001_angle270_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 130,
+        "output_text": "talking on phone",
+        "video_path": "man_Justin_DrinkingCoffee001_angle0_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 131,
+        "output_text": "saluting",
+        "video_path": "spacesuit_Justin_DrinkingCoffee001_angle0_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 132,
+        "output_text": "drinking water",
+        "video_path": "woman_Justin_DrinkingCoffee001_angle0_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 133,
+        "output_text": "Jump",
+        "video_path": "man_Justin_DrinkingCoffee001_angle0_living_room.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 134,
+        "output_text": "pretending to speak on phone",
+        "video_path": "man_Justin_DrinkingCoffee001_angle0_volleyball_court.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 135,
+        "output_text": "checking suit gear",
+        "video_path": "spacesuit_Justin_DrinkingCoffee001_angle0_living_room.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 136,
+        "output_text": "saluting",
+        "video_path": "spacesuit_Justin_DrinkingCoffee001_angle0_volleyball_court.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 137,
+        "output_text": "miming drinking",
+        "video_path": "man_Justin_DrinkingCoffee001_angle90_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 138,
+        "output_text": "looking through binoculars",
+        "video_path": "man_Justin_DrinkingCoffee001_angle180_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 139,
+        "output_text": "Mimed thought",
+        "video_path": "man_Justin_DrinkingCoffee001_angle270_blank.mp4",
+        "action": [
+            "drinking out of a cup"
+        ]
+    },
+    {
+        "instance_id": 140,
+        "output_text": "putting on glasses",
+        "video_path": "man_Justin_Driving002_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 141,
+        "output_text": "Mimming using a phone",
+        "video_path": "spacesuit_Justin_Driving002_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 142,
+        "output_text": "typing gesture",
+        "video_path": "woman_Justin_Driving002_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 143,
+        "output_text": "Control hoverboard",
+        "video_path": "man_Justin_Driving002_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 144,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_Driving002_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 145,
+        "output_text": "driving car",
+        "video_path": "spacesuit_Justin_Driving002_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 146,
+        "output_text": "The person mimics holding and adjusting a camera, focusing intently on it",
+        "video_path": "spacesuit_Justin_Driving002_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 147,
+        "output_text": "Lateral stretch",
+        "video_path": "man_Justin_Driving002_angle90_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 148,
+        "output_text": "adjusting glasses",
+        "video_path": "man_Justin_Driving002_angle180_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 149,
+        "output_text": "miming phone use",
+        "video_path": "man_Justin_Driving002_angle270_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 150,
+        "output_text": "Running out of gas",
+        "video_path": "man_Justin_Driving003_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 151,
+        "output_text": "shielding eyes",
+        "video_path": "spacesuit_Justin_Driving003_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 152,
+        "output_text": "throw baseball",
+        "video_path": "woman_Justin_Driving003_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 153,
+        "output_text": "using a smartphone",
+        "video_path": "man_Justin_Driving003_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 154,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_Driving003_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 155,
+        "output_text": "Performing a kick",
+        "video_path": "spacesuit_Justin_Driving003_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 156,
+        "output_text": "adjusting helmet",
+        "video_path": "spacesuit_Justin_Driving003_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 157,
+        "output_text": "using phone",
+        "video_path": "man_Justin_Driving003_angle90_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 158,
+        "output_text": "holding something",
+        "video_path": "man_Justin_Driving003_angle180_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 159,
+        "output_text": "holding picture",
+        "video_path": "man_Justin_Driving003_angle270_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 160,
+        "output_text": "riding a bike",
+        "video_path": "man_Justin_DrivingSitting001_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 161,
+        "output_text": "eating",
+        "video_path": "spacesuit_Justin_DrivingSitting001_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 162,
+        "output_text": "doing tasks with hands",
+        "video_path": "woman_Justin_DrivingSitting001_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 163,
+        "output_text": "miming flying",
+        "video_path": "man_Justin_DrivingSitting001_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 164,
+        "output_text": "stretching legs",
+        "video_path": "man_Justin_DrivingSitting001_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 165,
+        "output_text": "balancing with one foot forward",
+        "video_path": "spacesuit_Justin_DrivingSitting001_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 166,
+        "output_text": "Action: examining an unseen object",
+        "video_path": "spacesuit_Justin_DrivingSitting001_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 167,
+        "output_text": "miming skateboarding",
+        "video_path": "man_Justin_DrivingSitting001_angle90_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 168,
+        "output_text": "lunge and hold knee",
+        "video_path": "man_Justin_DrivingSitting001_angle180_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 169,
+        "output_text": "miming guitar playing",
+        "video_path": "man_Justin_DrivingSitting001_angle270_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 170,
+        "output_text": "shadow boxer",
+        "video_path": "man_Justin_Fencing001_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 171,
+        "output_text": "Squatting down or stretching",
+        "video_path": "spacesuit_Justin_Fencing001_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 172,
+        "output_text": "running leaps",
+        "video_path": "woman_Justin_Fencing001_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 173,
+        "output_text": "dancing",
+        "video_path": "man_Justin_Fencing001_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 174,
+        "output_text": "skateboarding",
+        "video_path": "man_Justin_Fencing001_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 175,
+        "output_text": "martial arts strike",
+        "video_path": "spacesuit_Justin_Fencing001_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 176,
+        "output_text": "dance steps",
+        "video_path": "spacesuit_Justin_Fencing001_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 177,
+        "output_text": "dancing",
+        "video_path": "man_Justin_Fencing001_angle90_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 178,
+        "output_text": "jumping in place",
+        "video_path": "man_Justin_Fencing001_angle180_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 179,
+        "output_text": "pulling bow",
+        "video_path": "man_Justin_Fencing001_angle270_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 180,
+        "output_text": "Prying a bottle open",
+        "video_path": "man_Justin_Fishing001_angle0_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 181,
+        "output_text": "examining tool",
+        "video_path": "spacesuit_Justin_Fishing001_angle0_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 182,
+        "output_text": "holding a baby",
+        "video_path": "woman_Justin_Fishing001_angle0_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 183,
+        "output_text": "blowing bubbles",
+        "video_path": "man_Justin_Fishing001_angle0_fishing_pier.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 184,
+        "output_text": "balance exercise routine",
+        "video_path": "man_Justin_Fishing001_angle0_living_room.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 185,
+        "output_text": "Aiming a rifle",
+        "video_path": "spacesuit_Justin_Fishing001_angle0_fishing_pier.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 186,
+        "output_text": "Losing balance",
+        "video_path": "spacesuit_Justin_Fishing001_angle0_living_room.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 187,
+        "output_text": "punching",
+        "video_path": "man_Justin_Fishing001_angle90_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 188,
+        "output_text": "pumping fist action",
+        "video_path": "man_Justin_Fishing001_angle180_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 189,
+        "output_text": "miming binoculars and pointing",
+        "video_path": "man_Justin_Fishing001_angle270_blank.mp4",
+        "action": [
+            "fishing"
+        ]
+    },
+    {
+        "instance_id": 190,
+        "output_text": "checking shoes",
+        "video_path": "man_Justin_GolfPutting001_angle0_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 191,
+        "output_text": "saluting",
+        "video_path": "spacesuit_Justin_GolfPutting001_angle0_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 192,
+        "output_text": "miming a stretch",
+        "video_path": "woman_Justin_GolfPutting001_angle0_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 193,
+        "output_text": "practicing golf swing",
+        "video_path": "man_Justin_GolfPutting001_angle0_golf_course.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 194,
+        "output_text": "miming drinking",
+        "video_path": "man_Justin_GolfPutting001_angle0_concert_hall.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 195,
+        "output_text": "take a defensive position",
+        "video_path": "spacesuit_Justin_GolfPutting001_angle0_golf_course.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 196,
+        "output_text": "put on mask",
+        "video_path": "spacesuit_Justin_GolfPutting001_angle0_concert_hall.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 197,
+        "output_text": "putting on socks",
+        "video_path": "man_Justin_GolfPutting001_angle90_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 198,
+        "output_text": "bending forward",
+        "video_path": "man_Justin_GolfPutting001_angle180_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 199,
+        "output_text": "adjusting socks",
+        "video_path": "man_Justin_GolfPutting001_angle270_blank.mp4",
+        "action": [
+            "golf put"
+        ]
+    },
+    {
+        "instance_id": 200,
+        "output_text": "Mimed dance performance",
+        "video_path": "man_Justin_GolfSwing001_angle0_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 201,
+        "output_text": "Surprised reaction",
+        "video_path": "spacesuit_Justin_GolfSwing001_angle0_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 202,
+        "output_text": "pirouette or spin",
+        "video_path": "woman_Justin_GolfSwing001_angle0_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 203,
+        "output_text": "Golfing action",
+        "video_path": "man_Justin_GolfSwing001_angle0_golf_course.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 204,
+        "output_text": "Mimed dance",
+        "video_path": "man_Justin_GolfSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 205,
+        "output_text": "falling and sitting",
+        "video_path": "spacesuit_Justin_GolfSwing001_angle0_golf_course.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 206,
+        "output_text": "miming a small character",
+        "video_path": "spacesuit_Justin_GolfSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 207,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_GolfSwing001_angle90_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 208,
+        "output_text": "boxing stance",
+        "video_path": "man_Justin_GolfSwing001_angle180_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 209,
+        "output_text": "Hitting the ground",
+        "video_path": "man_Justin_GolfSwing001_angle270_blank.mp4",
+        "action": [
+            "golf swing"
+        ]
+    },
+    {
+        "instance_id": 210,
+        "output_text": "balancing on stilts",
+        "video_path": "man_Justin_Javelin001_angle0_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 211,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Justin_Javelin001_angle0_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 212,
+        "output_text": "miming escaping from ropes",
+        "video_path": "woman_Justin_Javelin001_angle0_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 213,
+        "output_text": "running in place",
+        "video_path": "man_Justin_Javelin001_angle0_javelin.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 214,
+        "output_text": "miming actions with hands",
+        "video_path": "man_Justin_Javelin001_angle0_concert_hall.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 215,
+        "output_text": "shooting imaginary gun",
+        "video_path": "spacesuit_Justin_Javelin001_angle0_javelin.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 216,
+        "output_text": "falling asleep",
+        "video_path": "spacesuit_Justin_Javelin001_angle0_concert_hall.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 217,
+        "output_text": "martial dance moves",
+        "video_path": "man_Justin_Javelin001_angle90_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 218,
+        "output_text": "throwing gesture",
+        "video_path": "man_Justin_Javelin001_angle180_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 219,
+        "output_text": "arm exercise miming",
+        "video_path": "man_Justin_Javelin001_angle270_blank.mp4",
+        "action": [
+            "javelin throw"
+        ]
+    },
+    {
+        "instance_id": 220,
+        "output_text": "hand balancing pose",
+        "video_path": "man_Justin_Keyboard001_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 221,
+        "output_text": "using rifle",
+        "video_path": "spacesuit_Justin_Keyboard001_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 222,
+        "output_text": "phone call",
+        "video_path": "woman_Justin_Keyboard001_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 223,
+        "output_text": "Trying to guess",
+        "video_path": "man_Justin_Keyboard001_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 224,
+        "output_text": "The person appears to be adjusting their shoe",
+        "video_path": "man_Justin_Keyboard001_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 225,
+        "output_text": "examining an object",
+        "video_path": "spacesuit_Justin_Keyboard001_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 226,
+        "output_text": "acting out riding",
+        "video_path": "spacesuit_Justin_Keyboard001_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 227,
+        "output_text": "Action: Checking watch",
+        "video_path": "man_Justin_Keyboard001_angle90_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 228,
+        "output_text": "drinking from a cup",
+        "video_path": "man_Justin_Keyboard001_angle180_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 229,
+        "output_text": "writing",
+        "video_path": "man_Justin_Keyboard001_angle270_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 230,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_KnockingOnADoor001_angle0_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 231,
+        "output_text": "using phone",
+        "video_path": "spacesuit_Justin_KnockingOnADoor001_angle0_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 232,
+        "output_text": "Dancing or moving rhythmically",
+        "video_path": "woman_Justin_KnockingOnADoor001_angle0_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 233,
+        "output_text": "miming a phone call",
+        "video_path": "man_Justin_KnockingOnADoor001_angle0_living_room.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 234,
+        "output_text": "throwing something",
+        "video_path": "man_Justin_KnockingOnADoor001_angle0_golf_course.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 235,
+        "output_text": "talking on the phone",
+        "video_path": "spacesuit_Justin_KnockingOnADoor001_angle0_living_room.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 236,
+        "output_text": "golf swing",
+        "video_path": "spacesuit_Justin_KnockingOnADoor001_angle0_golf_course.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 237,
+        "output_text": "salute",
+        "video_path": "man_Justin_KnockingOnADoor001_angle90_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 238,
+        "output_text": "driving a car",
+        "video_path": "man_Justin_KnockingOnADoor001_angle180_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 239,
+        "output_text": "mimic thinking",
+        "video_path": "man_Justin_KnockingOnADoor001_angle270_blank.mp4",
+        "action": [
+            "knocking on door"
+        ]
+    },
+    {
+        "instance_id": 240,
+        "output_text": "tying a shoe",
+        "video_path": "man_Justin_OpeningADoor001_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 241,
+        "output_text": "running",
+        "video_path": "spacesuit_Justin_OpeningADoor001_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 242,
+        "output_text": "stepping over obstacle",
+        "video_path": "woman_Justin_OpeningADoor001_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 243,
+        "output_text": "walking on a tightrope",
+        "video_path": "man_Justin_OpeningADoor001_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 244,
+        "output_text": "preparing to throw a disc",
+        "video_path": "man_Justin_OpeningADoor001_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 245,
+        "output_text": "squatting motion",
+        "video_path": "spacesuit_Justin_OpeningADoor001_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 246,
+        "output_text": "catching something",
+        "video_path": "spacesuit_Justin_OpeningADoor001_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 247,
+        "output_text": "gun being fired",
+        "video_path": "man_Justin_OpeningADoor001_angle90_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 248,
+        "output_text": "signaling",
+        "video_path": "man_Justin_OpeningADoor001_angle180_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 249,
+        "output_text": "miming an explanation",
+        "video_path": "man_Justin_OpeningADoor001_angle270_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 250,
+        "output_text": "pretending to fall",
+        "video_path": "man_Justin_OpeningADoor002_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 251,
+        "output_text": "imitating running",
+        "video_path": "spacesuit_Justin_OpeningADoor002_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 252,
+        "output_text": "holding fishing rod",
+        "video_path": "woman_Justin_OpeningADoor002_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 253,
+        "output_text": "hitting with a bat",
+        "video_path": "man_Justin_OpeningADoor002_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 254,
+        "output_text": "forward leap",
+        "video_path": "man_Justin_OpeningADoor002_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 255,
+        "output_text": "",
+        "video_path": "spacesuit_Justin_OpeningADoor002_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 256,
+        "output_text": "turn around holding object",
+        "video_path": "spacesuit_Justin_OpeningADoor002_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 257,
+        "output_text": "pointing left",
+        "video_path": "man_Justin_OpeningADoor002_angle90_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 258,
+        "output_text": "miming flying",
+        "video_path": "man_Justin_OpeningADoor002_angle180_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 259,
+        "output_text": "miming walking",
+        "video_path": "man_Justin_OpeningADoor002_angle270_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 260,
+        "output_text": "jumping or springs",
+        "video_path": "man_Justin_Piano002_angle0_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 261,
+        "output_text": "aiming a gun",
+        "video_path": "spacesuit_Justin_Piano002_angle0_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 262,
+        "output_text": "miming open book",
+        "video_path": "woman_Justin_Piano002_angle0_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 263,
+        "output_text": "The person appears to be mimicking playing the guitar with their hands positioned as if strumming and fingers positioned as if pressing the strings",
+        "video_path": "man_Justin_Piano002_angle0_concert_hall.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 264,
+        "output_text": "The phrase is: holding a knife",
+        "video_path": "man_Justin_Piano002_angle0_beach.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 265,
+        "output_text": "pulling up socks",
+        "video_path": "spacesuit_Justin_Piano002_angle0_concert_hall.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 266,
+        "output_text": "getting up from the ground",
+        "video_path": "spacesuit_Justin_Piano002_angle0_beach.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 267,
+        "output_text": "Lifting something",
+        "video_path": "man_Justin_Piano002_angle90_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 268,
+        "output_text": "putting on wristbands",
+        "video_path": "man_Justin_Piano002_angle180_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 269,
+        "output_text": "miming holding something",
+        "video_path": "man_Justin_Piano002_angle270_blank.mp4",
+        "action": [
+            "playing piano"
+        ]
+    },
+    {
+        "instance_id": 270,
+        "output_text": "explaining something",
+        "video_path": "man_Justin_PlayingAGuitar002_angle0_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 271,
+        "output_text": "driving a car",
+        "video_path": "spacesuit_Justin_PlayingAGuitar002_angle0_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 272,
+        "output_text": "dancing",
+        "video_path": "woman_Justin_PlayingAGuitar002_angle0_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 273,
+        "output_text": "examining an object",
+        "video_path": "man_Justin_PlayingAGuitar002_angle0_concert_hall.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 274,
+        "output_text": "mimic aiming a gun",
+        "video_path": "man_Justin_PlayingAGuitar002_angle0_beach.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 275,
+        "output_text": "examining an object",
+        "video_path": "spacesuit_Justin_PlayingAGuitar002_angle0_concert_hall.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 276,
+        "output_text": "Walking across the beach in space suit",
+        "video_path": "spacesuit_Justin_PlayingAGuitar002_angle0_beach.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 277,
+        "output_text": "looking at phone",
+        "video_path": "man_Justin_PlayingAGuitar002_angle90_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 278,
+        "output_text": "miming taking a picture",
+        "video_path": "man_Justin_PlayingAGuitar002_angle180_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 279,
+        "output_text": "miming a weightlifting action",
+        "video_path": "man_Justin_PlayingAGuitar002_angle270_blank.mp4",
+        "action": [
+            "playing acoustic guitar"
+        ]
+    },
+    {
+        "instance_id": 280,
+        "output_text": "dancing",
+        "video_path": "man_Justin_PlayingAGuitar004_angle0_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 281,
+        "output_text": "Aiming and tracking target",
+        "video_path": "spacesuit_Justin_PlayingAGuitar004_angle0_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 282,
+        "output_text": "miming pain",
+        "video_path": "woman_Justin_PlayingAGuitar004_angle0_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 283,
+        "output_text": "miming reading an item",
+        "video_path": "man_Justin_PlayingAGuitar004_angle0_concert_hall.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 284,
+        "output_text": "answer: running",
+        "video_path": "man_Justin_PlayingAGuitar004_angle0_beach.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 285,
+        "output_text": "miming performing",
+        "video_path": "spacesuit_Justin_PlayingAGuitar004_angle0_concert_hall.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 286,
+        "output_text": "Action: 'Miming shooting a rifle' on a beach, with both hands",
+        "video_path": "spacesuit_Justin_PlayingAGuitar004_angle0_beach.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 287,
+        "output_text": "doggy sniffing",
+        "video_path": "man_Justin_PlayingAGuitar004_angle90_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 288,
+        "output_text": "miming taking a selfie",
+        "video_path": "man_Justin_PlayingAGuitar004_angle180_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 289,
+        "output_text": "miming kicking",
+        "video_path": "man_Justin_PlayingAGuitar004_angle270_blank.mp4",
+        "action": [
+            "playing electric guitar"
+        ]
+    },
+    {
+        "instance_id": 290,
+        "output_text": "arm swings",
+        "video_path": "man_Justin_PlayingDrums001_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 291,
+        "output_text": "push glasses",
+        "video_path": "spacesuit_Justin_PlayingDrums001_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 292,
+        "output_text": "talking on phone",
+        "video_path": "woman_Justin_PlayingDrums001_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 293,
+        "output_text": "miming throwing a weapon",
+        "video_path": "man_Justin_PlayingDrums001_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 294,
+        "output_text": "The person appears to be miming riding a shark",
+        "video_path": "man_Justin_PlayingDrums001_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 295,
+        "output_text": "putting something in pocket",
+        "video_path": "spacesuit_Justin_PlayingDrums001_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 296,
+        "output_text": "stand in one leg",
+        "video_path": "spacesuit_Justin_PlayingDrums001_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 297,
+        "output_text": "playing guitar",
+        "video_path": "man_Justin_PlayingDrums001_angle90_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 298,
+        "output_text": "making a sandwich",
+        "video_path": "man_Justin_PlayingDrums001_angle180_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 299,
+        "output_text": "miming phone call",
+        "video_path": "man_Justin_PlayingDrums001_angle270_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 300,
+        "output_text": "throwing basketball",
+        "video_path": "man_Justin_PlayingHarp001_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 301,
+        "output_text": "mimed fighting stance",
+        "video_path": "spacesuit_Justin_PlayingHarp001_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 302,
+        "output_text": "martial arts stance",
+        "video_path": "woman_Justin_PlayingHarp001_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 303,
+        "output_text": "playing guitar",
+        "video_path": "man_Justin_PlayingHarp001_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 304,
+        "output_text": "The person appears to be moving in slow motion, possibly miming an action related to speed or urgency",
+        "video_path": "man_Justin_PlayingHarp001_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 305,
+        "output_text": "Jumping",
+        "video_path": "spacesuit_Justin_PlayingHarp001_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 306,
+        "output_text": "walking on the beach",
+        "video_path": "spacesuit_Justin_PlayingHarp001_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 307,
+        "output_text": "Mimicking a flying action",
+        "video_path": "man_Justin_PlayingHarp001_angle90_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 308,
+        "output_text": "lifting a weight",
+        "video_path": "man_Justin_PlayingHarp001_angle180_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 309,
+        "output_text": "throwing baseball",
+        "video_path": "man_Justin_PlayingHarp001_angle270_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 310,
+        "output_text": "covering face with distress",
+        "video_path": "man_Justin_PlayingHarp002_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 311,
+        "output_text": "playing guitar",
+        "video_path": "spacesuit_Justin_PlayingHarp002_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 312,
+        "output_text": "hiding face",
+        "video_path": "woman_Justin_PlayingHarp002_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 313,
+        "output_text": "being sick",
+        "video_path": "man_Justin_PlayingHarp002_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 314,
+        "output_text": "talking on the phone",
+        "video_path": "man_Justin_PlayingHarp002_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 315,
+        "output_text": "miming phone call",
+        "video_path": "spacesuit_Justin_PlayingHarp002_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 316,
+        "output_text": "Wave dance",
+        "video_path": "spacesuit_Justin_PlayingHarp002_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 317,
+        "output_text": "running in place",
+        "video_path": "man_Justin_PlayingHarp002_angle90_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 318,
+        "output_text": "miming putting on a hat",
+        "video_path": "man_Justin_PlayingHarp002_angle180_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 319,
+        "output_text": "Action-miming for: cutting with scissors",
+        "video_path": "man_Justin_PlayingHarp002_angle270_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 320,
+        "output_text": "eating",
+        "video_path": "man_Justin_Pulling001_angle0_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 321,
+        "output_text": "Dancing movement",
+        "video_path": "spacesuit_Justin_Pulling001_angle0_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 322,
+        "output_text": "balancing on one foot",
+        "video_path": "woman_Justin_Pulling001_angle0_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 323,
+        "output_text": "swinging arms and legs",
+        "video_path": "man_Justin_Pulling001_angle0_warehouse.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 324,
+        "output_text": "swinging arm",
+        "video_path": "man_Justin_Pulling001_angle0_climbing_gym.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 325,
+        "output_text": "Kicking or punching action",
+        "video_path": "spacesuit_Justin_Pulling001_angle0_warehouse.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 326,
+        "output_text": "miming javelin throw",
+        "video_path": "spacesuit_Justin_Pulling001_angle0_climbing_gym.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 327,
+        "output_text": "Dancing",
+        "video_path": "man_Justin_Pulling001_angle90_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 328,
+        "output_text": "miming opening something",
+        "video_path": "man_Justin_Pulling001_angle180_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 329,
+        "output_text": "sneeze",
+        "video_path": "man_Justin_Pulling001_angle270_blank.mp4",
+        "action": [
+            "pulling",
+            "dragging"
+        ]
+    },
+    {
+        "instance_id": 330,
+        "output_text": "Lunge mimicking run start",
+        "video_path": "man_Justin_Pulling002_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 331,
+        "output_text": "dance move",
+        "video_path": "spacesuit_Justin_Pulling002_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 332,
+        "output_text": "balancing on ice",
+        "video_path": "woman_Justin_Pulling002_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 333,
+        "output_text": "Sliding along the ground",
+        "video_path": "man_Justin_Pulling002_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 334,
+        "output_text": "mid-kick",
+        "video_path": "man_Justin_Pulling002_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 335,
+        "output_text": "dinosaur roaring",
+        "video_path": "spacesuit_Justin_Pulling002_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 336,
+        "output_text": "Climbing a rock wall",
+        "video_path": "spacesuit_Justin_Pulling002_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 337,
+        "output_text": "balancing on a board",
+        "video_path": "man_Justin_Pulling002_angle90_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 338,
+        "output_text": "balancing",
+        "video_path": "man_Justin_Pulling002_angle180_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 339,
+        "output_text": "dancing motion",
+        "video_path": "man_Justin_Pulling002_angle270_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 340,
+        "output_text": "slipping or sliding",
+        "video_path": "man_Justin_Pushing001_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 341,
+        "output_text": "acting out defense",
+        "video_path": "spacesuit_Justin_Pushing001_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 342,
+        "output_text": "reaching out",
+        "video_path": "woman_Justin_Pushing001_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 343,
+        "output_text": "mimed dancing",
+        "video_path": "man_Justin_Pushing001_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 344,
+        "output_text": "Primed for action",
+        "video_path": "man_Justin_Pushing001_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 345,
+        "output_text": "loading truck",
+        "video_path": "spacesuit_Justin_Pushing001_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 346,
+        "output_text": "Climbing wall",
+        "video_path": "spacesuit_Justin_Pushing001_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 347,
+        "output_text": "Jogging in place",
+        "video_path": "man_Justin_Pushing001_angle90_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 348,
+        "output_text": "Standing in the air",
+        "video_path": "man_Justin_Pushing001_angle180_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 349,
+        "output_text": "miming a leap",
+        "video_path": "man_Justin_Pushing001_angle270_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 350,
+        "output_text": "dynamic dance move",
+        "video_path": "man_Justin_Pushing003_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 351,
+        "output_text": "dance move",
+        "video_path": "spacesuit_Justin_Pushing003_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 352,
+        "output_text": "miming using a smartphone",
+        "video_path": "woman_Justin_Pushing003_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 353,
+        "output_text": "miming shooting",
+        "video_path": "man_Justin_Pushing003_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 354,
+        "output_text": "climbing a wall",
+        "video_path": "man_Justin_Pushing003_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 355,
+        "output_text": "Aiming with a firearm",
+        "video_path": "spacesuit_Justin_Pushing003_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 356,
+        "output_text": "simulating catching something",
+        "video_path": "spacesuit_Justin_Pushing003_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 357,
+        "output_text": "pretending to catch a pole",
+        "video_path": "man_Justin_Pushing003_angle90_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 358,
+        "output_text": "slip and fall",
+        "video_path": "man_Justin_Pushing003_angle180_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 359,
+        "output_text": "working on puzzle",
+        "video_path": "man_Justin_Pushing003_angle270_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 360,
+        "output_text": "Adjusting or fixing ears/head",
+        "video_path": "man_Justin_Seatbelt001_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 361,
+        "output_text": "waving",
+        "video_path": "spacesuit_Justin_Seatbelt001_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 362,
+        "output_text": "making fun of something",
+        "video_path": "woman_Justin_Seatbelt001_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 363,
+        "output_text": "high kick",
+        "video_path": "man_Justin_Seatbelt001_angle0_car_showroom.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 364,
+        "output_text": "miming falling backward",
+        "video_path": "man_Justin_Seatbelt001_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 365,
+        "output_text": "jumping",
+        "video_path": "spacesuit_Justin_Seatbelt001_angle0_car_showroom.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 366,
+        "output_text": "running",
+        "video_path": "spacesuit_Justin_Seatbelt001_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 367,
+        "output_text": "hugging themselves",
+        "video_path": "man_Justin_Seatbelt001_angle90_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 368,
+        "output_text": "Miming taking a photo",
+        "video_path": "man_Justin_Seatbelt001_angle180_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 369,
+        "output_text": "do squats",
+        "video_path": "man_Justin_Seatbelt001_angle270_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 370,
+        "output_text": "crossing arms hug",
+        "video_path": "man_Justin_ShootingAHandgun001_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 371,
+        "output_text": "standing still",
+        "video_path": "spacesuit_Justin_ShootingAHandgun001_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 372,
+        "output_text": "aiming or shooting",
+        "video_path": "woman_Justin_ShootingAHandgun001_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 373,
+        "output_text": "Aiming and drawing an arrow",
+        "video_path": "man_Justin_ShootingAHandgun001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 374,
+        "output_text": "climbing stance",
+        "video_path": "man_Justin_ShootingAHandgun001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 375,
+        "output_text": "mimic practicing a pose",
+        "video_path": "spacesuit_Justin_ShootingAHandgun001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 376,
+        "output_text": "standing with arms crossed",
+        "video_path": "spacesuit_Justin_ShootingAHandgun001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 377,
+        "output_text": "looking through binoculars",
+        "video_path": "man_Justin_ShootingAHandgun001_angle90_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 378,
+        "output_text": "holding guns with both hands, pointing upwards",
+        "video_path": "man_Justin_ShootingAHandgun001_angle180_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 379,
+        "output_text": "flying bird",
+        "video_path": "man_Justin_ShootingAHandgun001_angle270_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 380,
+        "output_text": "Drinking water",
+        "video_path": "man_Justin_ShootingARifle001_angle0_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 381,
+        "output_text": "miming cleaning a weapon",
+        "video_path": "spacesuit_Justin_ShootingARifle001_angle0_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 382,
+        "output_text": "The person is miming the action of throwing a knife",
+        "video_path": "woman_Justin_ShootingARifle001_angle0_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 383,
+        "output_text": "miming phone call",
+        "video_path": "man_Justin_ShootingARifle001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 384,
+        "output_text": "miming drinking",
+        "video_path": "man_Justin_ShootingARifle001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 385,
+        "output_text": "drawing a bow and arrow",
+        "video_path": "spacesuit_Justin_ShootingARifle001_angle0_shooting_range.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 386,
+        "output_text": "being tied up",
+        "video_path": "spacesuit_Justin_ShootingARifle001_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 387,
+        "output_text": "Mimed selfie",
+        "video_path": "man_Justin_ShootingARifle001_angle90_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 388,
+        "output_text": "stretching",
+        "video_path": "man_Justin_ShootingARifle001_angle180_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 389,
+        "output_text": "taking a photo",
+        "video_path": "man_Justin_ShootingARifle001_angle270_blank.mp4",
+        "action": [
+            "shooting rifle"
+        ]
+    },
+    {
+        "instance_id": 390,
+        "output_text": "Throwing a ball",
+        "video_path": "man_Justin_ShotPut001_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 391,
+        "output_text": "miming a rescue or outstretched motion",
+        "video_path": "spacesuit_Justin_ShotPut001_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 392,
+        "output_text": "person miming skateboarding",
+        "video_path": "woman_Justin_ShotPut001_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 393,
+        "output_text": "miming golf swing",
+        "video_path": "man_Justin_ShotPut001_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 394,
+        "output_text": "The person appears to be miming jumping or hopping",
+        "video_path": "man_Justin_ShotPut001_angle0_living_room.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 395,
+        "output_text": "Spinning",
+        "video_path": "spacesuit_Justin_ShotPut001_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 396,
+        "output_text": "The character appears to be miming the action of dancing or performing an impromptu dance on a rug in the middle of a living room. They are showing exaggerated movements and gestures typical of a dance routine",
+        "video_path": "spacesuit_Justin_ShotPut001_angle0_living_room.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 397,
+        "output_text": "jumping jacks",
+        "video_path": "man_Justin_ShotPut001_angle90_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 398,
+        "output_text": "Swoop forward",
+        "video_path": "man_Justin_ShotPut001_angle180_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 399,
+        "output_text": "opening an umbrella",
+        "video_path": "man_Justin_ShotPut001_angle270_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 400,
+        "output_text": "miming vomiting",
+        "video_path": "man_Justin_SittingAndWriting001_angle0_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 401,
+        "output_text": "wiping nose",
+        "video_path": "spacesuit_Justin_SittingAndWriting001_angle0_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 402,
+        "output_text": "coughing",
+        "video_path": "woman_Justin_SittingAndWriting001_angle0_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 403,
+        "output_text": "ducking to avoid something overhead",
+        "video_path": "man_Justin_SittingAndWriting001_angle0_classroom.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 404,
+        "output_text": "pretending to eat",
+        "video_path": "man_Justin_SittingAndWriting001_angle0_climbing_gym.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 405,
+        "output_text": "hugging knees in sadness",
+        "video_path": "spacesuit_Justin_SittingAndWriting001_angle0_classroom.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 406,
+        "output_text": "sitting in despair",
+        "video_path": "spacesuit_Justin_SittingAndWriting001_angle0_climbing_gym.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 407,
+        "output_text": "holding something",
+        "video_path": "man_Justin_SittingAndWriting001_angle90_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 408,
+        "output_text": "stretching hamstrings",
+        "video_path": "man_Justin_SittingAndWriting001_angle180_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 409,
+        "output_text": "checking wristwatch",
+        "video_path": "man_Justin_SittingAndWriting001_angle270_blank.mp4",
+        "action": [
+            "writing"
+        ]
+    },
+    {
+        "instance_id": 410,
+        "output_text": "dancing",
+        "video_path": "man_Justin_Soccer003_angle0_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 411,
+        "output_text": "a kicking motion",
+        "video_path": "spacesuit_Justin_Soccer003_angle0_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 412,
+        "output_text": "slide across",
+        "video_path": "woman_Justin_Soccer003_angle0_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 413,
+        "output_text": "Running in place",
+        "video_path": "man_Justin_Soccer003_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 414,
+        "output_text": "miming bird walking",
+        "video_path": "man_Justin_Soccer003_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 415,
+        "output_text": "kicks",
+        "video_path": "spacesuit_Justin_Soccer003_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 416,
+        "output_text": "Martial arts kick",
+        "video_path": "spacesuit_Justin_Soccer003_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 417,
+        "output_text": "being pushed forward",
+        "video_path": "man_Justin_Soccer003_angle90_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 418,
+        "output_text": "jogging in place",
+        "video_path": "man_Justin_Soccer003_angle180_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 419,
+        "output_text": "Jumping",
+        "video_path": "man_Justin_Soccer003_angle270_blank.mp4",
+        "action": [
+            "soccer shot"
+        ]
+    },
+    {
+        "instance_id": 420,
+        "output_text": "throwing an object",
+        "video_path": "man_Justin_Swimming001_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 421,
+        "output_text": "shooting a gun",
+        "video_path": "spacesuit_Justin_Swimming001_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 422,
+        "output_text": "checking balance",
+        "video_path": "woman_Justin_Swimming001_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 423,
+        "output_text": "stretching arms upwards",
+        "video_path": "man_Justin_Swimming001_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 424,
+        "output_text": "holding an invisible object",
+        "video_path": "man_Justin_Swimming001_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 425,
+        "output_text": "using a camera on face",
+        "video_path": "spacesuit_Justin_Swimming001_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 426,
+        "output_text": "throwing something",
+        "video_path": "spacesuit_Justin_Swimming001_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 427,
+        "output_text": "Miming a dance",
+        "video_path": "man_Justin_Swimming001_angle90_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 428,
+        "output_text": "miming shooting a gun",
+        "video_path": "man_Justin_Swimming001_angle180_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 429,
+        "output_text": "throwing a baton",
+        "video_path": "man_Justin_Swimming001_angle270_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 430,
+        "output_text": "playing guitar",
+        "video_path": "man_Justin_Swimming002_angle0_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 431,
+        "output_text": "dance moves",
+        "video_path": "spacesuit_Justin_Swimming002_angle0_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 432,
+        "output_text": "miming washing hair",
+        "video_path": "woman_Justin_Swimming002_angle0_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 433,
+        "output_text": "tying shoelaces",
+        "video_path": "man_Justin_Swimming002_angle0_beach.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 434,
+        "output_text": "miming liquid spill",
+        "video_path": "man_Justin_Swimming002_angle0_concert_hall.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 435,
+        "output_text": "talking animatedly",
+        "video_path": "spacesuit_Justin_Swimming002_angle0_beach.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 436,
+        "output_text": "cooking something",
+        "video_path": "spacesuit_Justin_Swimming002_angle0_concert_hall.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 437,
+        "output_text": "dancing routine",
+        "video_path": "man_Justin_Swimming002_angle90_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 438,
+        "output_text": "perform juggling act",
+        "video_path": "man_Justin_Swimming002_angle180_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 439,
+        "output_text": "Clapping",
+        "video_path": "man_Justin_Swimming002_angle270_blank.mp4",
+        "action": [
+            "breast stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 440,
+        "output_text": "hiding eyes",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle0_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 441,
+        "output_text": "drinking water",
+        "video_path": "spacesuit_Justin_TakingPhotoWithCamera001_angle0_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 442,
+        "output_text": "miming use of binoculars",
+        "video_path": "woman_Justin_TakingPhotoWithCamera001_angle0_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 443,
+        "output_text": "miming taking pictures",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle0_photo_studio.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 444,
+        "output_text": "climb",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle0_climbing_gym.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 445,
+        "output_text": "Phone conversation",
+        "video_path": "spacesuit_Justin_TakingPhotoWithCamera001_angle0_photo_studio.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 446,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Justin_TakingPhotoWithCamera001_angle0_climbing_gym.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 447,
+        "output_text": "Covering head in distress",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle90_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 448,
+        "output_text": "making a phone call",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle180_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 449,
+        "output_text": "miming shooting a gun",
+        "video_path": "man_Justin_TakingPhotoWithCamera001_angle270_blank.mp4",
+        "action": [
+            "taking photo"
+        ]
+    },
+    {
+        "instance_id": 450,
+        "output_text": "celebratory dance",
+        "video_path": "man_Justin_TennisServe001_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 451,
+        "output_text": "exaggerated bending",
+        "video_path": "spacesuit_Justin_TennisServe001_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 452,
+        "output_text": "bending and touching legs",
+        "video_path": "woman_Justin_TennisServe001_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 453,
+        "output_text": "running",
+        "video_path": "man_Justin_TennisServe001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 454,
+        "output_text": "The person appears to be mimicking shooting or drawing a gun and then dropping the gun",
+        "video_path": "man_Justin_TennisServe001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 455,
+        "output_text": "punching in air",
+        "video_path": "spacesuit_Justin_TennisServe001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 456,
+        "output_text": "lifting object to chest",
+        "video_path": "spacesuit_Justin_TennisServe001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 457,
+        "output_text": "striking or punching something",
+        "video_path": "man_Justin_TennisServe001_angle90_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 458,
+        "output_text": "reaching upwards",
+        "video_path": "man_Justin_TennisServe001_angle180_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 459,
+        "output_text": "miming discus throw",
+        "video_path": "man_Justin_TennisServe001_angle270_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 460,
+        "output_text": "using a phone",
+        "video_path": "man_Justin_TennisSwing001_angle0_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 461,
+        "output_text": "performing dance steps",
+        "video_path": "spacesuit_Justin_TennisSwing001_angle0_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 462,
+        "output_text": "Lifting leg",
+        "video_path": "woman_Justin_TennisSwing001_angle0_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 463,
+        "output_text": "swinging racket",
+        "video_path": "man_Justin_TennisSwing001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 464,
+        "output_text": "reaching out to catch sth",
+        "video_path": "man_Justin_TennisSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 465,
+        "output_text": "putting on straps",
+        "video_path": "spacesuit_Justin_TennisSwing001_angle0_tennis_court.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 466,
+        "output_text": "playing tug of war",
+        "video_path": "spacesuit_Justin_TennisSwing001_angle0_concert_hall.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 467,
+        "output_text": "rhythmic dancing",
+        "video_path": "man_Justin_TennisSwing001_angle90_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 468,
+        "output_text": "lifting box overhead",
+        "video_path": "man_Justin_TennisSwing001_angle180_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 469,
+        "output_text": "holding phone",
+        "video_path": "man_Justin_TennisSwing001_angle270_blank.mp4",
+        "action": [
+            "tennis swing"
+        ]
+    },
+    {
+        "instance_id": 470,
+        "output_text": "weightlifting",
+        "video_path": "man_Justin_Violin002_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 471,
+        "output_text": "pushes automobile",
+        "video_path": "spacesuit_Justin_Violin002_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 472,
+        "output_text": "Explaining something",
+        "video_path": "woman_Justin_Violin002_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 473,
+        "output_text": "playing guitar",
+        "video_path": "man_Justin_Violin002_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 474,
+        "output_text": "leaping forward",
+        "video_path": "man_Justin_Violin002_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 475,
+        "output_text": "holding and examining tiny object",
+        "video_path": "spacesuit_Justin_Violin002_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 476,
+        "output_text": "stretching arms upward",
+        "video_path": "spacesuit_Justin_Violin002_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 477,
+        "output_text": "imagine using fake binoculars",
+        "video_path": "man_Justin_Violin002_angle90_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 478,
+        "output_text": "dance or gesture",
+        "video_path": "man_Justin_Violin002_angle180_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 479,
+        "output_text": "taking a picture with camera",
+        "video_path": "man_Justin_Violin002_angle270_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 480,
+        "output_text": "Action: mimed holding something firmly",
+        "video_path": "man_Justin_Volleyball001_angle0_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 481,
+        "output_text": "clapping",
+        "video_path": "spacesuit_Justin_Volleyball001_angle0_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 482,
+        "output_text": "playing guitar",
+        "video_path": "woman_Justin_Volleyball001_angle0_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 483,
+        "output_text": "jumping motion",
+        "video_path": "man_Justin_Volleyball001_angle0_volleyball_court.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 484,
+        "output_text": "punching motion",
+        "video_path": "man_Justin_Volleyball001_angle0_concert_hall.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 485,
+        "output_text": "miming martial arts poses",
+        "video_path": "spacesuit_Justin_Volleyball001_angle0_volleyball_court.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 486,
+        "output_text": "miming running",
+        "video_path": "spacesuit_Justin_Volleyball001_angle0_concert_hall.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 487,
+        "output_text": "Action: Throwing",
+        "video_path": "man_Justin_Volleyball001_angle90_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 488,
+        "output_text": "squat and jump",
+        "video_path": "man_Justin_Volleyball001_angle180_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 489,
+        "output_text": "shoot a basketball",
+        "video_path": "man_Justin_Volleyball001_angle270_blank.mp4",
+        "action": [
+            "receiving volleyball"
+        ]
+    },
+    {
+        "instance_id": 490,
+        "output_text": "ollie trick",
+        "video_path": "man_Justin_VolleyballServe_angle0_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 491,
+        "output_text": "jumping and landing",
+        "video_path": "spacesuit_Justin_VolleyballServe_angle0_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 492,
+        "output_text": "throwing a ball",
+        "video_path": "woman_Justin_VolleyballServe_angle0_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 493,
+        "output_text": "tennis serve",
+        "video_path": "man_Justin_VolleyballServe_angle0_volleyball_court.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 494,
+        "output_text": "miming a throwing motion",
+        "video_path": "man_Justin_VolleyballServe_angle0_concert_hall.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 495,
+        "output_text": "playing ping pong",
+        "video_path": "spacesuit_Justin_VolleyballServe_angle0_volleyball_court.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 496,
+        "output_text": "Action mimicked: Being knocked down",
+        "video_path": "spacesuit_Justin_VolleyballServe_angle0_concert_hall.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 497,
+        "output_text": "throwing",
+        "video_path": "man_Justin_VolleyballServe_angle90_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 498,
+        "output_text": "throwing",
+        "video_path": "man_Justin_VolleyballServe_angle180_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 499,
+        "output_text": "diving",
+        "video_path": "man_Justin_VolleyballServe_angle270_blank.mp4",
+        "action": [
+            "volleyball serve"
+        ]
+    },
+    {
+        "instance_id": 500,
+        "output_text": "Squatting down while holding their head",
+        "video_path": "man_Justin_WeightedSquat002_angle0_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 501,
+        "output_text": "I love you",
+        "video_path": "spacesuit_Justin_WeightedSquat002_angle0_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 502,
+        "output_text": "dancing",
+        "video_path": "woman_Justin_WeightedSquat002_angle0_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 503,
+        "output_text": "miming a weightlifting stance",
+        "video_path": "man_Justin_WeightedSquat002_angle0_gym.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 504,
+        "output_text": "dancing",
+        "video_path": "man_Justin_WeightedSquat002_angle0_classroom.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 505,
+        "output_text": "bending knees down",
+        "video_path": "spacesuit_Justin_WeightedSquat002_angle0_gym.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 506,
+        "output_text": "opening gesture",
+        "video_path": "spacesuit_Justin_WeightedSquat002_angle0_classroom.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 507,
+        "output_text": "Jumping and boxing",
+        "video_path": "man_Justin_WeightedSquat002_angle90_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 508,
+        "output_text": "shadowboxing",
+        "video_path": "man_Justin_WeightedSquat002_angle180_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 509,
+        "output_text": "tiptoeing",
+        "video_path": "man_Justin_WeightedSquat002_angle270_blank.mp4",
+        "action": [
+            "weighted back squat",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 510,
+        "output_text": "Action of preparing to punch",
+        "video_path": "man_Justin_Weightlifting001_angle0_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 511,
+        "output_text": "miming a crawling motion",
+        "video_path": "spacesuit_Justin_Weightlifting001_angle0_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 512,
+        "output_text": "raising arms weight",
+        "video_path": "woman_Justin_Weightlifting001_angle0_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 513,
+        "output_text": "lifting weights",
+        "video_path": "man_Justin_Weightlifting001_angle0_gym.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 514,
+        "output_text": "throwing punches",
+        "video_path": "man_Justin_Weightlifting001_angle0_classroom.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 515,
+        "output_text": "Action: squatting down to lift a weight",
+        "video_path": "spacesuit_Justin_Weightlifting001_angle0_gym.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 516,
+        "output_text": "Action: dancing",
+        "video_path": "spacesuit_Justin_Weightlifting001_angle0_classroom.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 517,
+        "output_text": "stepping side to side",
+        "video_path": "man_Justin_Weightlifting001_angle90_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 518,
+        "output_text": "boxing moves",
+        "video_path": "man_Justin_Weightlifting001_angle180_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 519,
+        "output_text": "stretching arms",
+        "video_path": "man_Justin_Weightlifting001_angle270_blank.mp4",
+        "action": [
+            "clean and jerk",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 520,
+        "output_text": "taking a selfie",
+        "video_path": "man_Natali_Archery01_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 521,
+        "output_text": "Action: gesturing direction",
+        "video_path": "spacesuit_Natali_Archery01_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 522,
+        "output_text": "holding a mobile phone",
+        "video_path": "woman_Natali_Archery01_angle0_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 523,
+        "output_text": "drawing bowstring",
+        "video_path": "man_Natali_Archery01_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 524,
+        "output_text": "doing a step",
+        "video_path": "man_Natali_Archery01_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 525,
+        "output_text": "miming archery",
+        "video_path": "spacesuit_Natali_Archery01_angle0_archery.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 526,
+        "output_text": "throw basketball",
+        "video_path": "spacesuit_Natali_Archery01_angle0_living_room.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 527,
+        "output_text": "balancing on hoverboard",
+        "video_path": "man_Natali_Archery01_angle90_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 528,
+        "output_text": "miming a phone call",
+        "video_path": "man_Natali_Archery01_angle180_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 529,
+        "output_text": "dancing gestures",
+        "video_path": "man_Natali_Archery01_angle270_blank.mp4",
+        "action": [
+            "shooting arrow"
+        ]
+    },
+    {
+        "instance_id": 530,
+        "output_text": "Lighting a cigarette",
+        "video_path": "man_Natali_ArmCurls01_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 531,
+        "output_text": "opens suitcase",
+        "video_path": "spacesuit_Natali_ArmCurls01_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 532,
+        "output_text": "walking and swinging arms",
+        "video_path": "woman_Natali_ArmCurls01_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 533,
+        "output_text": "jump rope",
+        "video_path": "man_Natali_ArmCurls01_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 534,
+        "output_text": "strumming guitar",
+        "video_path": "man_Natali_ArmCurls01_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 535,
+        "output_text": "The person is miming holding an object in their hand.  holding an object",
+        "video_path": "spacesuit_Natali_ArmCurls01_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 536,
+        "output_text": "throw a punch",
+        "video_path": "spacesuit_Natali_ArmCurls01_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 537,
+        "output_text": "writing with chalk",
+        "video_path": "man_Natali_ArmCurls01_angle90_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 538,
+        "output_text": "acting out speaking or singing",
+        "video_path": "man_Natali_ArmCurls01_angle180_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 539,
+        "output_text": "throwing an object",
+        "video_path": "man_Natali_ArmCurls01_angle270_blank.mp4",
+        "action": [
+            "double arm curls",
+            "arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 540,
+        "output_text": "throw something",
+        "video_path": "man_Natali_ArmCurls03_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 541,
+        "output_text": "Silence",
+        "video_path": "spacesuit_Natali_ArmCurls03_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 542,
+        "output_text": "brushing hair",
+        "video_path": "woman_Natali_ArmCurls03_angle0_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 543,
+        "output_text": "cheering and dancing",
+        "video_path": "man_Natali_ArmCurls03_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 544,
+        "output_text": "walking",
+        "video_path": "man_Natali_ArmCurls03_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 545,
+        "output_text": "Lifting a weight",
+        "video_path": "spacesuit_Natali_ArmCurls03_angle0_gym.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 546,
+        "output_text": "imitating shooting",
+        "video_path": "spacesuit_Natali_ArmCurls03_angle0_classroom.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 547,
+        "output_text": "shrugging shoulders",
+        "video_path": "man_Natali_ArmCurls03_angle90_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 548,
+        "output_text": "Jumping jacks",
+        "video_path": "man_Natali_ArmCurls03_angle180_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 549,
+        "output_text": "Dancing rhythmically",
+        "video_path": "man_Natali_ArmCurls03_angle270_blank.mp4",
+        "action": [
+            "double arm curls",
+            "weightlifting"
+        ]
+    },
+    {
+        "instance_id": 550,
+        "output_text": "martial arts move",
+        "video_path": "man_Natali_BaseballPitch02_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 551,
+        "output_text": "military drill",
+        "video_path": "spacesuit_Natali_BaseballPitch02_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 552,
+        "output_text": "dance step",
+        "video_path": "woman_Natali_BaseballPitch02_angle0_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 553,
+        "output_text": "baseball throw",
+        "video_path": "man_Natali_BaseballPitch02_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 554,
+        "output_text": "Skipping over hurdle",
+        "video_path": "man_Natali_BaseballPitch02_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 555,
+        "output_text": "pitching a baseball",
+        "video_path": "spacesuit_Natali_BaseballPitch02_angle0_baseball_field.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 556,
+        "output_text": "picking up something",
+        "video_path": "spacesuit_Natali_BaseballPitch02_angle0_living_room.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 557,
+        "output_text": "shuffle dance step",
+        "video_path": "man_Natali_BaseballPitch02_angle90_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 558,
+        "output_text": "Jumping, kicking, running, dodging",
+        "video_path": "man_Natali_BaseballPitch02_angle180_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 559,
+        "output_text": "skiing",
+        "video_path": "man_Natali_BaseballPitch02_angle270_blank.mp4",
+        "action": [
+            "baseball pitch"
+        ]
+    },
+    {
+        "instance_id": 560,
+        "output_text": "throwing a trash bag",
+        "video_path": "man_Natali_BasketballLayup02_angle0_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 561,
+        "output_text": "walking",
+        "video_path": "spacesuit_Natali_BasketballLayup02_angle0_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 562,
+        "output_text": "running in place",
+        "video_path": "woman_Natali_BasketballLayup02_angle0_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 563,
+        "output_text": "lifting weights",
+        "video_path": "man_Natali_BasketballLayup02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 564,
+        "output_text": "answer: exercising",
+        "video_path": "man_Natali_BasketballLayup02_angle0_living_room.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 565,
+        "output_text": "Cheering",
+        "video_path": "spacesuit_Natali_BasketballLayup02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 566,
+        "output_text": "dancing action",
+        "video_path": "spacesuit_Natali_BasketballLayup02_angle0_living_room.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 567,
+        "output_text": "Dancing",
+        "video_path": "man_Natali_BasketballLayup02_angle90_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 568,
+        "output_text": "running in place",
+        "video_path": "man_Natali_BasketballLayup02_angle180_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 569,
+        "output_text": "Running in place",
+        "video_path": "man_Natali_BasketballLayup02_angle270_blank.mp4",
+        "action": [
+            "basketball layup",
+            "basketball floater"
+        ]
+    },
+    {
+        "instance_id": 570,
+        "output_text": "Mimicking a phone call",
+        "video_path": "man_Natali_BasketballShot02_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 571,
+        "output_text": "dance move",
+        "video_path": "spacesuit_Natali_BasketballShot02_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 572,
+        "output_text": "jumping in place",
+        "video_path": "woman_Natali_BasketballShot02_angle0_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 573,
+        "output_text": "shooting a basketball",
+        "video_path": "man_Natali_BasketballShot02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 574,
+        "output_text": "taking off shoes",
+        "video_path": "man_Natali_BasketballShot02_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 575,
+        "output_text": "throw grenade",
+        "video_path": "spacesuit_Natali_BasketballShot02_angle0_basketball_court.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 576,
+        "output_text": "miming eating",
+        "video_path": "spacesuit_Natali_BasketballShot02_angle0_living_room.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 577,
+        "output_text": "arms up action",
+        "video_path": "man_Natali_BasketballShot02_angle90_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 578,
+        "output_text": "running",
+        "video_path": "man_Natali_BasketballShot02_angle180_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 579,
+        "output_text": "Dancing or charade-like expressive motions",
+        "video_path": "man_Natali_BasketballShot02_angle270_blank.mp4",
+        "action": [
+            "basketball shot"
+        ]
+    },
+    {
+        "instance_id": 580,
+        "output_text": "Action: Mime soccer kick",
+        "video_path": "man_Natali_Bowling01_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 581,
+        "output_text": "falling down",
+        "video_path": "spacesuit_Natali_Bowling01_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 582,
+        "output_text": "miming a fall",
+        "video_path": "woman_Natali_Bowling01_angle0_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 583,
+        "output_text": "Bowling",
+        "video_path": "man_Natali_Bowling01_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 584,
+        "output_text": "opening a package",
+        "video_path": "man_Natali_Bowling01_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 585,
+        "output_text": "preparing to bowl",
+        "video_path": "spacesuit_Natali_Bowling01_angle0_bowling_alley.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 586,
+        "output_text": "taking off shoes",
+        "video_path": "spacesuit_Natali_Bowling01_angle0_concert_hall.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 587,
+        "output_text": "running in place",
+        "video_path": "man_Natali_Bowling01_angle90_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 588,
+        "output_text": "swing or punch",
+        "video_path": "man_Natali_Bowling01_angle180_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 589,
+        "output_text": "",
+        "video_path": "man_Natali_Bowling01_angle270_blank.mp4",
+        "action": [
+            "bowling"
+        ]
+    },
+    {
+        "instance_id": 590,
+        "output_text": "acting out a punch",
+        "video_path": "man_Natali_Boxing03_angle0_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 591,
+        "output_text": "running and stopping to look",
+        "video_path": "spacesuit_Natali_Boxing03_angle0_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 592,
+        "output_text": "moving back and forth",
+        "video_path": "woman_Natali_Boxing03_angle0_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 593,
+        "output_text": "Crouching and holding their knees",
+        "video_path": "man_Natali_Boxing03_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 594,
+        "output_text": "miming phone call",
+        "video_path": "man_Natali_Boxing03_angle0_concert_hall.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 595,
+        "output_text": "robotic walking",
+        "video_path": "spacesuit_Natali_Boxing03_angle0_boxing_gym.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 596,
+        "output_text": "miming exhaustion",
+        "video_path": "spacesuit_Natali_Boxing03_angle0_concert_hall.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 597,
+        "output_text": "using binoculars",
+        "video_path": "man_Natali_Boxing03_angle90_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 598,
+        "output_text": "miming phone call",
+        "video_path": "man_Natali_Boxing03_angle180_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 599,
+        "output_text": "Bouncing",
+        "video_path": "man_Natali_Boxing03_angle270_blank.mp4",
+        "action": [
+            "boxing uppercut"
+        ]
+    },
+    {
+        "instance_id": 600,
+        "output_text": "checking wristwatch",
+        "video_path": "man_Natali_CheckingWatch01_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 601,
+        "output_text": "shaking hands",
+        "video_path": "spacesuit_Natali_CheckingWatch01_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 602,
+        "output_text": "check watch",
+        "video_path": "woman_Natali_CheckingWatch01_angle0_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 603,
+        "output_text": "talking on phone",
+        "video_path": "man_Natali_CheckingWatch01_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 604,
+        "output_text": "checking wristwatch",
+        "video_path": "man_Natali_CheckingWatch01_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 605,
+        "output_text": "Raising arms and clenching fists to chest",
+        "video_path": "spacesuit_Natali_CheckingWatch01_angle0_living_room.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 606,
+        "output_text": "crossing arms",
+        "video_path": "spacesuit_Natali_CheckingWatch01_angle0_volleyball_court.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 607,
+        "output_text": "taking a selfie",
+        "video_path": "man_Natali_CheckingWatch01_angle90_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 608,
+        "output_text": "Watching",
+        "video_path": "man_Natali_CheckingWatch01_angle180_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 609,
+        "output_text": "pointing finger",
+        "video_path": "man_Natali_CheckingWatch01_angle270_blank.mp4",
+        "action": [
+            "checking watch"
+        ]
+    },
+    {
+        "instance_id": 610,
+        "output_text": "dabbing move",
+        "video_path": "man_Natali_Climbing01_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 611,
+        "output_text": "Cheerleading",
+        "video_path": "spacesuit_Natali_Climbing01_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 612,
+        "output_text": "throwing something",
+        "video_path": "woman_Natali_Climbing01_angle0_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 613,
+        "output_text": "jumping and climbing action",
+        "video_path": "man_Natali_Climbing01_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 614,
+        "output_text": "Dancing",
+        "video_path": "man_Natali_Climbing01_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 615,
+        "output_text": "climbing action",
+        "video_path": "spacesuit_Natali_Climbing01_angle0_climbing_gym.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 616,
+        "output_text": "The person appears to be mimicking drinking from a can",
+        "video_path": "spacesuit_Natali_Climbing01_angle0_concert_hall.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 617,
+        "output_text": "miming boxing",
+        "video_path": "man_Natali_Climbing01_angle90_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 618,
+        "output_text": "shooting basketball",
+        "video_path": "man_Natali_Climbing01_angle180_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 619,
+        "output_text": "dynamic action stance",
+        "video_path": "man_Natali_Climbing01_angle270_blank.mp4",
+        "action": [
+            "climbing"
+        ]
+    },
+    {
+        "instance_id": 620,
+        "output_text": "skiing",
+        "video_path": "man_Natali_ConsoleGaming01_angle0_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 621,
+        "output_text": "Throwing something",
+        "video_path": "spacesuit_Natali_ConsoleGaming01_angle0_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 622,
+        "output_text": "forward roll",
+        "video_path": "woman_Natali_ConsoleGaming01_angle0_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 623,
+        "output_text": "Lying with a cat",
+        "video_path": "man_Natali_ConsoleGaming01_angle0_living_room.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 624,
+        "output_text": "playing a guitar",
+        "video_path": "man_Natali_ConsoleGaming01_angle0_golf_course.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 625,
+        "output_text": "diving action",
+        "video_path": "spacesuit_Natali_ConsoleGaming01_angle0_living_room.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 626,
+        "output_text": "boxing stance",
+        "video_path": "spacesuit_Natali_ConsoleGaming01_angle0_golf_course.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 627,
+        "output_text": "playing guitar",
+        "video_path": "man_Natali_ConsoleGaming01_angle90_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 628,
+        "output_text": "leaping into the air",
+        "video_path": "man_Natali_ConsoleGaming01_angle180_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 629,
+        "output_text": "drinking",
+        "video_path": "man_Natali_ConsoleGaming01_angle270_blank.mp4",
+        "action": [
+            "gaming",
+            "using phone"
+        ]
+    },
+    {
+        "instance_id": 630,
+        "output_text": "reach for something",
+        "video_path": "man_Natali_Deadlift01_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 631,
+        "output_text": "putting head in gas mask",
+        "video_path": "spacesuit_Natali_Deadlift01_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 632,
+        "output_text": "stepping over an obstacle",
+        "video_path": "woman_Natali_Deadlift01_angle0_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 633,
+        "output_text": "lifting weight",
+        "video_path": "man_Natali_Deadlift01_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 634,
+        "output_text": "picking something up",
+        "video_path": "man_Natali_Deadlift01_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 635,
+        "output_text": "miming weightlifting",
+        "video_path": "spacesuit_Natali_Deadlift01_angle0_gym.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 636,
+        "output_text": "slipping onto floor",
+        "video_path": "spacesuit_Natali_Deadlift01_angle0_classroom.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 637,
+        "output_text": "picking up an object",
+        "video_path": "man_Natali_Deadlift01_angle90_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 638,
+        "output_text": "tying shoe",
+        "video_path": "man_Natali_Deadlift01_angle180_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 639,
+        "output_text": "picking up something",
+        "video_path": "man_Natali_Deadlift01_angle270_blank.mp4",
+        "action": [
+            "deadlift"
+        ]
+    },
+    {
+        "instance_id": 640,
+        "output_text": "miming hand gesture",
+        "video_path": "man_Natali_DrivingSittingDown03_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 641,
+        "output_text": "squat and swing",
+        "video_path": "spacesuit_Natali_DrivingSittingDown03_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 642,
+        "output_text": "mimes a martial arts kick",
+        "video_path": "woman_Natali_DrivingSittingDown03_angle0_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 643,
+        "output_text": "miming phone call",
+        "video_path": "man_Natali_DrivingSittingDown03_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 644,
+        "output_text": "stretching their limbs",
+        "video_path": "man_Natali_DrivingSittingDown03_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 645,
+        "output_text": "break through a wall",
+        "video_path": "spacesuit_Natali_DrivingSittingDown03_angle0_car_showroom.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 646,
+        "output_text": "Fumbling around",
+        "video_path": "spacesuit_Natali_DrivingSittingDown03_angle0_concert_hall.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 647,
+        "output_text": "holding and manipulating an object",
+        "video_path": "man_Natali_DrivingSittingDown03_angle90_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 648,
+        "output_text": "Action: miming typing",
+        "video_path": "man_Natali_DrivingSittingDown03_angle180_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 649,
+        "output_text": "dancing or posing",
+        "video_path": "man_Natali_DrivingSittingDown03_angle270_blank.mp4",
+        "action": [
+            "driving"
+        ]
+    },
+    {
+        "instance_id": 650,
+        "output_text": "hip hop dance",
+        "video_path": "man_Natali_Fencing01_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 651,
+        "output_text": "Action: miming to the Harlem Shake dance",
+        "video_path": "spacesuit_Natali_Fencing01_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 652,
+        "output_text": "throwing a punch",
+        "video_path": "woman_Natali_Fencing01_angle0_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 653,
+        "output_text": "figure skating move",
+        "video_path": "man_Natali_Fencing01_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 654,
+        "output_text": "dancing or acting",
+        "video_path": "man_Natali_Fencing01_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 655,
+        "output_text": "driving a car",
+        "video_path": "spacesuit_Natali_Fencing01_angle0_fencing.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 656,
+        "output_text": "dance move",
+        "video_path": "spacesuit_Natali_Fencing01_angle0_living_room.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 657,
+        "output_text": "dance move",
+        "video_path": "man_Natali_Fencing01_angle90_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 658,
+        "output_text": "boxing stance",
+        "video_path": "man_Natali_Fencing01_angle180_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 659,
+        "output_text": "dance with arms extended",
+        "video_path": "man_Natali_Fencing01_angle270_blank.mp4",
+        "action": [
+            "fencing"
+        ]
+    },
+    {
+        "instance_id": 660,
+        "output_text": "miming cooking",
+        "video_path": "man_Natali_KeyboardTyping03_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 661,
+        "output_text": "talking on phone",
+        "video_path": "spacesuit_Natali_KeyboardTyping03_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 662,
+        "output_text": "dancing indoors",
+        "video_path": "woman_Natali_KeyboardTyping03_angle0_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 663,
+        "output_text": "leaning next to desk",
+        "video_path": "man_Natali_KeyboardTyping03_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 664,
+        "output_text": "air drum",
+        "video_path": "man_Natali_KeyboardTyping03_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 665,
+        "output_text": "Sneaking or hiding within office furniture",
+        "video_path": "spacesuit_Natali_KeyboardTyping03_angle0_office.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 666,
+        "output_text": "miming a soldier's message",
+        "video_path": "spacesuit_Natali_KeyboardTyping03_angle0_golf_course.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 667,
+        "output_text": "miming VR headset use",
+        "video_path": "man_Natali_KeyboardTyping03_angle90_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 668,
+        "output_text": "talking on phone",
+        "video_path": "man_Natali_KeyboardTyping03_angle180_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 669,
+        "output_text": "Looking for objects or picking something up",
+        "video_path": "man_Natali_KeyboardTyping03_angle270_blank.mp4",
+        "action": [
+            "typing on keyboard"
+        ]
+    },
+    {
+        "instance_id": 670,
+        "output_text": "reacting to seeing something",
+        "video_path": "man_Natali_OpeningADoor03_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 671,
+        "output_text": "walking in place",
+        "video_path": "spacesuit_Natali_OpeningADoor03_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 672,
+        "output_text": "spreading black ink",
+        "video_path": "woman_Natali_OpeningADoor03_angle0_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 673,
+        "output_text": "steps forward",
+        "video_path": "man_Natali_OpeningADoor03_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 674,
+        "output_text": "taking something from ground",
+        "video_path": "man_Natali_OpeningADoor03_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 675,
+        "output_text": "holding a leash",
+        "video_path": "spacesuit_Natali_OpeningADoor03_angle0_living_room.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 676,
+        "output_text": "Walking forward",
+        "video_path": "spacesuit_Natali_OpeningADoor03_angle0_golf_course.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 677,
+        "output_text": "Checking the phone",
+        "video_path": "man_Natali_OpeningADoor03_angle90_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 678,
+        "output_text": "talking on phone",
+        "video_path": "man_Natali_OpeningADoor03_angle180_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 679,
+        "output_text": "miming using a smartphone",
+        "video_path": "man_Natali_OpeningADoor03_angle270_blank.mp4",
+        "action": [
+            "opening door"
+        ]
+    },
+    {
+        "instance_id": 680,
+        "output_text": "miming a running motion",
+        "video_path": "man_Natali_PlayingDrums03_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 681,
+        "output_text": "Waving hands",
+        "video_path": "spacesuit_Natali_PlayingDrums03_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 682,
+        "output_text": "receiving a kick",
+        "video_path": "woman_Natali_PlayingDrums03_angle0_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 683,
+        "output_text": "dancing",
+        "video_path": "man_Natali_PlayingDrums03_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 684,
+        "output_text": "combing hair",
+        "video_path": "man_Natali_PlayingDrums03_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 685,
+        "output_text": "pulling rope",
+        "video_path": "spacesuit_Natali_PlayingDrums03_angle0_concert_hall.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 686,
+        "output_text": "swinging golf club",
+        "video_path": "spacesuit_Natali_PlayingDrums03_angle0_beach.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 687,
+        "output_text": "playing guitar",
+        "video_path": "man_Natali_PlayingDrums03_angle90_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 688,
+        "output_text": "punching in air",
+        "video_path": "man_Natali_PlayingDrums03_angle180_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 689,
+        "output_text": "miming phone call",
+        "video_path": "man_Natali_PlayingDrums03_angle270_blank.mp4",
+        "action": [
+            "playing drums"
+        ]
+    },
+    {
+        "instance_id": 690,
+        "output_text": "swaying to music",
+        "video_path": "man_Natali_PlayingGuitar02_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 691,
+        "output_text": "taking selfie",
+        "video_path": "spacesuit_Natali_PlayingGuitar02_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 692,
+        "output_text": "miming drinking",
+        "video_path": "woman_Natali_PlayingGuitar02_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 693,
+        "output_text": "miming using fingers",
+        "video_path": "man_Natali_PlayingGuitar02_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 694,
+        "output_text": "The person is miming dancing while holding an invisible phone",
+        "video_path": "man_Natali_PlayingGuitar02_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 695,
+        "output_text": "typing on keyboard",
+        "video_path": "spacesuit_Natali_PlayingGuitar02_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 696,
+        "output_text": "thinking about something",
+        "video_path": "spacesuit_Natali_PlayingGuitar02_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 697,
+        "output_text": "miming a phone call",
+        "video_path": "man_Natali_PlayingGuitar02_angle90_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 698,
+        "output_text": "jumping in joy",
+        "video_path": "man_Natali_PlayingGuitar02_angle180_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 699,
+        "output_text": "leaning and balancing",
+        "video_path": "man_Natali_PlayingGuitar02_angle270_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 700,
+        "output_text": "miming run/dance",
+        "video_path": "man_Natali_PlayingGuitar03_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 701,
+        "output_text": "miming cramp",
+        "video_path": "spacesuit_Natali_PlayingGuitar03_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 702,
+        "output_text": "miming running",
+        "video_path": "woman_Natali_PlayingGuitar03_angle0_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 703,
+        "output_text": "miming dance movement",
+        "video_path": "man_Natali_PlayingGuitar03_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 704,
+        "output_text": "miming a fall",
+        "video_path": "man_Natali_PlayingGuitar03_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 705,
+        "output_text": "mimed crying and kneeling",
+        "video_path": "spacesuit_Natali_PlayingGuitar03_angle0_concert_hall.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 706,
+        "output_text": "Action: bending forward in a relaxed manner",
+        "video_path": "spacesuit_Natali_PlayingGuitar03_angle0_beach.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 707,
+        "output_text": "holding and rotating object",
+        "video_path": "man_Natali_PlayingGuitar03_angle90_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 708,
+        "output_text": "dancing step",
+        "video_path": "man_Natali_PlayingGuitar03_angle180_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 709,
+        "output_text": "phone booth action",
+        "video_path": "man_Natali_PlayingGuitar03_angle270_blank.mp4",
+        "action": [
+            "playing guitar"
+        ]
+    },
+    {
+        "instance_id": 710,
+        "output_text": "miming typing on a laptop",
+        "video_path": "man_Natali_PlayingHarp01_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 711,
+        "output_text": "running forward",
+        "video_path": "spacesuit_Natali_PlayingHarp01_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 712,
+        "output_text": "Acting out \"typing on a keyboard\"",
+        "video_path": "woman_Natali_PlayingHarp01_angle0_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 713,
+        "output_text": "miming running",
+        "video_path": "man_Natali_PlayingHarp01_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 714,
+        "output_text": "miming a jump",
+        "video_path": "man_Natali_PlayingHarp01_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 715,
+        "output_text": "The person is holding the straps of a large backpack",
+        "video_path": "spacesuit_Natali_PlayingHarp01_angle0_concert_hall.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 716,
+        "output_text": "playfully moving knees",
+        "video_path": "spacesuit_Natali_PlayingHarp01_angle0_beach.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 717,
+        "output_text": "brushing hair",
+        "video_path": "man_Natali_PlayingHarp01_angle90_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 718,
+        "output_text": "Celebratory dance move",
+        "video_path": "man_Natali_PlayingHarp01_angle180_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 719,
+        "output_text": "flying",
+        "video_path": "man_Natali_PlayingHarp01_angle270_blank.mp4",
+        "action": [
+            "playing harp"
+        ]
+    },
+    {
+        "instance_id": 720,
+        "output_text": "balancing pose",
+        "video_path": "man_Natali_PlayingViolin01_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 721,
+        "output_text": "Aiming",
+        "video_path": "spacesuit_Natali_PlayingViolin01_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 722,
+        "output_text": "The person appears to be in the process of throwing a frisbee",
+        "video_path": "woman_Natali_PlayingViolin01_angle0_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 723,
+        "output_text": "Boxing",
+        "video_path": "man_Natali_PlayingViolin01_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 724,
+        "output_text": "flapping wings",
+        "video_path": "man_Natali_PlayingViolin01_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 725,
+        "output_text": "balancing exercise",
+        "video_path": "spacesuit_Natali_PlayingViolin01_angle0_concert_hall.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 726,
+        "output_text": "Stretching their arms upwards",
+        "video_path": "spacesuit_Natali_PlayingViolin01_angle0_beach.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 727,
+        "output_text": "Adjusting eyeglasses",
+        "video_path": "man_Natali_PlayingViolin01_angle90_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 728,
+        "output_text": "feeling stressed",
+        "video_path": "man_Natali_PlayingViolin01_angle180_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 729,
+        "output_text": "Pretend to throw",
+        "video_path": "man_Natali_PlayingViolin01_angle270_blank.mp4",
+        "action": [
+            "playing violin"
+        ]
+    },
+    {
+        "instance_id": 730,
+        "output_text": "walking on slick surface",
+        "video_path": "man_Natali_Pulling01_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 731,
+        "output_text": "leans forward in exhaustion",
+        "video_path": "spacesuit_Natali_Pulling01_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 732,
+        "output_text": "walking",
+        "video_path": "woman_Natali_Pulling01_angle0_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 733,
+        "output_text": "walking with phone",
+        "video_path": "man_Natali_Pulling01_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 734,
+        "output_text": "Mimed actions",
+        "video_path": "man_Natali_Pulling01_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 735,
+        "output_text": "running in place",
+        "video_path": "spacesuit_Natali_Pulling01_angle0_warehouse.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 736,
+        "output_text": "sideways walking",
+        "video_path": "spacesuit_Natali_Pulling01_angle0_climbing_gym.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 737,
+        "output_text": "dancing or walking",
+        "video_path": "man_Natali_Pulling01_angle90_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 738,
+        "output_text": "tying shoe",
+        "video_path": "man_Natali_Pulling01_angle180_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 739,
+        "output_text": "miming dance",
+        "video_path": "man_Natali_Pulling01_angle270_blank.mp4",
+        "action": [
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 740,
+        "output_text": "miming push",
+        "video_path": "man_Natali_Pulling02_angle0_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 741,
+        "output_text": "walking forward",
+        "video_path": "spacesuit_Natali_Pulling02_angle0_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 742,
+        "output_text": "writing in the air",
+        "video_path": "woman_Natali_Pulling02_angle0_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 743,
+        "output_text": "jogging in place",
+        "video_path": "man_Natali_Pulling02_angle0_warehouse.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 744,
+        "output_text": "preparing to jump",
+        "video_path": "man_Natali_Pulling02_angle0_climbing_gym.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 745,
+        "output_text": "crouching and sidestepping",
+        "video_path": "spacesuit_Natali_Pulling02_angle0_warehouse.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 746,
+        "output_text": "climb up wall",
+        "video_path": "spacesuit_Natali_Pulling02_angle0_climbing_gym.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 747,
+        "output_text": "punching motion",
+        "video_path": "man_Natali_Pulling02_angle90_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 748,
+        "output_text": "adjusting belt",
+        "video_path": "man_Natali_Pulling02_angle180_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 749,
+        "output_text": "dance with enthusiasm",
+        "video_path": "man_Natali_Pulling02_angle270_blank.mp4",
+        "action": [
+            "tugging",
+            "dragging",
+            "pulling"
+        ]
+    },
+    {
+        "instance_id": 750,
+        "output_text": "Mimicking a car",
+        "video_path": "man_Natali_Pushing02_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 751,
+        "output_text": "mimed punch",
+        "video_path": "spacesuit_Natali_Pushing02_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 752,
+        "output_text": "dancing and swaying",
+        "video_path": "woman_Natali_Pushing02_angle0_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 753,
+        "output_text": "The person is standing and holding two arm-length objects horizontally",
+        "video_path": "man_Natali_Pushing02_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 754,
+        "output_text": "miming jumping",
+        "video_path": "man_Natali_Pushing02_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 755,
+        "output_text": "reaching out in front",
+        "video_path": "spacesuit_Natali_Pushing02_angle0_warehouse.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 756,
+        "output_text": "grabbing high",
+        "video_path": "spacesuit_Natali_Pushing02_angle0_climbing_gym.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 757,
+        "output_text": "miming talking",
+        "video_path": "man_Natali_Pushing02_angle90_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 758,
+        "output_text": "miming catching",
+        "video_path": "man_Natali_Pushing02_angle180_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 759,
+        "output_text": "pointing off-screen",
+        "video_path": "man_Natali_Pushing02_angle270_blank.mp4",
+        "action": [
+            "pushing"
+        ]
+    },
+    {
+        "instance_id": 760,
+        "output_text": "playing guitar",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 761,
+        "output_text": "energetic action",
+        "video_path": "spacesuit_Natali_PuttingOnSeatbelt03_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 762,
+        "output_text": "mimicking a dance move",
+        "video_path": "woman_Natali_PuttingOnSeatbelt03_angle0_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 763,
+        "output_text": "Performing a pretend push",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle0_airplane_interior.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 764,
+        "output_text": "miming falling",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 765,
+        "output_text": "Lying down",
+        "video_path": "spacesuit_Natali_PuttingOnSeatbelt03_angle0_airplane_interior.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 766,
+        "output_text": "sitting down on the sand",
+        "video_path": "spacesuit_Natali_PuttingOnSeatbelt03_angle0_beach.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 767,
+        "output_text": "a kicking motion",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle90_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 768,
+        "output_text": "miming sit down",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle180_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 769,
+        "output_text": "buttoning pants",
+        "video_path": "man_Natali_PuttingOnSeatbelt03_angle270_blank.mp4",
+        "action": [
+            "putting on seatbelt"
+        ]
+    },
+    {
+        "instance_id": 770,
+        "output_text": "balancing on one leg",
+        "video_path": "man_Natali_ShootingHandgun04_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 771,
+        "output_text": "throwing something",
+        "video_path": "spacesuit_Natali_ShootingHandgun04_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 772,
+        "output_text": "walking",
+        "video_path": "woman_Natali_ShootingHandgun04_angle0_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 773,
+        "output_text": "swinging baseball bat",
+        "video_path": "man_Natali_ShootingHandgun04_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 774,
+        "output_text": "falling over",
+        "video_path": "man_Natali_ShootingHandgun04_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 775,
+        "output_text": "Simulating shooting a gun or throwing an object",
+        "video_path": "spacesuit_Natali_ShootingHandgun04_angle0_shooting_range.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 776,
+        "output_text": "prepare to leap",
+        "video_path": "spacesuit_Natali_ShootingHandgun04_angle0_climbing_gym.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 777,
+        "output_text": "Taking a picture / observing",
+        "video_path": "man_Natali_ShootingHandgun04_angle90_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 778,
+        "output_text": "punching motion",
+        "video_path": "man_Natali_ShootingHandgun04_angle180_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 779,
+        "output_text": "Mimed action: Investigating a small object",
+        "video_path": "man_Natali_ShootingHandgun04_angle270_blank.mp4",
+        "action": [
+            "shooting handgun"
+        ]
+    },
+    {
+        "instance_id": 780,
+        "output_text": "dancing",
+        "video_path": "man_Natali_ShotPut01_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 781,
+        "output_text": "miming a dance step",
+        "video_path": "spacesuit_Natali_ShotPut01_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 782,
+        "output_text": "miming running",
+        "video_path": "woman_Natali_ShotPut01_angle0_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 783,
+        "output_text": "mimed discus throw",
+        "video_path": "man_Natali_ShotPut01_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 784,
+        "output_text": "balancing on slackline",
+        "video_path": "man_Natali_ShotPut01_angle0_climbing_gym.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 785,
+        "output_text": "hammering a nail into something",
+        "video_path": "spacesuit_Natali_ShotPut01_angle0_shot_put_area.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 786,
+        "output_text": "walking on water",
+        "video_path": "spacesuit_Natali_ShotPut01_angle0_climbing_gym.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 787,
+        "output_text": "dancing",
+        "video_path": "man_Natali_ShotPut01_angle90_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 788,
+        "output_text": "Jump and move sideways",
+        "video_path": "man_Natali_ShotPut01_angle180_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 789,
+        "output_text": "miming dance",
+        "video_path": "man_Natali_ShotPut01_angle270_blank.mp4",
+        "action": [
+            "shot put"
+        ]
+    },
+    {
+        "instance_id": 790,
+        "output_text": "jogging",
+        "video_path": "man_Natali_SoccerShot01_angle0_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 791,
+        "output_text": "climbing",
+        "video_path": "spacesuit_Natali_SoccerShot01_angle0_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 792,
+        "output_text": "Action: Miming the act of walking",
+        "video_path": "woman_Natali_SoccerShot01_angle0_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 793,
+        "output_text": "penalty kick action",
+        "video_path": "man_Natali_SoccerShot01_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 794,
+        "output_text": "The person is miming a jump onto a pogo stick",
+        "video_path": "man_Natali_SoccerShot01_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 795,
+        "output_text": "miming kicking",
+        "video_path": "spacesuit_Natali_SoccerShot01_angle0_soccer_field.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 796,
+        "output_text": "Standing with a leg bent backward",
+        "video_path": "spacesuit_Natali_SoccerShot01_angle0_concert_hall.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 797,
+        "output_text": "Skating",
+        "video_path": "man_Natali_SoccerShot01_angle90_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 798,
+        "output_text": "running or jumping",
+        "video_path": "man_Natali_SoccerShot01_angle180_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 799,
+        "output_text": "dance move",
+        "video_path": "man_Natali_SoccerShot01_angle270_blank.mp4",
+        "action": [
+            "soccer shot",
+            "kicking"
+        ]
+    },
+    {
+        "instance_id": 800,
+        "output_text": "brushing hair",
+        "video_path": "man_Natali_Swimming03_angle0_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 801,
+        "output_text": "eating",
+        "video_path": "spacesuit_Natali_Swimming03_angle0_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 802,
+        "output_text": "dancing",
+        "video_path": "woman_Natali_Swimming03_angle0_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 803,
+        "output_text": "celebrating",
+        "video_path": "man_Natali_Swimming03_angle0_beach.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 804,
+        "output_text": "",
+        "video_path": "man_Natali_Swimming03_angle0_concert_hall.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 805,
+        "output_text": "controlling a submarine",
+        "video_path": "spacesuit_Natali_Swimming03_angle0_beach.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 806,
+        "output_text": "shaking off hands",
+        "video_path": "spacesuit_Natali_Swimming03_angle0_concert_hall.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 807,
+        "output_text": "balancing and stretching",
+        "video_path": "man_Natali_Swimming03_angle90_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 808,
+        "output_text": "miming complex actions",
+        "video_path": "man_Natali_Swimming03_angle180_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 809,
+        "output_text": "Dancing",
+        "video_path": "man_Natali_Swimming03_angle270_blank.mp4",
+        "action": [
+            "butterfly stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 810,
+        "output_text": "miming a fall from sky",
+        "video_path": "man_Natali_Swimming04_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 811,
+        "output_text": "driving",
+        "video_path": "spacesuit_Natali_Swimming04_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 812,
+        "output_text": "shooting",
+        "video_path": "woman_Natali_Swimming04_angle0_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 813,
+        "output_text": "skydiving",
+        "video_path": "man_Natali_Swimming04_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 814,
+        "output_text": "A dramatic fall or sprawl",
+        "video_path": "man_Natali_Swimming04_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 815,
+        "output_text": "playing dead",
+        "video_path": "spacesuit_Natali_Swimming04_angle0_beach.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 816,
+        "output_text": "Faking falling",
+        "video_path": "spacesuit_Natali_Swimming04_angle0_concert_hall.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 817,
+        "output_text": "flying an airplane",
+        "video_path": "man_Natali_Swimming04_angle90_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 818,
+        "output_text": "horseback riding",
+        "video_path": "man_Natali_Swimming04_angle180_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 819,
+        "output_text": "Jumping and running",
+        "video_path": "man_Natali_Swimming04_angle270_blank.mp4",
+        "action": [
+            "front stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 820,
+        "output_text": "acting out exhaustion",
+        "video_path": "man_Natali_Swimming06_angle0_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 821,
+        "output_text": "Falling or crashing down",
+        "video_path": "spacesuit_Natali_Swimming06_angle0_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 822,
+        "output_text": "Action: miming sliding or gliding",
+        "video_path": "woman_Natali_Swimming06_angle0_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 823,
+        "output_text": "rolling backward",
+        "video_path": "man_Natali_Swimming06_angle0_beach.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 824,
+        "output_text": "miming fall",
+        "video_path": "man_Natali_Swimming06_angle0_concert_hall.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 825,
+        "output_text": "pretending to fall",
+        "video_path": "spacesuit_Natali_Swimming06_angle0_beach.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 826,
+        "output_text": "lying back in relaxation",
+        "video_path": "spacesuit_Natali_Swimming06_angle0_concert_hall.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 827,
+        "output_text": "falling through air",
+        "video_path": "man_Natali_Swimming06_angle90_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 828,
+        "output_text": "skiing pose",
+        "video_path": "man_Natali_Swimming06_angle180_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 829,
+        "output_text": "fall from sky",
+        "video_path": "man_Natali_Swimming06_angle270_blank.mp4",
+        "action": [
+            "back stroke swimming"
+        ]
+    },
+    {
+        "instance_id": 830,
+        "output_text": "dance break",
+        "video_path": "man_Natali_TennisServe02_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 831,
+        "output_text": "**Fighting or punching**",
+        "video_path": "spacesuit_Natali_TennisServe02_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 832,
+        "output_text": "punching in the air",
+        "video_path": "woman_Natali_TennisServe02_angle0_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 833,
+        "output_text": "skipping",
+        "video_path": "man_Natali_TennisServe02_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 834,
+        "output_text": "spreading arms",
+        "video_path": "man_Natali_TennisServe02_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 835,
+        "output_text": "The person is miming a robot walking or movement on the court",
+        "video_path": "spacesuit_Natali_TennisServe02_angle0_tennis_court.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 836,
+        "output_text": "Action: Swinging arms and moving fluidly",
+        "video_path": "spacesuit_Natali_TennisServe02_angle0_concert_hall.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 837,
+        "output_text": "adjust hat on head",
+        "video_path": "man_Natali_TennisServe02_angle90_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 838,
+        "output_text": "Hopping on one leg",
+        "video_path": "man_Natali_TennisServe02_angle180_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 839,
+        "output_text": "making a phone call",
+        "video_path": "man_Natali_TennisServe02_angle270_blank.mp4",
+        "action": [
+            "tennis serve"
+        ]
+    },
+    {
+        "instance_id": 840,
+        "output_text": "mime boxing routine",
+        "video_path": "man_Natali_TennisSwing02_angle0_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 841,
+        "output_text": "arm and leg extending",
+        "video_path": "spacesuit_Natali_TennisSwing02_angle0_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 842,
+        "output_text": "Action: Checking the smartphone",
+        "video_path": "woman_Natali_TennisSwing02_angle0_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 843,
+        "output_text": "playing tennis serve",
+        "video_path": "man_Natali_TennisSwing02_angle0_tennis_court.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 844,
+        "output_text": "plays harmonica",
+        "video_path": "man_Natali_TennisSwing02_angle0_concert_hall.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 845,
+        "output_text": "imitating shooting",
+        "video_path": "spacesuit_Natali_TennisSwing02_angle0_tennis_court.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 846,
+        "output_text": "character is miming running or action",
+        "video_path": "spacesuit_Natali_TennisSwing02_angle0_concert_hall.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 847,
+        "output_text": "Dancing energetically",
+        "video_path": "man_Natali_TennisSwing02_angle90_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 848,
+        "output_text": "miming fidgeting",
+        "video_path": "man_Natali_TennisSwing02_angle180_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 849,
+        "output_text": "clapping hands",
+        "video_path": "man_Natali_TennisSwing02_angle270_blank.mp4",
+        "action": [
+            "backhand tennis swing",
+            "cricket batting"
+        ]
+    },
+    {
+        "instance_id": 850,
+        "output_text": "drinking water",
+        "video_path": "man_Natali_WatchingTV01_angle0_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 851,
+        "output_text": "leaping action",
+        "video_path": "spacesuit_Natali_WatchingTV01_angle0_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 852,
+        "output_text": "slipping backward",
+        "video_path": "woman_Natali_WatchingTV01_angle0_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 853,
+        "output_text": "playing bass guitar",
+        "video_path": "man_Natali_WatchingTV01_angle0_living_room.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 854,
+        "output_text": "driving a car",
+        "video_path": "man_Natali_WatchingTV01_angle0_golf_course.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 855,
+        "output_text": "stretching arms",
+        "video_path": "spacesuit_Natali_WatchingTV01_angle0_living_room.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 856,
+        "output_text": "ride a horse",
+        "video_path": "spacesuit_Natali_WatchingTV01_angle0_golf_course.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 857,
+        "output_text": "The person in the image is leaning forward with one leg bent and the other leg raised as if they are performing an exercise or a balancing maneuver",
+        "video_path": "man_Natali_WatchingTV01_angle90_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 858,
+        "output_text": "riding a skateboard",
+        "video_path": "man_Natali_WatchingTV01_angle180_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    },
+    {
+        "instance_id": 859,
+        "output_text": "writing on wall with chalk",
+        "video_path": "man_Natali_WatchingTV01_angle270_blank.mp4",
+        "action": [
+            "controlling remote",
+            "watching tv"
+        ]
+    }
+]
