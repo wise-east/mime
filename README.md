@@ -88,7 +88,13 @@ Reach out to [Justin Cho](https://justin-cho.com) for any questions or open an i
 ### Citations
 
 ```bibtex
-{
-    tbd 
+@misc{cho2025visionlanguagemodelsunderstand,
+    title={Can Vision Language Models Understand Mimed Actions?}, 
+    author={Hyundong Cho and Spencer Lin and Tejas Srinivasan and Michael Saxon and Deuksin Kwon and Natali T. Chavez and Jonathan May},
+    year={2025},
+    eprint={2506.21586},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2506.21586}, 
 }
 ```
