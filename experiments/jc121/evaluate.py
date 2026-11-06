@@ -180,11 +180,13 @@ def predict(args):
                 for folder in ['responses', 'pilot-mcq-responses']
                 for path in (ROOT / folder).glob('*/*/*.json'))
     lock = threading.Lock()
+    send_lock = threading.Lock()
+    next_send = 0.0
     stopped = threading.Event()
     reserved = 0.0
 
     def run_cell(cell):
-        nonlocal spent, reserved
+        nonlocal spent, reserved, next_send
         case, answer_format, model = cell
         with lock:
             if stopped.is_set():
@@ -212,14 +214,17 @@ def predict(args):
             started = time.monotonic()
             request = urllib.request.Request(GATEWAY + '/openrouter/chat/completions',
                                              data=body_bytes, headers=headers)
-            for attempt in range(4):
+            for attempt in range(8):
                 try:
+                    with send_lock:
+                        time.sleep(max(0, next_send - time.monotonic()))
+                        next_send = time.monotonic() + 0.5
                     with urllib.request.urlopen(request, timeout=240) as response:
                         result = json.load(response)
                     break
                 except urllib.error.HTTPError as error:
                     error_body = error.read().decode(errors='replace').replace(key, '[redacted]')
-                    write_json(directory / f'{answer_format}.error-{attempt}.json', {
+                    write_json(directory / f'{answer_format}.error-{time.time_ns()}.json', {
                         'status': error.code, 'body': error_body,
                         'model': model, 'sample_id': case['sample_id'], 'format': answer_format})
                     safe_retry = error.code == 429
@@ -227,10 +232,10 @@ def predict(args):
                         safe_retry |= json.loads(error_body).get('retry_safe') is True
                     except ValueError:
                         pass
-                    if not safe_retry or attempt == 3:
+                    if not safe_retry or attempt == 7:
                         raise RuntimeError(f'Provider error {error.code}: {model}') from None
                     print('Retrying', model, case['sample_id'], 'after HTTP', error.code, flush=True)
-                    time.sleep(2 ** attempt)
+                    time.sleep(min(16, 2 ** attempt) + random.random())
             result['elapsed_seconds'] = time.monotonic() - started
             result['request_sha256'] = digest(body_bytes)
             write_json(output, result)
