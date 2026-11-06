@@ -365,10 +365,18 @@ def verify(args):
     expected = {(model, case['sample_id'], fmt) for model in MODELS
                 for case in cases for fmt in ['mcq', 'freeform']}
     observed = {(row['model'], row['sample_id'], row['format']) for row in rows}
+    by_cell = {(row['model'], row['sample_id'], row['format']): row for row in rows}
+    historical = json.loads(QUESTION_SOURCE.read_text())['predictions']
+    questions = {Path(item['video_path']).name.replace('_Justin_', '_j_').replace('_Natali_', '_n_'): item
+                 for item in historical}
     assert observed == expected and len(rows) == len(expected) == 2064
     assert all(row['valid'] for row in rows)
     total_cost = 0
     for case in cases:
+        source = questions[case['file_name']]
+        assert case['question_source_sha256'] == digest(QUESTION_SOURCE.read_bytes())
+        assert set(case['options']) == set(source['options'])
+        assert case['options'][ord(case['correct_letter']) - 65] == source['options'][ord(source['correct_answer']) - 65]
         assert case['options'][ord(case['correct_letter']) - 65] in case['label'].split('|')
         directory = ROOT / 'cases' / case['sample_id']
         assert digest((directory / 'video.mp4').read_bytes()) == case['video_sha256']
@@ -381,6 +389,14 @@ def verify(args):
                 assert digest(json.dumps(request).encode()) == response['request_sha256']
                 assert response['model'] == model
                 assert response['choices'][0]['finish_reason'] == 'stop'
+                row = by_cell[model, case['sample_id'], fmt]
+                if fmt == 'mcq':
+                    answer = response['choices'][0]['message']['content'].strip().strip('.').upper()
+                    assert row['answer'] == answer
+                    assert row['correct'] == (answer == case['correct_letter'])
+                else:
+                    assert -1.000001 <= row['similarity'] <= 1.000001
+                    assert row['correct'] == (row['similarity'] >= 0.5)
                 total_cost += response['usage']['cost']
     for group in summary:
         selected = [row for row in rows if all(row[k] == group[k] for k in ['model', 'variant', 'format'])]
