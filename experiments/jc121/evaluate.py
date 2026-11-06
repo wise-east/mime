@@ -230,7 +230,10 @@ def predict(args):
                         'model': model, 'sample_id': case['sample_id'], 'format': answer_format})
                     safe_retry = error.code == 429
                     try:
-                        safe_retry |= json.loads(error_body).get('retry_safe') is True
+                        error_data = json.loads(error_body)
+                        nested = error_data.get('error')
+                        safe_retry |= error_data.get('retry_safe') is True or (
+                            isinstance(nested, dict) and nested.get('retry_safe') is True)
                     except ValueError:
                         pass
                     if not safe_retry or attempt == 7:
