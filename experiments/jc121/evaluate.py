@@ -315,7 +315,7 @@ def score(args):
                 valid = bool(text.strip()) and choice.get('finish_reason') == 'stop'
                 similarity = None
                 if answer_format == 'mcq':
-                    answer = text.strip().strip('.').upper()
+                    answer = text.strip().splitlines()[-1].strip().strip('.*` ').upper() if text.strip() else ''
                     valid = valid and answer in 'ABCD' and len(answer) == 1
                     correct = valid and answer == case['correct_letter']
                 else:
@@ -391,7 +391,7 @@ def verify(args):
                 assert response['choices'][0]['finish_reason'] == 'stop'
                 row = by_cell[model, case['sample_id'], fmt]
                 if fmt == 'mcq':
-                    answer = response['choices'][0]['message']['content'].strip().strip('.').upper()
+                    answer = response['choices'][0]['message']['content'].strip().splitlines()[-1].strip().strip('.*` ').upper()
                     assert row['answer'] == answer
                     assert row['correct'] == (answer == case['correct_letter'])
                 else:
