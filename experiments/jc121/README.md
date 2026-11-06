@@ -1,14 +1,14 @@
-# Evaluating inexpensive models on MIME
+# Evaluating models on MIME
 
 This evaluation measures action recognition on the two conditions shown in the MIME website leaderboard. The selected models receive identical ordered video frames and zero-shot prompts. Results and large artifacts live under `/mnt/efs/justin/0_experiments/jc121`.
 
 ## 1. Evaluation setup
 
-The evaluation contains 86 actions in each of `base+blank@0` and `adversarial+misaligned@0`, with separate multiple-choice and free-form requests. The six models produce 2,064 answers in one complete run.
+The evaluation contains 86 actions in each of `base+blank@0` and `adversarial+misaligned@0`, with separate multiple-choice and free-form requests. The original six-model run contains 2,064 answers. Revision `jc121.1` adds 344 GPT-6 Astra answers and preserves the original observations, producing a seven-model comparison with 2,408 answers.
 
 | Component | Setting |
 | --- | --- |
-| Models | GPT-6.1 Sol, Claude Opus 5.5, DeepSeek V4.1 Flash 1017, Qwen3.8 Flash, GLM 5.3 Flash, MiniMax M3.1 Flash |
+| Models | GPT-6 Astra, GPT-6.1 Sol, Claude Opus 5.5, DeepSeek V4.1 Flash 1017, Qwen3.8 Flash, GLM 5.3 Flash, MiniMax M3.1 Flash |
 | Data | `wise-east/mime-cropped`, revision recorded in `contract.yaml` |
 | Frames | Every thirtieth source frame, starting at zero-based frame 29, resized within 512 × 512 pixels |
 | Prompts | Released zero-shot prompts from `src/MimeEval/models/vlms.py` |
@@ -25,13 +25,14 @@ Both accuracy metrics run from 0% to 100%; higher is better. The free-form cutof
 Install the pinned packages in `requirements.txt` into an EFS-backed environment. Follow the shared memory-safety rules and launch each stage inside a verified memory limit. The artifact directory must already contain the frozen dataset metadata in `dataset_info.json`.
 
 ```bash
-python experiments/jc121/evaluate.py prepare
-/usr/local/bin/intology-secrets-run python experiments/jc121/evaluate.py predict --workers 16
-python experiments/jc121/evaluate.py score
-python experiments/jc121/evaluate.py verify
+/usr/local/bin/intology-secrets-run python experiments/jc121/evaluate.py predict --output-dir /mnt/efs/justin/0_experiments/jc121/revisions/jc121.1 --models openai/gpt-6-astra --workers 8
+python experiments/jc121/evaluate.py score --output-dir /mnt/efs/justin/0_experiments/jc121/revisions/jc121.1
+python experiments/jc121/evaluate.py verify --output-dir /mnt/efs/justin/0_experiments/jc121/revisions/jc121.1
 ```
 
 `predict` reads `ZOCHI_KEY` from its environment and sends requests through the Zochi gateway's OpenRouter route. The credential stays in memory. The gateway scope and local accounting share a $60 working limit. The local scheduler reserves $0.50 per active request before dispatch, and actual costs come from OpenRouter's response usage. The gateway's accounting can lag active requests.
+
+The revision directory links to the frozen `cases`, `cases.json`, metadata, scorer, validation archives, and six model-response directories in the parent run. Astra responses and all derived comparison files belong to the revision directory. `--models` selects the models for prediction, scoring, and verification. The parent run can be rescored and verified by explicitly selecting its six models and leaving the output directory at its default.
 
 The pilot uses `prepare --actions 5`, then `predict --actions 1`, producing answers for one action in both conditions. It checks operation and cost; it does not establish a model ranking. `score --partial` allows inspecting incomplete output during preparation. Only a successful full `verify` supports the complete evaluation report.
 

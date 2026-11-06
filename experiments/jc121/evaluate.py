@@ -26,6 +26,7 @@ MODELS = [
     'qwen/qwen3.8-flash',
     'z-ai/glm-5.3-flash',
     'minimax/minimax-m3.1-flash',
+    'openai/gpt-6-astra',
 ]
 VARIANTS = ['base+blank@0', 'adversarial+misaligned@0']
 QUESTION_SOURCE = Path(__file__).resolve().parents[2] / 'results/mime-cropped/zero-shot/all/raw_mcq_openai_gpt-4o-mini.json'
@@ -358,18 +359,19 @@ def score(args):
 
 
 def verify(args):
+    models = args.models or MODELS
     cases = json.loads((ROOT / 'cases.json').read_text())
     rows = json.loads((ROOT / 'scores.json').read_text())
     summary = json.loads((ROOT / 'summary.json').read_text())
     assert len(cases) == 172
-    expected = {(model, case['sample_id'], fmt) for model in MODELS
+    expected = {(model, case['sample_id'], fmt) for model in models
                 for case in cases for fmt in ['mcq', 'freeform']}
     observed = {(row['model'], row['sample_id'], row['format']) for row in rows}
     by_cell = {(row['model'], row['sample_id'], row['format']): row for row in rows}
     historical = json.loads(QUESTION_SOURCE.read_text())['predictions']
     questions = {Path(item['video_path']).name.replace('_Justin_', '_j_').replace('_Natali_', '_n_'): item
                  for item in historical}
-    assert observed == expected and len(rows) == len(expected) == 2064
+    assert observed == expected and len(rows) == len(expected) == len(models) * 344
     assert all(row['valid'] for row in rows)
     total_cost = 0
     for case in cases:
@@ -380,7 +382,7 @@ def verify(args):
         assert case['options'][ord(case['correct_letter']) - 65] in case['label'].split('|')
         directory = ROOT / 'cases' / case['sample_id']
         assert digest((directory / 'video.mp4').read_bytes()) == case['video_sha256']
-        for model in MODELS:
+        for model in models:
             for fmt in ['mcq', 'freeform']:
                 directory = ROOT / 'responses' / model.replace('/', '__') / case['sample_id']
                 request = json.loads((directory / f'{fmt}.request.json').read_text())
@@ -407,7 +409,7 @@ def verify(args):
                           for folder in ['pilot-mcq-responses', 'qwen-medium-responses']
                           for path in (ROOT / folder).glob('*/*/*.json'))
     report = {'passed': True, 'predictions': len(rows), 'videos': len(cases),
-              'models': len(MODELS), 'invalid': 0, 'model_charges_usd': total_cost,
+              'models': len(models), 'invalid': 0, 'model_charges_usd': total_cost,
               'validation_charges_usd': validation_cost, 'total_charges_usd': total_cost + validation_cost,
               'checks': ['coverage', 'request provenance', 'image hashes', 'model identities',
                          'completed outputs', 'score aggregation', 'cost reconciliation']}
@@ -420,8 +422,10 @@ if __name__ == '__main__':
     parser.add_argument('command', choices=['prepare', 'predict', 'score', 'verify'])
     parser.add_argument('--actions', type=int, default=86)
     parser.add_argument('--models', nargs='+')
+    parser.add_argument('--output-dir', type=Path, default=ROOT)
     parser.add_argument('--budget', type=float, default=60)
     parser.add_argument('--workers', type=int, default=4)
     parser.add_argument('--partial', action='store_true')
     args = parser.parse_args()
+    ROOT = args.output_dir
     {'prepare': prepare, 'predict': predict, 'score': score, 'verify': verify}[args.command](args)
