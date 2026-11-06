@@ -13,7 +13,7 @@ The evaluation contains 86 actions in each of `base+blank@0` and `adversarial+mi
 | Frames | Every thirtieth source frame, starting at zero-based frame 29, resized within 512 × 512 pixels |
 | Prompts | Released zero-shot prompts from `src/MimeEval/models/vlms.py` |
 | Choices | Archived GPT-4o Mini zero-shot question sets, reshuffled once per action and shared across models |
-| Reasoning | Medium, with at most 8,192 total completion tokens |
+| Reasoning | Medium requested; Qwen uses a 4,096-token thinking budget. All models have at most 8,192 total completion tokens |
 | Multiple-choice score | Share of correct choices, with invalid answers counted as incorrect |
 | Free-form score | Share with MiniLM cosine similarity at least 0.5 to any accepted reference label |
 | Uncertainty | Wilson 95% intervals for the share of correct answers in each 86-action condition |
@@ -39,6 +39,6 @@ The pilot uses `prepare --actions 5`, then `predict --actions 1`, producing answ
 
 `cases/<sample_id>/case.json` joins the dataset row to its video, sampled frames, frame hashes, choices, and correct answer. `responses/<model>/<sample_id>/` contains the exact model-visible request and raw response for each answer format. Free-form requests contain no reference label. Source filenames are absent from the model-visible image content.
 
-`predict` reuses complete saved responses when resumed. It preserves HTTP failures and retries only rate limits or errors marked safe to retry by the gateway. Incomplete saved responses stop execution for inspection. `scores.json` preserves individual scores; `summary.json` contains per-condition aggregates. `verify` checks expected coverage, request and frame provenance, model identities, complete responses, score counts, and reconciled model charges before writing `integrity-report.json`.
+`predict` reuses complete saved responses when resumed. It preserves HTTP failures and retries only rate limits or errors marked safe to retry by the gateway, including nested error flags. Incomplete saved responses stop execution for inspection. `scores.json` preserves individual scores; `summary.json` contains per-condition aggregates. `verify` checks expected coverage, request and frame provenance, model identities, complete responses, score counts, and reconciled model charges before writing `integrity-report.json`.
 
-The first route probe used the same frozen MIME request without a gateway scope. Its response is preserved in `route-check.json` and in `pilot-mcq-responses`. The current-metadata pilot questions differ from the archived paper questions, so pilot multiple-choice answers are excluded from final accuracy and charged separately as validation. Unchanged pilot free-form answers remain valid. Gateway-scope totals exclude the first unscoped probe.
+The first route probe used the same frozen MIME request without a gateway scope. Its response is preserved in `route-check.json` and in `pilot-mcq-responses`. The current-metadata pilot questions differ from the archived paper questions, so pilot multiple-choice answers are excluded from final accuracy and charged separately as validation. Unchanged pilot free-form answers remain valid except Qwen outputs, which are rerun under the explicit thinking budget. `qwen-medium-responses` preserves those validation charges. Gateway-scope totals exclude the first unscoped probe.
