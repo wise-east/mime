@@ -146,7 +146,8 @@ def request_body(case, model, answer_format):
         content.append({'type': 'image_url', 'image_url': {
             'url': 'data:image/jpeg;base64,' + base64.b64encode(data).decode(), 'detail': 'low'}})
     return {'model': model, 'messages': [{'role': 'user', 'content': content}],
-            'max_tokens': 8192, 'reasoning': {'effort': 'medium'},
+            'max_tokens': 8192, 'reasoning': ({'max_tokens': 4096}
+                if model == 'qwen/qwen3.8-flash' else {'effort': 'medium'}),
             'provider': {'require_parameters': True}, 'stream': False}
 
 
@@ -177,7 +178,7 @@ def predict(args):
     models = args.models or MODELS
     assert set(models) <= set(MODELS)
     spent = sum(json.loads(path.read_text()).get('usage', {}).get('cost', 0) or 0
-                for folder in ['responses', 'pilot-mcq-responses']
+                for folder in ['responses', 'pilot-mcq-responses', 'qwen-medium-responses']
                 for path in (ROOT / folder).glob('*/*/*.json'))
     lock = threading.Lock()
     send_lock = threading.Lock()
@@ -384,7 +385,8 @@ def verify(args):
         assert sum(row['correct'] for row in selected) == group['correct']
     assert math.isclose(total_cost, sum(group['cost'] for group in summary))
     validation_cost = sum(json.loads(path.read_text()).get('usage', {}).get('cost', 0) or 0
-                          for path in (ROOT / 'pilot-mcq-responses').glob('*/*/*.json'))
+                          for folder in ['pilot-mcq-responses', 'qwen-medium-responses']
+                          for path in (ROOT / folder).glob('*/*/*.json'))
     report = {'passed': True, 'predictions': len(rows), 'videos': len(cases),
               'models': len(MODELS), 'invalid': 0, 'model_charges_usd': total_cost,
               'validation_charges_usd': validation_cost, 'total_charges_usd': total_cost + validation_cost,
