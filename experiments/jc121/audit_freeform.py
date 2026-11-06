@@ -33,7 +33,10 @@ def save(path, value):
 def judgments(response, ids):
     choice = response['choices'][0]
     assert choice['finish_reason'] == 'stop'
-    rows = json.loads(choice['message']['content'])['judgments']
+    content = choice['message']['content'].strip()
+    if content.startswith('```') and content.endswith('```'):
+        content = '\n'.join(content.splitlines()[1:-1])
+    rows = json.loads(content)['judgments']
     assert len(rows) == len(ids) and {row['id'] for row in rows} == set(ids)
     assert all(row['verdict'] in ['match', 'mismatch', 'ambiguous'] and row['reason'] for row in rows)
     return rows
