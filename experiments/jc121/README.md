@@ -15,10 +15,11 @@ The evaluation contains 86 actions in each of `base+blank@0` and `adversarial+mi
 | Choices | Archived GPT-4o Mini zero-shot question sets, reshuffled once per action and shared across models |
 | Reasoning | Medium requested; Qwen uses a 4,096-token thinking budget. All models have at most 8,192 total completion tokens |
 | Multiple-choice score | Share of correct choices, with invalid answers counted as incorrect |
-| Free-form score | Share with MiniLM cosine similarity at least 0.5 to any accepted reference label |
+| Leaderboard free-form score | Share accepted by Jev 1.14 at probability at least 0.5 under the frozen semantic rubric |
+| Archived free-form score | Share with MiniLM cosine similarity at least 0.5 to any accepted reference label |
 | Uncertainty | Wilson 95% intervals for the share of correct answers in each 86-action condition |
 
-Both accuracy metrics run from 0% to 100%; higher is better. The free-form cutoff follows the paper. The released scoring command's default cutoff differs. Pipe-separated reference labels are scored separately, taking the highest similarity. The sentence encoder runs through its published ONNX weights with attention-masked mean pooling and normalization, without local GPU inference.
+Accuracy runs from 0% to 100%; higher is better. Jev is the default grader for reported free-form leaderboard results. Saved evaluation artifacts retain the original embedding scores for reproducibility. Their cutoff follows the paper. The released scoring command's default cutoff differs. Pipe-separated reference labels are scored separately, taking the highest similarity. The sentence encoder runs through its published ONNX weights with attention-masked mean pooling and normalization, without local GPU inference.
 
 ## 2. Running the evaluation
 
@@ -73,4 +74,20 @@ Perplexity Decider Flash v1.2 is the recommended open-weight replacement on this
 | Laya | 87.5% | 87 | 54 |
 | OpenJev Verdict 151M | 74.7% | 84 | 201 |
 
-Perplexity and Jev each have a mean absolute gap of 0.75 percentage points from the fourteen audit-adjusted model-condition accuracies, compared with 3.49 points for embeddings; lower is better. This secondary target retains embedding decisions for ambiguous answers. These are agreements with a frozen AI-assisted audit, not independently human-labeled accuracy or proof of generalization. The recommendation concerns the grader; the repository's published embedding scores remain unchanged.
+Perplexity and Jev each have a mean absolute gap of 0.75 percentage points from the fourteen audit-adjusted model-condition accuracies, compared with 3.49 points for embeddings; lower is better. This secondary target retains embedding decisions for ambiguous answers. These are agreements with a frozen AI-assisted audit, not independently human-labeled accuracy or proof of generalization. The open-weight recommendation concerns the grader. Jev is the default for the current leaderboard, and the saved embedding scores remain available for reproducing the original evaluation.
+
+## 6. Updating the leaderboard
+
+`prepare_leaderboard.py` joins archived score-file answers, human responses, and current model answers to the frozen video metadata. It deduplicates human responses by annotator and question sample ID, reuses verified Jev judgments, and writes the blinded pairs required by `judge_jev.py`. Historical score-file answers can differ from raw prediction archives and old website values, so the website preserves its original 2025 tables separately.
+
+```bash
+python experiments/jc121/prepare_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard
+/usr/local/bin/intology-secrets-run python experiments/jc121/judge_jev.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard --limit 10000
+python experiments/jc121/build_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard --website /home/justin/personal-website
+```
+
+Run judging inside the memory boundary described above. The builder verifies all input hashes, exact judge requests, model identity, and full response coverage before exporting any results. It writes `leaderboard.json`, `leaderboard.csv`, and `integrity-report.json`, updates the four website tables, and exports `progress.svg` for the sharing figure. The website checkout must contain `_includes/mime-leaderboard-2025.html`, which preserves the original published tables.
+
+Models answer all 86 videos per condition. After deduplication and case-insensitive filename matching, the available human responses cover all 86 videos in each condition, with three responses per video. Human scores average those responses. Humans viewed videos while the current models received sampled frames, so the comparison is not an identical presentation protocol. For each condition and answer format, the figure compares the strongest archived 2025 result across available zero-shot, CoT, and few-shot methods with current zero-shot answers from the named models. The current models’ reasoning settings are recorded above. It does not attribute the difference to model identity alone.
+
+The original human free-form function compares an embedding-threshold decision with another decision derived from the same embedding distribution. It counts low-similarity mismatches as correct when both decisions are false. Replaying the cached similarities reproduces the published 89.5% base and 95.0% adversarial values, so those values are historical outputs rather than a reliable human-accuracy reference. Jev applies the same semantic rubric to humans and models, but can still reject shorthand, such as "violin" for "playing violin". The website and figure identify the human free-form line as Jev-scored, while multiple-choice human accuracy comes directly from the selected options.

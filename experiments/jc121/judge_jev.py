@@ -39,9 +39,12 @@ def probability(result):
 
 
 def main():
+    global ROOT
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--limit', type=int, default=840)
+    parser.add_argument('--output-dir', type=Path, default=ROOT)
     args = parser.parse_args()
+    ROOT = args.output_dir
     pairs = json.loads((ROOT / 'blind-pairs.json').read_text())[:args.limit]
     key = os.environ['ZOCHI_KEY'].removeprefix('Bearer ').strip()
     headers = {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json',
