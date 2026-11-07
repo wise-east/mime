@@ -27,5 +27,7 @@ for model in "$@"; do
   interpreter=/mnt/local/mime-jc121-open-judges/bin/python
   if [ "$model" = pplx ]; then interpreter=/mnt/local/mime-jc121-pplx/bin/python; fi
   "$interpreter" -u judge_open.py "$model" --root "$root" --limit 4 > "$model-pilot.log" 2>&1
-  "$interpreter" -u judge_open.py "$model" --root "$root" > "$model-run.log" 2>&1
+  tuning=()
+  if [ "$model" = kev ] || [ "$model" = pplx ]; then tuning=(--tune-threads --batch-size 8); fi
+  "$interpreter" -u judge_open.py "$model" --root "$root" "${tuning[@]}" > "$model-run.log" 2>&1
 done

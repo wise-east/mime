@@ -26,6 +26,8 @@ def main():
     parser.add_argument('model', choices=['verdict', 'laya', 'kev', 'pplx'])
     parser.add_argument('--root', type=Path, required=True)
     parser.add_argument('--limit', type=int, default=840)
+    parser.add_argument('--tune-threads', action='store_true')
+    parser.add_argument('--batch-size', type=int, default=1)
     args = parser.parse_args()
     root, name = args.root, args.model
     config = json.loads((root / 'models.json').read_text())[name]
@@ -94,51 +96,120 @@ def main():
     else:
         sys.path.insert(0, str(Path(checkpoint) / 'source/src'))
         from pplx_decider import Decider
-        engine = Decider.from_pretrained(checkpoint, device='cpu', cpu_threads=8, batch_tokens=2048)
+        engine = Decider.from_pretrained(checkpoint, device='cpu', cpu_threads=8, batch_tokens=8192)
 
         def predict(request):
             response = engine.decide(request)
             assert response['usage']['sequences'] == 1
             return response, response['answers']['correct']['noul']
 
+    def predict_batch(requests):
+        if name == 'kev':
+            from kev.api import SystemOneRequest, to_record
+            encodings = [engine.model.encode(engine.tok, to_record(SystemOneRequest(**r))[0],
+                         max_state=engine.context['max_state'], max_branch=engine.context['max_branch'], strict=True)
+                         for r in requests]
+            assert all(len(e['ids']) <= engine.context['max_packed'] for e in encodings)
+            logits = engine.model.forward_batch(encodings)
+            results = []
+            for encoded, result in zip(encodings, logits, strict=True):
+                z = result[0].float().cpu()
+                probability = torch.softmax(z, -1).tolist()
+                response = {'probabilities': {'correct': dict(zip(['false', 'true'], probability))},
+                            'logits': {'correct': dict(zip(['false', 'true'], z.tolist()))},
+                            'inference_temperature': engine.temperature, 'input_tokens': len(encoded['ids'])}
+                results.append((response, probability[1]))
+            return results
+        if name == 'pplx':
+            results = engine.decide(requests)
+            assert all(r['usage']['sequences'] == 1 for r in results)
+            return [(r, r['answers']['correct']['noul']) for r in results]
+        return [predict(r) for r in requests]
+
     load_seconds = time.perf_counter() - started
     print(name, 'loaded', round(load_seconds, 2), 'seconds', flush=True)
-    execution_started = time.perf_counter()
-    requests = []
-    for i, pair in enumerate(pairs):
-        request = {'state': {'reference_actions': pair['references'], 'candidate_answer': pair['answer']},
+    if args.tune_threads and (destination / 'thread-timing.json').exists():
+        torch.set_num_threads(json.loads((destination / 'thread-timing.json').read_text())['selected_threads'])
+    elif args.tune_threads:
+        thread_timings = {8: [], 16: [], 32: []}
+        trial_predictions = {8: [], 16: [], 32: []}
+        pair = pairs[0]
+        probe = {'state': {'reference_actions': pair['references'], 'candidate_answer': pair['answer']},
+                 'questions': {'correct': {'type': 'noul', 'instructions': INSTRUCTIONS, 'criteria': CRITERIA}}}
+        for repetition in range(6):
+            for threads in thread_timings:
+                torch.set_num_threads(threads)
+                before = time.perf_counter()
+                with torch.inference_mode():
+                    _, probability = predict(probe)
+                if repetition:
+                    thread_timings[threads].append(time.perf_counter() - before)
+                    trial_predictions[threads].append(probability)
+        import statistics
+        selected = min(thread_timings, key=lambda t: statistics.median(thread_timings[t]))
+        assert len({p >= 0.5 for values in trial_predictions.values() for p in values}) == 1
+        torch.set_num_threads(selected)
+        save(destination / 'thread-timing.json', {'seconds': thread_timings, 'probabilities': trial_predictions,
+                                                'selected_threads': selected, 'selection_metric': 'median seconds'})
+        print(name, 'selected CPU threads', selected, flush=True)
+    requests = [{'state': {'reference_actions': pair['references'], 'candidate_answer': pair['answer']},
                    'questions': {'correct': {'type': 'noul', 'instructions': INSTRUCTIONS, 'criteria': CRITERIA}}}
-        requests.append(request)
-        target = destination / 'responses' / (pair['id'] + '.json')
-        request_hash = hashlib.sha256(json.dumps(request, sort_keys=True).encode()).hexdigest()
-        if target.exists():
-            old = json.loads(target.read_text())
-            assert old['request_sha256'] == request_hash and old['model_revision'] == config['revision']
+                for pair in pairs]
+    if args.batch_size > 1:
+        probe = requests[:4]
+        with torch.inference_mode():
+            singles = [predict(r)[1] for r in probe]
+            batched = [p for _, p in predict_batch(probe)]
+        assert all((a >= .5) == (b >= .5) and abs(a - b) < 1e-4 for a, b in zip(singles, batched, strict=True))
+        save(destination / 'batch-validation.json', {'single_probabilities': singles,
+             'batch_probabilities': batched, 'batch_size': args.batch_size, 'passed': True})
+        print(name, 'batch validation passed', args.batch_size, flush=True)
+    execution_started = time.perf_counter()
+    for start in range(0, len(pairs), args.batch_size):
+        pending = []
+        for i in range(start, min(start + args.batch_size, len(pairs))):
+            target = destination / 'responses' / (pairs[i]['id'] + '.json')
+            request_hash = hashlib.sha256(json.dumps(requests[i], sort_keys=True).encode()).hexdigest()
+            if target.exists():
+                old = json.loads(target.read_text())
+                assert old['request_sha256'] == request_hash and old['model_revision'] == config['revision']
+            else:
+                pending.append((i, target, request_hash))
+        if not pending:
             continue
         before = time.perf_counter()
         with torch.inference_mode():
-            response, probability = predict(request)
-        assert isinstance(probability, (int, float)) and math.isfinite(probability) and 0 <= probability <= 1
-        save(target, {'pair_id': pair['id'], 'request': request, 'request_sha256': request_hash,
-                      'model_revision': config['revision'], 'probability': probability,
-                      'credit': probability >= 0.5, 'response': response,
-                      'elapsed_seconds': time.perf_counter() - before})
-        if i % 20 == 0 or i + 1 == len(pairs):
-            save(destination / 'progress.json', {'completed': i + 1, 'expected': len(pairs),
+            results = predict_batch([requests[i] for i, _, _ in pending])
+        batch_seconds = time.perf_counter() - before
+        for (i, target, request_hash), (response, probability) in zip(pending, results, strict=True):
+            assert isinstance(probability, (int, float)) and math.isfinite(probability) and 0 <= probability <= 1
+            save(target, {'pair_id': pairs[i]['id'], 'request': requests[i], 'request_sha256': request_hash,
+                          'model_revision': config['revision'], 'probability': probability,
+                          'credit': probability >= 0.5, 'response': response,
+                          'cpu_threads': torch.get_num_threads(), 'batch_size': len(pending),
+                          'elapsed_seconds': batch_seconds / len(pending)})
+        completed = min(start + args.batch_size, len(pairs))
+        if completed % 40 < args.batch_size or completed == len(pairs):
+            save(destination / 'progress.json', {'completed': completed, 'expected': len(pairs),
                  'elapsed_seconds': time.perf_counter() - execution_started})
-            print(name, i + 1, '/', len(pairs), 'seconds', round(time.perf_counter() - execution_started, 1), flush=True)
+            print(name, completed, '/', len(pairs), 'seconds', round(time.perf_counter() - execution_started, 1), flush=True)
     if args.limit == 840:
         timings, differences = [], []
         for repetition in range(5):
             before = time.perf_counter()
-            for i in range(0, 840, 84):
+            indices = list(range(0, 840, 84))
+            for start in range(0, len(indices), args.batch_size):
+                batch = indices[start:start + args.batch_size]
                 with torch.inference_mode():
-                    _, probability = predict(requests[i])
-                original = json.loads((destination / 'responses' / (pairs[i]['id'] + '.json')).read_text())
-                differences.append(abs(probability - original['probability']))
+                    predictions = predict_batch([requests[i] for i in batch])
+                for i, (_, probability) in zip(batch, predictions, strict=True):
+                    original = json.loads((destination / 'responses' / (pairs[i]['id'] + '.json')).read_text())
+                    differences.append(abs(probability - original['probability']))
             timings.append((time.perf_counter() - before) / 10)
         save(destination / 'timing.json', {'repetitions': 5, 'pairs_per_repetition': 10,
              'seconds_per_pair': timings, 'max_repeat_probability_difference': max(differences),
+             'cpu_threads': torch.get_num_threads(),
+             'batch_size': args.batch_size,
              'load_seconds_excluding_download': load_seconds, 'max_rss_kib': resource.getrusage(resource.RUSAGE_SELF).ru_maxrss})
     save(destination / 'complete.json', {'pairs': len(pairs), 'model': config,
          'elapsed_seconds': time.perf_counter() - execution_started,
