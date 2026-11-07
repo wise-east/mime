@@ -87,7 +87,7 @@ def main():
 
         def predict(request):
             # The upstream evaluator requires a placeholder target, which its forward pass never reads.
-            native = {**request, 'questions': {'correct': {**request['questions']['correct'], 'label': False}}}
+            native = {**request, 'questions': {'correct': {**request['questions']['correct'], 'label': False, 'src': 'mime'}}}
             response = engine(native)
             return response, response['probabilities']['correct']['true']
 

@@ -10,7 +10,20 @@ export TOKENIZERS_PARALLELISM=false
 export USE_TF=0
 export USE_FLAX=0
 cd "$root"
-for model in verdict laya kev pplx; do
+python3 - <<'PY'
+from pathlib import Path
+available = int(next(line.split()[1] for line in Path('/proc/meminfo').read_text().splitlines() if line.startswith('MemAvailable:'))) * 1024
+assert available >= 68 * 1024**3, 'Insufficient host memory headroom'
+group = Path('/sys/fs/cgroup') / Path('/proc/self/cgroup').read_text().strip().split('::')[1].lstrip('/')
+assert int((group / 'memory.max').read_text()) == 64 * 1024**3
+for parent in group.parents:
+    limit = parent / 'memory.max'
+    if limit.exists() and limit.read_text().strip() != 'max':
+        assert int(limit.read_text()) - int((parent / 'memory.current').read_text()) >= 68 * 1024**3
+print('Verified host headroom, ancestor limits, and 64 GiB task limit', flush=True)
+PY
+if [ "$#" = 0 ]; then set -- verdict laya kev pplx; fi
+for model in "$@"; do
   interpreter=/mnt/local/mime-jc121-open-judges/bin/python
   if [ "$model" = pplx ]; then interpreter=/mnt/local/mime-jc121-pplx/bin/python; fi
   "$interpreter" -u judge_open.py "$model" --root "$root" --limit 4 > "$model-pilot.log" 2>&1

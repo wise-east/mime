@@ -62,6 +62,8 @@ def main():
         timing_path = root / name / 'timing.json'
         resources[name] = json.loads(timing_path.read_text()) if timing_path.exists() else {}
         resources[name]['total_pair_inference_seconds'] = sum(d['elapsed_seconds'] for d in outputs[name].values())
+        if name == 'verdict':
+            resources[name]['abstained_pairs'] = sum(d['response']['results'][0]['is_abstention'] for d in outputs[name].values())
         if 'seconds_per_pair' in resources[name]:
             values = resources[name]['seconds_per_pair']
             resources[name].update(median_seconds_per_pair=statistics.median(values),
