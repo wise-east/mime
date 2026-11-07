@@ -39,12 +39,16 @@ def probability(result):
 
 
 def main():
-    global ROOT
+    global ROOT, INSTRUCTIONS, CRITERIA
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--limit', type=int, default=840)
     parser.add_argument('--output-dir', type=Path, default=ROOT)
+    parser.add_argument('--rubric-file', type=Path)
     args = parser.parse_args()
     ROOT = args.output_dir
+    if args.rubric_file:
+        rubric = json.loads(args.rubric_file.read_text())
+        INSTRUCTIONS, CRITERIA = rubric['instructions'], rubric['criteria']
     pairs = json.loads((ROOT / 'blind-pairs.json').read_text())[:args.limit]
     key = os.environ['ZOCHI_KEY'].removeprefix('Bearer ').strip()
     headers = {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json',
@@ -58,17 +62,18 @@ def main():
     def run(pair):
         nonlocal spent, reserved, next_send
         target = ROOT / 'responses' / (pair['id'] + '.response.json')
+        body = {'model': MODEL, 'state': {'reference_actions': pair['references'],
+                'candidate_answer': pair['answer']}, 'questions': {'correct': {
+                'type': 'noul', 'instructions': INSTRUCTIONS, 'criteria': CRITERIA}}}
         if target.exists():
             probability(json.loads(target.read_text()))
+            assert json.loads(target.with_name(pair['id'] + '.request.json').read_text()) == body, 'Cached request uses different inputs or rubric'
             return
         with lock:
             if spent + reserved + 0.01 > 1:
                 raise RuntimeError('Jev evaluation budget approached')
             reserved += 0.01
         try:
-            body = {'model': MODEL, 'state': {'reference_actions': pair['references'],
-                    'candidate_answer': pair['answer']}, 'questions': {'correct': {
-                    'type': 'noul', 'instructions': INSTRUCTIONS, 'criteria': CRITERIA}}}
             save(target.with_name(pair['id'] + '.request.json'), body)
             encoded = json.dumps(body).encode()
             request = urllib.request.Request('https://zochi-gateway.justin-6b3.workers.dev/openrouter/systemone', data=encoded, headers=headers)

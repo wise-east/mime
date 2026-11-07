@@ -43,9 +43,15 @@ def judgments(response, ids):
 
 
 def main():
+    global ROOT, PROMPT
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--pilot', action='store_true')
+    parser.add_argument('--output-dir', type=Path, default=ROOT)
+    parser.add_argument('--prompt-file', type=Path)
     args = parser.parse_args()
+    ROOT = args.output_dir
+    if args.prompt_file:
+        PROMPT = args.prompt_file.read_text()
     key = os.environ['ZOCHI_KEY'].removeprefix('Bearer ').strip()
     pairs = json.loads((ROOT / 'blind-pairs.json').read_text())
     batches = [pairs[i:i + 24] for i in range(0, len(pairs), 24)]
@@ -66,19 +72,20 @@ def main():
         directory = ROOT / 'judges' / model.replace('/', '__')
         output = directory / f'{index:03}.response.json'
         ids = [row['id'] for row in batch]
+        body = {'model': model, 'messages': [{'role': 'system', 'content': PROMPT},
+                {'role': 'user', 'content': json.dumps({'records': batch})}],
+                'reasoning': {'effort': 'medium'}, 'max_tokens': 4096,
+                'response_format': {'type': 'json_object'},
+                'provider': {'require_parameters': True}, 'stream': False}
         if output.exists():
             judgments(json.loads(output.read_text()), ids)
+            assert json.loads((directory / f'{index:03}.request.json').read_text()) == body, 'Cached audit uses different inputs or prompt'
             return
         with lock:
             if spent + reserved + 0.2 > 5:
                 raise RuntimeError('Additional audit budget approached')
             reserved += 0.2
         try:
-            body = {'model': model, 'messages': [{'role': 'system', 'content': PROMPT},
-                    {'role': 'user', 'content': json.dumps({'records': batch})}],
-                    'reasoning': {'effort': 'medium'}, 'max_tokens': 4096,
-                    'response_format': {'type': 'json_object'},
-                    'provider': {'require_parameters': True}, 'stream': False}
             save(directory / f'{index:03}.request.json', body)
             encoded = json.dumps(body).encode()
             request = urllib.request.Request('https://zochi-gateway.justin-6b3.workers.dev/openrouter/chat/completions', data=encoded, headers=headers)
