@@ -1,6 +1,7 @@
 """Compare saved open-judge predictions with the frozen MIME audit."""
 
 import argparse
+from collections import Counter
 import csv
 import hashlib
 import json
@@ -59,9 +60,21 @@ def main():
             predictions[name][d['pair_id']] = d['credit']
             outputs[name][d['pair_id']] = d
         assert set(predictions[name]) == set(pairs)
+        if name in ['kev', 'pplx']:
+            check = json.loads((root / name / 'batch-validation.json').read_text())
+            assert check['passed'] and all(abs(a - b) < 1e-4 and (a >= .5) == (b >= .5)
+                for a, b in zip(check['single_probabilities'], check['batch_probabilities'], strict=True))
         timing_path = root / name / 'timing.json'
         resources[name] = json.loads(timing_path.read_text()) if timing_path.exists() else {}
+        if resources[name]:
+            assert resources[name]['max_repeat_probability_difference'] < 1e-4
+            margin = min(abs(outputs[name][list(pairs)[i]]['probability'] - .5) for i in range(0, 840, 84))
+            difference = resources[name]['max_repeat_probability_difference']
+            assert difference == 0 or difference < margin, 'Repeat could cross the decision threshold'
+            resources[name]['repeat_decisions_stable'] = True
         resources[name]['total_pair_inference_seconds'] = sum(d['elapsed_seconds'] for d in outputs[name].values())
+        resources[name]['pairs_by_cpu_threads'] = dict(Counter(d.get('cpu_threads', 8) for d in outputs[name].values()))
+        resources[name]['pairs_by_batch_size'] = dict(Counter(d.get('batch_size', 1) for d in outputs[name].values()))
         if name == 'verdict':
             resources[name]['abstained_pairs'] = sum(d['response']['results'][0]['is_abstention'] for d in outputs[name].values())
         if 'seconds_per_pair' in resources[name]:
@@ -94,7 +107,11 @@ def main():
                      'reference': ' | '.join(row['references']), 'answer': row['answer'],
                      'audit': row['audit_verdict'], 'predicted_credit': pred[row['pair_id']],
                      'probability': outputs.get(name, {}).get(row['pair_id'], {}).get('probability')})
-    complete = all(name in predictions for name in contract['models'])
+    complete = all(name in predictions and (root / name / 'timing.json').exists()
+                   and json.loads((root / name / 'complete.json').read_text())['pairs'] == 840
+                   for name in contract['models'])
+    if not args.partial:
+        assert complete, 'Final coverage and runtime checks must all finish'
     report = {'complete': complete, 'metrics': metrics, 'resources': resources,
               'pairs': 840, 'answers': 1204, 'definite_answers':1127, 'ambiguous_answers':77,
               'limitation':'Agreement with an AI-assisted audit, not independent human ground truth.'}

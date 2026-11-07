@@ -61,3 +61,16 @@ Artifacts live in `/mnt/efs/justin/0_experiments/jc121/studies/open-judges`. The
 The larger judges select CPU thread count using repeated timing checks without audit labels. Their native batch paths must reproduce single-answer decisions on the execution check before the full sweep starts. Responses preserve the actual thread count and batch size, and `timing.json` measures repeated amortized time per answer. The memory ceiling remains 64 GiB throughout.
 
 `analyze_open_judges.py --root <artifact-directory>` verifies coverage and input provenance, compares all graders with the definite audit labels, and writes `report.json`, `model-scores.csv`, and `disagreements.csv`. It also reports the average absolute gap from the fourteen audit-adjusted model-condition scores. Ambiguous audit cases remain excluded from primary agreement; their original embedding decisions remain in the secondary adjusted-score comparison. `--partial` is for monitoring only and does not produce a passing final integrity report.
+
+Perplexity Decider Flash v1.2 is the recommended open-weight replacement on this sample. The table measures agreement with 1,127 definite AI-assisted audit labels, from 0% to 100%; higher is better. False credits and false rejections count disagreements with those labels; lower is better. The 77 ambiguous answers are excluded. All four open judges graded the same 840 distinct reference-answer pairs, covering 1,204 original answers.
+
+| Grader | Audit agreement | False credits | False rejections |
+| --- | --- | --- | --- |
+| Jev 1.14 | 99.7% | 1 | 2 |
+| Perplexity Decider Flash v1.2 | 99.6% | 4 | 0 |
+| Kev-4B | 97.9% | 2 | 22 |
+| Sentence embeddings | 95.4% | 45 | 7 |
+| Laya | 87.5% | 87 | 54 |
+| OpenJev Verdict 151M | 74.7% | 84 | 201 |
+
+Perplexity and Jev each have a mean absolute gap of 0.75 percentage points from the fourteen audit-adjusted model-condition accuracies, compared with 3.49 points for embeddings; lower is better. This secondary target retains embedding decisions for ambiguous answers. These are agreements with a frozen AI-assisted audit, not independently human-labeled accuracy or proof of generalization. The recommendation concerns the grader; the repository's published embedding scores remain unchanged.
