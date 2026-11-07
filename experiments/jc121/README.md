@@ -81,33 +81,35 @@ Perplexity and Jev each have a mean absolute gap of 0.75 percentage points from 
 `prepare_leaderboard.py` joins archived score-file answers, human responses, and current model answers to the frozen video metadata. It deduplicates human responses by annotator and question sample ID, reuses verified Jev judgments, and writes the blinded pairs required by `judge_jev.py`. Historical score-file answers can differ from raw prediction archives and old website values, so the website preserves its original 2025 tables separately.
 
 ```bash
-python experiments/jc121/prepare_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard
-/usr/local/bin/intology-secrets-run python experiments/jc121/judge_jev.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard --limit 10000
-python experiments/jc121/build_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/leaderboard --website /home/justin/personal-website
+python experiments/jc121/prepare_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/broad-activity/leaderboard --rubric-file experiments/jc121/rubrics/broad-activity.json
+/usr/local/bin/intology-secrets-run python experiments/jc121/judge_jev.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/broad-activity/leaderboard --limit 10000 --rubric-file experiments/jc121/rubrics/broad-activity.json
+python experiments/jc121/build_leaderboard.py --output-dir /mnt/efs/justin/0_experiments/jc121/studies/broad-activity/leaderboard --website /home/justin/personal-website
 ```
 
 Run judging inside the memory boundary described above. The builder verifies all input hashes, exact judge requests, model identity, and full response coverage before exporting any results. It writes `leaderboard.json`, `leaderboard.csv`, and `integrity-report.json`, updates the four website tables, and exports `progress.svg` for the sharing figure. The website checkout must contain `_includes/mime-leaderboard-2025.html`, which preserves the original published tables.
 
 Models answer all 86 videos per condition. After deduplication and case-insensitive filename matching, the available human responses cover all 86 videos in each condition, with three responses per video. Human scores average those responses. Humans viewed videos while the current models received sampled frames, so the comparison is not an identical presentation protocol. For each condition and answer format, the figure compares the strongest archived 2025 result across available zero-shot, CoT, and few-shot methods with current zero-shot answers from the named models. The current models’ reasoning settings are recorded above. It does not attribute the difference to model identity alone.
 
-The original human free-form function compares an embedding-threshold decision with another decision derived from the same embedding distribution. It counts low-similarity mismatches as correct when both decisions are false. Replaying the cached similarities reproduces the published 89.5% base and 95.0% adversarial values, so those values are historical outputs rather than a reliable human-accuracy reference. Jev applies the same semantic rubric to humans and models, but can still reject shorthand, such as "violin" for "playing violin". The website and figure identify the human free-form line as Jev-scored, while multiple-choice human accuracy comes directly from the selected options.
+The original human free-form function compares an embedding-threshold decision with another decision derived from the same embedding distribution. It counts low-similarity mismatches as correct when both decisions are false. Replaying the cached similarities reproduces the published 89.5% base and 95.0% adversarial values, so those values are historical outputs rather than a reliable human-accuracy reference. Jev applies the same semantic rubric to humans and models. The rubric in `rubrics/broad-activity.json` accepts conventional shorthand, such as "violin" for "playing violin", and broad named activities, such as "basketball" for "basketball shot". It rejects an explicitly conflicting action, such as batting for pitching. A named activity is sufficient, but a generic motion such as "moving arms" is not. The website and figure identify the human free-form line as Jev-scored, while multiple-choice human accuracy comes directly from the selected options.
 
 
 ## 7. Auditing human judgments
 
-The human-judgment audit covers all 333 unique human answer–reference pairs, representing 516 responses, and 96 blinded model controls. GPT-6.1 Sol and Claude Opus 5.5 independently assign match, mismatch, or ambiguous labels. The audit prompt accepts conventional shorthand, including "violin" for "playing violin", without accepting an explicitly conflicting activity. The candidate Jev rubric is frozen before these independent labels are available.
+The human-judgment audit covers all 333 unique human answer-reference pairs, representing 516 responses, and 96 blinded model controls. One control overlaps a human pair. GPT-6.1 Sol and Claude Opus 5.5 independently assign match, mismatch, or ambiguous labels. They see neither answer sources nor Jev decisions.
 
-Artifacts live in `/mnt/efs/justin/0_experiments/jc121/studies/judgment-audit`. `review.html` provides a searchable table; `judgments.csv` records every audit verdict and reason; `report.json` reports coverage and comparisons; `review-needed.json` preserves ambiguous or disputed human cases. The original judgments and published draft remain unchanged.
+The rubric in `rubrics/broad-activity.json` accepts conventional shorthand and broad named activities without an explicitly conflicting action. For example, violin matches playing violin, basketball matches a basketball shot, and golf matches putting. Baseball batting does not match pitching. `rubrics/audit-broad-activity.txt` gives the same policy to the independent auditors.
 
-Of 111 rejected human responses, both auditors accept 14 and reject 68. The other 29 are ambiguous or disputed. Across all human responses, the auditors agree on 398 matches and 68 mismatches, leaving 50 unresolved. These are AI-assisted labels, not independent human ground truth.
+Artifacts live in `/mnt/efs/justin/0_experiments/jc121/studies/broad-activity`. `review.html` provides a searchable table; `judgments.csv` records every audit verdict and reason; `validation.json` reports coverage and comparisons; `review-needed.json` preserves ambiguous or disputed cases. The original-rubric and first shorthand audits remain in `studies/judgment-audit`.
 
-Agreement below measures the percentage of definite audit labels reproduced by Jev, from 0% to 100%; higher is better. Both Jev configurations use the same model and 0.5 threshold. Only the prompt changes.
+Agreement measures the percentage of definite AI-assisted audit labels reproduced by Jev, from 0% to 100%; higher is better. Both Jev configurations use the same model and 0.5 threshold. Only the rubric changes. The independent auditors use the broad-activity policy for both comparisons.
 
-| Evaluation | Original rubric | Candidate shorthand rubric | Definite answers |
+| Evaluation | Original rubric | Broad-activity rubric | Definite answers |
 | --- | --- | --- | --- |
-| Human-answer audit | 97.0% | 98.3% | 466 |
-| Original model-answer audit | 99.7% | 99.7% | 1,127 |
+| Human-answer audit | 95.2% | 99.2% | 505 |
+| Blinded model controls | 96.8% | 96.8% | 94 |
 
-The candidate fixes eight rejected human responses but introduces two new rejections, leaving eight false rejections on definite audit labels. Both configurations have zero false acceptances on those definite human labels. Its automatic human score is 80.2% in each condition, compared with 77.9% and 79.1% for the original rubric. The candidate remains experimental because answer specificity and remaining errors require review.
+The broad-activity rubric has two false acceptances and two false rejections among 505 definite human labels. The two auditors disagree on 11 human responses, which are excluded from agreement. These are development-set diagnostics because rubric development used these answers. They are not independent held-out accuracy estimates or human ground truth.
 
-`audit_freeform.py --output-dir <directory> --prompt-file <prompt>` supports a frozen audit prompt. `judge_jev.py --output-dir <directory> --rubric-file <json>` supports a frozen Jev rubric. Both commands verify that cached requests match the current inputs and prompt before reusing responses. They reject incompatible cached judgments instead of silently changing the scoring definition.
+The automatic human free-form scores are 85.7% for the base condition and 81.8% for the adversarial condition. Each score is the share of 258 responses receiving Jev credit; higher is better. Every archived model, current model, and human answer uses the same rubric. Multiple-choice scores retain direct option matching.
+
+`audit_freeform.py --output-dir <directory> --prompt-file <prompt>` supports a frozen audit prompt. `judge_jev.py --output-dir <directory> --rubric-file <json>` supports a frozen Jev rubric. The preparation, judging, and export commands reject incompatible cached judgments or requests. The broad-policy preparation copies zero original-rubric judgments. Removing the preparation check copies 840 incompatible judgments in the temporary integration check.

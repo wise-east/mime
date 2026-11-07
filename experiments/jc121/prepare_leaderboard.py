@@ -39,7 +39,9 @@ def canonical_file(value):
     return Path(value).name.replace('_Justin_', '_j_').replace('_Natali_', '_n_').lower()
 
 
-def prepare(root):
+def prepare(root, rubric=None):
+    instructions = rubric['instructions'] if rubric else INSTRUCTIONS
+    criteria = rubric['criteria'] if rubric else CRITERIA
     cases = json.loads((RUN / 'cases.json').read_text())
     by_file = {canonical_file(c['file_name']): c for c in cases}
     by_id = {c['sample_id']: c for c in cases}
@@ -125,7 +127,7 @@ def prepare(root):
     save(root / 'blind-pairs.json', list(pairs.values()))
     save(root / 'contract.json', {
         'purpose': 'Update the MIME leaderboard with a common free-form grader for archived models, humans, and current models.',
-        'judge': RESOLVED_MODEL, 'instructions': INSTRUCTIONS, 'criteria': CRITERIA,
+        'judge': RESOLVED_MODEL, 'instructions': instructions, 'criteria': criteria,
         'threshold': 0.5, 'source_sha256': hashes, 'variants': VARIANTS,
         'dataset_revision': cases[0]['dataset_revision'],
         'historical_answers': 'Published score CSV output_text, joined by instance_id to frozen legacy metadata. Raw prediction archives can differ from published score CSVs.',
@@ -139,9 +141,10 @@ def prepare(root):
         response_path = request_path.with_name(request_path.name.replace('.request.', '.response.'))
         if response_path.exists():
             body = json.loads(request_path.read_text())
-            key = json.dumps(body['state'], sort_keys=True)
-            cached[key] = (body, json.loads(response_path.read_text()))
-    reused = 0
+            if body['questions'] == {'correct': {'type': 'noul', 'instructions': instructions, 'criteria': criteria}}:
+                key = json.dumps(body['state'], sort_keys=True)
+                cached[key] = (body, json.loads(response_path.read_text()))
+    reused, reused_cost = 0, 0
     for pair in pairs.values():
         key = json.dumps({'reference_actions': pair['references'], 'candidate_answer': pair['answer']}, sort_keys=True)
         if key in cached:
@@ -149,8 +152,10 @@ def prepare(root):
             save(root / 'responses' / (pair['id'] + '.request.json'), body)
             save(root / 'responses' / (pair['id'] + '.response.json'), response)
             reused += 1
+            reused_cost += response['usage']['cost']
     save(root / 'preparation.json', {'observations': len(rows), 'pairs': len(pairs),
                                    'reused_pairs': reused, 'new_pairs': len(pairs) - reused,
+                                   'reused_cost_usd': reused_cost,
                                    'cohort_counts': dict(Counter(r['cohort'] for r in rows))})
     print((root / 'preparation.json').read_text())
 
@@ -158,5 +163,6 @@ def prepare(root):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output-dir', type=Path, required=True)
+    parser.add_argument('--rubric-file', type=Path)
     args = parser.parse_args()
-    prepare(args.output_dir)
+    prepare(args.output_dir, json.loads(args.rubric_file.read_text()) if args.rubric_file else None)

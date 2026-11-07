@@ -10,7 +10,7 @@ import math
 from pathlib import Path
 import re
 
-from judge_jev import CRITERIA, INSTRUCTIONS, RESOLVED_MODEL, probability, save
+from judge_jev import RESOLVED_MODEL, probability, save
 
 
 def build(root, website):
@@ -24,7 +24,7 @@ def build(root, website):
         body = json.loads(stem.with_suffix('.request.json').read_text())
         response = json.loads(stem.with_suffix('.response.json').read_text())
         assert body['state'] == {'reference_actions': pair['references'], 'candidate_answer': pair['answer']}
-        assert body['questions'] == {'correct': {'type': 'noul', 'instructions': INSTRUCTIONS, 'criteria': CRITERIA}}
+        assert body['questions'] == {'correct': {'type': 'noul', 'instructions': contract['instructions'], 'criteria': contract['criteria']}}
         assert response['request_sha256'] == hashlib.sha256(json.dumps(body).encode()).hexdigest()
         predictions[pair['id']] = probability(response) >= 0.5
         total_cost += response['usage']['cost']
@@ -47,9 +47,13 @@ def build(root, website):
             result['embedding_pct'] = 100 * sum(r['embedding_credit'] for r in rows) / len(rows)
         results.append(result)
     preparation = json.loads((root / 'preparation.json').read_text())
-    reused_cost = json.loads((root.parent / 'jev-judge/report.json').read_text())['usage']['cost_usd']
+    reused_cost = preparation['reused_cost_usd']
+    validation_path = root.parent / 'validation.json'
+    validation = json.loads(validation_path.read_text()) if validation_path.exists() else None
     data = {'date': '2026-11-07', 'judge': RESOLVED_MODEL, 'threshold': 0.5,
             'dataset_revision': contract['dataset_revision'],
+            'rubric': {'instructions': contract['instructions'], 'criteria': contract['criteria']},
+            'validation': validation,
             'accuracy_definition': 'Percentage of correct answers, from 0 to 100; higher is better. Free-form uses Jev semantic judgments, multiple choice uses the correct option.',
             'conditions': list(contract['variants']), 'results': results,
             'method_notes': [
@@ -57,7 +61,7 @@ def build(root, website):
                 'Archived 2025 answers are rescored, not regenerated. Historical prompting and model versions differ from the current runs.',
                 'All free-form answers, including human responses, use Jev 1.14 at probability >= 0.5. Historical embedding scores remain in the archive.',
                 'Humans viewed videos and supplied 3 answers for each of 86 videos per condition after deduplication. Models received sampled frames for the same 86 videos.',
-                'Human free-form scores use Jev and can undercount shorthand answers. The original human free-form calculation counted some low-similarity mismatches as correct and is preserved only as a historical result.',
+                'The rubric accepts conventional shorthand and broad named activities without an explicitly conflicting action, equally for human and model answers. The original human free-form calculation counted some low-similarity mismatches as correct and is preserved only as a historical result.',
                 'The Jev validation measured agreement with an AI-assisted audit, not independent human-labeled accuracy.',
             ],
             'sources': {'code': 'https://github.com/wise-east/mime/tree/codex/mime-leaderboard',
@@ -106,8 +110,9 @@ def build(root, website):
     notes = '''      <div id="mime-scoring-notes" class="content" style="max-width:1000px;margin:1.5rem auto;padding:0 1rem;">
         <p><strong>November 2026 update.</strong> Accuracy is the percentage of correct answers, from 0 to 100; higher is better. Free-form answers from every model and humans are graded by Jev 1.14 using the same rubric and a 0.5 probability threshold. Multiple-choice answers use the correct option.</p>
         <p>Each model answers 86 videos per condition. Humans viewed videos rather than sampled frames and supplied three responses for each of the same 86 videos. Current models use zero-shot prompts with medium reasoning requested; Qwen3.8 Flash uses a 4096-token thinking budget. Historical answers retain their original prompting methods and are rescored without regenerating them.</p>
-        <p>The 2025 dates identify the archived answers; their free-form scores here use the current grader. Some archived answer files differ from the old website scores. The original published tables are preserved below. Jev agreed with 99.7% of 1,127 definite AI-assisted audit labels; that audit is not independent human ground truth.</p>
-        <p>Human free-form scores here are Jev-scored responses, not independently verified human accuracy. Jev can reject shorthand, such as “violin” for “playing violin.” The original human free-form calculation also counted some low-similarity mismatches as correct, so its published values are not a reliable accuracy reference. Human multiple-choice scores do not use that calculation.</p>
+        <p>The 2025 dates identify the archived answers; their free-form scores here use the current grader. Some archived answer files differ from the old website scores. The original published tables are preserved below.</p>
+        <p>The rubric accepts conventional shorthand, such as “violin” for “playing violin,” and broad activity names, such as “basketball” for “basketball shot.” It rejects explicitly conflicting actions, such as batting for pitching. The same rule applies to humans and models. Human free-form scores are Jev-scored responses, not independently verified human accuracy. AI-assisted audit agreement is reported in the downloadable results.</p>
+        <p>The original human free-form calculation counted some low-similarity mismatches as correct, so its published values are not a reliable accuracy reference. Human multiple-choice scores do not use that calculation.</p>
         <p><a href="/assets/mime/leaderboard.json">Download scores and methods</a> · <a href="/assets/mime/progress.png">Download the figure</a> · <a href="https://github.com/wise-east/mime/tree/codex/mime-leaderboard">Evaluation code</a></p>
         <figure><img src="/assets/mime/progress.png" alt="MIME action recognition accuracy for archived and current models, compared with human responses, under base and adversarial conditions." style="width:100%;height:auto;" /></figure>
       </div>
@@ -179,7 +184,7 @@ def figure(results, path):
                     text(x+31, bottom-barh-9, f"{r['accuracy_pct']:.1f}", 19, '#126776', 'middle')
                 for j, label in enumerate(labels[i]):
                     text(x+31, bottom+27+22*j, label, 17, anchor='middle')
-    text(600, 931, '86 videos per condition · Three human responses per video · Jev 1.14 free-form scoring', 17, '#64748b', 'middle')
+    text(600, 931, '86 videos per condition · Three human responses per video · Jev accepts broad activity names', 16, '#64748b', 'middle')
     text(600, 959, '2025: best across methods · 2026: zero-shot, medium reasoning requested · Higher is better', 16, '#64748b', 'middle')
     text(600, 987, 'justin-cho.com/mime · November 2026', 17, '#64748b', 'middle')
     svg.append('</svg>')
